@@ -207,11 +207,11 @@ export default {
       navs: [
         {
           name: "Home",
-          path: "#",
+          path: "/home-dark",
         },
         {
           name: "service",
-          path: "/service-details",
+          path: "/home-dark",
         },
         // {
         //   name: "pages",
@@ -240,20 +240,11 @@ export default {
         // },
         {
           name: "news",
-          childrens: [
-            {
-              name: "News",
-              path: "/news",
-            },
-            {
-              name: "Single news",
-              path: "/single-news",
-            },
-          ],
+          path: "/home-dark",
         },
         {
           name: "contact",
-          path: "/contact",
+          path: "/home-dark",
         },
       ],
       itemsGrid: [

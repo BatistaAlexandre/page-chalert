@@ -206,48 +206,7 @@ export default {
       navs: [
         {
           name: "home",
-          childrens: [
-            {
-              name: "Home 1",
-              path: "home-two",
-            },
-            {
-              name: "Home 2",
-              path: "/home-two",
-            },
-            {
-              name: "Home 3",
-              path: "/home-three",
-            },
-            {
-              name: "Home 4",
-              path: "/home-four",
-            },
-            {
-              name: "Home 5",
-              path: "/home-five",
-            },
-            {
-              name: "Home 6",
-              path: "/home-six",
-            },
-            {
-              name: "Home 7",
-              path: "/home-seven",
-            },
-            {
-              name: "Home 8",
-              path: "/home-eight",
-            },
-            {
-              name: "Home Dark",
-              path: "/home-dark",
-            },
-            {
-              name: "Home Rtl",
-              path: "/home-rtl",
-            },
-          ],
+          path: "/home-dark",
         },
         {
           name: "service",
@@ -255,45 +214,15 @@ export default {
         },
         {
           name: "pages",
-          childrens: [
-            {
-              name: "About us",
-              path: "/about-us",
-            },
-            {
-              name: "About us 2",
-              path: "/about-two",
-            },
-            {
-              name: "Shops",
-              path: "/shops",
-            },
-            {
-              name: "Shop Details",
-              path: "/shop-details",
-            },
-            {
-              name: "Error",
-              path: "/error",
-            },
-          ],
+          path: "/home-dark",
         },
         {
           name: "news",
-          childrens: [
-            {
-              name: "News",
-              path: "/news",
-            },
-            {
-              name: "Single news",
-              path: "/single-news",
-            },
-          ],
+          path: "/home-dark",
         },
         {
           name: "contact",
-          path: "/contact",
+          path: "/home-dark",
         },
       ],
       itemsGrid: [
