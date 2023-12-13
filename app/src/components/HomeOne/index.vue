@@ -144,7 +144,7 @@
   </div>
 </template>
 <script>
-import ShowCaseHomeThree from "../HomeThree/ShowCaseHomeThree.vue";
+import ShowCaseHomeThree from "../HomeOne/ShowCaseHomeThree.vue";
 // import blogOne from "@/assets/images/blog-1.jpg";
 // import blogTwo from "@/assets/images/blog-2.jpg";
 // import blogThree from "@/assets/images/blog-3.jpg";
