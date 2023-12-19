@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeOne from '../views/HomeOne.vue'
 // import HomeTwo from '../views/HomeTwo.vue'
-import HomeThree from '../views/HomeThree.vue'
+// import HomeThree from '../views/HomeThree.vue'
 // import HomeFour from '../views/HomeFour.vue'
 // import HomeFive from '../views/HomeFive.vue'
 // import HomeSix from '../views/HomeSix.vue'
@@ -34,11 +34,11 @@ const routes = [
   //   name: 'HomeTwo',
   //   component: HomeTwo
   // },
-  {
-    path: '/home-three',
-    name: 'HomeThree',
-    component: HomeThree
-  },
+  // {
+  //   path: '/home-three',
+  //   name: 'HomeThree',
+  //   component: HomeThree
+  // },
   // {
   //   path: '/home-four',
   //   name: 'HomeFour',

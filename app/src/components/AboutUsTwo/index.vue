@@ -77,15 +77,15 @@
 // import WorkHomeEight from "../HomeEight/WorkHomeEight.vue";
 import FooterHomeOne from "../HomeOne/FooterHomeOne.vue";
 import SidebarHomeOne from "../HomeOne/SidebarHomeOne.vue";
-import FunfactHomeThree from "../HomeThree/FunfactHomeThree.vue";
-import ServicesHomeThree from "../HomeThree/ServicesHomeThree.vue";
+// import FunfactHomeThree from "../HomeThree/FunfactHomeThree.vue";
+// import ServicesHomeThree from "../HomeThree/ServicesHomeThree.vue";
 import NavItems from "../NavItems.vue";
 export default {
   components: {
     SidebarHomeOne,
     NavItems,
-    ServicesHomeThree,
-    FunfactHomeThree,
+    // ServicesHomeThree,
+    // FunfactHomeThree,
     // WorkHomeEight,
     // TestimonialHomeEight,
     // SponserHomeEight,
