@@ -1,15 +1,15 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeOne from '../views/HomeOne.vue'
-import HomeTwo from '../views/HomeTwo.vue'
+// import HomeTwo from '../views/HomeTwo.vue'
 import HomeThree from '../views/HomeThree.vue'
-import HomeFour from '../views/HomeFour.vue'
-import HomeFive from '../views/HomeFive.vue'
-import HomeSix from '../views/HomeSix.vue'
-import HomeSeven from '../views/HomeSeven.vue'
-import HomeEight from '../views/HomeEight.vue'
+// import HomeFour from '../views/HomeFour.vue'
+// import HomeFive from '../views/HomeFive.vue'
+// import HomeSix from '../views/HomeSix.vue'
+// import HomeSeven from '../views/HomeSeven.vue'
+// import HomeEight from '../views/HomeEight.vue'
 import HomeDark from '../views/HomeDark.vue'
-import HomeRtl from '../views/HomeRtl.vue'
+// import HomeRtl from '../views/HomeRtl.vue'
 import News from '../views/News.vue'
 import SingleNews from '../views/SingleNews.vue'
 import Contact from '../views/Contact.vue'
@@ -29,51 +29,51 @@ const routes = [
     name: 'HomeOne',
     component: HomeOne
   },
-  {
-    path: '/home-two',
-    name: 'HomeTwo',
-    component: HomeTwo
-  },
+  // {
+  //   path: '/home-two',
+  //   name: 'HomeTwo',
+  //   component: HomeTwo
+  // },
   {
     path: '/home-three',
     name: 'HomeThree',
     component: HomeThree
   },
-  {
-    path: '/home-four',
-    name: 'HomeFour',
-    component: HomeFour
-  },
-  {
-    path: '/home-five',
-    name: 'HomeFive',
-    component: HomeFive
-  },
-  {
-    path: '/home-six',
-    name: 'HomeSix',
-    component: HomeSix
-  },
-  {
-    path: '/home-seven',
-    name: 'HomeSeven',
-    component: HomeSeven
-  },
-  {
-    path: '/home-eight',
-    name: 'HomeEight',
-    component: HomeEight
-  },
+  // {
+  //   path: '/home-four',
+  //   name: 'HomeFour',
+  //   component: HomeFour
+  // },
+  // {
+  //   path: '/home-five',
+  //   name: 'HomeFive',
+  //   component: HomeFive
+  // },
+  // {
+  //   path: '/home-six',
+  //   name: 'HomeSix',
+  //   component: HomeSix
+  // },
+  // {
+  //   path: '/home-seven',
+  //   name: 'HomeSeven',
+  //   component: HomeSeven
+  // },
+  // {
+  //   path: '/home-eight',
+  //   name: 'HomeEight',
+  //   component: HomeEight
+  // },
   {
     path: '/home-dark',
     name: 'HomeDark',
     component: HomeDark
   },
-  {
-    path: '/home-rtl',
-    name: 'HomeRtl',
-    component: HomeRtl
-  },
+  // {
+  //   path: '/home-rtl',
+  //   name: 'HomeRtl',
+  //   component: HomeRtl
+  // },
   {
     path: '/service-details',
     name: 'ServiceDetails',

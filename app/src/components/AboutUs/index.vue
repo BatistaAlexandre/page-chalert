@@ -118,7 +118,7 @@
 import FooterHomeOne from "../HomeOne/FooterHomeOne.vue";
 import HeaderHomeOne from "../HomeOne/HeaderHomeOne.vue";
 import SidebarHomeOne from "../HomeOne/SidebarHomeOne.vue";
-import SponserHomeTwo from "../HomeTwo/SponserHomeTwo.vue";
+// import SponserHomeTwo from "../HomeTwo/SponserHomeTwo.vue";
 import GetStarted from "./GetStarted.vue";
 import ServiceAboutus from "./ServiceAboutus.vue";
 import TeamAboutus from "./TeamAboutus.vue";
@@ -128,7 +128,7 @@ export default {
     HeaderHomeOne,
     ServiceAboutus,
     TeamAboutus,
-    SponserHomeTwo,
+    // SponserHomeTwo,
     GetStarted,
     FooterHomeOne,
   },
