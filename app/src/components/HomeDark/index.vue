@@ -152,8 +152,7 @@
 </template>
 
 <script>
-import ShowCaseHomeThree from "../HomeThree/ShowCaseHomeThree.vue";
-
+import ShowCaseHomeThree from "../HomeOne/ShowCaseHomeThree.vue";
 // import blogOne from "@/assets/images/blog-1.jpg";
 // import blogTwo from "@/assets/images/blog-2.jpg";
 // import blogThree from "@/assets/images/blog-3.jpg";
@@ -207,11 +206,11 @@ export default {
       navs: [
         {
           name: "Home",
-          path: "#",
+          path: "/home-dark",
         },
         {
           name: "service",
-          path: "/service-details",
+          path: "/home-dark",
         },
         // {
         //   name: "pages",
@@ -240,20 +239,11 @@ export default {
         // },
         {
           name: "news",
-          childrens: [
-            {
-              name: "News",
-              path: "/news",
-            },
-            {
-              name: "Single news",
-              path: "/single-news",
-            },
-          ],
+          path: "/home-dark",
         },
         {
           name: "contact",
-          path: "/contact",
+          path: "/home-dark",
         },
       ],
       itemsGrid: [

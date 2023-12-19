@@ -76,27 +76,26 @@
                   <li>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                   </li>
-                  <li>
+                  <!-- <li>
                     <a href="#"><i class="fab fa-dribbble"></i></a>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
               <div class="footer-widget-info">
                 <ul>
                   <li>
                     <a href="#"
-                      ><i class="fal fa-envelope"></i> support@appie.com</a
+                      ><i class="fal fa-envelope"></i> email@email.com</a
                     >
                   </li>
                   <li>
                     <a href="#"
-                      ><i class="fal fa-phone"></i> +(642) 342 762 44</a
+                      ><i class="fal fa-phone"></i> +(999) 999 999 99</a
                     >
                   </li>
                   <li>
                     <a href="#"
-                      ><i class="fal fa-map-marker-alt"></i> 442 Belle Terre St
-                      Floor 7, San Francisco, AV 4206</a
+                      ><i class="fal fa-map-marker-alt"></i> Street 99999</a
                     >
                   </li>
                 </ul>
