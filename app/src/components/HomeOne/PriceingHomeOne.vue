@@ -37,7 +37,7 @@
                                         <li><i class="fal fa-check"></i> 15 GB cloud storage</li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
-                                        <a class="main-btn" href="#">Choose plan</a>
+                                        <a class="main-btn" href="#">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@
                                         <li><i class="fal fa-check"></i> 24/7 Support</li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
-                                        <a class="main-btn" href="#">Choose plan</a>
+                                        <a class="main-btn" href="#">Learn More</a>
                                     </div>
                                 </div>
                                 <div class="pricing-rebon">
@@ -79,7 +79,7 @@
                                         <li><i class="fal fa-check"></i> 24/7 Support</li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
-                                        <a class="main-btn" href="#">Choose plan</a>
+                                        <a class="main-btn" href="#">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -101,7 +101,7 @@
                                         <li><i class="fal fa-check"></i> 15 GB cloud storage</li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
-                                        <a class="main-btn" href="#">Choose plan</a>
+                                        <a class="main-btn" href="#">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -120,7 +120,7 @@
                                         <li><i class="fal fa-check"></i> 24/7 Support</li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
-                                        <a class="main-btn" href="#">Choose plan</a>
+                                        <a class="main-btn" href="#">Learn More</a>
                                     </div>
                                 </div>
                                 <div class="pricing-rebon">
@@ -143,7 +143,7 @@
                                         <li><i class="fal fa-check"></i> 24/7 Support</li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
-                                        <a class="main-btn" href="#">Choose plan</a>
+                                        <a class="main-btn" href="#">Learn More</a>
                                     </div>
                                 </div>
                             </div>
