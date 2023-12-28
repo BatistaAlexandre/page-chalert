@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeOne from '../views/HomeOne.vue'
+// import HomeOne from '../views/HomeOne.vue'
 // import HomeTwo from '../views/HomeTwo.vue'
 // import HomeThree from '../views/HomeThree.vue'
 // import HomeFour from '../views/HomeFour.vue'
@@ -26,8 +26,8 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'HomeOne',
-    component: HomeOne
+    name: 'HomeDark',
+    component: HomeDark
   },
   // {
   //   path: '/home-two',
@@ -64,11 +64,11 @@ const routes = [
   //   name: 'HomeEight',
   //   component: HomeEight
   // },
-  {
-    path: '/home-dark',
-    name: 'HomeDark',
-    component: HomeDark
-  },
+  // {
+  //   path: '/home-dark',
+  //   name: 'HomeDark',
+  //   component: HomeDark
+  // },
   // {
   //   path: '/home-rtl',
   //   name: 'HomeRtl',
