@@ -134,7 +134,7 @@ export default {
       navs: [
         {
           name: "home",
-          path: "/home-dark",
+          path: "/",
         },
         {
           name: "service",
