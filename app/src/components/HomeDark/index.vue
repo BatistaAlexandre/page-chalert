@@ -28,11 +28,13 @@
       welcome_message="Welcome To CHalert"
       slogan="Lorem ipsum dolor sit amet, consectetur"
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris eu purus hendrerit congue."
-      first_button_content="Download for iOS"
-      first_button_icon="fab fa-apple"
-      second_button_content="Download for Android"
-      second_button_icon="fab fa-google-play"
+      first_button_content="BT 1Lorem ipsum dolor sit"
+      second_button_content="BT 2Lorem ipsum dolor sit"
     />
+
+    <!-- first_button_icon="fab fa-apple" -->
+    <!-- second_button_icon="fab fa-google-play" -->
+
 
     <!--====== APPIE HERO PART ENDS ======-->
 
