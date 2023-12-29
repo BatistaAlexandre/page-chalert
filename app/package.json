@@ -5,8 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "dev": "npm start"  
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "bootstrap": "^5.1.1",
@@ -49,5 +48,4 @@
     "last 2 versions",
     "not dead"
   ]
-  
 }
