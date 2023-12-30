@@ -8,6 +8,9 @@
     "lint": "vue-cli-service lint",
     "dev": "npm start"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "bootstrap": "^5.1.1",
     "bootstrap-vue": "^2.21.2",
