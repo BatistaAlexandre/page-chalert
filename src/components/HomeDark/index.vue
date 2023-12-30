@@ -240,19 +240,25 @@ export default {
         //     },
         //   ],
         // },
-        {
-          name: "news",
-          childrens: [
-            {
-              name: "News",
-              path: "/news",
-            },
-            {
-              name: "Single news",
-              path: "/single-news",
-            },
-          ],
-        },
+        
+        // Area para mais botoes no menu superior
+
+        
+        // {
+        //   name: "news",
+        //   childrens: [
+        //     {
+        //       name: "News",
+        //       path: "/news",
+        //     },
+        //     {
+        //       name: "Single news",
+        //       path: "/single-news",
+        //     },
+        //   ],
+        // },
+
+
         {
           name: "contact",
           path: "/contact",

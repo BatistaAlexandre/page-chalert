@@ -140,44 +140,44 @@ export default {
           name: "service",
           path: "/service-details",
         },
-        {
-          name: "pages",
-          childrens: [
-            {
-              name: "About us",
-              path: "/about-us",
-            },
-            {
-              name: "About us 2",
-              path: "/about-two",
-            },
-            {
-              name: "Shops",
-              path: "/shops",
-            },
-            {
-              name: "Shop Details",
-              path: "/shop-details",
-            },
-            {
-              name: "Error",
-              path: "/error",
-            },
-          ],
-        },
-        {
-          name: "news",
-          childrens: [
-            {
-              name: "News",
-              path: "/news",
-            },
-            {
-              name: "Single news",
-              path: "/single-news",
-            },
-          ],
-        },
+        // {
+        //   name: "pages",
+        //   childrens: [
+        //     {
+        //       name: "About us",
+        //       path: "/about-us",
+        //     },
+        //     {
+        //       name: "About us 2",
+        //       path: "/about-two",
+        //     },
+        //     {
+        //       name: "Shops",
+        //       path: "/shops",
+        //     },
+        //     {
+        //       name: "Shop Details",
+        //       path: "/shop-details",
+        //     },
+        //     {
+        //       name: "Error",
+        //       path: "/error",
+        //     },
+        //   ],
+        // },
+        // {
+        //   name: "news",
+        //   childrens: [
+        //     {
+        //       name: "News",
+        //       path: "/news",
+        //     },
+        //     {
+        //       name: "Single news",
+        //       path: "/single-news",
+        //     },
+        //   ],
+        // },
         {
           name: "contact",
           path: "/contact",
