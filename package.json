@@ -1,23 +1,53 @@
 {
-  "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.18.2",
-    "nodemailer": "^6.9.7",
-    "vue-datepicker": "^1.3.0",
-    "vue-easy-lightbox": "^1.16.0",
-    "vue-flatpickr-component": "^11.0.3",
-    "vue-slick": "^1.2.0",
-    "vue-slick-carousel": "^1.0.6",
-    "vue3-carousel": "^0.3.1"
-  },
-  "name": "challert",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "appie",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev": "npm start"  
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "bootstrap": "^5.1.1",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.14",
+     "countup.js": "^2.0.8",
+    "vue-countup-v2": "^4.0.0",
+    "vue-easy-lightbox": "^0.16.2",
+    "vue-router": "^3.2.0",
+    "vue-slick-carousel": "^1.0.6",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "^4.5.13",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+  
 }
