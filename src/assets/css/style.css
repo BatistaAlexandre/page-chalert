@@ -4132,7 +4132,7 @@ p {
 }
 @media (max-width: 767px) {
   .faq-accrodion .accrodion .accrodion-title::before {
-    right: 20px;
+    right: 4px;
   }
 }
 .faq-accrodion .accrodion .accrodion-title::after {
@@ -4168,7 +4168,7 @@ p {
 }
 @media (max-width: 767px) {
   .faq-accrodion .accrodion .accrodion-title::after {
-    right: 20px;
+    right: 4px;
   }
 }
 .faq-accrodion .accrodion .accrodion-title h4 {
