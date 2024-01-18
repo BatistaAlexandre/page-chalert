@@ -23,8 +23,8 @@
                 ></vue-easy-lightbox>
                 <div class="col-lg-12">
                     <div class="appie-section-title text-center">
-                        <h3 class="appie-title">Creative app showcase</h3>
-                        <p>The app provides design and digital marketing.</p>
+                        <h3 class="appie-title">Companies that already count on us</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                     </div>
                 </div>
             </div>
