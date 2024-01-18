@@ -97,22 +97,18 @@
       <!--====== APPIE PRICING PART ENDS ======-->
 
       <!--====== APPIE FAQ PART START ======-->
-
       <faq-home-one
         title="Frequently asked questions"
         description="Different layouts and styles for team sections."
       />
-
       <!--====== APPIE FAQ PART ENDS ======-->
 
       <!--====== APPIE BLOG PART START ======-->
-
       <!-- <blog-home-one
         title="Latest blog posts"
         description="Different layouts and styles for team sections."
         :blogs="blogs"
       /> -->
-
       <!--====== APPIE BLOG PART ENDS ======-->
 
       <!--====== APPIE PROJECT PART START ======-->

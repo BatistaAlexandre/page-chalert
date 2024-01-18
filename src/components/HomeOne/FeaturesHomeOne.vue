@@ -24,10 +24,10 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="appie-features-content wow animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
-                                            <span>Features Section 2</span>
+                                            <!-- <span>Features Section 2</span> -->
                                             <h3 class="title">Lorem ipsum <br/> Lorem ipsum dolor </h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris eu purus hendrerit congue.</p>
-                                            <router-link class="main-btn" to="/about-us">Learn More</router-link>
+                                            <router-link class="main-btn2" to="/about-us">Learn More</router-link>
                                         </div>
                                     </div>
                                 </div>
@@ -41,10 +41,10 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="appie-features-content animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
-                                            <span>Custom Reacyions</span>
+                                            <!-- <span>Custom Reacyions</span> -->
                                             <h3 class="title">Let the <br/> Conversation flow</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris eu purus hendrerit congue.</p>
-                                            <a class="main-btn" href="#">Learn More</a>
+                                            <a class="main-btn2" href="#">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -58,10 +58,10 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="appie-features-content animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
-                                            <span>Custom Reacyions</span>
+                                            <!-- <span>Custom Reacyions</span> -->
                                             <h3 class="title">Let the <br/> Conversation flow</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris eu purus hendrerit congue.</p>
-                                            <a class="main-btn" href="#">Learn More</a>
+                                            <a class="main-btn2" href="#">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -75,10 +75,10 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="appie-features-content animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
-                                            <span>Custom Reacyions</span>
+                                            <!-- <span>Custom Reacyions</span> -->
                                             <h3 class="title">Let the <br/> Conversation flow</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris eu purus hendrerit congue.</p>
-                                            <a class="main-btn" href="#">Learn More</a>
+                                            <a class="main-btn2" href="#">Learn More</a>
                                         </div>
                                     </div>
                                 </div>

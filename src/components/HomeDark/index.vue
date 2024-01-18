@@ -5,11 +5,9 @@
       @toggleSidebar="toggleSidebar"
       :menuItems="navs"
     />
-
     <!--====== OFFCANVAS MENU PART ENDS ======-->
 
     <!--====== PART START ======-->
-
     <header-home-one
       @toggleSidebar="toggleSidebar"
       :menuItems="navs"
@@ -18,11 +16,9 @@
       :enableDark="true"
       @changMode="handlerDarkMode"
     />
-
     <!--====== PART ENDS ======-->
 
     <!--====== APPIE HERO PART START ======-->
-
     <hero-home-one
       :class="[dark ? 'appie-hero-area-dark' : '']"
       welcome_message="Welcome To CHalert"
@@ -31,12 +27,32 @@
       first_button_content="BT 1Lorem ipsum dolor sit"
       second_button_content="BT 2Lorem ipsum dolor sit"
     />
-
     <!-- first_button_icon="fab fa-apple" -->
     <!-- second_button_icon="fab fa-google-play" -->
-
-
     <!--====== APPIE HERO PART ENDS ======-->
+
+    <!--====== APPIE TRAFFIC PART ENDS ======-->
+    <features-home-one :class="[dark ? 'appie-features-area-dark' : '']" />
+    <!--====== APPIE TEAM PART START ======-->
+
+    <!--====== APPIE PRICING PART START ======-->
+    <priceing-home-one
+    :class="[dark ? 'appie-pricing-area-dark' : '']"
+    title="Choose your plan"
+    description="Different layouts and styles for team sections."
+    />
+    <!--====== APPIE PRICING PART ENDS ======-->
+
+    <!--======  Why choose us  START ======-->
+    <traffic-home-one
+      :class="[dark ? 'appie-traffic-area-dark' : '']"
+      :traffic_thumbnail="traffic_thumb"
+      small_title="Why choose us"
+      big_title="Why choose us"
+      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris Lorem ipsum dolor sit amet," 
+      :features="features"
+    />
+    <!--======  Why choose us  ENDs ======-->
 
     <!--====== APPIE SERVICES PART START ======-->
     <services-home-one
@@ -48,56 +64,18 @@
     />
     <!--====== APPIE SERVICES PART ENDS ======-->
 
-    <!--====== APPIE FEATURES PART START ======-->
-    
-
-    <!--====== APPIE FEATURES PART ENDS ======-->
-
-    <!--====== APPIE TRAFFIC PART START ======-->
-
-    <traffic-home-one
-      :class="[dark ? 'appie-traffic-area-dark' : '']"
-      :traffic_thumbnail="traffic_thumb"
-      small_title="Why choose us"
-      big_title="Why choose us"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris Lorem ipsum dolor sit amet, "
-      :features="features"
-    />
-
-    <!--====== APPIE TRAFFIC PART ENDS ======-->
-
-    <features-home-one :class="[dark ? 'appie-features-area-dark' : '']" />
-
-    <!--====== APPIE TEAM PART START ======-->
-
+    <!--======  Why TEAM PART  START ======-->
     <team-home-one
       :class="[dark ? 'appie-team-area-dark' : '']"
       title="Meet our Team"
       description="Lorem ipsum dolor sit amet, consectetur adipiscing"
       :members="members"
     />
-
     <!--====== APPIE TEAM PART ENDS ======-->
 
 
-    <!--====== APPIE PRICING PART START ======-->
 
-    <priceing-home-one
-      :class="[dark ? 'appie-pricing-area-dark' : '']"
-      title="Choose your plan"
-      description="Different layouts and styles for team sections."
-    />
-
-    <!--====== APPIE PRICING PART ENDS ======-->
-
-    
-        <!--====== APPIE TESTIMONIAL PART START ======-->
-
-        <testimonial-home-one :sliderContents="sliderContents" />
-
-<!--====== APPIE TESTIMONIAL PART ENDS ======-->
-
-<!--====== Show Case START ======-->
+    <!--====== Show Case START ======-->
     <show-case-home-three 
     :class="[dark ? 'appie-blog-area-dark' : '']"
       title=""
@@ -105,44 +83,38 @@
       :blogs="blogs"
    
     />
-<!--====== Show case ENDS ======-->
+    <!--====== Show case ENDS ======-->
+
+    <!--====== APPIE TESTIMONIAL PART START ======-->
+    <testimonial-home-one :sliderContents="sliderContents" />
+    <!--====== APPIE TESTIMONIAL PART ENDS ======-->
 
     <!--====== APPIE FAQ PART START ======-->
-
     <faq-home-one
       :class="[dark ? 'appie-faq-area-dark' : '']"
       title="Frequently asked questions"
       description="Different layouts and styles for team sections."
     />
-
     <!--====== APPIE FAQ PART ENDS ======-->
 
     <!--====== APPIE BLOG PART START ======-->
-
     <!-- <blog-home-one
       :class="[dark ? 'appie-blog-area-dark' : '']"
       title="Latest blog posts"
       description="Different layouts and styles for team sections."
       :blogs="blogs"
     /> -->
-
-  
-
     <!--====== APPIE BLOG PART ENDS ======-->
 
     <!--====== APPIE PROJECT PART START ======-->
-
     <project-home-one
       title="Start your project with CHAlert."
       description="We will email you only about this product."
     />
-
     <!--====== APPIE PROJECT PART ENDS ======-->
 
     <!--====== APPIE FOOTER PART START ======-->
-
     <footer-home-one :class="[dark ? 'appie-footer-area-dark' : '']" />
-
     <!--====== APPIE FOOTER PART ENDS ======-->
 
     <!--====== APPIE BACK TO TOP PART ENDS ======-->
@@ -155,7 +127,6 @@
 
 <script>
 import ShowCaseHomeThree from "../HomeOne/ShowCaseHomeThree.vue";
-
 // import blogOne from "@/assets/images/blog-1.jpg";
 // import blogTwo from "@/assets/images/blog-2.jpg";
 // import blogThree from "@/assets/images/blog-3.jpg";
