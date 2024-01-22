@@ -172,7 +172,7 @@ export default {
   },
   data() {
     return {
-      dark: true,
+      dark: false,
       traffic_thumb: traffic_thumb,
       testmonialAvater: testmonialAvater,
       sidebar: false,
