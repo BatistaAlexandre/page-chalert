@@ -39,9 +39,9 @@
         description="Hanky panky lavatory up the duff jolly good cack brolly is chinwag zonked happy days sloshed."
         first_button_content="Download for iOS"
         first_button_icon="fab fa-apple"
-        second_button_content="Download for Android"
-        second_button_icon="fab fa-google-play"
       />
+      <!-- second_button_content="Download for Android"
+        second_button_icon="fab fa-google-play" -->
 
       <!--====== APPIE HERO PART ENDS ======-->
 

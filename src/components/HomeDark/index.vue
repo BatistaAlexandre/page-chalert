@@ -22,17 +22,19 @@
     <hero-home-one
       :class="[dark ? 'appie-hero-area-dark' : '']"
       welcome_message="Welcome To CHalert"
-      slogan="Lorem ipsum dolor sit amet, consectetur"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris eu purus hendrerit congue."
-      first_button_content="BT 1Lorem ipsum dolor sit"
-      second_button_content="BT 2Lorem ipsum dolor sit"
+      slogan="Excel Security Solutions' premier Chalet Security Program."
+      description="We Protect What Matters Most: Where Security Meets Peace of Mind!
+      Launching ProtectMe App: Your Safety, Your Power – Unleashing Security at Your Fingertips!"
+      first_button_content="Download it now and stay safe."
     />
+    <!-- second_button_content="BT 2Lorem ipsum dolor sit" -->
+
     <!-- first_button_icon="fab fa-apple" -->
     <!-- second_button_icon="fab fa-google-play" -->
     <!--====== APPIE HERO PART ENDS ======-->
 
     <!--====== APPIE TRAFFIC PART ENDS ======-->
-    <features-home-one :class="[dark ? 'appie-features-area-dark' : '']" />
+    <features-home-one :class="[ 'appie-features-area-dark' ]" />
     <!--====== APPIE TEAM PART START ======-->
 
     <!--====== APPIE PRICING PART START ======-->
@@ -183,9 +185,44 @@ export default {
           path: "#",
         },
         {
-          name: "service",
-          path: "/service-details",
+          name: "Our Values",
+          path: "#",
         },
+        {
+          name: "Plans",
+          path: "#",
+        },
+        {
+          name: "How it works",
+          path: "#",
+        },
+        {
+          name: "Services",
+          path: "#",
+        },
+        {
+          name: "Team",
+          path: "#",
+        },
+        {
+          name: "FAQ",
+          path: "#",
+        },
+        {
+          name: "Tips",
+          path: "#",
+        },
+        {
+          name: "Contact",
+          path: "#",
+        },
+
+
+        // {
+        //   name: "service",
+        //   path: "/service-details",
+        // },
+
         // {
         //   name: "pages",
         //   childrens: [
@@ -230,10 +267,11 @@ export default {
         // },
 
 
-        {
-          name: "contact",
-          path: "/contact",
-        },
+    
+        // {
+        //   name: "contact",
+        //   path: "/contact",
+        // },
       ],
       itemsGrid: [
         {

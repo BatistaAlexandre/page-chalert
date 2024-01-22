@@ -11,7 +11,7 @@
                         <ul>
                             <li><a href="#"><i :class="first_button_icon"></i>{{first_button_content}}</a></li>
                           
-                            <li><a class="item-2" href="#"><i :class="second_button_icon"></i> {{second_button_content}}</a></li>
+                            <!-- <li><a class="item-2" href="#"><i :class="second_button_icon"></i> {{second_button_content}}</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -42,9 +42,10 @@
 
 <script>
 export default {
-    props:['welcome_message','slogan','description','thumb_one','thumb_two','first_button_content','first_button_icon','second_button_content','second_button_icon']
+    props:['welcome_message','slogan','description','thumb_one','thumb_two','first_button_content','first_button_icon']
 
 }
+// 'second_button_content','second_button_icon'
 </script>
 
 <style>
