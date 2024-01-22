@@ -41,7 +41,7 @@
     <priceing-home-one
     :class="[dark ? 'appie-pricing-area-dark' : '']"
     title="Choose your plan"
-    description="Different layouts and styles for team sections."
+    description="Choose the program that suits your security needs and become part of the Excel Security Solutions family. Elevate your chalet protection and contribute to a safer community today."
     />
     <!--====== APPIE PRICING PART ENDS ======-->
 
