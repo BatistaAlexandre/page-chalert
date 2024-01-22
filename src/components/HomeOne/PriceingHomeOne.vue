@@ -12,13 +12,12 @@
                     <ul class="list-inline text-center switch-toggler-list" role="tablist" id="switch-toggle-tab">
                         <li class="month" :class="[switchPlan?'active':'']"><a href="#">Monthly</a></li>
                         <li>
-                            <!-- Rounded switch -->
                             <label class="switch" :class="[switchPlan?'on':'off']"  @click.prevent="change_plan">
                                 <span class="slider round"></span>
                             </label>
                         </li>
                         <li class="year" :class="[switchPlan === false?'active':'']"><a href="#">Annualy</a></li>
-                    </ul><!-- /.list-inline -->                    
+                    </ul>                  
                 </div>
             </div>
             <div class="tabed-content">
@@ -52,8 +51,8 @@
                                 <div class="pricig-body">
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
-                                        <li><i class="fal fa-check"></i> ProtectMe Mobile App</li>
                                         <li><i class="fal fa-check"></i> Timely Updates</li>
+                                        <li><i class="fal fa-check"></i> ProtectMe Mobile App</li>
                                         <!-- <li><i class="fal fa-check"></i> 24/7 Support</li> -->
                                     </ul>
                                     <div class="pricing-btn mt-35">
@@ -65,6 +64,8 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="row justify-content-center" style="margin-top: 1%;">
                         <div class="col-lg-4 col-md-6 wow animated fadeInRight">
                             <div class="pricing-one__single">
                                 <div class="pricig-heading">
