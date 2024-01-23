@@ -51,7 +51,7 @@
       :traffic_thumbnail="traffic_thumb"
       small_title="Why choose us"
       big_title="Why choose us"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris Lorem ipsum dolor sit amet," 
+      description="Join us in fostering community safety through collective action. Here are four compelling reasons to choose Chalert:" 
       :features="features"
     />
     <!--======  Why choose us  ENDs ======-->
@@ -69,8 +69,8 @@
     <!--======  Why TEAM PART  START ======-->
     <team-home-one
       :class="[dark ? 'appie-team-area-dark' : '']"
-      title="Meet our Team"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing"
+      title="Guardians of Security: Unveiling the Faces Behind CHalert's Vigilance"
+      description="Description:Step into the world of Chalert, where community safety is our mission, and meet the dynamic team committed to securing your chalet and fostering a safer living environment for all."
       :members="members"
     />
     <!--====== APPIE TEAM PART ENDS ======-->
@@ -94,7 +94,7 @@
     <!--====== APPIE FAQ PART START ======-->
     <faq-home-one
       :class="[dark ? 'appie-faq-area-dark' : '']"
-      title="Frequently asked questions"
+      title="Frequently Asked Questions (FAQ) - Chalert Program:" 
       description="Different layouts and styles for team sections."
     />
     <!--====== APPIE FAQ PART ENDS ======-->
@@ -305,24 +305,24 @@ export default {
       ],
       features: [
         {
-          title: "Lorem ipsum",
+          title: "Unified Safety Effort:",
           bg: "", // create class for style
-          description: "Lorem ipsum dolor sit amet, consectetur",
+          description: "Strengthen community safety by joining forces with fellow chalet owners.",
         },
         {
-          title: "Lorem ipsum",
+          title: "Exclusive Information Access:",
           bg: "item-2", // create class for style
-          description: "Lorem ipsum dolor sit amet, consectetur",
+          description: "Gain timely updates and valuable insights for informed decision-making.",
         },
         {
-          title: "Lorem ipsum",
+          title: "Proactive Involvement:",
           bg: "item-3", // create class for style
-          description: "Lorem ipsum dolor sit amet, consectetur",
+          description: "Actively contribute to neighborhood safety with impactful measures.",
         },
         {
-          title: "Lorem ipsum",
+          title: "Community Connection:",
           bg: "item-4", // create class for style
-          description: "Lorem ipsum dolor sit amet, consectetur",
+          description: "Connect with like-minded chalet owners for a secure living environment.",
         },
       ],
       sliderContents: [

@@ -23,8 +23,8 @@
                 ></vue-easy-lightbox>
                 <div class="col-lg-12">
                     <div class="appie-section-title text-center">
-                        <h3 class="appie-title">Companies that already count on us</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                        <h3 class="appie-title">Strategic Allies: Our Business Partners in the Chalert Program</h3>
+                        <p>Meet our thriving business partners actively shaping the security landscape in collaboration with the Chalert program.</p>
                     </div>
                 </div>
             </div>
