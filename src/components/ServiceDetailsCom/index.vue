@@ -13,11 +13,7 @@
 
     <!--====== OFFCANVAS MENU PART START ======-->
 
-    <sidebar-home-one
-      :sidebar="sidebar"
-      @toggleSidebar="toggleSidebar"
-      :menuItems="navs"
-    />
+    <sidebar-home-one :sidebar="sidebar" @toggleSidebar="toggleSidebar" :menuItems="navs" />
 
     <!--====== OFFCANVAS MENU PART ENDS ======-->
 
@@ -37,48 +33,90 @@
     <section class="appie-service-details-area pt-100 pb-100">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
+          <!-- <div class="col-lg-4">
             <body-nav-sidebar />
-          </div>
-          <div class="col-lg-8">
+          </div> -->
+
+          <FaqService :class="[dark ? 'appie-faq-area-dark' : '']" title="Excel Security Solutions Code of Conduct"
+            description="Excel Security Solutions is committed to upholding the highest standards of integrity, professionalism,
+                  and community engagement. Our Code of Conduct outlines the values and principles that guide our actions
+                  and interactions within the Chalert Neighbourhood Watch program." />
+          <div class="col-lg-12">
             <div class="service-details-content">
               <div class="thumb">
                 <img src="assets/images/service-details-thumb.jpg" alt="" />
               </div>
               <div class="content">
-                <h3 class="title">What we're Building</h3>
+                <h3 class="title">Excel Security Solutions Code of Conduct</h3>
                 <p>
-                  Tomfoolery wind up blag me old mucker chap super ruddy chancer
-                  bobby, vagabond it's your round cuppa cheesed off blower nice
-                  one at public school, Why cockup knackered pear shaped amongst
-                  spiffing good time he nicked it.
+                  Excel Security Solutions is committed to upholding the highest standards of integrity, professionalism,
+                  and community engagement. Our Code of Conduct outlines the values and principles that guide our actions
+                  and interactions within the Chalert Neighbourhood Watch program.
+
                 </p>
-                <span
-                  >He lost his bottle mufty spend a penny cheeky at public
-                  school daft get stuffed mate don't get shirty.</span
-                >
+                <span>1. Community-Centric Commitment:</span>
                 <p>
-                  My good sir cup of char no biggie knees up happy days
-                  absolutely bladdered don't get shirty with me chimney pot
-                  James Bond he lost his bottle me old mucker, bobby nice one
-                  cack codswallop what a load of rubbish Jeffrey barmy blower
-                  tomfoolery, crikey only a quid at public school mufty tosser
-                  up the duff say Richard I don't want no agro. Owt to do with
-                  me barney quaint jolly good off his nut vagabond pardon you
-                  gutted mate the little rotter excuse my French, the bee's
-                  knees don't get shirty with me he nicked it give us a bell
-                  zonked lavatory Charles gosh, Eaton the BBC is victoria sponge
-                  a William bog what a load of rubbish. Smashing only a quid
-                  cockup he lost his bottle bugger Jeffrey mufty, starkers
-                  blatant zonked easy peasy brolly car boot, blimey at public
-                  school cheeky bugger you mug david. Tomfoolery a load of old
-                  tosh Queen's English lemon squeezy old hunky-dory mush chap
-                  give us a bell bloke, chancer knackered cheesed off buggered
-                  tinkety tonk old fruit car boot only a quid spiffing good time
-                  chinwag, he lost his bottle pukka gutted mate naff horse play
-                  cup of tea baking cakes a blinding shot. bobby the wireless
-                  matie boy show.
+                  We prioritize the safety and well-being of the entire community, fostering a collective
+                  spirit that goes beyond individual interests.<br>
+                  <br>Guiding Principles:<br>
+                  - Place the safety and welfare of the community above all individual concerns.<br>
+                  - Actively contribute to building a strong and connected community through collaboration.<br>
+                  - Demonstrate empathy and understanding towards the diverse needs of community members.<br>
+
                 </p>
+
+                <span>2. Proactive Crime Prevention:</span>
+                <p>
+                  We believe in a proactive approach to crime prevention, emphasizing collective action by
+                  residents and utilizing innovative strategies to safeguard neighborhoods.<br>
+
+                  <br>Guiding Principles:<br>
+                  - Stay vigilant and proactive in identifying and addressing potential security threats.<br>
+                  - Collaborate with residents, businesses, and authorities to develop innovative crime prevention
+                  measures.<br>
+                  - Continuously assess and update security strategies to stay ahead of evolving threats.<br>
+                </p>
+
+                <span>3. Education and Empowerment:</span>
+                <p>
+                  We empower citizens through education, encouraging them to actively participate in creating safer
+                  neighborhoods and enhancing their overall quality of life.<br>
+
+                  <br>Guiding Principles:<br>
+                  - Promote educational initiatives that empower community members with security knowledge.<br>
+                  - Encourage active participation of individuals in contributing to the safety of their
+                  neighborhoods.<br>
+                  - Foster an environment where continuous learning and sharing of security insights are valued.<br>
+
+                </p>
+
+                <span>4. Innovation and Adaptability:</span>
+                <p>
+                  Excel Security Solutions embraces innovation and adapts to evolving security needs, constantly seeking
+                  new ways to enhance the effectiveness of the CHalert Neighbourhood Watch program.<br>
+
+                  <br>Guiding Principles:<br>
+                  - Embrace technological advancements and innovative solutions for crime prevention.<br>
+                  - Foster a culture of adaptability to respond effectively to emerging security challenges.<br>
+                  - Encourage a proactive approach to incorporating new strategies and technologies.<br>
+                </p>
+
+                <span>Enforcement and Accountability:</span>
+                <p>
+                  Excel Security Solutions is committed to enforcing and upholding this Code of Conduct. Violations may
+                  result in corrective actions, including but not limited to education, warnings, suspension, or
+                  termination from the Chalert Neighbourhood Watch program.
+                  <br>
+                </p>
+
+                <span>Review and Updates:</span>
+                <p>
+                  This Code of Conduct is subject to periodic review to ensure its relevance and effectiveness. Updates
+                  may be made to reflect changes in the security landscape or the needs of the community.
+                  <br>
+                </p>
+
+
               </div>
             </div>
           </div>
@@ -90,10 +128,7 @@
 
     <!--====== APPIE PROJECT PART START ======-->
 
-    <project-home-one
-      title="Start your project with appie."
-      description="We will email you only about this product."
-    />
+    <project-home-one title="Start your project with appie." description="We will email you only about this product." />
 
     <!--====== APPIE PROJECT PART ENDS ======-->
 
@@ -112,6 +147,8 @@
 </template>
 
 <script>
+import FaqService from "../HomeOne/FaqService.vue";
+
 import FooterHomeOne from "../HomeOne/FooterHomeOne.vue";
 import ProjectHomeOne from "../HomeOne/ProjectHomeOne.vue";
 import SidebarHomeOne from "../HomeOne/SidebarHomeOne.vue";
@@ -126,6 +163,7 @@ export default {
     BodyNavSidebar,
     ProjectHomeOne,
     FooterHomeOne,
+    FaqService,
   },
   data() {
     return {
@@ -133,54 +171,40 @@ export default {
       showloading: true,
       navs: [
         {
-          name: "home",
-          path: "/",
+          name: "Home",
+          path: "#",
         },
         {
-          name: "service",
-          path: "/service-details",
+          name: "Our Values",
+          path: "#",
         },
-        // {
-        //   name: "pages",
-        //   childrens: [
-        //     {
-        //       name: "About us",
-        //       path: "/about-us",
-        //     },
-        //     {
-        //       name: "About us 2",
-        //       path: "/about-two",
-        //     },
-        //     {
-        //       name: "Shops",
-        //       path: "/shops",
-        //     },
-        //     {
-        //       name: "Shop Details",
-        //       path: "/shop-details",
-        //     },
-        //     {
-        //       name: "Error",
-        //       path: "/error",
-        //     },
-        //   ],
-        // },
-        // {
-        //   name: "news",
-        //   childrens: [
-        //     {
-        //       name: "News",
-        //       path: "/news",
-        //     },
-        //     {
-        //       name: "Single news",
-        //       path: "/single-news",
-        //     },
-        //   ],
-        // },
         {
-          name: "contact",
-          path: "/contact",
+          name: "Plans",
+          path: "#",
+        },
+        {
+          name: "How it works",
+          path: "#",
+        },
+        {
+          name: "Services",
+          path: "#",
+        },
+        {
+          name: "Team",
+          path: "#",
+        },
+        {
+          name: "FAQ",
+          path: "#",
+        },
+        {
+          name: "Tips",
+          path: "#",
+        },
+        {
+          name: "Contact",
+          path: "#",
         },
       ],
     };
@@ -207,5 +231,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

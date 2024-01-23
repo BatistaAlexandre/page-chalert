@@ -5,8 +5,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="appie-page-title-item">
-                        <span>Fast Development</span>
-                        <h3 class="title">Simple but effective, <br> effortless yet powerful.</h3>
+                        <span>Lorem ipsum dolor sit amet consectetur </span>
+                        <h3 class="title">Lorem ipsum dolor <br> Lorem ipsum dolor </h3>
                         <div class="thumb">
                             <img src="assets/images/fun-fact-thumb.png" alt="">
                         </div>
