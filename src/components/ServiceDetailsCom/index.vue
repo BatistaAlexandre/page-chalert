@@ -163,7 +163,7 @@ export default {
     BodyNavSidebar,
     ProjectHomeOne,
     FooterHomeOne,
-    FaqService,
+    // FaqService,  
   },
   data() {
     return {
