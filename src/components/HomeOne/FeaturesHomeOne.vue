@@ -29,7 +29,7 @@
                                             <p>- We prioritize the safety and well-being of the entire community, fostering a collective spirit that goes beyond individual interests.<br/>
                                                - This value emphasizes the company's dedication to the community, placing the collective safety and welfare at the forefront of its mission.
                                             </p>
-                                            <router-link class="main-btn2" to="#">READ MORE</router-link>
+                                            <router-link class="main-btn2" to="service-details">READ MORE</router-link>
                                         </div>
                                     </div>
                                 </div>
@@ -48,7 +48,7 @@
                                             <p>-  We believe in a proactive approach to crime prevention, emphasizing collective action by residents and utilizing innovative strategies to safeguard neighborhoods.<br/>
                                                -  This value highlights the commitment to staying ahead of potential threats, utilizing proactive measures to create a safer living environment.
                                             </p>
-                                            <a class="main-btn2" href="#">READ MORE</a>
+                                            <a class="main-btn2" href="service-details">READ MORE</a>
                                         </div>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@
                                             <p>-  We empower citizens through education, encouraging them to actively participate in creating safer neighborhoods and enhancing their overall quality of life.<br/>
                                                 -  By promoting education and empowerment, the company seeks to involve individuals in the security process, making them active contributors to their community's safety.
                                             </p>
-                                            <a class="main-btn2" href="#">READ MORE</a>
+                                            <a class="main-btn2" href="service-details">READ MORE</a>
                                         </div>
                                     </div>
                                 </div>
@@ -86,7 +86,7 @@
                                             <p>-  Excel Security Solutions embraces innovation and adapts to evolving security needs, constantly seeking new ways to enhance the effectiveness of the CHalert Neighbourhood Watch program.<br/>
                                                 -  This value underlines the company's commitment to staying ahead of the curve, using innovation to address emerging security challenges and adapting to the changing landscape of community safety.
                                             </p>
-                                            <a class="main-btn2" href="#">READ MORE</a>
+                                            <a class="main-btn2" href="service-details">READ MORE</a>
                                         </div>
                                     </div>
                                 </div>
