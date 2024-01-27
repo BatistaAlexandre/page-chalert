@@ -47,76 +47,54 @@
                 <img src="assets/images/service-details-thumb.jpg" alt="" />
               </div>
               <div class="content">
-                <h3 class="title">How it works:</h3>
+                <h3 class="title">Joining the Chalet Security Program</h3>
                 <p>
-                  Excel Security Solutions is committed to upholding the highest standards of integrity, professionalism,
-                  and community engagement. Our Code of Conduct outlines the values and principles that guide our actions
-                  and interactions within the Chalert Neighbourhood Watch program.
-
+                  At Excel Security Solutions, we believe in the power of community and collective action to enhance the
+                  safety of your chalet. <br>Joining our Neighbourhood Watch program is simple, free, and comes with a
+                  myriad of benefits for both your property and the entire community.
                 </p>
-                <span>1. Community-Centric Commitment:</span>
+                <span>Step 1: Sign Up for Free</span>
                 <p>
-                  We prioritize the safety and well-being of the entire community, fostering a collective
-                  spirit that goes beyond individual interests.<br>
-                  <br>Guiding Principles:<br>
-                  - Place the safety and welfare of the community above all individual concerns.<br>
-                  - Actively contribute to building a strong and connected community through collaboration.<br>
-                  - Demonstrate empathy and understanding towards the diverse needs of community members.<br>
-
+                  If you own a chalet in our region, you're eligible to join the program for free. Signing up is
+                  easy—simply visit our website and fill out a straightforward online form. Provide some basic information
+                  about your chalet and your contact details, and you're on your way to becoming an integral part of our
+                  security network.
+                </p>
+                <span>Step 2: Confirmation Email</span>
+                <p>
+                  Once you've submitted your information, you will receive a prompt confirmation email. This email will
+                  contain important details and a unique link to access our exclusive platform designed specifically for
+                  chalet owners like yourself.
                 </p>
 
-                <span>2. Proactive Crime Prevention:</span>
+                <span>Step 3: Explore the Exclusive Platform</span>
                 <p>
-                  We believe in a proactive approach to crime prevention, emphasizing collective action by
-                  residents and utilizing innovative strategies to safeguard neighborhoods.<br>
+                  Access the exclusive platform to discover more about how the program works and the various ways you can
+                  actively participate. Inside, you'll find comprehensive information on the program's features, the role
+                  Excel Security Solutions plays, and how you can contribute to making our community safer.
+                </p>
 
-                  <br>Guiding Principles:<br>
-                  - Stay vigilant and proactive in identifying and addressing potential security threats.<br>
-                  - Collaborate with residents, businesses, and authorities to develop innovative crime prevention
+                <span>Benefits of Joining:</span>
+                <p>
+                  - Collective Approach:<br>
+                  By joining our program, you become a part of a collective effort to make the entire region safer for
+                  everyone.<br>
+                  <br>
+                  - Information Access: <br>
+                  Gain access to crucial information, updates, and insights related to the security of your chalet and the
+                  community.<br>
+                  <br>
+                  - Active Involvement:<br>
+                  Learn how you can actively contribute to the safety of your neighborhood through simple yet impactful
                   measures.<br>
-                  - Continuously assess and update security strategies to stay ahead of evolving threats.<br>
-                </p>
-
-                <span>3. Education and Empowerment:</span>
-                <p>
-                  We empower citizens through education, encouraging them to actively participate in creating safer
-                  neighborhoods and enhancing their overall quality of life.<br>
-
-                  <br>Guiding Principles:<br>
-                  - Promote educational initiatives that empower community members with security knowledge.<br>
-                  - Encourage active participation of individuals in contributing to the safety of their
-                  neighborhoods.<br>
-                  - Foster an environment where continuous learning and sharing of security insights are valued.<br>
-
-                </p>
-
-                <span>4. Innovation and Adaptability:</span>
-                <p>
-                  Excel Security Solutions embraces innovation and adapts to evolving security needs, constantly seeking
-                  new ways to enhance the effectiveness of the CHalert Neighbourhood Watch program.<br>
-
-                  <br>Guiding Principles:<br>
-                  - Embrace technological advancements and innovative solutions for crime prevention.<br>
-                  - Foster a culture of adaptability to respond effectively to emerging security challenges.<br>
-                  - Encourage a proactive approach to incorporating new strategies and technologies.<br>
-                </p>
-
-                <span>Enforcement and Accountability:</span>
-                <p>
-                  Excel Security Solutions is committed to enforcing and upholding this Code of Conduct. Violations may
-                  result in corrective actions, including but not limited to education, warnings, suspension, or
-                  termination from the Chalert Neighbourhood Watch program.
                   <br>
+                  - Community Connection: <br>
+                  Connect with fellow chalet owners who share a common goal of creating a secure living environment.<br>
+                  Excel Security Solutions is dedicated to fostering a sense of security and community.<br>
+                  Join our program
+                  today, and together, let's build a safer haven for all chalet owners in the region. Your involvement
+                  makes a difference!<br>
                 </p>
-
-                <span>Review and Updates:</span>
-                <p>
-                  This Code of Conduct is subject to periodic review to ensure its relevance and effectiveness. Updates
-                  may be made to reflect changes in the security landscape or the needs of the community.
-                  <br>
-                </p>
-
-
               </div>
             </div>
           </div>
