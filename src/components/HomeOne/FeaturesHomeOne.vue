@@ -27,9 +27,9 @@
                                             <!-- <span>Features Section 2</span> -->
                                             <h3 class="title">Community-Centric Commitment: <br/>   </h3>
                                             <p>- We prioritize the safety and well-being of the entire community, fostering a collective spirit that goes beyond individual interests.<br/>
-                                               - This value emphasizes the company's dedication to the community, placing the collective safety and welfare at the forefront of its mission.
+                                               <br>- This value emphasizes the company's dedication to the community, placing the collective safety and welfare at the forefront of its mission.
                                             </p>
-                                            <router-link class="main-btn2" to="service-details">READ MORE</router-link>
+                                            <router-link class="main-btn2" style="margin-bottom: 20px;" to="service-details">READ MORE</router-link>
                                         </div>
                                     </div>
                                 </div>

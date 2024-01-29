@@ -192,15 +192,20 @@ export default {
     },
    data(){
        return {
-           showQuestion:1,
+           showQuestion: null, // Inicialize com null para indicar que nenhuma pergunta está aberta inicialmente
        }
    },
     methods: {
         OpenQuestion(value){
-            this.showQuestion = value
+            if (this.showQuestion === value) {
+                // Se a pergunta clicada já estiver aberta, fecha ela
+                this.showQuestion = null;
+            } else {
+                // Se a pergunta clicada não estiver aberta, abre ela
+                this.showQuestion = value;
+            }
         }
     }
-
 }
 </script>
 
