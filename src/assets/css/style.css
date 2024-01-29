@@ -4088,7 +4088,7 @@ p {
   overflow: hidden;
 }
 .faq-accrodion .accrodion .accrodion-title {
-  padding: 0px 38px;
+  padding: 0px 40px 0px 10px;  
   cursor: pointer;
   position: relative;
   -webkit-transition: all 0.4s ease;
@@ -4096,7 +4096,7 @@ p {
 }
 @media (max-width: 767px) {
   .faq-accrodion .accrodion .accrodion-title {
-    padding: 0 38px 0 20px;
+    padding: 0 49px 0 10px;
   }
 }
 .faq-accrodion .accrodion .accrodion-title::before {
@@ -4112,7 +4112,6 @@ p {
   -webkit-box-align: center;
   position: absolute;
   top: 50%;
-  right: 30px;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   opacity: 1;
@@ -4124,6 +4123,7 @@ p {
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
+  right: 1px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .faq-accrodion .accrodion .accrodion-title::before {
@@ -4148,7 +4148,6 @@ p {
   -webkit-box-align: center;
   position: absolute;
   top: 50%;
-  right: 30px;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   opacity: 0;
@@ -4160,6 +4159,8 @@ p {
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
+  right: 1px;
+
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .faq-accrodion .accrodion .accrodion-title::after {
