@@ -95,7 +95,7 @@
     <faq-home-one
       :class="[dark ? 'appie-faq-area-dark' : '']"
       title="Frequently Asked Questions (FAQ) - Chalert Program:" 
-      description="Different layouts and styles for team sections."
+      description=""
     />
     <!--====== APPIE FAQ PART ENDS ======-->
 

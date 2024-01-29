@@ -81,7 +81,7 @@
 
       <team-home-one
         title="Meet our Team Members"
-        description="Different layouts and styles for team sections."
+        description=""
         :members="members"
       />
 
@@ -99,7 +99,7 @@
       <!--====== APPIE FAQ PART START ======-->
       <faq-home-one
         title="Frequently asked questions"
-        description="Different layouts and styles for team sections."
+        description=""
       />
       <!--====== APPIE FAQ PART ENDS ======-->
 
