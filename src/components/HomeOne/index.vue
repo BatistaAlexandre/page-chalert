@@ -39,9 +39,9 @@
         description="Hanky panky lavatory up the duff jolly good cack brolly is chinwag zonked happy days sloshed."
         first_button_content="Download for iOS"
         first_button_icon="fab fa-apple"
-        second_button_content="Download for Android"
-        second_button_icon="fab fa-google-play"
       />
+      <!-- second_button_content="Download for Android"
+        second_button_icon="fab fa-google-play" -->
 
       <!--====== APPIE HERO PART ENDS ======-->
 
@@ -81,7 +81,7 @@
 
       <team-home-one
         title="Meet our Team Members"
-        description="Different layouts and styles for team sections."
+        description=""
         :members="members"
       />
 
@@ -91,28 +91,24 @@
 
       <priceing-home-one
         title="Choose your plan"
-        description="Different layouts and styles for team sections."
+        description="Choose the program that suits your security needs and become part of the Excel Security Solutions family. Elevate your chalet protection and contribute to a safer community today."
       />
 
       <!--====== APPIE PRICING PART ENDS ======-->
 
       <!--====== APPIE FAQ PART START ======-->
-
       <faq-home-one
         title="Frequently asked questions"
-        description="Different layouts and styles for team sections."
+        description=""
       />
-
       <!--====== APPIE FAQ PART ENDS ======-->
 
       <!--====== APPIE BLOG PART START ======-->
-
       <!-- <blog-home-one
         title="Latest blog posts"
         description="Different layouts and styles for team sections."
         :blogs="blogs"
       /> -->
-
       <!--====== APPIE BLOG PART ENDS ======-->
 
       <!--====== APPIE PROJECT PART START ======-->
@@ -205,92 +201,51 @@ export default {
       showloading: true,
       navs: [
         {
-          name: "home",
-          childrens: [
-            {
-              name: "Home 1",
-              path: "home-two",
-            },
-            {
-              name: "Home 2",
-              path: "/home-two",
-            },
-            {
-              name: "Home 3",
-              path: "/home-three",
-            },
-            {
-              name: "Home 4",
-              path: "/home-four",
-            },
-            {
-              name: "Home 5",
-              path: "/home-five",
-            },
-            {
-              name: "Home 6",
-              path: "/home-six",
-            },
-            {
-              name: "Home 7",
-              path: "/home-seven",
-            },
-            {
-              name: "Home 8",
-              path: "/home-eight",
-            },
-            {
-              name: "Home Dark",
-              path: "/home-dark",
-            },
-            {
-              name: "Home Rtl",
-              path: "/home-rtl",
-            },
-          ],
+          name: "Home",
+          path: "/",
         },
         {
           name: "service",
           path: "/service-details",
         },
-        {
-          name: "pages",
-          childrens: [
-            {
-              name: "About us",
-              path: "/about-us",
-            },
-            {
-              name: "About us 2",
-              path: "/about-two",
-            },
-            {
-              name: "Shops",
-              path: "/shops",
-            },
-            {
-              name: "Shop Details",
-              path: "/shop-details",
-            },
-            {
-              name: "Error",
-              path: "/error",
-            },
-          ],
-        },
-        {
-          name: "news",
-          childrens: [
-            {
-              name: "News",
-              path: "/news",
-            },
-            {
-              name: "Single news",
-              path: "/single-news",
-            },
-          ],
-        },
+        // {
+        //   name: "pages",
+        //   childrens: [
+        //     {
+        //       name: "About us",
+        //       path: "/about-us",
+        //     },
+        //     {
+        //       name: "About us 2",
+        //       path: "/about-two",
+        //     },
+        //     {
+        //       name: "Shops",
+        //       path: "/shops",
+        //     },
+        //     {
+        //       name: "Shop Details",
+        //       path: "/shop-details",
+        //     },
+        //     {
+        //       name: "Error",
+        //       path: "/error",
+        //     },
+        //   ],
+        // },
+        // {
+        //   name: "news",
+        //   childrens: [
+        //     {
+        //       name: "News",
+        //       path: "/news",
+        //     },
+        //     {
+        //       name: "Single news",
+        //       path: "/single-news",
+        //     },
+        //   ],
+        // },
         {
           name: "contact",
           path: "/contact",

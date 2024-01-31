@@ -14,6 +14,7 @@ import News from '../views/News.vue'
 import SingleNews from '../views/SingleNews.vue'
 import Contact from '../views/Contact.vue'
 import ServiceDetails from '../views/ServiceDetails'
+import ServiceDetails2 from '../views/ServiceDetails2'
 import Error from '../views/Error.vue'
 import AboutUs from '../views/About.vue'
 import AboutTwo from '../views/AboutTwo.vue'
@@ -78,6 +79,11 @@ const routes = [
     path: '/service-details',
     name: 'ServiceDetails',
     component: ServiceDetails
+  },
+  {
+    path: '/service-details2',
+    name: 'ServiceDetails2',
+    component: ServiceDetails2
   },
   {
     path: '/about-us',

@@ -5,11 +5,9 @@
       @toggleSidebar="toggleSidebar"
       :menuItems="navs"
     />
-
     <!--====== OFFCANVAS MENU PART ENDS ======-->
 
     <!--====== PART START ======-->
-
     <header-home-one
       @toggleSidebar="toggleSidebar"
       :menuItems="navs"
@@ -18,25 +16,45 @@
       :enableDark="true"
       @changMode="handlerDarkMode"
     />
-
     <!--====== PART ENDS ======-->
 
     <!--====== APPIE HERO PART START ======-->
-
     <hero-home-one
       :class="[dark ? 'appie-hero-area-dark' : '']"
       welcome_message="Welcome To CHalert"
-      slogan="Lorem ipsum dolor sit amet, consectetur"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris eu purus hendrerit congue."
-      first_button_content="BT 1Lorem ipsum dolor sit"
-      second_button_content="BT 2Lorem ipsum dolor sit"
+      slogan="Excel Security Solutions' premier Chalet Security Program."
+      description="We Protect What Matters Most: Where Security Meets Peace of Mind!
+      Launching ProtectMe App: Your Safety, Your Power – Unleashing Security at Your Fingertips!"
+      first_button_content="Download it now and stay safe."
     />
+    <!-- second_button_content="BT 2Lorem ipsum dolor sit" -->
 
     <!-- first_button_icon="fab fa-apple" -->
     <!-- second_button_icon="fab fa-google-play" -->
-
-
     <!--====== APPIE HERO PART ENDS ======-->
+
+    <!--====== APPIE TRAFFIC PART ENDS ======-->
+    <features-home-one :class="[ 'appie-features-area-dark' ]" />
+    <!--====== APPIE TEAM PART START ======-->
+
+    <!--====== APPIE PRICING PART START ======-->
+    <priceing-home-one
+    :class="[dark ? 'appie-pricing-area-dark' : '']"
+    title="Choose your plan"
+    description="Choose the program that suits your security needs and become part of the Excel Security Solutions family. Elevate your chalet protection and contribute to a safer community today."
+    />
+    <!--====== APPIE PRICING PART ENDS ======-->
+
+    <!--======  Why choose us  START ======-->
+    <traffic-home-one
+      :class="[dark ? 'appie-traffic-area-dark' : '']"
+      :traffic_thumbnail="traffic_thumb"
+      small_title="Why choose us"
+      big_title="Why choose us"
+      description="Join us in fostering community safety through collective action. Here are four compelling reasons to choose Chalert:" 
+      :features="features"
+    />
+    <!--======  Why choose us  ENDs ======-->
 
     <!--====== APPIE SERVICES PART START ======-->
     <services-home-one
@@ -48,56 +66,18 @@
     />
     <!--====== APPIE SERVICES PART ENDS ======-->
 
-    <!--====== APPIE FEATURES PART START ======-->
-    
-
-    <!--====== APPIE FEATURES PART ENDS ======-->
-
-    <!--====== APPIE TRAFFIC PART START ======-->
-
-    <traffic-home-one
-      :class="[dark ? 'appie-traffic-area-dark' : '']"
-      :traffic_thumbnail="traffic_thumb"
-      small_title="Why choose us"
-      big_title="Why choose us"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris Lorem ipsum dolor sit amet, "
-      :features="features"
-    />
-
-    <!--====== APPIE TRAFFIC PART ENDS ======-->
-
-    <features-home-one :class="[dark ? 'appie-features-area-dark' : '']" />
-
-    <!--====== APPIE TEAM PART START ======-->
-
+    <!--======  Why TEAM PART  START ======-->
     <team-home-one
       :class="[dark ? 'appie-team-area-dark' : '']"
-      title="Meet our Team"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing"
+      title="Guardians of Security: Unveiling the Faces Behind CHalert's Vigilance"
+      description="Description:Step into the world of Chalert, where community safety is our mission, and meet the dynamic team committed to securing your chalet and fostering a safer living environment for all."
       :members="members"
     />
-
     <!--====== APPIE TEAM PART ENDS ======-->
 
 
-    <!--====== APPIE PRICING PART START ======-->
 
-    <priceing-home-one
-      :class="[dark ? 'appie-pricing-area-dark' : '']"
-      title="Choose your plan"
-      description="Different layouts and styles for team sections."
-    />
-
-    <!--====== APPIE PRICING PART ENDS ======-->
-
-    
-        <!--====== APPIE TESTIMONIAL PART START ======-->
-
-        <testimonial-home-one :sliderContents="sliderContents" />
-
-<!--====== APPIE TESTIMONIAL PART ENDS ======-->
-
-<!--====== Show Case START ======-->
+    <!--====== Show Case START ======-->
     <show-case-home-three 
     :class="[dark ? 'appie-blog-area-dark' : '']"
       title=""
@@ -105,44 +85,38 @@
       :blogs="blogs"
    
     />
-<!--====== Show case ENDS ======-->
+    <!--====== Show case ENDS ======-->
+
+    <!--====== APPIE TESTIMONIAL PART START ======-->
+    <testimonial-home-one :sliderContents="sliderContents" />
+    <!--====== APPIE TESTIMONIAL PART ENDS ======-->
 
     <!--====== APPIE FAQ PART START ======-->
-
     <faq-home-one
       :class="[dark ? 'appie-faq-area-dark' : '']"
-      title="Frequently asked questions"
-      description="Different layouts and styles for team sections."
+      title="Frequently Asked Questions (FAQ) - Chalert Program:" 
+      description=""
     />
-
     <!--====== APPIE FAQ PART ENDS ======-->
 
     <!--====== APPIE BLOG PART START ======-->
-
     <!-- <blog-home-one
       :class="[dark ? 'appie-blog-area-dark' : '']"
       title="Latest blog posts"
       description="Different layouts and styles for team sections."
       :blogs="blogs"
     /> -->
-
-  
-
     <!--====== APPIE BLOG PART ENDS ======-->
 
     <!--====== APPIE PROJECT PART START ======-->
-
     <project-home-one
       title="Start your project with CHAlert."
       description="We will email you only about this product."
     />
-
     <!--====== APPIE PROJECT PART ENDS ======-->
 
     <!--====== APPIE FOOTER PART START ======-->
-
     <footer-home-one :class="[dark ? 'appie-footer-area-dark' : '']" />
-
     <!--====== APPIE FOOTER PART ENDS ======-->
 
     <!--====== APPIE BACK TO TOP PART ENDS ======-->
@@ -155,7 +129,6 @@
 
 <script>
 import ShowCaseHomeThree from "../HomeOne/ShowCaseHomeThree.vue";
-
 // import blogOne from "@/assets/images/blog-1.jpg";
 // import blogTwo from "@/assets/images/blog-2.jpg";
 // import blogThree from "@/assets/images/blog-3.jpg";
@@ -201,7 +174,7 @@ export default {
   },
   data() {
     return {
-      dark: true,
+      dark: false,
       traffic_thumb: traffic_thumb,
       testmonialAvater: testmonialAvater,
       sidebar: false,
@@ -212,9 +185,44 @@ export default {
           path: "#",
         },
         {
-          name: "service",
-          path: "/service-details",
+          name: "Our Values",
+          path: "#",
         },
+        {
+          name: "Plans",
+          path: "#",
+        },
+        {
+          name: "How it works",
+          path: "#",
+        },
+        {
+          name: "Services",
+          path: "#",
+        },
+        {
+          name: "Team",
+          path: "#",
+        },
+        {
+          name: "FAQ",
+          path: "#",
+        },
+        {
+          name: "Tips",
+          path: "#",
+        },
+        {
+          name: "Contact",
+          path: "#",
+        },
+
+
+        // {
+        //   name: "service",
+        //   path: "/service-details",
+        // },
+
         // {
         //   name: "pages",
         //   childrens: [
@@ -240,23 +248,30 @@ export default {
         //     },
         //   ],
         // },
-        {
-          name: "news",
-          childrens: [
-            {
-              name: "News",
-              path: "/news",
-            },
-            {
-              name: "Single news",
-              path: "/single-news",
-            },
-          ],
-        },
-        {
-          name: "contact",
-          path: "/contact",
-        },
+        
+        // Area para mais botoes no menu superior
+
+        
+        // {
+        //   name: "news",
+        //   childrens: [
+        //     {
+        //       name: "News",
+        //       path: "/news",
+        //     },
+        //     {
+        //       name: "Single news",
+        //       path: "/single-news",
+        //     },
+        //   ],
+        // },
+
+
+    
+        // {
+        //   name: "contact",
+        //   path: "/contact",
+        // },
       ],
       itemsGrid: [
         {
@@ -290,24 +305,24 @@ export default {
       ],
       features: [
         {
-          title: "Lorem ipsum",
+          title: "Unified Safety Effort:",
           bg: "", // create class for style
-          description: "Lorem ipsum dolor sit amet, consectetur",
+          description: "Strengthen community safety by joining forces with fellow chalet owners.",
         },
         {
-          title: "Lorem ipsum",
+          title: "Exclusive Information Access:",
           bg: "item-2", // create class for style
-          description: "Lorem ipsum dolor sit amet, consectetur",
+          description: "Gain timely updates and valuable insights for informed decision-making.",
         },
         {
-          title: "Lorem ipsum",
+          title: "Proactive Involvement:",
           bg: "item-3", // create class for style
-          description: "Lorem ipsum dolor sit amet, consectetur",
+          description: "Actively contribute to neighborhood safety with impactful measures.",
         },
         {
-          title: "Lorem ipsum",
+          title: "Community Connection:",
           bg: "item-4", // create class for style
-          description: "Lorem ipsum dolor sit amet, consectetur",
+          description: "Connect with like-minded chalet owners for a secure living environment.",
         },
       ],
       sliderContents: [

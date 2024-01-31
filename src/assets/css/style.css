@@ -126,6 +126,49 @@ p {
   outline: 0;
 }
 
+
+.main-btn2 {
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #f1f2f7;
+  padding: 0 30px;
+  font-size: 15px;
+  line-height: 45px;
+  border-radius: 6px;
+  color: #63636a;
+  cursor: pointer;
+  z-index: 5;
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  -ms-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+  background-color: #f1f2f7;
+}
+.main-btn2:hover {
+  background-color: #63636a;
+  color: #f1f2f7;
+  border-color: #f1f2f7;
+}
+.main-btn2.main-btn2-2 {
+  background-color: #63636a;
+  color: #f1f2f7;
+  border-color: #f1f2f7;
+}
+.main-btn2.main-btn2-2:hover {
+  background-color: #f1f2f7;
+  border-color: #f1f2f7;
+  color: #63636a;
+}
+
+
 /*===== All Button Style =====*/
 .main-btn {
   display: inline-block;
@@ -881,7 +924,7 @@ p {
   background: linear-gradient(90deg, #6b1fcd 0%, #374ede 100%);
 }
 .appie-header-area.appie-header-page-area.appie-sticky.sticky {
-  background: #0a44b9;
+  background: #1e2128;
 }
 .appie-header-area.appie-header-7-area.appie-sticky.sticky {
   background: #290645;
@@ -1798,14 +1841,14 @@ p {
   background: transparent;
   color: #0e1133;
 }
-.appie-hero-content ul li a.item-2 {
+/* .appie-hero-content ul li a.item-2 {
   background: transparent;
   color: #0e1133;
 }
 .appie-hero-content ul li a.item-2:hover {
   background: #0e1133;
   color: #fff;
-}
+} */
 .appie-hero-content.appie-hero-content-4 {
   padding-right: 40px;
 }
@@ -1917,7 +1960,7 @@ p {
   color: #0e1133;
   border-color: #fff;
 }
-.appie-hero-content.appie-hero-content-6 ul li a.item-2 {
+/* .appie-hero-content.appie-hero-content-6 ul li a.item-2 {
   background: #fff;
   border-color: #fff;
 }
@@ -1925,7 +1968,7 @@ p {
   background: #9b2cfa;
   border-color: #9b2cfa;
   color: #fff;
-}
+} */
 .appie-hero-content.appie-hero-content-6.appie-hero-content-7 .appie-title {
   color: #fff;
 }
@@ -1943,7 +1986,7 @@ p {
   border-color: #54386a;
   color: #fff;
 }
-.appie-hero-content.appie-hero-content-6.appie-hero-content-7 ul li a.item-2 {
+/* .appie-hero-content.appie-hero-content-6.appie-hero-content-7 ul li a.item-2 {
   background: transparent;
   color: #fff;
   border-color: #54386a;
@@ -1955,7 +1998,7 @@ p {
   border-color: #fff;
   background: #fff;
   color: #0e1133;
-}
+} */
 
 .appie-hero-thumb {
   position: relative;
@@ -4045,7 +4088,7 @@ p {
   overflow: hidden;
 }
 .faq-accrodion .accrodion .accrodion-title {
-  padding: 0px 38px;
+  padding: 0px 40px 0px 10px;  
   cursor: pointer;
   position: relative;
   -webkit-transition: all 0.4s ease;
@@ -4053,7 +4096,7 @@ p {
 }
 @media (max-width: 767px) {
   .faq-accrodion .accrodion .accrodion-title {
-    padding: 0 38px 0 20px;
+    padding: 0 49px 0 10px;
   }
 }
 .faq-accrodion .accrodion .accrodion-title::before {
@@ -4069,7 +4112,6 @@ p {
   -webkit-box-align: center;
   position: absolute;
   top: 50%;
-  right: 30px;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   opacity: 1;
@@ -4081,6 +4123,7 @@ p {
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
+  right: 1px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .faq-accrodion .accrodion .accrodion-title::before {
@@ -4089,7 +4132,7 @@ p {
 }
 @media (max-width: 767px) {
   .faq-accrodion .accrodion .accrodion-title::before {
-    right: 20px;
+    right: 4px;
   }
 }
 .faq-accrodion .accrodion .accrodion-title::after {
@@ -4105,7 +4148,6 @@ p {
   -webkit-box-align: center;
   position: absolute;
   top: 50%;
-  right: 30px;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   opacity: 0;
@@ -4117,6 +4159,8 @@ p {
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
+  right: 1px;
+
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .faq-accrodion .accrodion .accrodion-title::after {
@@ -4125,7 +4169,7 @@ p {
 }
 @media (max-width: 767px) {
   .faq-accrodion .accrodion .accrodion-title::after {
-    right: 20px;
+    right: 4px;
   }
 }
 .faq-accrodion .accrodion .accrodion-title h4 {
@@ -5360,7 +5404,7 @@ blockquote cite {
     10.APPIE PROJECT css 
 ===========================*/
 .appie-project-area .appie-project-box {
-  background-image: url(../images/project-bg.jpg);
+  background-image: url(../images/project-bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -5596,7 +5640,7 @@ blockquote cite {
   background: #fff;
   color: #0e1133;
 }
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area
+/* .appie-footer-area.appie-footer-about-area.appie-footer-8-area
   .footer-copyright
   .apps-download-btn
   ul
@@ -5604,8 +5648,8 @@ blockquote cite {
   a.item-2 {
   background: #fff;
   color: #0e1133;
-}
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area
+} */
+/* .appie-footer-area.appie-footer-about-area.appie-footer-8-area
   .footer-copyright
   .apps-download-btn
   ul
@@ -5614,7 +5658,7 @@ blockquote cite {
   background: #0e1133;
   color: #fff;
   border-color: #0e1133;
-}
+} */
 
 .footer-about-widget {
   padding-right: 70px;
@@ -5807,7 +5851,7 @@ blockquote cite {
   color: #0e1133;
   border-color: #e7eaef;
 }
-.footer-copyright .apps-download-btn ul li a.item-2 {
+/* .footer-copyright .apps-download-btn ul li a.item-2 {
   background: transparent;
   color: #0e1133;
   border-color: #e7eaef;
@@ -5815,7 +5859,7 @@ blockquote cite {
 .footer-copyright .apps-download-btn ul li a.item-2:hover {
   background: #fff;
   color: #0e1133;
-}
+} */
 
 .appie-error-area {
   padding-top: 250px;
@@ -6870,14 +6914,14 @@ blockquote cite {
   background: #fff;
   color: #0e1133;
 }
-.appie-download-content ul li a.item-2 {
+/* .appie-download-content ul li a.item-2 {
   background: #fff;
   color: #0e1133;
 }
 .appie-download-content ul li a.item-2:hover {
   background: #0e1133;
   color: #fff;
-}
+} */
 
 .appie-sponser-area {
   position: relative;
