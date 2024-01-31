@@ -19,8 +19,8 @@
                                         <div class="input-box mt-0">
                                             <input type="message" placeholder="Message" style="margin: 4px;">
                                         </div>
-                                        <div class="input-box mt-30">
-                                            <button>Subscribe</button>
+                                        <div class="input-box mt-10">
+                                            <button>Send</button>
                                         </div>
                                     </form>
                                 </div>
