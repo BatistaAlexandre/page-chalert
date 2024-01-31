@@ -1,26 +1,34 @@
-# This is a basic workflow to help you get started with Vue s3 deployer action
-
-name: Deployment
+name: Deploy to S3
 
 on:
   push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-      - name: Deploying application to Amazon S3
-        uses: lewandy/vue-s3-deployer@main
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
-          AWS_BUCKET_NAME: chalert-123-vue-app
-          APP_SOURCE_CODE: ./dist
-          BUILD_COMMAND: "npm run build"
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Vue.js app
+        run: npm run build
+
+      - name: Deploy to S3
+        uses: jakejarvis/s3-sync-action@v0.5.0
+        with:
+          aws-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+          source-dir: dist/ # Diretório de saída após o build do Vue.js
+          dest-dir: ${{ secrets.AWS_BUCKET_NAME }}
