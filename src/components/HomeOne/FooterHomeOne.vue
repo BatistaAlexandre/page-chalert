@@ -21,7 +21,7 @@
                 <li>
                   <a href="#"><i class="fab fa-instagram"></i></a>
                 </li>
-               <!--<li>
+                <!--<li>
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </li>-->
               </ul>
@@ -32,7 +32,8 @@
           <h4 class="title">Discover Chalert</h4>
           </br>
           <p>
-              Empowering communities with proactive alerts for swift responses. Join us in fostering a secure environment, together.
+            Empowering communities with proactive alerts for swift responses. Join us in fostering a secure environment,
+            together.
           </p>
 
         </div>
@@ -65,42 +66,44 @@
             <h4 class="title">Get In Touch</h4>
             <ul>
               <li>
-                <a href="#"
-                  ><i class="fal fa-envelope"></i> office@chalert.com</a
-                >
+                <a href="mailto:office@chalert.com">
+                  <i class="fal fa-envelope"></i> office@chalert.com
+                </a>
+              </li>
+
+              <li>
+                <a href="tel:+41764343113">
+                  <i class="fal fa-phone"></i> +41 76 434 31 13
+                </a>
               </li>
               <li>
-                <a href="#"><i class="fal fa-phone"></i> +41 76 434 31 13</a>
+                <a href="https://www.google.com/maps/place/Excel+Security+Solutions+AG/@46.4850781,7.2626024,15z/data=!4m6!3m5!1s0x478ef1af1633e61b:0x1c2a56d16165b7b5!8m2!3d46.4850781!4d7.2626024!16s%2Fg%2F11g6qk75pm?entry=ttu"
+                  target="_blank">
+                  <i class="fal fa-map-marker-alt"></i> Excel Security Solutions AG Rübeldorfstrasse 23 3792 Saanen
+                  Switzerland
+                </a>
               </li>
-              <li>
-                <a href="#"
-                  ><i class="fal fa-map-marker-alt"></i> Excel Security Solutions AG Rübeldorfstrasse 23 3792 Saanen Switzerland</a
-                >
-              </li>
+
             </ul>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <div
-            class="
+          <div class="
               footer-copyright
               d-flex
               align-items-center
               justify-content-between
               pt-35
-            "
-          >
+            ">
             <div class="apps-download-btn">
               <ul>
                 <li>
                   <a href="#"><i class="fab fa-apple"></i> Download for iOS</a>
                 </li>
                 <li>
-                  <a class="item-2" href="#"
-                    ><i class="fab fa-google-play"></i> Download for Android</a
-                  >
+                  <a class="item-2" href="#"><i class="fab fa-google-play"></i> Download for Android</a>
                 </li>
               </ul>
             </div>
@@ -120,5 +123,4 @@
 export default {};
 </script>
 
-<style>
-</style>
+<style></style>

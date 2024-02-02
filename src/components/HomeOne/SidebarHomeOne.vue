@@ -87,21 +87,22 @@
               <div class="footer-widget-info">
                 <ul>
                   <li>
-                    <a href="#"
-                      ><i class="fal fa-envelope"></i> support@appie.com</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><i class="fal fa-phone"></i> +(642) 342 762 44</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><i class="fal fa-map-marker-alt"></i> 442 Belle Terre St
-                      Floor 7, San Francisco, AV 4206</a
-                    >
-                  </li>
+                <a href="mailto:office@chalert.com">
+                  <i class="fal fa-envelope"></i> office@chalert.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:+41764343113">
+                  <i class="fal fa-phone"></i> +41 76 434 31 13
+                </a>
+              </li>
+              <li>
+                <a href="https://www.google.com/maps/place/Excel+Security+Solutions+AG/@46.4850781,7.2626024,15z/data=!4m6!3m5!1s0x478ef1af1633e61b:0x1c2a56d16165b7b5!8m2!3d46.4850781!4d7.2626024!16s%2Fg%2F11g6qk75pm?entry=ttu"
+                  target="_blank">
+                  <i class="fal fa-map-marker-alt"></i> Excel Security Solutions AG Rübeldorfstrasse 23 3792 Saanen
+                  Switzerland
+                </a>
+              </li>
                 </ul>
               </div>
             </div>

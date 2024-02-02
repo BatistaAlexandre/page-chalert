@@ -176,35 +176,35 @@ export default {
         },
         {
           name: "Our Values",
-          path: "#",
+          path: "/#Our Values",
         },
         {
           name: "Plans",
-          path: "#",
+          path: "/#Plans",
         },
         {
           name: "How it works",
-          path: "#",
+          path: "/#How it works",
         },
         {
           name: "Services",
-          path: "#",
+          path: "/#Services",
         },
         {
           name: "Team",
-          path: "#",
+          path: "/#Team",
         },
         {
           name: "FAQ",
-          path: "#",
+          path: "/#FAQ",
         },
         {
           name: "Tips",
-          path: "#",
+          path: "/#Tips",
         },
         {
           name: "Contact",
-          path: "#",
+          path: "/#Contact",
         },
       ],
     };
