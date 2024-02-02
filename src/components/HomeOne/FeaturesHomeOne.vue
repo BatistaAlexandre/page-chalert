@@ -25,7 +25,7 @@
                                     <div class="col-lg-6">
                                         <div class="appie-features-content wow animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
                                             <!-- <span>Features Section 2</span> -->
-                                            <h3 class="title">Community-Centric Commitment: <br/>   </h3>
+                                            <h3 class="title">Community-Centric Commitment<br/>   </h3>
                                             <p>We prioritize the safety and well-being of the entire community, fostering a collective spirit that goes beyond individual interests.</p>
                                             <router-link class="main-btn2" style="margin-bottom: 20px;" to="service-details">Read More</router-link>
                                         </div>
@@ -42,7 +42,7 @@
                                     <div class="col-lg-6">
                                         <div class="appie-features-content animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
                                             <!-- <span>Custom Reacyions</span> -->
-                                            <h3 class="title">Proactive Crime Prevention:</h3>
+                                            <h3 class="title">Proactive Crime Prevention</h3>
                                             <p>We believe in a proactive approach to crime prevention, emphasizing collective action by residents and utilizing innovative strategies to safeguard neighborhoods.</p>
                                             <a class="main-btn2" href="service-details">Read More</a>
                                         </div>
@@ -53,13 +53,13 @@
                                 <div class="row align-items-center">
                                     <div class="col-lg-6">
                                         <div class="appie-features-thumb text-center animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
-                                            <img src="@/assets/images/features-thumb-d.png" alt=""/>
+                                            <img src="@/assets/images/features-thumb-e.png" alt=""/>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="appie-features-content animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
                                             <!-- <span>Custom Reacyions</span> -->
-                                            <h3 class="title">Education and Empowerment:</h3>
+                                            <h3 class="title">Education and Empowerment</h3>
                                             <p>We empower citizens through education, encouraging them to actively participate in creating safer neighborhoods and enhancing their overall quality of life.</p>
                                             <a class="main-btn2" href="service-details">Read More</a>
                                         </div>
@@ -76,7 +76,7 @@
                                     <div class="col-lg-6">
                                         <div class="appie-features-content animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
                                             <!-- <span>Custom Reacyions</span> -->
-                                            <h3 class="title">Innovation and Adaptability:</h3>
+                                            <h3 class="title">Innovation and Adaptability</h3>
                                             <p>Excel Security Solutions embraces innovation and adapts to evolving security needs, constantly seeking new ways to enhance the effectiveness of the Chalert Neighbourhood Watch program.</p>
                                             <a class="main-btn2" href="service-details">READ MORE</a>
                                         </div>

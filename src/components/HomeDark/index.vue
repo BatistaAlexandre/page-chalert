@@ -44,7 +44,7 @@
     <priceing-home-one
     id="Plans"
     :class="[dark ? 'appie-pricing-area-dark' : '']"
-    title="Choose your plan"
+    title="Choose your Plan"
     description="Choose the program that suits your security needs and become part of the Excel Security Solutions family. Elevate your chalet protection and contribute to a safer community today."
     />
     <!--====== APPIE PRICING PART ENDS ======-->
