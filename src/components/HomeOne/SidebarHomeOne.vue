@@ -33,23 +33,26 @@
                   >
                     <span
                       v-if="
-                        item.childrens && item.childrens.length > 0 && nasted
+                        item.childrens && item.childrens.length > 0 && nested
                       "
                       class="menu-expand"
-                      ><i class="fa fa-angle-down"></i
-                    ></span>
+                      @click="toggleSubMenu(item.name)"
+                    >
+                      <i class="fa fa-angle-down"></i>
+                    </span>
                     <router-link
-                      style="text-transform: capitalize"
-                      v-if="item.path"
+                      v-if="item.path && !item.path.startsWith('#')"
                       :to="item.path"
+                      style="text-transform: capitalize;"
+                      @click="hideSidebar" 
                     >
-                      {{ item.name }}</router-link
-                    >
-                    <a v-else href="#" @click.prevent="show(item.name)">
-                      {{ item.name }}</a
-                    >
+                      {{ item.name }}
+                    </router-link>
+                    <a v-else :href="item.path ? item.path : '#'" style="text-transform: capitalize;" @click="hideSidebar" >
+                      {{ item.name }}
+                    </a>
                     <ul
-                      v-if="item.childrens && nasted"
+                      v-if="item.childrens && nested"
                       :id="item.name"
                       class="sidebar-sub-menu"
                       :class="[
@@ -121,7 +124,7 @@ export default {
       type: Array,
       required: true,
     },
-    nasted: {
+    nested: {
       type: Boolean,
       default: true,
     },
@@ -140,21 +143,14 @@ export default {
     },
   },
   methods: {
-    hideSidebar(e) {
-      this.$emit("toggleSidebar", e);
+    toggleSubMenu(menuName) {
+      this.menuOpen = this.menuOpen === menuName ? null : menuName;
     },
-    show(value) {
-      if (value !== this.menuOpen) {
-        this.menuOpen = value;
-      } else {
-        this.menuOpen = null;
-      }
-      const getListItem = document.querySelectorAll(`#${value} li`).length;
-      this.subMenuHeight = 43 * getListItem + "px";
+    hideSidebar() {
+      this.$emit("toggleSidebar");
     },
   },
 };
-
 </script>
 
 <style>

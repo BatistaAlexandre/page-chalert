@@ -34,11 +34,15 @@
     <!--====== APPIE HERO PART ENDS ======-->
 
     <!--====== APPIE TRAFFIC PART ENDS ======-->
-    <features-home-one :class="[ 'appie-features-area-dark' ]" />
+    
+    <features-home-one 
+    id="Our Values"
+    :class="[ 'appie-features-area-dark' ]" />
     <!--====== APPIE TEAM PART START ======-->
 
     <!--====== APPIE PRICING PART START ======-->
     <priceing-home-one
+    id="Plans"
     :class="[dark ? 'appie-pricing-area-dark' : '']"
     title="Choose your plan"
     description="Choose the program that suits your security needs and become part of the Excel Security Solutions family. Elevate your chalet protection and contribute to a safer community today."
@@ -47,6 +51,7 @@
 
     <!--======  Why choose us  START ======-->
     <traffic-home-one
+    id="How It Works"
       :class="[dark ? 'appie-traffic-area-dark' : '']"
       :traffic_thumbnail="traffic_thumb"
       small_title="Why choose us"
@@ -58,6 +63,7 @@
 
     <!--====== APPIE SERVICES PART START ======-->
     <services-home-one
+    id="Services"
       :class="[dark ? 'appie-service-area-dark' : '']"
       :grid_items="itemsGrid"
       section_heading="Services Section1"
@@ -68,6 +74,7 @@
 
     <!--======  Why TEAM PART  START ======-->
     <team-home-one
+    id="Team"
       :class="[dark ? 'appie-team-area-dark' : '']"
       title="Guardians of Security: Unveiling the Faces Behind CHalert's Vigilance"
       description="Description:Step into the world of Chalert, where community safety is our mission, and meet the dynamic team committed to securing your chalet and fostering a safer living environment for all."
@@ -78,7 +85,8 @@
 
 
     <!--====== Show Case START ======-->
-    <show-case-home-three 
+    <show-case-home-three
+    id="Team" 
     :class="[dark ? 'appie-blog-area-dark' : '']"
       title=""
       description="Different layouts and styles for team sections."
@@ -93,6 +101,7 @@
 
     <!--====== APPIE FAQ PART START ======-->
     <faq-home-one
+    id="FAQ" 
       :class="[dark ? 'appie-faq-area-dark' : '']"
       title="Frequently Asked Questions (FAQ) - Chalert Program:" 
       description=""
@@ -110,6 +119,7 @@
 
     <!--====== APPIE PROJECT PART START ======-->
     <project-home-one
+    id="Tips" 
       title="Start your project with CHAlert."
       description="We will email you only about this product."
     />
@@ -186,35 +196,35 @@ export default {
         },
         {
           name: "Our Values",
-          path: "#",
+          path: "#Our Values",
         },
         {
           name: "Plans",
-          path: "#",
+          path: "#Plans",
         },
         {
           name: "How it works",
-          path: "#",
+          path: "#How It Works",
         },
         {
           name: "Services",
-          path: "#",
+          path: "#Services",
         },
         {
           name: "Team",
-          path: "#",
+          path: "#Team",
         },
         {
           name: "FAQ",
-          path: "#",
+          path: "#FAQ",
         },
         {
           name: "Tips",
-          path: "#",
+          path: "#Tips",
         },
         {
           name: "Contact",
-          path: "#",
+          path: "#Contact",
         },
 
 

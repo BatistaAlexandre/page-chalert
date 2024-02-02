@@ -202,53 +202,39 @@ export default {
       navs: [
         {
           name: "Home",
-          path: "/",
+          path: "#",
         },
         {
-          name: "service",
-          path: "/service-details",
+          name: "Our Values",
+          path: "#test",
         },
-        // {
-        //   name: "pages",
-        //   childrens: [
-        //     {
-        //       name: "About us",
-        //       path: "/about-us",
-        //     },
-        //     {
-        //       name: "About us 2",
-        //       path: "/about-two",
-        //     },
-        //     {
-        //       name: "Shops",
-        //       path: "/shops",
-        //     },
-        //     {
-        //       name: "Shop Details",
-        //       path: "/shop-details",
-        //     },
-        //     {
-        //       name: "Error",
-        //       path: "/error",
-        //     },
-        //   ],
-        // },
-        // {
-        //   name: "news",
-        //   childrens: [
-        //     {
-        //       name: "News",
-        //       path: "/news",
-        //     },
-        //     {
-        //       name: "Single news",
-        //       path: "/single-news",
-        //     },
-        //   ],
-        // },
         {
-          name: "contact",
-          path: "/contact",
+          name: "Plans",
+          path: "#",
+        },
+        {
+          name: "How it works",
+          path: "#",
+        },
+        {
+          name: "Services",
+          path: "#",
+        },
+        {
+          name: "Team",
+          path: "#",
+        },
+        {
+          name: "FAQ",
+          path: "#",
+        },
+        {
+          name: "Tips",
+          path: "#",
+        },
+        {
+          name: "Contact",
+          path: "#",
         },
       ],
       itemsGrid: [
