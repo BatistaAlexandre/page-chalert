@@ -20,8 +20,8 @@
                         <div class="thumb wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
                             <img src="@/assets/images/hero-thumb-1.png" alt="">
                         </div>
-                        <div class="thumb-2 wow animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
-                            <img src="@/assets/images/hero-thumb-2.png" alt="">
+                        <!--<div class="thumb-2 wow animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
+                            <img src="@/assets/images/hero-thumb-2.png" alt="">-->
                         </div>
                     </div>
                 </div>

@@ -21,11 +21,11 @@
     <!--====== APPIE HERO PART START ======-->
     <hero-home-one
       :class="[dark ? 'appie-hero-area-dark' : '']"
-      welcome_message="Welcome To CHalert"
+      welcome_message="Welcome To Chalert"
       slogan="Excel Security Solutions' premier Chalet Security Program."
-      description="We Protect What Matters Most: Where Security Meets Peace of Mind!
-      Launching ProtectMe App: Your Safety, Your Power – Unleashing Security at Your Fingertips!"
-      first_button_content="Download it now and stay safe."
+      description="We protect what matters most: where security meets peace of mind!
+      Launching ProtectMe App: your safety, your power – unleashing security at your fingertips!"
+      first_button_content="ProtectMe App is on the horizon, stay tuned"
     />
     <!-- second_button_content="BT 2Lorem ipsum dolor sit" -->
 
@@ -54,7 +54,7 @@
     id="How It Works"
       :class="[dark ? 'appie-traffic-area-dark' : '']"
       :traffic_thumbnail="traffic_thumb"
-      small_title="Why choose us"
+      small_title="How it works"
       big_title="Why choose us"
       description="Join us in fostering community safety through collective action. Here are four compelling reasons to choose Chalert:" 
       :features="features"
@@ -66,9 +66,9 @@
     id="Services"
       :class="[dark ? 'appie-service-area-dark' : '']"
       :grid_items="itemsGrid"
-      section_heading="Services Section1"
-      more_heading="Lorem ipsum dolor"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris"
+      section_heading="Our Services"
+      more_heading=""
+      description="Safeguarding Your Every Need"
     />
     <!--====== APPIE SERVICES PART ENDS ======-->
 
@@ -76,8 +76,8 @@
     <team-home-one
     id="Team"
       :class="[dark ? 'appie-team-area-dark' : '']"
-      title="Guardians of Security: Unveiling the Faces Behind CHalert's Vigilance"
-      description="Description:Step into the world of Chalert, where community safety is our mission, and meet the dynamic team committed to securing your chalet and fostering a safer living environment for all."
+      title="Guardians of Security"
+      description="Unveiling the Faces Behind Chalert's Vigilance"
       :members="members"
     />
     <!--====== APPIE TEAM PART ENDS ======-->
@@ -103,7 +103,7 @@
     <faq-home-one
     id="FAQ" 
       :class="[dark ? 'appie-faq-area-dark' : '']"
-      title="Frequently Asked Questions (FAQ) - Chalert Program:" 
+      title="Frequently Asked Questions (FAQ)" 
       description=""
     />
     <!--====== APPIE FAQ PART ENDS ======-->
@@ -120,8 +120,8 @@
     <!--====== APPIE PROJECT PART START ======-->
     <project-home-one
     id="Tips" 
-      title="Start your project with CHAlert."
-      description="We will email you only about this product."
+      title="Secure your safety"
+      description="Book your visit now and experience our unparalleled protection services firsthand. We will contact you in less than 24 hours."
     />
     <!--====== APPIE PROJECT PART ENDS ======-->
 
