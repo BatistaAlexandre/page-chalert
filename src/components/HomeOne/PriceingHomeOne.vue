@@ -9,7 +9,7 @@
                         <h3 class="appie-title">{{title}}</h3>
                         <p>{{description}}</p>
                     </div>
-                    <ul class="list-inline text-center switch-toggler-list" role="tablist" id="switch-toggle-tab">
+                    <!-- <ul class="list-inline text-center switch-toggler-list" role="tablist" id="switch-toggle-tab">
                         <li class="month" :class="[switchPlan?'active':'']"><a href="#">Monthly</a></li>
                         <li>
                             <label class="switch" :class="[switchPlan?'on':'off']"  @click.prevent="change_plan">
@@ -17,7 +17,7 @@
                             </label>
                         </li>
                         <li class="year" :class="[switchPlan === false?'active':'']"><a href="#">Annualy</a></li>
-                    </ul>                  
+                    </ul>                   -->
                 </div>
             </div>
             <div class="tabed-content">
@@ -35,9 +35,9 @@
                                         <li><h4>Key Features:</h4></li>
                                         <li><i class="fal fa-check"></i>Timely Updates</li>
                                     </ul>
-                                    <div class="pricing-btn mt-35">
+                                    <!-- <div class="pricing-btn mt-35">
                                         <a class="main-btn" href="#">Learn More</a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -55,9 +55,9 @@
                                         <li><i class="fal fa-check"></i> ProtectMe Mobile App</li>
                                         <!-- <li><i class="fal fa-check"></i> 24/7 Support</li> -->
                                     </ul>
-                                    <div class="pricing-btn mt-35">
+                                    <!-- <div class="pricing-btn mt-35">
                                         <a class="main-btn" href="#">Learn More</a>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="pricing-rebon">
                                     <span>Most Popular</span>
@@ -82,9 +82,9 @@
                                         <li><i class="fal fa-check"></i> Contractual Assistance</li>
                                         <li><i class="fal fa-check"></i> Excel Watch Stickers</li>
                                     </ul>
-                                    <div class="pricing-btn mt-35">
+                                    <!-- <div class="pricing-btn mt-35">
                                         <a class="main-btn" href="#">Learn More</a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -105,9 +105,9 @@
                                         <li><i class="fal fa-check"></i> Excel Watch Stickers</li>
                                         <li><i class="fal fa-check"></i> Foot Patrol</li>
                                     </ul>
-                                    <div class="pricing-btn mt-35">
+                                    <!-- <div class="pricing-btn mt-35">
                                         <a class="main-btn" href="#">Learn More</a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -127,9 +127,9 @@
                                         <li><i class="fal fa-check"></i> 60-day chat history</li>
                                         <li><i class="fal fa-check"></i> 15 GB cloud storage</li>
                                     </ul>
-                                    <div class="pricing-btn mt-35">
+                                    <!-- <div class="pricing-btn mt-35">
                                         <a class="main-btn" href="#">Learn More</a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -146,9 +146,9 @@
                                         <li><i class="fal fa-check"></i> 50 GB cloud storage</li>
                                         <li><i class="fal fa-check"></i> 24/7 Support</li>
                                     </ul>
-                                    <div class="pricing-btn mt-35">
+                                    <!-- <div class="pricing-btn mt-35">
                                         <a class="main-btn" href="#">Learn More</a>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="pricing-rebon">
                                     <span>Most Popular</span>
@@ -169,9 +169,9 @@
                                         <li><i class="fal fa-check"></i> 100 GB cloud storage</li>
                                         <li><i class="fal fa-check"></i> 24/7 Support</li>
                                     </ul>
-                                    <div class="pricing-btn mt-35">
+                                    <!-- <div class="pricing-btn mt-35">
                                         <a class="main-btn" href="#">Learn More</a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>

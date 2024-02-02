@@ -1,6 +1,4 @@
 <template>
-    <!--====== APPIE PROJECT PART START ======-->
-
     <section class="appie-project-area pb-100">
         <div class="container">
             <div class="row">
@@ -11,18 +9,22 @@
                                 <div class="appie-project-content">
                                     <h3 class="title">{{ title }}</h3>
                                     <p>{{ description }}</p>
-                                    <form action="#">
+                                    <form @submit.prevent="sendEmail">
                                         <div class="input-box mt-30">
-                                            <input type="name" placeholder="Name" style="margin: 4px;">
-                                            <input type="email" placeholder="Your email" style="margin: 4px;">
+                                            <input type="text" v-model="name" name="name" placeholder="Name"
+                                                class="form-control m-2">
+                                            <input type="email" v-model="email" name="email" placeholder="Your email"
+                                                class="form-control m-2">
                                         </div>
                                         <div class="input-box mt-0">
-                                            <input type="message" placeholder="Message" style="margin: 4px;">
+                                            <textarea name="message" v-model="message" cols="30" rows="5"
+                                                placeholder="Message" class="form-control m-2"></textarea>
                                         </div>
-                                        <div class="input-box mt-10">
-                                            <button>Send</button>
+                                        <div class="input-box">
+                                            <input type="submit" value="Send" class="main-btn m-2">
                                         </div>
                                     </form>
+                                    <!-- <div v-if="messageSent" class="message-sent">Message sent</div> -->
                                 </div>
                             </div>
                         </div>
@@ -34,12 +36,13 @@
             </div>
         </div>
     </section>
-
-    <!--====== APPIE PROJECT PART ENDS ======-->
 </template>
 
 <script>
+import emailjs from 'emailjs-com';
+
 export default {
+    name: 'ContactUs',
     props: {
         title: {
             type: String,
@@ -47,8 +50,46 @@ export default {
         description: {
             type: String,
         }
+    },
+    data() {
+        return {
+            name: '',
+            email: '',
+            message: '',
+            messageSent: false
+        }
+    },
+    methods: {
+        sendEmail(e) {
+            // Verifica se os campos estão preenchidos
+            if (!this.name || !this.email || !this.message) {
+                window.alert('Please fill in all fields');
+                return;
+            }
+
+            try {  
+                emailjs.sendForm('service_53cnzvq', 'template_du881de', e.target,
+                    'klgf2wlFKiITi1Mhj', {
+                    name: this.name,
+                    email: this.email,
+                    message: this.message
+                }).then(() => {
+                    window.alert('Message sent');
+                    this.messageSent = true;
+                    this.name = '';
+                    this.email = '';
+                    this.message = '';
+                }).catch(error => {
+                    console.log('Error:', error);
+                });
+            } catch (error) {
+                console.log({ error });
+            }
+        },
     }
 }
 </script>
 
-<style></style>
+<style scoped>
+/* Add your custom styles here */
+</style>

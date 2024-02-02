@@ -9,10 +9,7 @@
             <div class="logo">
               <a href="#"><img src="@/assets/images/logo-7.png" alt="" /></a>
             </div>
-            <p>
-              Footer Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris eu purus hendrerit congue
-            </p>
-            <a href="#">Read More <i class="fal fa-arrow-right"></i></a>
+            <!-- <a href="#">Read More <i class="fal fa-arrow-right"></i></a> -->
             <div class="social mt-30">
               <ul>
                 <li>
@@ -31,7 +28,15 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-6">
+        <div class="col-lg-4 col-md-6 mt-35">
+          <h4 class="title">Text</h4>
+
+          <p>
+              Footer Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris eu purus hendrerit congue
+          </p>
+
+        </div>
+        <!-- <div class="col-lg-6 col-md-6">
           <div class="footer-navigation">
             <h4 class="title">Company</h4>
             <ul>
@@ -42,8 +47,8 @@
               <li><router-link to="/contact">Contact</router-link></li>
             </ul>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
+        </div> -->
+        <!-- <div class="col-lg-3 col-md-6">
           <div class="footer-navigation">
             <h4 class="title">Support</h4>
             <ul>
@@ -54,8 +59,8 @@
               <li><a href="#">Careers</a></li>
             </ul>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
+        </div> -->
+        <div class="col-lg-4 col-md-6">
           <div class="footer-widget-info">
             <h4 class="title">Get In Touch</h4>
             <ul>
