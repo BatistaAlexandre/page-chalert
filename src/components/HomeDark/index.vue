@@ -147,6 +147,9 @@ import memberTwo from "@/assets/images/team-2.jpg";
 import memberThree from "@/assets/images/team-3.jpg";
 import memberFour from "@/assets/images/team-4.jpg";
 import testmonialAvater from "@/assets/images/testimonial-user.png";
+import testmonialAvater1 from "@/assets/images/testimonial-user-1.png";
+import testmonialAvater2 from "@/assets/images/testimonial-user-2.png";
+import testmonialAvater3 from "@/assets/images/testimonial-user-3.png";
 import traffic_thumb from "@/assets/images/traffic-thumb.png";
 import icon_one from "@/assets/images/icon/1.png";
 import icon_two from "@/assets/images/icon/2.png";
@@ -288,28 +291,28 @@ export default {
           count: 1,
           icon: icon_one,
           title: "Close protection",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          content: "Personalized security for high-profile individuals",
           customClass: "",
         },
         {
           count: 2,
           icon: icon_two,
-          title: "Security driver ",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          title: "Security driver",
+          content: "Safe transport with trained protection specialists",
           customClass: "item-2",
         },
         {
           count: 3,
           icon: icon_three,
           title: "Event Security",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          content: "Vigilant safeguarding for gatherings and venues",
           customClass: "item-3",
         },
         {
           count: 4,
           icon: icon_four,
           title: "Retail Security",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          content: "Reliable protection for stores and merchandise",
           customClass: "item-4",
         },
       ],
@@ -337,36 +340,36 @@ export default {
       ],
       sliderContents: [
         {
-          title: "Jason Response",
-          date: "April 14, 2022",
+          title: "Benjamin",
+          date: "December 14, 2023",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris eu purus hendrerit congue.",
+            "Chalert has revolutionized how we approach safety in our neighborhood. Their proactive alerts have provided invaluable peace of mind, allowing us to stay informed and prepared. With Chalert, we feel more connected and secure than ever before.",
           ratings: 5,
           avatar: testmonialAvater,
         },
         {
-          title: "Jason Response",
-          date: "April 14, 2022",
+          title: "Lukas",
+          date: "April 4, 2023",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris eu purus hendrerit congue.",
+            "We turned to Excel Security Solutions for our event security needs, and they exceeded our expectations. Their team not only provided a strong presence but also handled every situation with professionalism and expertise. We couldn't have asked for better security partners.",
           ratings: 5,
-          avatar: testmonialAvater,
+          avatar: testmonialAvater1,
         },
         {
-          title: "Jason Response",
-          date: "April 14, 2022",
+          title: "Eva",
+          date: "June 21, 2023",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris eu purus hendrerit congue.",
-          ratings: 2,
-          avatar: testmonialAvater,
+            "Chalert's commitment to community safety is unmatched. Their proactive approach to identifying and addressing potential threats has been invaluable. Thanks to Chalert, my family can rest easier knowing that our neighborhood is actively protected.",
+          ratings: 4,
+          avatar: testmonialAvater2,
         },
         {
-          title: "Jason Response",
-          date: "April 14, 2022",
+          title: "Tobias and Anna",
+          date: "January 6, 2024",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris eu purus hendrerit congue.",
-          ratings: 3,
-          avatar: testmonialAvater,
+            "Excel Security Solutions has been our trusted partner for years, and they consistently deliver exceptional service. Their team's professionalism and attention to detail ensure that our property remains secure at all times. We're grateful for their dedication to keeping us safe.",
+          ratings: 5,
+          avatar: testmonialAvater3,
         },
       ],
       memberOne: memberOne,
