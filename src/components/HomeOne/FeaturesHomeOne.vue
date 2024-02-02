@@ -19,7 +19,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-lg-6">
                                         <div class="appie-features-thumb text-center wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
-                                            <img src="@/assets/images/features-thumb-1.png" alt=""/>
+                                            <img src="@/assets/images/features-thumb-c.png" alt=""/>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
@@ -36,7 +36,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-lg-6">
                                         <div class="appie-features-thumb text-center animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
-                                            <img src="@/assets/images/features-thumb-1.png" alt=""/>
+                                            <img src="@/assets/images/features-thumb-a.png" alt=""/>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
@@ -53,7 +53,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-lg-6">
                                         <div class="appie-features-thumb text-center animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
-                                            <img src="@/assets/images/features-thumb-1.png" alt=""/>
+                                            <img src="@/assets/images/features-thumb-d.png" alt=""/>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
@@ -70,7 +70,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-lg-6">
                                         <div class="appie-features-thumb text-center animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
-                                            <img src="@/assets/images/features-thumb-1.png" alt=""/>
+                                            <img src="@/assets/images/features-thumb-b.png" alt=""/>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
