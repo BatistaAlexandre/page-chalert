@@ -22,7 +22,7 @@
     <hero-home-one
       :class="[dark ? 'appie-hero-area-dark' : '']"
       welcome_message="Welcome To Chalert"
-      slogan="Excel Security Solutions' premier Chalet Security Program."
+      slogan="Excel Security Solutions' premier Chalet Security Program"
       description="We protect what matters most: where security meets peace of mind!
       Launching ProtectMe App: your safety, your power – unleashing security at your fingertips!"
       first_button_content="ProtectMe App is on the horizon, stay tuned"
@@ -378,7 +378,7 @@ export default {
       memberFour: memberFour,
       members: [
         {
-          name: "Alexandre Batista",
+          name: "James",
           position: "CEO-Founder",
           img: memberTwo,
           socials: [
@@ -389,18 +389,18 @@ export default {
             },
             {
               name: "twitter",
-              url: "https://www.twitter.com",
-              icon: "fab fa-twitter", //user font awesome class
+              url: "https://www.instagram.com",
+              icon: "fab fa-instagram", //user font awesome class
             },
             {
               name: "pinterest",
-              url: "https://www.pinterest.com/",
-              icon: "fab fa-pinterest-p", //user font awesome class
+              url: "https://www.linkedin.com/",
+              icon: "fab fa-linkedin", //user font awesome class
             },
           ],
         },
         {
-          name: "Alexandre Batista",
+          name: "Alexandre",
           position: "CEO-Founder",
           img: memberOne,
           socials: [
@@ -411,18 +411,18 @@ export default {
             },
             {
               name: "twitter",
-              url: "https://www.twitter.com",
-              icon: "fab fa-twitter", //user font awesome class
+              url: "https://www.instagram.com",
+              icon: "fab fa-instagram", //user font awesome class
             },
             {
               name: "pinterest",
-              url: "https://www.pinterest.com/",
-              icon: "fab fa-pinterest-p", //user font awesome class
+              url: "https://www.linkedin.com/",
+              icon: "fab fa-linkedin", //user font awesome class
             },
           ],
         },
         {
-          name: "Alexandre Batista",
+          name: "Thomas",
           position: "CEO-Founder",
           img: memberThree,
           socials: [
@@ -433,18 +433,18 @@ export default {
             },
             {
               name: "twitter",
-              url: "https://www.twitter.com",
-              icon: "fab fa-twitter", //user font awesome class
+              url: "https://www.instagram.com",
+              icon: "fab fa-instagram", //user font awesome class
             },
             {
               name: "pinterest",
-              url: "https://www.pinterest.com/",
-              icon: "fab fa-pinterest-p", //user font awesome class
+              url: "https://www.linkedin.com/",
+              icon: "fab fa-linkedin", //user font awesome class
             },
           ],
         },
         {
-          name: "Alexandre Batista",
+          name: "David",
           position: "CEO-Founder",
           img: memberFour,
           socials: [
@@ -455,13 +455,13 @@ export default {
             },
             {
               name: "twitter",
-              url: "https://www.twitter.com",
-              icon: "fab fa-twitter", //user font awesome class
+              url: "https://www.instagram.com",
+              icon: "fab fa-instagram", //user font awesome class
             },
             {
               name: "pinterest",
-              url: "https://www.pinterest.com/",
-              icon: "fab fa-pinterest-p", //user font awesome class
+              url: "https://www.linkedin.com/",
+              icon: "fab fa-linkedin", //user font awesome class
             },
           ],
         },
