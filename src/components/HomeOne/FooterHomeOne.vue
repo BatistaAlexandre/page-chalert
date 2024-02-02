@@ -16,23 +16,23 @@
                   <a href="#"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                </li>
-                <li>
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+               <!--<li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>-->
               </ul>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mt-35">
-          <h4 class="title">Text</h4>
-
+          <h4 class="title">Discover Chalert</h4>
+          </br>
           <p>
-              Footer Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu mauris eu purus hendrerit congue
+              Empowering communities with proactive alerts for swift responses. Join us in fostering a secure environment, together.
           </p>
 
         </div>
@@ -66,15 +66,15 @@
             <ul>
               <li>
                 <a href="#"
-                  ><i class="fal fa-envelope"></i> test@test.com</a
+                  ><i class="fal fa-envelope"></i> office@chalert.com</a
                 >
               </li>
               <li>
-                <a href="#"><i class="fal fa-phone"></i> +(999) 999 999 99</a>
+                <a href="#"><i class="fal fa-phone"></i> +41 76 434 31 13</a>
               </li>
               <li>
                 <a href="#"
-                  ><i class="fal fa-map-marker-alt"></i> Reliquia 48, Casa Verde, 55641140, Brazil</a
+                  ><i class="fal fa-map-marker-alt"></i> Excel Security Solutions AG Rübeldorfstrasse 23 3792 Saanen Switzerland</a
                 >
               </li>
             </ul>
@@ -105,7 +105,7 @@
               </ul>
             </div>
             <div class="copyright-text">
-              <p>Copyright © 2024 CHalert. All rights reserved.</p>
+              <p>Copyright © 2024 Chalert. All rights reserved.</p>
             </div>
           </div>
         </div>

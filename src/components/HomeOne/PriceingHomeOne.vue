@@ -33,7 +33,7 @@
                                 <div class="pricig-body">
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
-                                        <li><i class="fal fa-check"></i>Timely Updates</li>
+                                        <li><i class="fal fa-check"></i>&nbsp;&nbsp;Timely Updates</li>
                                     </ul>
                                     <!-- <div class="pricing-btn mt-35">
                                         <a class="main-btn" href="#">Learn More</a>
@@ -51,9 +51,9 @@
                                 <div class="pricig-body">
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
-                                        <li><i class="fal fa-check"></i> Timely Updates</li>
-                                        <li><i class="fal fa-check"></i> ProtectMe Mobile App</li>
-                                        <!-- <li><i class="fal fa-check"></i> 24/7 Support</li> -->
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Timely Updates</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;ProtectMe Mobile App</li>
+                                        <!-- <li><i class="fal fa-check"></i> &nbsp;&nbsp;24/7 Support</li> -->
                                     </ul>
                                     <!-- <div class="pricing-btn mt-35">
                                         <a class="main-btn" href="#">Learn More</a>
@@ -70,17 +70,17 @@
                             <div class="pricing-one__single">
                                 <div class="pricig-heading">
                                     <h6>Gold</h6>
-                                    <div class="price-range"><sup>CHF</sup> <span>550</span><p>/month</p></div>
+                                    <div class="price-range"><sup>CHF</sup> <span>550</span><p>/year</p></div>
                                     <p>Step up your security game with the Gold Program, offering advanced features for comprehensive chalet protection.</p>
                                 </div>
                                 <div class="pricig-body">
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
-                                        <li><i class="fal fa-check"></i> ProtectMe Mobile App</li>
-                                        <li><i class="fal fa-check"></i> Emergency SOS Button</li>
-                                        <li><i class="fal fa-check"></i> Daily Patrol and Rapid Intervention</li>
-                                        <li><i class="fal fa-check"></i> Contractual Assistance</li>
-                                        <li><i class="fal fa-check"></i> Excel Watch Stickers</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;ProtectMe Mobile App</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Emergency SOS Button</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Daily Patrol and Rapid Intervention</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Contractual Assistance</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Excel Watch Stickers</li>
                                     </ul>
                                     <!-- <div class="pricing-btn mt-35">
                                         <a class="main-btn" href="#">Learn More</a>
@@ -92,18 +92,18 @@
                             <div class="pricing-one__single">
                                 <div class="pricig-heading">
                                     <h6>Platinum</h6>
-                                    <div class="price-range"><sup>CHF</sup> <span>650</span><p>/month</p></div>
+                                    <div class="price-range"><sup>CHF</sup> <span>650</span><p>/year</p></div>
                                     <p>Experience the pinnacle of chalet security with our Platinum Program, offering the highest level of protection.</p>
                                 </div>
                                 <div class="pricig-body">
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
-                                        <li><i class="fal fa-check"></i> ProtectMe Mobile App</li>
-                                        <li><i class="fal fa-check"></i> Emergency SOS Button</li>
-                                        <li><i class="fal fa-check"></i> Daily Patrol and Rapid Intervention</li>
-                                        <li><i class="fal fa-check"></i> Contractual Assistance</li>
-                                        <li><i class="fal fa-check"></i> Excel Watch Stickers</li>
-                                        <li><i class="fal fa-check"></i> Foot Patrol</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;ProtectMe Mobile App</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Emergency SOS Button</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Daily Patrol and Rapid Intervention</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Contractual Assistance</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Excel Watch Stickers</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Foot Patrol</li>
                                     </ul>
                                     <!-- <div class="pricing-btn mt-35">
                                         <a class="main-btn" href="#">Learn More</a>
