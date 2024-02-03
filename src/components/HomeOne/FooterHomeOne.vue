@@ -30,9 +30,8 @@
         </div>
         <div class="col-lg-4 col-md-6 mt-35">
           <h4 class="title">Discover CHalert</h4>
-          </br>
           <p>
-            Empowering communities with proactive alerts for swift responses. <br/> Join us in fostering a secure environment,
+            We empower community collaboration through proactive alerts for swift, collective responses from homeowners, businesses, and regional authorities. <br/> Join us in fostering a secure Saanenland region,
             together.
           </p>
           <p>CHalert is driven by <b>Excel Security Solutions</b></p>
