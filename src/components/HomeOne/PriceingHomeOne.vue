@@ -33,11 +33,12 @@
                                 <div class="pricig-body">
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
-                                        <li><i class="fal fa-check"></i>&nbsp;&nbsp;Timely Updates</li>
+                                        <li><i class="fal fa-check"></i>&nbsp;&nbsp;Free Security Consultation</li>
+                                        <li><i class="fal fa-check"></i>&nbsp;&nbsp;Timely Updates via Email</li>
                                     </ul>
-                                    <!-- <div class="pricing-btn mt-35">
-                                        <a class="main-btn" href="#">Learn More</a>
-                                    </div> -->
+                                    <div class="pricing-btn mt-35">
+                                        <a class="main-btn" href="#">Request Details</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -51,16 +52,14 @@
                                 <div class="pricig-body">
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
+                                        <li><i class="fal fa-check"></i>&nbsp;&nbsp;Free Security Consultation</li>
                                         <li><i class="fal fa-check"></i> &nbsp;&nbsp;Timely Updates</li>
                                         <li><i class="fal fa-check"></i> &nbsp;&nbsp;ProtectMe Mobile App</li>
                                         <!-- <li><i class="fal fa-check"></i> &nbsp;&nbsp;24/7 Support</li> -->
                                     </ul>
-                                    <!-- <div class="pricing-btn mt-35">
-                                        <a class="main-btn" href="#">Learn More</a>
-                                    </div> -->
-                                </div>
-                                <div class="pricing-rebon">
-                                    <span>Most Popular</span>
+                                    <div class="pricing-btn mt-35">
+                                        <a class="main-btn" href="#">Request Details</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -70,21 +69,26 @@
                             <div class="pricing-one__single">
                                 <div class="pricig-heading">
                                     <h6>Gold</h6>
-                                    <div class="price-range"><sup>CHF</sup> <span>550</span><p>/year</p></div>
-                                    <p>Step up your security game with the Gold Program, offering advanced features for comprehensive chalet protection.</p>
+                                    <div class="price-range"><sup>CHF</sup> <span>290</span><p>/month</p></div>
+                                    <p>Elevate your security with the Gold Program, providing advanced features for complete chalet protection.</p>
                                 </div>
                                 <div class="pricig-body">
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
+                                        <li><i class="fal fa-check"></i>&nbsp;&nbsp;Free Security Consultation</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Timely Updates</li>
                                         <li><i class="fal fa-check"></i> &nbsp;&nbsp;ProtectMe Mobile App</li>
                                         <li><i class="fal fa-check"></i> &nbsp;&nbsp;Emergency SOS Button</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Daily Patrol and Rapid Intervention</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Contractual Assistance</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Excel Watch Stickers</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;One Daily Vehicule Patrol</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Rapid Intervention</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;CHalert Watch Stickers</li>
                                     </ul>
-                                    <!-- <div class="pricing-btn mt-35">
-                                        <a class="main-btn" href="#">Learn More</a>
-                                    </div> -->
+                                    <div class="pricing-btn mt-35">
+                                        <a class="main-btn" href="#">Request Details</a>
+                                    </div>
+                                </div>
+                                <div class="pricing-rebon">
+                                    <span>Most Popular</span>
                                 </div>
                             </div>
                         </div>
@@ -92,22 +96,25 @@
                             <div class="pricing-one__single">
                                 <div class="pricig-heading">
                                     <h6>Platinum</h6>
-                                    <div class="price-range"><sup>CHF</sup> <span>650</span><p>/year</p></div>
+                                    <div class="price-range"><sup>CHF</sup> <span>555</span><p>/month</p></div>
                                     <p>Experience the pinnacle of chalet security with our Platinum Program, offering the highest level of protection.</p>
                                 </div>
                                 <div class="pricig-body">
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
+                                        <li><i class="fal fa-check"></i>&nbsp;&nbsp;Free Security Consultation</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Timely Updates</li>
                                         <li><i class="fal fa-check"></i> &nbsp;&nbsp;ProtectMe Mobile App</li>
                                         <li><i class="fal fa-check"></i> &nbsp;&nbsp;Emergency SOS Button</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Daily Patrol and Rapid Intervention</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Contractual Assistance</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Excel Watch Stickers</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Foot Patrol</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Multiple Daily Vehicule Patrol</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Rapid Intervention</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;CHalert Watch Stickers</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;One Daily Foot Patrol</li>
+                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Security Point of Contact</li>
                                     </ul>
-                                    <!-- <div class="pricing-btn mt-35">
-                                        <a class="main-btn" href="#">Learn More</a>
-                                    </div> -->
+                                    <div class="pricing-btn mt-35">
+                                        <a class="main-btn" href="#">Request Details</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
