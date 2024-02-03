@@ -21,10 +21,11 @@
     <!--====== APPIE HERO PART START ======-->
     <hero-home-one
       :class="[dark ? 'appie-hero-area-dark' : '']"
-      welcome_message="Welcome To Chalert"
-      slogan="Excel Security Solutions' premier Chalet Security Program"
-      description="We protect what matters most: where security meets peace of mind!
-      Launching ProtectMe App: your safety, your power – unleashing security at your fingertips!"
+      welcome_message="Welcome To CHalert"
+      slogan="Stay connected, stay safe."
+      description="CHalert is a powerful community-driven initiative aimed at fostering collaboration and safety within Saanenland region.
+      By uniting residents, businesses, and local authorities, CHalert empowers residents to actively contribute to the security of our neighborhoods.
+      Join us in building a safer and stronger community together." 
       first_button_content="ProtectMe App is on the horizon, stay tuned"
     />
     <!-- second_button_content="BT 2Lorem ipsum dolor sit" -->
@@ -45,7 +46,7 @@
     id="Plans"
     :class="[dark ? 'appie-pricing-area-dark' : '']"
     title="Choose your Plan"
-    description="Choose the program that suits your security needs and become part of the Excel Security Solutions family. Elevate your chalet protection and contribute to a safer community today."
+    description="Select the program that aligns with your security requirements and join the CHalert family. Exclusively tailored for residents and chalet owners in Saanenland, CHalert encourages collaborative efforts towards ensuring the safety of our entire region."
     />
     <!--====== APPIE PRICING PART ENDS ======-->
 
@@ -76,8 +77,8 @@
     <team-home-one
     id="Team"
       :class="[dark ? 'appie-team-area-dark' : '']"
-      title="Guardians of Security"
-      description="Unveiling the Faces Behind Chalert's Vigilance"
+      title="CHalert's Team"
+      description="Unveiling the Faces Behind CHalert's Vigilance"
       :members="members"
     />
     <!--====== APPIE TEAM PART ENDS ======-->
@@ -121,7 +122,7 @@
     <project-home-one
     id="Tips" 
       title="Secure your safety"
-      description="Book your visit now and experience our unparalleled protection services firsthand. We will contact you in less than 24 hours."
+      description="Book a visit now and experience our unparalleled protection services firsthand. We will contact you in less than 24 hours."
     />
     <!--====== APPIE PROJECT PART ENDS ======-->
 

@@ -29,12 +29,13 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mt-35">
-          <h4 class="title">Discover Chalert</h4>
+          <h4 class="title">Discover CHalert</h4>
           </br>
           <p>
-            Empowering communities with proactive alerts for swift responses. Join us in fostering a secure environment,
+            Empowering communities with proactive alerts for swift responses. <br/> Join us in fostering a secure environment,
             together.
           </p>
+          <p>CHalert is driven by <b>Excel Security Solutions</b></p>
 
         </div>
         <!-- <div class="col-lg-6 col-md-6">
@@ -79,7 +80,7 @@
               <li>
                 <a href="https://www.google.com/maps/place/Excel+Security+Solutions+AG/@46.4850781,7.2626024,15z/data=!4m6!3m5!1s0x478ef1af1633e61b:0x1c2a56d16165b7b5!8m2!3d46.4850781!4d7.2626024!16s%2Fg%2F11g6qk75pm?entry=ttu"
                   target="_blank">
-                  <i class="fal fa-map-marker-alt"></i> Excel Security Solutions AG Rübeldorfstrasse 23 3792 Saanen
+                  <i class="fal fa-map-marker-alt"></i> Excel Security Solutions AG <br/> Rübeldorfstrasse 23 <br/> 3792 Saanen
                   Switzerland
                 </a>
               </li>
