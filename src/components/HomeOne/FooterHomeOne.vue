@@ -98,14 +98,14 @@
               pt-35
             ">
             <div class="apps-download-btn">
-              <ul>
+              <!-- <ul>
                 <li>
                   <a href="#"><i class="fab fa-apple"></i> Download for iOS</a>
                 </li>
                 <li>
                   <a class="item-2" href="#"><i class="fab fa-google-play"></i> Download for Android</a>
                 </li>
-              </ul>
+              </ul> -->
             </div>
             <div class="copyright-text">
               <p>Copyright © 2024 Chalert. All rights reserved.</p>
