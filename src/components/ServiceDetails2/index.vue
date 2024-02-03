@@ -106,7 +106,7 @@
 
     <!--====== APPIE PROJECT PART START ======-->
 
-    <project-home-one title="Start your project with appie." description="We will email you only about this product." />
+    <project-home-one title="Secure your safety" description="Book your visit now and experience our unparalleled protection services firsthand. We will contact you in less than 24 hours." />
 
     <!--====== APPIE PROJECT PART ENDS ======-->
 
