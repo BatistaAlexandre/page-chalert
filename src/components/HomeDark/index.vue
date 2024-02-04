@@ -35,15 +35,14 @@
     <!--====== APPIE HERO PART ENDS ======-->
 
     <!--====== APPIE TRAFFIC PART ENDS ======-->
-    
+    <div id="Our Values" style="height: 30px; background-color: #fff"></div>
     <features-home-one 
-    id="Our Values"
     :class="[ 'appie-features-area-dark' ]" />
     <!--====== APPIE TEAM PART START ======-->
 
     <!--====== APPIE PRICING PART START ======-->
+    <div id="Plans" style="height: 50px; background-color: #eef1f6"></div>
     <priceing-home-one
-    id="Plans"
     :class="[dark ? 'appie-pricing-area-dark' : '']"
     title="Choose your Plan"
     description="Select the program that aligns with your security requirements and join the CHalert family. Exclusively tailored for residents and chalet owners in Saanenland, CHalert encourages collaborative efforts towards ensuring the safety of our entire region."
@@ -63,8 +62,8 @@
     <!--======  Why choose us  ENDs ======-->
 
     <!--====== APPIE SERVICES PART START ======-->
+    <div id="Services" style="height: 50px; background-color: #eef1f6"></div>
     <services-home-one
-    id="Services"
       :class="[dark ? 'appie-service-area-dark' : '']"
       :grid_items="itemsGrid"
       section_heading="Our Services"
@@ -101,8 +100,8 @@
     <!--====== APPIE TESTIMONIAL PART ENDS ======-->
 
     <!--====== APPIE FAQ PART START ======-->
+    <div id="FAQ" style="height: 100px; background-color: #eef1f6"></div>
     <faq-home-one
-    id="FAQ" 
       :class="[dark ? 'appie-faq-area-dark' : '']"
       title="Frequently Asked Questions (FAQ)" 
       description=""
@@ -120,9 +119,9 @@
     <!--====== APPIE BLOG PART ENDS ======-->
 
     <!--====== APPIE PROJECT PART START ======-->
-
+    <div id="Contact" style="height: 100px; background-color: #fff"></div>
     <project-home-one
-    id="Contact" 
+     
       title="Secure your safety"
       description="Book a visit now and experience our unparalleled protection services firsthand. We will contact you in less than 24 hours."
     />
