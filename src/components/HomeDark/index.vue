@@ -34,21 +34,6 @@
     <!-- second_button_icon="fab fa-google-play" -->
     <!--====== APPIE HERO PART ENDS ======-->
 
-    <!--====== APPIE TRAFFIC PART ENDS ======-->
-    <div id="Our Values" style="height: 30px; background-color: #fff"></div>
-    <features-home-one 
-    :class="[ 'appie-features-area-dark' ]" />
-    <!--====== APPIE TEAM PART START ======-->
-
-    <!--====== APPIE PRICING PART START ======-->
-    <div id="Plans" style="height: 50px; background-color: #eef1f6"></div>
-    <priceing-home-one
-    :class="[dark ? 'appie-pricing-area-dark' : '']"
-    title="Choose your Plan"
-    description="Select the program that aligns with your security requirements and join the CHalert family. Exclusively tailored for residents and chalet owners in Saanenland, CHalert encourages collaborative efforts towards ensuring the safety of our entire region."
-    />
-    <!--====== APPIE PRICING PART ENDS ======-->
-
     <!--======  Why choose us  START ======-->
     <traffic-home-one
     id="How It Works"
@@ -60,6 +45,22 @@
       :features="features"
     />
     <!--======  Why choose us  ENDs ======-->
+
+     <!--====== APPIE PRICING PART START ======-->
+     <div id="Plans" style="height: 50px; background-color: #eef1f6"></div>
+    <priceing-home-one
+    :class="[dark ? 'appie-pricing-area-dark' : '']"
+    title="Choose your Plan"
+    description="Select the program that aligns with your security requirements and join the CHalert family. Exclusively tailored for residents and chalet owners in Saanenland, CHalert encourages collaborative efforts towards ensuring the safety of our entire region."
+    />
+    <!--====== APPIE PRICING PART ENDS ======-->
+
+    <!--====== VALUES PART ENDS ======-->
+    <div id="Our Values" style="height: 30px; background-color: #fff"></div>
+    <features-home-one 
+    :class="[ 'appie-features-area-dark' ]" />
+    <!--====== VALUES PART ENDS ======-->
+
 
     <!--====== APPIE SERVICES PART START ======-->
     <div id="Services" style="height: 50px; background-color: #eef1f6"></div>
@@ -100,7 +101,7 @@
     <!--====== APPIE TESTIMONIAL PART ENDS ======-->
 
     <!--====== APPIE FAQ PART START ======-->
-    <div id="FAQ" style="height: 100px; background-color: #eef1f6"></div>
+    <div id="FAQ" style="height: 50px; background-color: #eef1f6"></div>
     <faq-home-one
       :class="[dark ? 'appie-faq-area-dark' : '']"
       title="Frequently Asked Questions (FAQ)" 
@@ -200,16 +201,16 @@ export default {
           path: "#",
         },
         {
-          name: "Values",
-          path: "#Our Values",
+          name: "How it works",
+          path: "#How It Works",
         },
         {
           name: "Plans",
           path: "#Plans",
         },
         {
-          name: "How it works",
-          path: "#How It Works",
+          name: "Values",
+          path: "#Our Values",
         },
         {
           name: "Services",

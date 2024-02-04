@@ -170,7 +170,7 @@
                 </div>
                 <div class="col-lg-12">
                     <div class="faq-text text-center pt-40">
-                        <p>Can't find an answer? <a href="mailto:demo@gmail.com">Email us</a></p>
+                        <p>Can't find an answer? <a href="5elementszone@gmail.com">Email us</a></p>
                     </div>
                 </div>
             </div>

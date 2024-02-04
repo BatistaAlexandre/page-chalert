@@ -37,13 +37,13 @@
                                         <li><i class="fal fa-check"></i>&nbsp;&nbsp;Timely Updates via Email</li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
-                                        <a class="main-btn" href="#">Request Details</a>
+                                        <a class="main-btn" href="#Contact">Request Details</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 wow animated fadeInUp">
-                            <div class="pricing-one__single center">
+                            <div class="pricing-one__single">
                                 <div class="pricig-heading">
                                     <h6>Silver</h6>
                                     <div class="price-range"><sup>CHF</sup> <span>19</span><p>/month</p></div>
@@ -55,10 +55,9 @@
                                         <li><i class="fal fa-check"></i>&nbsp;&nbsp;Free Security Consultation</li>
                                         <li><i class="fal fa-check"></i> &nbsp;&nbsp;Timely Updates</li>
                                         <li><i class="fal fa-check"></i> &nbsp;&nbsp;ProtectMe Mobile App</li>
-                                        <!-- <li><i class="fal fa-check"></i> &nbsp;&nbsp;24/7 Support</li> -->
                                     </ul>
                                     <div class="pricing-btn mt-35">
-                                        <a class="main-btn" href="#">Request Details</a>
+                                        <a class="main-btn" href="#Contact">Request Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +65,7 @@
                     </div>
                     <div class="row justify-content-center" style="margin-top: 1%;">
                         <div class="col-lg-4 col-md-6 wow animated fadeInRight">
-                            <div class="pricing-one__single">
+                            <div class="pricing-one__single center">
                                 <div class="pricig-heading">
                                     <h6>Gold</h6>
                                     <div class="price-range"><sup>CHF</sup> <span>290</span><p>/month</p></div>
@@ -84,7 +83,7 @@
                                         <li><i class="fal fa-check"></i> &nbsp;&nbsp;CHalert Watch Stickers</li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
-                                        <a class="main-btn" href="#">Request Details</a>
+                                        <a class="main-btn" href="#Contact">Request Details</a>
                                     </div>
                                 </div>
                                 <div class="pricing-rebon">
@@ -113,7 +112,7 @@
                                         <li><i class="fal fa-check"></i> &nbsp;&nbsp;Security Point of Contact</li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
-                                        <a class="main-btn" href="#">Request Details</a>
+                                        <a class="main-btn" href="#Contact">Request Details</a>
                                     </div>
                                 </div>
                             </div>
