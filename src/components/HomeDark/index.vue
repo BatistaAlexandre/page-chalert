@@ -110,7 +110,8 @@
     <!--====== APPIE FAQ PART ENDS ======-->
 
     <!--====== APPIE BLOG PART START ======-->
-    <!-- <blog-home-one
+   <!-- <blog-home-one
+    id="Tips" 
       :class="[dark ? 'appie-blog-area-dark' : '']"
       title="Latest blog posts"
       description="Different layouts and styles for team sections."
@@ -119,8 +120,9 @@
     <!--====== APPIE BLOG PART ENDS ======-->
 
     <!--====== APPIE PROJECT PART START ======-->
+
     <project-home-one
-    id="Tips" 
+    id="Contact" 
       title="Secure your safety"
       description="Book a visit now and experience our unparalleled protection services firsthand. We will contact you in less than 24 hours."
     />
@@ -166,7 +168,7 @@ import TestimonialHomeOne from "../HomeOne/TestimonialHomeOne.vue";
 import TeamHomeOne from "../HomeOne/TeamHomeOne.vue";
 import PriceingHomeOne from "../HomeOne/PriceingHomeOne.vue";
 import FaqHomeOne from "../HomeOne/FaqHomeOne.vue";
-// import BlogHomeOne from "../HomeOne/BlogHomeOne.vue";
+//import BlogHomeOne from "../HomeOne/BlogHomeOne.vue";
 import ProjectHomeOne from "../HomeOne/ProjectHomeOne.vue";
 import FooterHomeOne from "../HomeOne/FooterHomeOne.vue";
 export default {
@@ -182,7 +184,7 @@ export default {
     TeamHomeOne,
     PriceingHomeOne,
     FaqHomeOne,
-    // BlogHomeOne,
+   // BlogHomeOne,
     ProjectHomeOne,
     FooterHomeOne,
   },
@@ -199,7 +201,7 @@ export default {
           path: "#",
         },
         {
-          name: "Our Values",
+          name: "Values",
           path: "#Our Values",
         },
         {
@@ -223,7 +225,7 @@ export default {
           path: "#FAQ",
         },
         {
-          name: "Tips",
+          name: "Crime Prevention",
           path: "#Tips",
         },
         {

@@ -13,13 +13,13 @@
             <div class="social mt-30">
               <ul>
                 <li>
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.facebook.com/excelgst"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="https://www.linkedin.com/company/excel-security-solutions/"><i class="fab fa-linkedin-in"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.instagram.com/excelsecuritysolutions/"><i class="fab fa-instagram"></i></a>
                 </li>
                 <!--<li>
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>

@@ -115,12 +115,12 @@
 
       <project-home-one
         title="Secure your safety"
-        description="Book your visit now and experience our unparalleled protection services firsthand. We will contact you in less than 24 hours."
+        description="Book a visit now and experience our unparalleled protection services firsthand. We will contact you in less than 24 hours."
       />
 
       <show-case-home-three 
       title="Secure your safety"
-        description="Book your visit now and experience our unparalleled protection services firsthand. We will contact you in less than 24 hours."
+        description="Book a visit now and experience our unparalleled protection services firsthand. We will contact you in less than 24 hours."
       />
 
       <!--====== APPIE PROJECT PART ENDS ======-->
@@ -229,7 +229,7 @@ export default {
           path: "#",
         },
         {
-          name: "Tips",
+          name: "Crime Prevention",
           path: "#",
         },
         {

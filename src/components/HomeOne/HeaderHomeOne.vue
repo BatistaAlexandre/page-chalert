@@ -35,7 +35,7 @@
                   RTL
                 </span>
               </template>
-              <template v-if="enableDark">
+              <!--<template v-if="enableDark">
                 <span @click="toggoleMode" v-if="dark" class="dark__btn__sun">
                   <svg
                     fill="none"
@@ -66,12 +66,12 @@
                     ></path>
                   </svg>
                 </span>
-              </template>
+              </template> -->
 
               <!-- <a class="login-btn" href="#"
                 ><i class="fal fa-user"></i> Login</a
               > -->
-              <a class="main-btn ml-0"  href="#">Get Started</a>
+              <a class="main-btn ml-0"  href="#Contact">BOOK VISIT</a>
               <div class="toggle-btn ml-30 canvas_open d-lg-none d-block">
                 <i class="fa fa-bars" @click="showSidebar"></i>
               </div>
