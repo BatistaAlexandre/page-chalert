@@ -13,6 +13,8 @@
                                         <div class="input-box mt-30">
                                             <input type="text" v-model="name" name="name" placeholder="Name"
                                                 class="form-control m-2">
+                                            <input type="text" v-model="phone" name="phone" placeholder="Phone"
+                                                class="form-control m-2">
                                             <input type="email" v-model="email" name="email" placeholder="Your email"
                                                 class="form-control m-2">
                                         </div>
@@ -55,6 +57,7 @@ export default {
         return {
             name: '',
             email: '',
+            phone: '',
             message: '',
             messageSent: false
         }
@@ -62,22 +65,24 @@ export default {
     methods: {
         sendEmail(e) {
             // Verifica se os campos estão preenchidos
-            if (!this.name || !this.email || !this.message) {
+            if (!this.name || !this.email || !this.phone || !this.message) {
                 window.alert('Please fill in all fields');
                 return;
             }
 
-            try {  
+            try {
                 emailjs.sendForm('service_53cnzvq', 'template_du881de', e.target,
                     'klgf2wlFKiITi1Mhj', {
                     name: this.name,
                     email: this.email,
+                    phone: this.phone,
                     message: this.message
                 }).then(() => {
                     window.alert('Message sent');
                     this.messageSent = true;
                     this.name = '';
                     this.email = '';
+                    this.phone = '';
                     this.message = '';
                 }).catch(error => {
                     console.log('Error:', error);
