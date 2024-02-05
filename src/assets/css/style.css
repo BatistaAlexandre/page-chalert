@@ -3854,6 +3854,11 @@ p {
   display: inline-block;
   font-size: 14px;
 }
+.pricing-one__single .pricig-heading .daily p {
+  color: #ed1f27;
+  font-size: 14px;
+  font-weight: 700;
+}
 .pricing-one__single .pricig-heading > p {
   font-size: 14px;
 }
