@@ -77,7 +77,7 @@
     <!--====== APPIE SERVICES PART ENDS ======-->
 
     <!--======  Why TEAM PART  START ======-->
-    <team-home-one
+   <!-- <team-home-one
     id="Team"
     style="padding-top: 110px;"
 
@@ -85,13 +85,13 @@
       title="CHalert's Team"
       description="Unveiling the Faces Behind CHalert's Vigilance"
       :members="members"
-    />
+    />-->
     <!--====== APPIE TEAM PART ENDS ======-->
 
 
 
     <!--====== Show Case START ======-->
-    <show-case-home-three
+   <!-- <show-case-home-three
     id="Team" 
     style="padding-top: 110px;"
     :class="[dark ? 'appie-blog-area-dark' : '']"
@@ -99,7 +99,7 @@
       description="Different layouts and styles for team sections."
       :blogs="blogs"
    
-    />
+    /> -->
     <!--====== Show case ENDS ======-->
 
     <!--====== APPIE TESTIMONIAL PART START ======-->
@@ -152,10 +152,10 @@ import ShowCaseHomeThree from "../HomeOne/ShowCaseHomeThree.vue";
 // import blogOne from "@/assets/images/blog-1.jpg";
 // import blogTwo from "@/assets/images/blog-2.jpg";
 // import blogThree from "@/assets/images/blog-3.jpg";
-import memberOne from "@/assets/images/team-1.jpg";
-import memberTwo from "@/assets/images/team-2.jpg";
-import memberThree from "@/assets/images/team-3.jpg";
-import memberFour from "@/assets/images/team-4.jpg";
+import memberOne from "@/assets/images/team-1.png";
+import memberTwo from "@/assets/images/team-1a.jpg";
+import memberThree from "@/assets/images/team-3.png";
+import memberFour from "@/assets/images/team-4.png";
 import testmonialAvater from "@/assets/images/testimonial-user.png";
 import testmonialAvater1 from "@/assets/images/testimonial-user-1.png";
 import testmonialAvater2 from "@/assets/images/testimonial-user-2.png";
@@ -223,10 +223,10 @@ export default {
           name: "Services",
           path: "#Services",
         },
-        {
-          name: "Team",
-          path: "#Team",
-        },
+       // {
+        //  name: "Team",
+         // path: "#Team",
+        //},
         {
           name: "FAQ",
           path: "#FAQ",

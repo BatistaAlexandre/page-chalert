@@ -71,8 +71,8 @@ export default {
             visible: false,
             index: 0 ,
             images: [
-                require('@/assets/images/hero-mans.png'),
-                 require('@/assets/images/hero-mans.png'),
+                require('@/assets/images/hero-mans-1.png'),
+                 require('@/assets/images/hero-mans-2.png'),
                  require('@/assets/images/hero-mans.png'),
                  require('@/assets/images/hero-mans.png'),
                  require('@/assets/images/hero-mans.png'),
