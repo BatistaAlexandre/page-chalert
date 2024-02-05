@@ -38,7 +38,7 @@
     <traffic-home-one
     id="How It Works"
       :class="[dark ? 'appie-traffic-area-dark' : '']"
-      :traffic_thumbnail="traffic_thumb"
+      style="padding-top: 110px;"
       small_title="How it works"
       big_title="Why choose us"
       description="Join us in fostering community safety through collective action. Here are four compelling reasons to choose Chalert:" 
@@ -47,9 +47,9 @@
     <!--======  Why choose us  ENDs ======-->
 
      <!--====== APPIE PRICING PART START ======-->
-     <div id="Plans" style="height: 50px; background-color: #eef1f600"></div>
-     <!-- <div id="Plans" :class="[dark ? 'appie-pricing-area-dark' : '']" ></div> -->
     <priceing-home-one
+    id="Plans"
+    style="padding-top: 110px;"
     :class="[dark ? 'appie-pricing-area-dark' : '']"
     title="Choose your Plan"
     description="Select the program that aligns with your security requirements and join the CHalert family. Exclusively tailored for residents and chalet owners in Saanenland, CHalert encourages collaborative efforts towards ensuring the safety of our entire region."
@@ -57,15 +57,17 @@
     <!--====== APPIE PRICING PART ENDS ======-->
 
     <!--====== VALUES PART ENDS ======-->
-    <div id="Our Values" style="height: 30px; background-color: #ffffff00"></div>
     <features-home-one 
+    id="Our Values"
+    style="padding-top: 110px;"
     :class="[ 'appie-features-area-dark' ]" />
     <!--====== VALUES PART ENDS ======-->
 
 
     <!--====== APPIE SERVICES PART START ======-->
-    <div id="Services" style="height: 50px; background-color: #eef1f600"></div>
     <services-home-one
+    id="Services"
+    style="padding-top: 110px;"
       :class="[dark ? 'appie-service-area-dark' : '']"
       :grid_items="itemsGrid"
       section_heading="Our Services"
@@ -77,6 +79,8 @@
     <!--======  Why TEAM PART  START ======-->
     <team-home-one
     id="Team"
+    style="padding-top: 110px;"
+
       :class="[dark ? 'appie-team-area-dark' : '']"
       title="CHalert's Team"
       description="Unveiling the Faces Behind CHalert's Vigilance"
@@ -89,6 +93,7 @@
     <!--====== Show Case START ======-->
     <show-case-home-three
     id="Team" 
+    style="padding-top: 110px;"
     :class="[dark ? 'appie-blog-area-dark' : '']"
       title=""
       description="Different layouts and styles for team sections."
@@ -102,8 +107,9 @@
     <!--====== APPIE TESTIMONIAL PART ENDS ======-->
 
     <!--====== APPIE FAQ PART START ======-->
-    <div id="FAQ" style="height: 50px; background-color: #eef1f600"></div>
     <faq-home-one
+    id="FAQ"
+    style="padding-top: 110px;"
       :class="[dark ? 'appie-faq-area-dark' : '']"
       title="Frequently Asked Questions (FAQ)" 
       description=""
@@ -121,9 +127,9 @@
     <!--====== APPIE BLOG PART ENDS ======-->
 
     <!--====== APPIE PROJECT PART START ======-->
-    <div id="Contact" style="height: 100px; background-color: #ffffff00"></div>
     <project-home-one
-     
+    style="padding-top: 110px;"
+    id="Contact"
       title="Secure your safety"
       description="Book a visit now and experience our unparalleled protection services firsthand. We will contact you in less than 24 hours."
     />

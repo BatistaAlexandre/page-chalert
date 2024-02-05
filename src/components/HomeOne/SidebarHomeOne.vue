@@ -71,17 +71,17 @@
               <div class="offcanvas-social">
                 <ul class="text-center">
                   <li>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/excelgst"><i class="fab fa-facebook-f"></i></a>
                   </li>
                   <li>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/excel-security-solutions/"><i class="fab fa-linkedin-in"></i></a>
                   </li>
                   <li>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/excelsecuritysolutions/"><i class="fab fa-instagram"></i></a>
                   </li>
-                  <li>
+                  <!-- <li>
                     <a href="#"><i class="fab fa-dribbble"></i></a>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
               <div class="footer-widget-info">
