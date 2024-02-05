@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="traffic-thumb">
-            <img class="wow animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="200ms" :src="traffic_thumbnail" alt="">
+            <img src="@/assets/images/traffic-thumb.png" alt="" />
         </div>
     </section>
     
