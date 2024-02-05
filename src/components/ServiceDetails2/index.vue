@@ -148,41 +148,41 @@ export default {
       sidebar: false,
       showloading: true,
       navs: [
-        {
+      {
           name: "Home",
           path: "#",
         },
         {
-          name: "Our Values",
-          path: "#",
+          name: "How it works",
+          path: "/#How It Works",
         },
         {
           name: "Plans",
-          path: "#",
+          path: "/#Plans",
         },
         {
-          name: "How it works",
-          path: "#",
+          name: "Values",
+          path: "/#Our Values",
         },
         {
           name: "Services",
-          path: "#",
+          path: "/#Services",
         },
         {
           name: "Team",
-          path: "#",
+          path: "/#Team",
         },
         {
           name: "FAQ",
-          path: "#",
+          path: "/#FAQ",
         },
         {
-          name: "Tips",
-          path: "#",
+          name: "Crime Prevention",
+          path: "/#Tips",
         },
         {
           name: "Contact",
-          path: "#",
+          path: "/#Contact",
         },
       ],
     };

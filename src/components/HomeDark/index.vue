@@ -233,6 +233,14 @@ export default {
           name: "Contact",
           path: "#Contact",
         },
+        // {
+        //   name: "News",
+        //   path: "/news",
+        // },
+        // {
+        //   name: "Single news",
+        //   path: "/single-news",
+        // },
 
 
         // {
