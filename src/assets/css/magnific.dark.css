@@ -70,6 +70,10 @@
 	color: #fff;
 }
 
+.appie-traffic-area.appie-traffic-area-dark{
+	background: #1f2128;
+}
+
 .appie-traffic-area-dark .appie-traffic-title p,
 .appie-traffic-area-dark .appie-traffic-title .title{
 	color: #fff;

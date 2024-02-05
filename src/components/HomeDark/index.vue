@@ -47,7 +47,8 @@
     <!--======  Why choose us  ENDs ======-->
 
      <!--====== APPIE PRICING PART START ======-->
-     <div id="Plans" style="height: 50px; background-color: #eef1f6"></div>
+     <div id="Plans" style="height: 50px; background-color: #eef1f600"></div>
+     <!-- <div id="Plans" :class="[dark ? 'appie-pricing-area-dark' : '']" ></div> -->
     <priceing-home-one
     :class="[dark ? 'appie-pricing-area-dark' : '']"
     title="Choose your Plan"
@@ -56,14 +57,14 @@
     <!--====== APPIE PRICING PART ENDS ======-->
 
     <!--====== VALUES PART ENDS ======-->
-    <div id="Our Values" style="height: 30px; background-color: #fff"></div>
+    <div id="Our Values" style="height: 30px; background-color: #ffffff00"></div>
     <features-home-one 
     :class="[ 'appie-features-area-dark' ]" />
     <!--====== VALUES PART ENDS ======-->
 
 
     <!--====== APPIE SERVICES PART START ======-->
-    <div id="Services" style="height: 50px; background-color: #eef1f6"></div>
+    <div id="Services" style="height: 50px; background-color: #eef1f600"></div>
     <services-home-one
       :class="[dark ? 'appie-service-area-dark' : '']"
       :grid_items="itemsGrid"
@@ -101,7 +102,7 @@
     <!--====== APPIE TESTIMONIAL PART ENDS ======-->
 
     <!--====== APPIE FAQ PART START ======-->
-    <div id="FAQ" style="height: 50px; background-color: #eef1f6"></div>
+    <div id="FAQ" style="height: 50px; background-color: #eef1f600"></div>
     <faq-home-one
       :class="[dark ? 'appie-faq-area-dark' : '']"
       title="Frequently Asked Questions (FAQ)" 
@@ -120,7 +121,7 @@
     <!--====== APPIE BLOG PART ENDS ======-->
 
     <!--====== APPIE PROJECT PART START ======-->
-    <div id="Contact" style="height: 100px; background-color: #fff"></div>
+    <div id="Contact" style="height: 100px; background-color: #ffffff00"></div>
     <project-home-one
      
       title="Secure your safety"
