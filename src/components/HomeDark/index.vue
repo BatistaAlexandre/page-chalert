@@ -233,7 +233,7 @@ export default {
         },
         {
           name: "Crime Prevention",
-          path: "#Tips",
+          path: "/service-details3",
         },
         {
           name: "Contact",
