@@ -47,7 +47,7 @@
                                 <div class="pricig-heading">
                                     <h6>Silver</h6>
                                     <div class="price-range"><sup>CHF</sup> <span>19</span><p>/month</p></div>
-                                    <p>Upgrade to the Silver Program for enhanced chalet security at an affordable price.</p>
+                                    <p>Upgrade to our Silver Program for top-notch chalet security at a budget-friendly rate, ensuring peace of mind for you.</p>
                                 </div>
                                 <div class="pricig-body">
                                     <ul>
@@ -69,6 +69,7 @@
                                 <div class="pricig-heading">
                                     <h6>Gold</h6>
                                     <div class="price-range"><sup>CHF</sup> <span>290</span><p>/month</p></div>
+                                        <div class="daily"><p>only 9.50 CHF/day</p></div>
                                     <p>Elevate your security with the Gold Program, providing advanced features for complete chalet protection.</p>
                                 </div>
                                 <div class="pricig-body">
@@ -96,6 +97,7 @@
                                 <div class="pricig-heading">
                                     <h6>Platinum</h6>
                                     <div class="price-range"><sup>CHF</sup> <span>555</span><p>/month</p></div>
+                                    <div class="daily"><p>only 19.50 CHF/day</p></div>
                                     <p>Experience the pinnacle of chalet security with our Platinum Program, offering the highest level of protection.</p>
                                 </div>
                                 <div class="pricig-body">
