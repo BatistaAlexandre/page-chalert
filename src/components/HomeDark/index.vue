@@ -91,7 +91,7 @@
 
 
     <!--====== Show Case START ======-->
-   <!-- <show-case-home-three
+   <show-case-home-three
     id="Team" 
     style="padding-top: 110px;"
     :class="[dark ? 'appie-blog-area-dark' : '']"
@@ -99,7 +99,7 @@
       description="Different layouts and styles for team sections."
       :blogs="blogs"
    
-    /> -->
+    />
     <!--====== Show case ENDS ======-->
 
     <!--====== APPIE TESTIMONIAL PART START ======-->
@@ -223,10 +223,10 @@ export default {
           name: "Services",
           path: "#Services",
         },
-       // {
-        //  name: "Team",
-         // path: "#Team",
-        //},
+       {
+          name: "Partners",
+          path: "#Team",
+        },
         {
           name: "FAQ",
           path: "#FAQ",
@@ -235,10 +235,10 @@ export default {
           name: "Crime Prevention",
           path: "#Tips",
         },
-        {
-          name: "Contact",
-          path: "#Contact",
-        },
+        //{
+          //name: "Contact",
+          //path: "#Contact",
+        //},
         // {
         //   name: "News",
         //   path: "/news",

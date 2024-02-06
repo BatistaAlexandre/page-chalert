@@ -73,9 +73,9 @@ export default {
             images: [
                 require('@/assets/images/hero-mans-1.png'),
                  require('@/assets/images/hero-mans-2.png'),
-                 require('@/assets/images/hero-mans.png'),
-                 require('@/assets/images/hero-mans.png'),
-                 require('@/assets/images/hero-mans.png'),
+                 require('@/assets/images/hero-mans-3.png'),
+                 require('@/assets/images/hero-mans-4.png'),
+                 require('@/assets/images/hero-mans-5.png'),
             ],
             // showImages:[
             //     require('@/assets/images/showcase-1.png'),
@@ -87,8 +87,8 @@ export default {
             settings: {
                 autoplay: false,
                 arrows:false,
-                dots:true,
-                slidesToShow:4,
+                dots:false,
+                slidesToShow:5,
                 responsive: [
                     {
                         breakpoint: 768,
