@@ -121,7 +121,10 @@
 
     <!--====== APPIE PROJECT PART START ======-->
 
-    <project-home-one title="Secure your safety" description="Book your visit now and experience our unparalleled protection services firsthand. We will contact you in less than 24 hours." />
+    <project-home-one 
+    id="contact"
+    style="padding-top: 110px;"
+    title="Secure your safety" description="Book your visit now and experience our unparalleled protection services firsthand. We will contact you in less than 24 hours." />
 
     <!--====== APPIE PROJECT PART ENDS ======-->
 
@@ -165,7 +168,7 @@ export default {
       navs: [
       {
           name: "Home",
-          path: "#",
+          path: "/#header",
         },
         {
           name: "How it works",
@@ -184,7 +187,7 @@ export default {
           path: "/#Services",
         },
         {
-          name: "Team",
+          name: "Partners",
           path: "/#Team",
         },
         {
@@ -193,12 +196,12 @@ export default {
         },
         {
           name: "Crime Prevention",
-          path: "/#Tips",
+          path: "#",
         },
-        {
-          name: "Contact",
-          path: "/#Contact",
-        },
+        // {
+        //   name: "Contact",
+        //   path: "#contact",
+        // },
       ],
     };
   },

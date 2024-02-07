@@ -9,6 +9,7 @@
 
     <!--====== PART START ======-->
     <header-home-one
+    id="header"
       @toggleSidebar="toggleSidebar"
       :menuItems="navs"
       :class="[dark ? 'appie-header-area-dark' : '']"
