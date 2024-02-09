@@ -22,7 +22,7 @@
                         </div>
                         <div class="col-lg-12">
                             <div class="traffic-btn mt-50">
-                                <router-link class="main-btn" to="/service-details2">Learn More <i class="fal fa-arrow-right"></i></router-link>
+                                <router-link class="main-btn" to="/how-it-works">Learn More <i class="fal fa-arrow-right"></i></router-link>
                             </div>
                         </div>
                     </div>
