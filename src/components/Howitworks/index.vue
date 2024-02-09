@@ -181,7 +181,7 @@ export default {
         },
         {
           name: "Crime Prevention",
-          path: "/service-details3",
+          path: "/crime-prevention",
         },
         // {
         //   name: "Contact",

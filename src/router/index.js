@@ -15,7 +15,7 @@ import SingleNews from '../views/SingleNews.vue'
 import Contact from '../views/Contact.vue'
 import ServiceDetails from '../views/ServiceDetails'
 import Howitworks from '../views/Howitworks'
-import ServiceDetails3 from '../views/ServiceDetails3'
+import CrimePrevention from '../views/CrimePrevention'
 import Error from '../views/Error.vue'
 import AboutUs from '../views/About.vue'
 import AboutTwo from '../views/AboutTwo.vue'
@@ -87,9 +87,9 @@ const routes = [
     component: Howitworks
   },
   {
-    path: '/service-details3',
-    name: 'ServiceDetails3',
-    component: ServiceDetails3
+    path: '/crime-prevention',
+    name: 'CrimePrevention',
+    component: CrimePrevention
   },
   {
     path: '/about-us',
