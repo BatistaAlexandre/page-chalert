@@ -23,7 +23,7 @@
             <div class="tabed-content">
                 <div id="month" :style="[switchPlan?{'display':'block'}:{'display':'none'}]">
                     <div class="row justify-content-center">
-                        <div class="col-lg-4 col-md-6 wow animated fadeInLeft">
+                        <div class="col-lg-3 col-md-6 wow animated fadeInLeft">
                             <div class="pricing-one__single">
                                 <div class="pricig-heading">
                                     <h6>Free Membership</h6>
@@ -42,7 +42,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow animated fadeInUp">
+                        <div class="col-lg-3 col-md-6 wow animated fadeInUp">
                             <div class="pricing-one__single">
                                 <div class="pricig-heading">
                                     <h6>Silver</h6>
@@ -62,9 +62,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row justify-content-center" style="margin-top: 1%;">
-                        <div class="col-lg-4 col-md-6 wow animated fadeInRight">
+                    <!--</div>
+                    <div class="row justify-content-center" style="margin-top: 1%;"> -->
+                        <div class="col-lg-3 col-md-6 wow animated fadeInRight">
                             <div class="pricing-one__single center">
                                 <div class="pricig-heading">
                                     <h6>Gold</h6>
@@ -92,7 +92,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow animated fadeInRight">
+                        <div class="col-lg-3 col-md-6 wow animated fadeInRight">
                             <div class="pricing-one__single">
                                 <div class="pricig-heading">
                                     <h6>Platinum</h6>
