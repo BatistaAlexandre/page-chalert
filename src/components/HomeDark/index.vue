@@ -22,7 +22,7 @@
     <!--====== APPIE HERO PART START ======-->
     <hero-home-one
       :class="[dark ? 'appie-hero-area-dark' : '']"
-      welcome_message="Be a part of the solution"
+      welcome_message="BE A PART OF THE SOLUTION"
       slogan="Stay connected, stay safe."
       description="CHalert is a powerful community-driven initiative aimed at fostering collaboration and safety within Saanenland region.
       By uniting residents, businesses, and local authorities, CHalert empowers residents to actively contribute to the security of our neighborhoods.
@@ -93,6 +93,7 @@
   id="Partners" 
   style="padding-top: 110px;"
   />
+
 
     <!--====== Show Case START ======-->
    <show-case-home-three
@@ -337,7 +338,7 @@ export default {
         {
           count: 4,
           icon: icon_four,
-          title: "Retail Security",
+          title: "Retail Security",
           content: "Reliable protection for stores and merchandise",
           customClass: "item-4",
         },
@@ -426,7 +427,7 @@ export default {
           ],
         },
         {
-          name: "Kevin",
+          name: "Alex",
           position: "Security Agent",
           img: memberTwo,
           socials: [
@@ -448,7 +449,7 @@ export default {
           ],
         },
         {
-          name: "Thomas",
+          name: "Mario",
           position: "Security Agent",
           img: memberThree,
           socials: [
@@ -470,7 +471,7 @@ export default {
           ],
         },
         {
-          name: "David",
+          name: "Gabrielle",
           position: "Security Agent",
           img: memberFour,
           socials: [

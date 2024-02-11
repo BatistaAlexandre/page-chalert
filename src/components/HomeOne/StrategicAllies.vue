@@ -53,13 +53,11 @@ export default {
             visible: false,
             index: 0,
             images: [
-                require('@/assets/images/partner-4.png'),
-                require('@/assets/images/partner-4.png'),
                 require('@/assets/images/allies-1.png'),
                 require('@/assets/images/allies-2.png'),
                 require('@/assets/images/allies-3.png'), 
-                require('@/assets/images/partner-4.png'),
-                require('@/assets/images/partner-4.png'),
+                require('@/assets/images/allies-4.png'),
+                require('@/assets/images/allies-5.png'),
             ],
             settings: {
                 autoplay: false,

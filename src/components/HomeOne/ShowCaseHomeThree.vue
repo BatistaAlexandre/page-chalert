@@ -71,13 +71,8 @@ export default {
             visible: false,
             index: 0 ,
             images: [
-                require('@/assets/images/partner-4.png'),
-                require('@/assets/images/partner-4.png'),
                 require('@/assets/images/partner-1.png'),
-                require('@/assets/images/partner-3.png'),
                 require('@/assets/images/partner-2.png'),
-                require('@/assets/images/partner-4.png'),
-                require('@/assets/images/partner-4.png'),
             ],
             // showImages:[
             //     require('@/assets/images/showcase-1.png'),
