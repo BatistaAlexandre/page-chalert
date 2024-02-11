@@ -46,55 +46,7 @@
               <div class="thumb">
                 <img src="assets/images/service-details-thumb.jpg" alt="" />
               </div>
-              <div class="content">
-  <h3 class="title">Joining the Chalet Security Program</h3>
-  <p>
-    At Excel Security Solutions, we believe in the power of community and collective action to enhance the
-    safety of your chalet. <br>Joining our Neighbourhood Watch program is simple, free, and comes with a
-    myriad of benefits for both your property and the entire community.
-  </p>
-  <span>Step 1: Sign Up for Free</span>
-  <p>
-    If you own a chalet in our region, you're eligible to join the program for free. Signing up is
-    easy—simply visit our website and fill out a straightforward online form. Provide some basic information
-    about your chalet and your contact details, and you're on your way to becoming an integral part of our
-    security network.
-  </p>
-  <span>Step 2: Confirmation Email</span>
-  <p>
-    Once you've submitted your information, you will receive a prompt confirmation email. This email will
-    contain important details and a unique link to access our exclusive platform designed specifically for
-    chalet owners like yourself.
-  </p>
-  <span>Step 3: Explore the Exclusive Platform</span>
-  <p>
-    Access the exclusive platform to discover more about how the program works and the various ways you can
-    actively participate. Inside, you'll find comprehensive information on the program's features, the role
-    Excel Security Solutions plays, and how you can contribute to making our community safer.
-  </p>
-  <span>Benefits of Joining:</span>
-  <p>
-    - Collective Approach:<br>
-    By joining our program, you become a part of a collective effort to make the entire region safer for
-    everyone.<br>
-    <br>
-    - Information Access: <br>
-    Gain access to crucial information, updates, and insights related to the security of your chalet and the
-    community.<br>
-    <br>
-    - Active Involvement:<br>
-    Learn how you can actively contribute to the safety of your neighborhood through simple yet impactful
-    measures.<br>
-    <br>
-    - Community Connection: <br>
-    Connect with fellow chalet owners who share a common goal of creating a secure living environment.<br>
-    Excel Security Solutions is dedicated to fostering a sense of security and community.<br>
-    Join our program
-    today, and together, let's build a safer haven for all chalet owners in the region. Your involvement
-    makes a difference!<br>
-  </p>
-  <br>
-  
+              <div class="content">  
   <h3 class="title">Choosing the Best Home Security System for Your Chalet</h3>
   <p>
     If you're looking for a new home security system or want to switch your current one, these steps can help you find the best. To help you find the best home security system for your chalet, we have prepared this guide that covers the main features and factors that you should consider. We will also walk you through the steps to choose the most suitable system for your needs and preferences.  A home security system is more than just a set of cameras and alarms. It is a comprehensive solution that provides you with peace of mind and confidence. Here are some of the key features and factors that you should look for in a home security system.
