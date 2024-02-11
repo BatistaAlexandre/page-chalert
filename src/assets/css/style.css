@@ -1768,25 +1768,25 @@ p {
 }
 .appie-hero-content > span {
   color: #ed1f27;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 700;
 }
 .appie-hero-content .appie-title {
-  font-size: 60px;
-  line-height: 70px;
+  font-size: 45px;
+  line-height: 55px;
   margin-top: 10px;
   margin-bottom: 22px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .appie-hero-content .appie-title {
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 38px;
+    line-height: 48px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .appie-hero-content .appie-title {
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 38px;
+    line-height: 48px;
   }
 }
 @media (max-width: 767px) {

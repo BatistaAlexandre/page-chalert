@@ -22,7 +22,7 @@
     <!--====== APPIE HERO PART START ======-->
     <hero-home-one
       :class="[dark ? 'appie-hero-area-dark' : '']"
-      welcome_message="Welcome To CHalert"
+      welcome_message="Be a part of the solution"
       slogan="Stay connected, stay safe."
       description="CHalert is a powerful community-driven initiative aimed at fostering collaboration and safety within Saanenland region.
       By uniting residents, businesses, and local authorities, CHalert empowers residents to actively contribute to the security of our neighborhoods.
