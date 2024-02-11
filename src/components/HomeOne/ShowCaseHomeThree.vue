@@ -95,13 +95,13 @@ export default {
                     {
                         breakpoint: 768,
                         settings: {
-                            slidesToShow: 3,
+                            slidesToShow: 5,
                         }
                     },
                     {
                         breakpoint: 480,
                         settings: {
-                            slidesToShow: 1,
+                            slidesToShow: 3,
                         }
                     }
                 ]
