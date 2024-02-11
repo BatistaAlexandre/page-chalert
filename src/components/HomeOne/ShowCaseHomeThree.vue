@@ -23,7 +23,7 @@
                 ></vue-easy-lightbox>
                 <div class="col-lg-12">
                     <div class="appie-section-title text-center">
-                        <h3 class="appie-title">Strategic Allies: Our Business Partners</h3>
+                        <h3 class="appie-title">Our Business Partners</h3>
                         <p>Meet our thriving business partners actively shaping the security landscape in collaboration with the Chalert program.</p>
                     </div>
                 </div>
@@ -71,11 +71,13 @@ export default {
             visible: false,
             index: 0 ,
             images: [
-                require('@/assets/images/hero-mans-1.png'),
-                 require('@/assets/images/hero-mans-2.png'),
-                 require('@/assets/images/hero-mans-3.png'),
-                 require('@/assets/images/hero-mans-4.png'),
-                 require('@/assets/images/hero-mans-5.png'),
+                require('@/assets/images/partner-4.png'),
+                require('@/assets/images/partner-4.png'),
+                require('@/assets/images/partner-1.png'),
+                require('@/assets/images/partner-3.png'),
+                require('@/assets/images/partner-2.png'),
+                require('@/assets/images/partner-4.png'),
+                require('@/assets/images/partner-4.png'),
             ],
             // showImages:[
             //     require('@/assets/images/showcase-1.png'),
@@ -88,7 +90,7 @@ export default {
                 autoplay: false,
                 arrows:false,
                 dots:false,
-                slidesToShow:5,
+                slidesToShow:7,
                 responsive: [
                     {
                         breakpoint: 768,

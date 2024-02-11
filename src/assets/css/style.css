@@ -7199,8 +7199,8 @@ blockquote cite {
 ===========================*/
 .appie-showcase-area {
   /* background: #eef1f6; */
-  padding-top: 90px;
-  padding-bottom: 120px;
+  padding-top: 20px;
+  padding-bottom: 90px;
   position: relative;
   overflow: hidden;
   z-index: 10;
@@ -7283,6 +7283,17 @@ blockquote cite {
 }
 .appie-showcase-slider .slick-dots li.slick-active button {
   background: #ff6b58;
+}
+
+/*===========================
+    15A.APPIE ALLIES css 
+===========================*/
+.allies {
+  padding-top: 90px;
+  padding-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
 }
 
 /*===========================

@@ -89,13 +89,14 @@
     />-->
     <!--====== APPIE TEAM PART ENDS ======-->
 
-
+  <strategic-allies 
+  id="Team" 
+  style="padding-top: 110px;"
+  />
 
     <!--====== Show Case START ======-->
    <show-case-home-three
-    id="Team" 
-    style="padding-top: 110px;"
-    :class="[dark ? 'appie-blog-area-dark' : '']"
+      :class="[dark ? 'appie-blog-area-dark' : '']"
       title=""
       description="Different layouts and styles for team sections."
       :blogs="blogs"
@@ -150,6 +151,7 @@
 
 <script>
 import ShowCaseHomeThree from "../HomeOne/ShowCaseHomeThree.vue";
+import StrategicAllies from "../HomeOne/StrategicAllies.vue";
 // import blogOne from "@/assets/images/blog-1.jpg";
 // import blogTwo from "@/assets/images/blog-2.jpg";
 // import blogThree from "@/assets/images/blog-3.jpg";
@@ -182,6 +184,7 @@ import FooterHomeOne from "../HomeOne/FooterHomeOne.vue";
 export default {
   components: {
     ShowCaseHomeThree,
+    StrategicAllies,
     HeaderHomeOne,
     SidebarHomeOne,
     HeroHomeOne,
