@@ -78,7 +78,7 @@
     <!--====== APPIE SERVICES PART ENDS ======-->
 
     <!--======  Why TEAM PART  START ======-->
-   <!-- <team-home-one
+   <team-home-one
     id="Team"
     style="padding-top: 110px;"
 
@@ -86,11 +86,11 @@
       title="CHalert's Team"
       description="Unveiling the Faces Behind CHalert's Vigilance"
       :members="members"
-    />-->
+    />
     <!--====== APPIE TEAM PART ENDS ======-->
 
   <strategic-allies 
-  id="Team" 
+  id="Partners" 
   style="padding-top: 110px;"
   />
 
@@ -155,10 +155,10 @@ import StrategicAllies from "../HomeOne/StrategicAllies.vue";
 // import blogOne from "@/assets/images/blog-1.jpg";
 // import blogTwo from "@/assets/images/blog-2.jpg";
 // import blogThree from "@/assets/images/blog-3.jpg";
-import memberOne from "@/assets/images/team-1.png";
-import memberTwo from "@/assets/images/team-1a.jpg";
-import memberThree from "@/assets/images/team-3.png";
-import memberFour from "@/assets/images/team-4.png";
+import memberOne from "@/assets/images/team1.png";
+import memberTwo from "@/assets/images/team2.png";
+import memberThree from "@/assets/images/team3.png";
+import memberFour from "@/assets/images/team4.png";
 import testmonialAvater from "@/assets/images/testimonial-user.png";
 import testmonialAvater1 from "@/assets/images/testimonial-user-1.png";
 import testmonialAvater2 from "@/assets/images/testimonial-user-2.png";
@@ -207,10 +207,10 @@ export default {
       sidebar: false,
       showloading: true,
       navs: [
-        {
-          name: "Home",
-          path: "#",
-        },
+        //{
+          //name: "Home",
+          //path: "#",
+        //},
         {
           name: "How it works",
           path: "#How It Works",
@@ -227,9 +227,13 @@ export default {
           name: "Services",
           path: "#Services",
         },
+        {
+          name: "Team",
+          path: "#Team",
+        },
        {
           name: "Partners",
-          path: "#Team",
+          path: "#Partners",
         },
         {
           name: "FAQ",
@@ -400,11 +404,11 @@ export default {
       memberFour: memberFour,
       members: [
         {
-          name: "James",
-          position: "CEO-Founder",
-          img: memberTwo,
+          name: "Cuneyt",
+          position: "Security Agent",
+          img: memberOne,
           socials: [
-            {
+            /*{
               name: "facebok",
               url: "https://www.facebook.com",
               icon: "fab fa-facebook-f", //user font awesome class
@@ -413,7 +417,7 @@ export default {
               name: "twitter",
               url: "https://www.instagram.com",
               icon: "fab fa-instagram", //user font awesome class
-            },
+            },*/
             {
               name: "pinterest",
               url: "https://www.linkedin.com/",
@@ -422,11 +426,11 @@ export default {
           ],
         },
         {
-          name: "Alexandre",
-          position: "CEO-Founder",
-          img: memberOne,
+          name: "Kevin",
+          position: "Security Agent",
+          img: memberTwo,
           socials: [
-            {
+            /*{
               name: "facebok",
               url: "https://www.facebook.com",
               icon: "fab fa-facebook-f", //user font awesome class
@@ -435,7 +439,7 @@ export default {
               name: "twitter",
               url: "https://www.instagram.com",
               icon: "fab fa-instagram", //user font awesome class
-            },
+            },*/
             {
               name: "pinterest",
               url: "https://www.linkedin.com/",
@@ -445,10 +449,10 @@ export default {
         },
         {
           name: "Thomas",
-          position: "CEO-Founder",
+          position: "Security Agent",
           img: memberThree,
           socials: [
-            {
+            /*{
               name: "facebok",
               url: "https://www.facebook.com",
               icon: "fab fa-facebook-f", //user font awesome class
@@ -457,7 +461,7 @@ export default {
               name: "twitter",
               url: "https://www.instagram.com",
               icon: "fab fa-instagram", //user font awesome class
-            },
+            },*/
             {
               name: "pinterest",
               url: "https://www.linkedin.com/",
@@ -467,10 +471,10 @@ export default {
         },
         {
           name: "David",
-          position: "CEO-Founder",
+          position: "Security Agent",
           img: memberFour,
           socials: [
-            {
+            /*{
               name: "facebok",
               url: "https://www.facebook.com",
               icon: "fab fa-facebook-f", //user font awesome class
@@ -479,7 +483,7 @@ export default {
               name: "twitter",
               url: "https://www.instagram.com",
               icon: "fab fa-instagram", //user font awesome class
-            },
+            },*/
             {
               name: "pinterest",
               url: "https://www.linkedin.com/",
