@@ -11,7 +11,7 @@
                         <ul>
                             <li><a href="#"><i :class="first_button_icon"></i>{{first_button_content}}</a></li>
                           
-                            <!-- <li><a class="item-2" href="#"><i :class="second_button_icon"></i> {{second_button_content}}</a></li> -->
+                          <!--  <li><a class="item-2" href="#"><i :class="second_button_icon"></i> {{second_button_content}}</a></li> -->
                         </ul>
                     </div>
                 </div>

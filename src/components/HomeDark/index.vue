@@ -27,7 +27,7 @@
       description="CHalert is a powerful community-driven initiative aimed at fostering collaboration and safety within Saanenland region.
       By uniting residents, businesses, and local authorities, CHalert empowers residents to actively contribute to the security of our neighborhoods.
       Join us in building a safer and stronger community together." 
-      first_button_content="ProtectMe App is on the horizon, stay tuned"
+      first_button_content="The Importance of Security Sign Placement"
     />
     <!-- second_button_content="BT 2Lorem ipsum dolor sit" -->
 
@@ -244,6 +244,8 @@ export default {
           name: "Crime Prevention",
           path: "/crime-prevention",
         },
+
+
         //{
           //name: "Contact",
           //path: "#Contact",

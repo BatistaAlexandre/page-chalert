@@ -21,6 +21,7 @@ import AboutUs from '../views/About.vue'
 import AboutTwo from '../views/AboutTwo.vue'
 import Shops from '../views/Shops.vue'
 import ShopDetails from '../views/ShopDetailsPage.vue'
+import StickerPlacement from '../views/StickerPlacement.vue'
 
 
 Vue.use(VueRouter)
@@ -90,6 +91,11 @@ const routes = [
     path: '/crime-prevention',
     name: 'CrimePrevention',
     component: CrimePrevention
+  },
+  {
+    path: '/sign-placement',
+    name: 'StickerPlacement',
+    component: StickerPlacement
   },
   {
     path: '/about-us',
