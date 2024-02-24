@@ -47,27 +47,26 @@
                 <img src="assets/images/service-details-thumb.jpg" alt="" />
               </div>
               <div class="content">  
-  <h3 class="title">Choosing the Best Home Security System for Your Chalet</h3>
-  <p>
-    If you're looking for a new home security system or want to switch your current one, these steps can help you find the best. To help you find the best home security system for your chalet, we have prepared this guide that covers the main features and factors that you should consider. We will also walk you through the steps to choose the most suitable system for your needs and preferences.  A home security system is more than just a set of cameras and alarms. It is a comprehensive solution that provides you with peace of mind and confidence. Here are some of the key features and factors that you should look for in a home security system.
-  </p>
-  <br>
-  <h4>Seven steps to consider:</h4>
-  <ol>
-    <li>Assess your security needs. Identify the weak points of your home and the types of sensors and detectors you may need to protect them.</li>
-    <li>Consider your budget. Find out how much each system costs upfront and monthly and choose one that fits your budget.</li>
-    <li>Look for additional features. Decide which features are important to you, such as video monitoring, smart home integration, and mobile app control, and look for systems that offer them.</li>
-    <li>Check for compatibility. If you have existing smart home devices, make sure they can work with the security system you choose.</li>
-    <li>Choose a reputable provider. Look for a provider that has a good reputation, a long history, and positive customer feedback.</li>
-    <li>Install and test the system. Follow the installation instructions and test the system to make sure it's functioning properly. Set up notifications and alerts to keep you updated on any security issues.</li>
-    <li>Research available options. Compare different types of home security systems or speak to Excel Security Solutions for a free no obligation consultation.</li>
-  </ol>
+    <h3 class="title">The importance of security sign placement</h3>
+    <p>
+    Security signs are an effective way to enhance your security system. They can alert potential intruders that you are part
+    of the CHalert system, which can deter them from targeting your chalet.
+    You should place <b>security signs around your chalet</b> that maybe easy to access, as these are the most vulnerable points. 
+    You should also <b>use alarm stickers</b> on your windows and doors, as they can warn intruders. 
+    This can scare them away and prevent a break-in.
+    </p>
+    <br>
+    <h4>Please indicate which type and size of signs you require:</h4>
+    <StickerTable/>
+    <h6 style="padding-top: 40px;">Contact us to request security signs for your chalet</h6>
 </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+ 
 
     <!--====== APPIE SERVICE DETAILS PART ENDS ======-->
 
@@ -103,6 +102,7 @@ import SidebarHomeOne from "../HomeOne/SidebarHomeOne.vue";
 import HeaderNews from "../News/HeaderNews.vue";
 import BannerServiceDetails from "./BannerServiceDetails.vue";
 import BodyNavSidebar from "./BodyNavSidebar.vue";
+import StickerTable from "../StickerTable.vue";
 export default {
   components: {
     SidebarHomeOne,
@@ -111,6 +111,7 @@ export default {
     BodyNavSidebar,
     ProjectHomeOne,
     FooterHomeOne,
+    StickerTable
     // FaqService,  
   },
   data() {
