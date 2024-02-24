@@ -9,7 +9,11 @@
                         <h1 class="appie-title">{{slogan}}</h1>
                         <p>{{description}}</p>
                         <ul>
-                            <li><a href="#"><i :class="first_button_icon"></i>{{first_button_content}}</a></li>
+                            <li>
+                                <router-link to="/sign-placement">
+                                    <i :class="first_button_icon"></i>{{first_button_content}}
+                                </router-link>
+                            </li>
                           
                           <!--  <li><a class="item-2" href="#"><i :class="second_button_icon"></i> {{second_button_content}}</a></li> -->
                         </ul>
