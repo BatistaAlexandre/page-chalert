@@ -94,7 +94,7 @@
   style="padding-top: 110px;"
   />
 
-
+   
     <!--====== Show Case START ======-->
    <show-case-home-three
       :class="[dark ? 'appie-blog-area-dark' : '']"
@@ -182,6 +182,7 @@ import FaqHomeOne from "../HomeOne/FaqHomeOne.vue";
 //import BlogHomeOne from "../HomeOne/BlogHomeOne.vue";
 import ProjectHomeOne from "../HomeOne/ProjectHomeOne.vue";
 import FooterHomeOne from "../HomeOne/FooterHomeOne.vue";
+import LogoGallery from "../LogoGallery/LogoGalery.vue"
 export default {
   components: {
     ShowCaseHomeThree,
@@ -199,6 +200,7 @@ export default {
    // BlogHomeOne,
     ProjectHomeOne,
     FooterHomeOne,
+    LogoGallery
   },
   data() {
     return {

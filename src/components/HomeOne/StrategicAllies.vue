@@ -1,4 +1,6 @@
-<template>
+
+
+  <template>
     <!--====== APPIE SHOWCASE PART START ======-->
     
     <section class="allies">
@@ -113,3 +115,4 @@ export default {
     transform: scale(1.1);
 }
 </style>
+

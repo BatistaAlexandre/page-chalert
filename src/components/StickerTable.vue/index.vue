@@ -46,7 +46,7 @@
   }
   
   th, td {
-    border-bottom: 1px solid #ddd;
+    border-bottom: solid 1px #ddd;
     padding: 8px;
     text-align: left;
   }

@@ -208,7 +208,7 @@ export default {
     toggleSidebar() {
       this.sidebar = !this.sidebar;
     },
-  },
+  }
 };
 </script>
 
