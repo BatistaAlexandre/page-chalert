@@ -94,6 +94,9 @@
   style="padding-top: 110px;"
   />
 
+   <!--======== COMMUNITY SOCIAL IMPACT ========-->
+   <community-impact-section/>
+
    
     <!--====== Show Case START ======-->
    <show-case-home-three
@@ -101,6 +104,7 @@
       title=""
       description="Different layouts and styles for team sections."
       :blogs="blogs"
+      style="padding-top: 110px;"
    
     />
     <!--====== Show case ENDS ======-->
@@ -108,6 +112,12 @@
     <!--====== APPIE TESTIMONIAL PART START ======-->
     <testimonial-home-one :sliderContents="sliderContents" />
     <!--====== APPIE TESTIMONIAL PART ENDS ======-->
+
+
+
+   
+
+
 
     <!--====== APPIE FAQ PART START ======-->
     <faq-home-one
@@ -182,7 +192,7 @@ import FaqHomeOne from "../HomeOne/FaqHomeOne.vue";
 //import BlogHomeOne from "../HomeOne/BlogHomeOne.vue";
 import ProjectHomeOne from "../HomeOne/ProjectHomeOne.vue";
 import FooterHomeOne from "../HomeOne/FooterHomeOne.vue";
-import LogoGallery from "../LogoGallery/LogoGalery.vue"
+import CommunityImpactSection from "../CommunityImpact/CommunityImpactSection.vue"
 export default {
   components: {
     ShowCaseHomeThree,
@@ -200,7 +210,7 @@ export default {
    // BlogHomeOne,
     ProjectHomeOne,
     FooterHomeOne,
-    LogoGallery
+    CommunityImpactSection
   },
   data() {
     return {
