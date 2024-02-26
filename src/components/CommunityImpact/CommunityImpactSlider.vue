@@ -2,13 +2,13 @@
   <div class="section">
     <vue-slick-carousel class="photo-slider"  v-bind="settings" ref="carousel">
       <div v-for="(photo, index) in photos" :key="index">
-        <img :src="photo.url" alt="Photo">
+        <img :src="photo.url" alt="Photo" class="slider-image">
       </div>
     </vue-slick-carousel>
     
     <vue-slick-carousel class="description-slider"
         :autoplay="true"
-        :autoplaySpeed="3000"
+        :autoplaySpeed="5000"
         :dots="true"
         :arrows="false"
     >
@@ -36,9 +36,8 @@ export default {
         { url: require('@/assets/images/impact-1.jpg') },
         { url: require('@/assets/images/impact-2.jpg') },
         { url: require('@/assets/images/impact-3.jpg') },
-        { url: require('@/assets/images/impact-1.jpg') },
-        { url: require('@/assets/images/impact-2.jpg') },
-        { url: require('@/assets/images/impact-3.jpg') },
+        { url: require('@/assets/images/impact-4.jpg') },
+        { url: require('@/assets/images/impact-5.jpg') },
         // Add more photos as needed
       ],
       descriptions: [
@@ -97,7 +96,8 @@ export default {
   flex-direction: column;
 }
 
-.photo-slider {
+.photo-slider, 
+.description-slider {
   width: 80%; /* Adjust width as needed */
   padding: 20px 0px;
   margin: 0 auto; /* This will center the images horizontally */
@@ -105,17 +105,21 @@ export default {
 
 .description-slider {
   width: 40%; /* Adjust width as needed */
-  padding: 20px 0px;
-  margin: 0 auto; /* This will center the images horizontally */
 }
 
 .description-content p{
   color: #eef1f6;
 }
 
-
 .photo-slider img {
   display: block;
   margin: 0 auto; /* This will center the images horizontally */
+}
+
+.slider-image {
+  display: block;
+  margin: 0 auto; /* This will center the images horizontally */
+  height: 300px; /* Set a fixed height for the images */
+  width: auto; /* Maintain aspect ratio */
 }
 </style>
