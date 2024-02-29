@@ -41,9 +41,9 @@ export default {
         // Add more photos as needed
       ],
       descriptions: [
-        'Gstaad Kickboxing was founded in the year 2021 by Cüneyt Günes. It is located in Saanen in a Dojo in the Allmistrasse 1. He created this Dojo with all of his heart and put lots of effort in it to create the perfect space to train martial arts.', 
-        'Cüneyt Günes gives private and group classes in boxing, kickboxing, Muay Thai, functional training and fitness boxing.',
-        'There are two different group classes, one for teenagers and adults and one for children between the age of 6 and 13. Cüneyt Günes offers the children kickboxing class for free for all the children from and around Saanen with working parents.',
+        'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', 
+        'Kickboxing provides both group and private lessons. Join to change your life for the better and learn a valuable life skill. ',
+        'Cüneyt is a firm believer in giving back to the community he now calls home. Gstaad Kickboxing provides free kickboxing lessons to children aged 6 yrs. to 13 yrs. from all backgrounds in the community of Saanenland.',
         // Add more descriptions as needed
       ],
 
@@ -60,7 +60,7 @@ export default {
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
         dots: true
@@ -69,8 +69,8 @@ export default {
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         initialSlide: 2
       }
     },
@@ -103,8 +103,9 @@ export default {
   margin: 0 auto; /* This will center the images horizontally */
 }
 
+
 .description-slider {
-  width: 40%; /* Adjust width as needed */
+  width: 50%; /* Adjust width as needed */
 }
 
 .description-content p{
@@ -119,7 +120,7 @@ export default {
 .slider-image {
   display: block;
   margin: 0 auto; /* This will center the images horizontally */
-  height: 300px; /* Set a fixed height for the images */
+  height: 250px; /* Set a fixed height for the images */
   width: auto; /* Maintain aspect ratio */
 }
 </style>
