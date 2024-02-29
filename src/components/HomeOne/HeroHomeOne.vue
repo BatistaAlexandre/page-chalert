@@ -52,6 +52,22 @@ export default {
 // 'second_button_content','second_button_icon'
 </script>
 
-<style>
+<style scoped>
+/* Target the image within the .appie-hero-thumb .thumb class */
+.appie-hero-thumb .thumb img {
+  /* Ensure the image transitions smoothly */
+  transition: transform 0.3s ease-in-out;
+  /* Optional: Set an initial scale to make the zoom effect more noticeable */
+  transform: scale(1);
+}
 
+/* When hovering over the image, scale it up slightly */
+.appie-hero-thumb .thumb:hover img {
+  transform: scale(1.1); /* Adjust the scale value as needed for the desired zoom effect */
+}
+
+/* Ensure the container doesn't grow with the image, which might cause layout shifts */
+.appie-hero-thumb .thumb {
+  overflow: hidden; /* This clips the parts of the image that zoom outside the container's bounds */
+}
 </style>

@@ -38,9 +38,7 @@ export default {
 
 .claim p{
     color: #ed1f27;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 22px;
-    font-style: italic;
+    font-size: 18px;
 }
 
 </style>

@@ -55,7 +55,6 @@ export default {
 
 <style>
 .highlighted { 
-    font-weight: 600;
     font-size: 18px;
 }
 </style>
