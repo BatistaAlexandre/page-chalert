@@ -27,9 +27,15 @@
                     </div>
                 </div>
                 <div class="col-lg-12">
-                    <!-- <div class="team-btn text-center mt-50">
-                        <a class="main-btn" href="#"> View all Members <i class="fal fa-arrow-right"></i></a>
-                    </div> -->
+                    <div class="pt-30 text-center">
+                        <h5 class="pb-10">Our Team at Excel Security Solutions</h5>
+                        <p>We take immense pride in our diverse and professional international team here at Excel Security Solutions. Our team members hail from various corners of the world, including Switzerland, Portugal, Macedonia, Turkey, Mali, Poland, Italy, the United Kingdom, Nigeria/Malta, Thailand, Algeria, and beyond.
+                            Despite our different backgrounds and experiences, we share a common love and appreciation for this beautiful region that we all call home. Our team's expertise allows us to interact seamlessly with guests and workers from various nationalities who also reside in this little speck of the world.
+                            We believe that this rich diversity enhances our ability to provide exceptional security services tailored to the unique needs of our clients</p>
+                    </div>
+                    <div class="team-btn text-center mt-50">
+                        <a class="main-btn" href="#"> VIEW ALL MEMBERS <i class="fal fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -83,7 +83,7 @@
     style="padding-top: 110px;"
 
       :class="[dark ? 'appie-team-area-dark' : '']"
-      title="CHalert's Team"
+      title="Meet Our CHalert Team"
       description="Unveiling the Faces Behind CHalert's Vigilance"
       :members="members"
     />
@@ -419,8 +419,8 @@ export default {
       memberFour: memberFour,
       members: [
         {
-          name: "Cuneyt",
-          position: "Security Agent",
+          name: "James",
+          position: "Director",
           img: memberOne,
           socials: [
             /*{
@@ -441,8 +441,8 @@ export default {
           ],
         },
         {
-          name: "Alex",
-          position: "Security Agent",
+          name: "Kathrin",
+          position: "Director",
           img: memberTwo,
           socials: [
             /*{
@@ -463,7 +463,7 @@ export default {
           ],
         },
         {
-          name: "Mario",
+          name: "Cuneyt",
           position: "Security Agent",
           img: memberThree,
           socials: [
@@ -485,7 +485,7 @@ export default {
           ],
         },
         {
-          name: "Gabrielle",
+          name: "Alex",
           position: "Security Agent",
           img: memberFour,
           socials: [

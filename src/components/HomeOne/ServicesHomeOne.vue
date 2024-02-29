@@ -22,6 +22,9 @@
                         <p>{{item.content}}</p>
                     </div>
                 </div>
+                <div class="row justify-content-center pt-40 highlighted">
+                    Each member of the CHalert program is entitled to a 10% discount on Excel Security Solutions services
+                </div>
             </div>
         </div>
     </section>
@@ -51,5 +54,8 @@ export default {
 </script>
 
 <style>
-
+.highlighted { 
+    font-weight: 600;
+    font-size: 18px;
+}
 </style>
