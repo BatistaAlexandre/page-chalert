@@ -11,11 +11,12 @@
                     </div>
                 </div>
             </div>
-            <div class="row" v-if="members && members.length > 0">
+            <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6" v-for="(member,index) in members" :key="index">
                     <div class="appie-team-item mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
                         <div class="thumb">
                             <img v-if="member.img" :src="member.img" :alt="member.name">
+                            <div class="hover-text">{{ member.text }}</div>
                             <ul>
                                 <li v-for="(social,index) in member.socials" :key="index"><a :href="social.url"><i :class="social.icon"></i></a></li>
                             </ul>
@@ -33,9 +34,11 @@
                             Despite our different backgrounds and experiences, we share a common love and appreciation for this beautiful region that we all call home. Our team's expertise allows us to interact seamlessly with guests and workers from various nationalities who also reside in this little speck of the world.
                             We believe that this rich diversity enhances our ability to provide exceptional security services tailored to the unique needs of our clients</p>
                     </div>
-                    <div class="team-btn text-center mt-50">
-                        <a class="main-btn" href="#"> VIEW ALL MEMBERS <i class="fal fa-arrow-right"></i></a>
+           
+                 <!--   <div class="team-btn text-center mt-50" v-if="visibleCount < members.length" @click="loadMore">
+                        <a class="main-btn"> VIEW ALL MEMBERS <i class="fal fa-arrow-right"></i></a>
                     </div>
+                -->
                 </div>
             </div>
         </div>
@@ -59,11 +62,34 @@ export default {
                 return []
             }
         }
-    }
+    },
+    
 
 }
 </script>
 
-<style>
+<style scoped>
+.thumb {
+    position: relative;
+    overflow: hidden;
+}
 
+.hover-text {
+    position: absolute;
+    bottom: 80px; /* Adjust this value based on your icon's placement */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    color: #fff; /* Choose a text color that stands out */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: add background to enhance readability */
+    padding: 5px 0; /* Optional: add padding */
+}
+
+.thumb:hover .hover-text {
+    visibility: visible;
+    opacity: 1;
+}
 </style>

@@ -170,6 +170,7 @@ import memberOne from "@/assets/images/team1.png";
 import memberTwo from "@/assets/images/team2.png";
 import memberThree from "@/assets/images/team3.png";
 import memberFour from "@/assets/images/team4.png";
+import memberFive from "@/assets/images/team4.png";
 import testmonialAvater from "@/assets/images/testimonial-user.png";
 import testmonialAvater1 from "@/assets/images/testimonial-user-1.png";
 import testmonialAvater2 from "@/assets/images/testimonial-user-2.png";
@@ -192,7 +193,7 @@ import FaqHomeOne from "../HomeOne/FaqHomeOne.vue";
 //import BlogHomeOne from "../HomeOne/BlogHomeOne.vue";
 import ProjectHomeOne from "../HomeOne/ProjectHomeOne.vue";
 import FooterHomeOne from "../HomeOne/FooterHomeOne.vue";
-import CommunityImpactSection from "../CommunityImpact/CommunityImpactSection.vue"
+import CommunityImpactSection from "../CommunityImpact/CommunityImpactSection.vue";
 export default {
   components: {
     ShowCaseHomeThree,
@@ -210,7 +211,7 @@ export default {
    // BlogHomeOne,
     ProjectHomeOne,
     FooterHomeOne,
-    CommunityImpactSection
+    CommunityImpactSection,
   },
   data() {
     return {
@@ -417,11 +418,13 @@ export default {
       memberTwo: memberTwo,
       memberThree: memberThree,
       memberFour: memberFour,
+      memberFive: memberFive,
       members: [
         {
           name: "James",
           position: "Director",
           img: memberOne,
+          text: 'Something very positive about this person',
           socials: [
             /*{
               name: "facebok",
@@ -444,6 +447,7 @@ export default {
           name: "Kathrin",
           position: "Director",
           img: memberTwo,
+          text: 'Something very positive about this person',
           socials: [
             /*{
               name: "facebok",
@@ -466,6 +470,7 @@ export default {
           name: "Cuneyt",
           position: "Security Agent",
           img: memberThree,
+          text: "Dedicated to ensuring a safe environment, our agent excels in risk assessment and conflict resolution, embodying vigilance and reliability.",
           socials: [
             /*{
               name: "facebok",
@@ -488,6 +493,99 @@ export default {
           name: "Alex",
           position: "Security Agent",
           img: memberFour,
+          text: "With expertise in surveillance and emergency protocols, this security professional maintains peace and safety with unwavering dedication.",
+          socials: [
+            /*{
+              name: "facebok",
+              url: "https://www.facebook.com",
+              icon: "fab fa-facebook-f", //user font awesome class
+            },
+            {
+              name: "twitter",
+              url: "https://www.instagram.com",
+              icon: "fab fa-instagram", //user font awesome class
+            },*/
+            {
+              name: "pinterest",
+              url: "https://www.linkedin.com/",
+              icon: "fab fa-linkedin", //user font awesome class
+            },
+          ],
+        },
+        {
+          name: "Victor",
+          position: "Security Agent",
+          img: memberFour,
+          text: "Specializing in crowd control, our agent ensures every event unfolds smoothly, guaranteeing safety with proactive measures and strategic planning.",
+          socials: [
+            /*{
+              name: "facebok",
+              url: "https://www.facebook.com",
+              icon: "fab fa-facebook-f", //user font awesome class
+            },
+            {
+              name: "twitter",
+              url: "https://www.instagram.com",
+              icon: "fab fa-instagram", //user font awesome class
+            },*/
+            {
+              name: "pinterest",
+              url: "https://www.linkedin.com/",
+              icon: "fab fa-linkedin", //user font awesome class
+            },
+          ],
+        },
+        {
+          name: "Victor",
+          position: "Security Agent",
+          img: memberFour,
+          text: 'Something very positive about this person',
+          socials: [
+            /*{
+              name: "facebok",
+              url: "https://www.facebook.com",
+              icon: "fab fa-facebook-f", //user font awesome class
+            },
+            {
+              name: "twitter",
+              url: "https://www.instagram.com",
+              icon: "fab fa-instagram", //user font awesome class
+            },*/
+            {
+              name: "pinterest",
+              url: "https://www.linkedin.com/",
+              icon: "fab fa-linkedin", //user font awesome class
+            },
+          ],
+        },
+        {
+          name: "Victor",
+          position: "Security Agent",
+          img: memberFour,
+          text: 'Something very positive about this person',
+          socials: [
+            /*{
+              name: "facebok",
+              url: "https://www.facebook.com",
+              icon: "fab fa-facebook-f", //user font awesome class
+            },
+            {
+              name: "twitter",
+              url: "https://www.instagram.com",
+              icon: "fab fa-instagram", //user font awesome class
+            },*/
+            {
+              name: "pinterest",
+              url: "https://www.linkedin.com/",
+              icon: "fab fa-linkedin", //user font awesome class
+            },
+          ],
+        },
+        {
+          name: "Victor",
+          position: "Security Agent",
+          img: memberFour,
+          text: 'Something very positive about this person',
           socials: [
             /*{
               name: "facebok",
