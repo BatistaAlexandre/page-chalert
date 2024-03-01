@@ -1,7 +1,7 @@
 <template>
   <!--====== APPIE SERVICES PART START ======-->
     
-    <section class="appie-service-area pt-90 pb-100" id="service">
+    <section class="appie-service-area paralax pt-90 pb-100" id="service">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -53,7 +53,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .highlighted { 
     font-size: 18px;
 }

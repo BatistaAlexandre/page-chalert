@@ -83,9 +83,10 @@ export default {
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s linear;
-    color: #fff; /* Choose a text color that stands out */
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: add background to enhance readability */
+    color: #000; /* Choose a text color that stands out */
+    background-color: rgba(255, 255, 255, 0.9); /* Optional: add background to enhance readability */
     padding: 5px 0; /* Optional: add padding */
+    font-family: "PT Serif", serif;;
 }
 
 .thumb:hover .hover-text {
