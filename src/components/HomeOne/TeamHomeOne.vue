@@ -28,8 +28,8 @@
                     </div>
                 </div>
                 <div class="col-lg-12">
-                    <div class="pt-30 text-center">
-                        <h5 class="pb-10">Our Team at Excel Security Solutions</h5>
+                    <div class="pt-60 text-center">
+                        <h4 class="pb-10">Our Team at Excel Security Solutions</h4>
                         <p>We take immense pride in our diverse and professional international team here at Excel Security Solutions. Our team members hail from various corners of the world, including Switzerland, Portugal, Macedonia, Turkey, Mali, Poland, Italy, the United Kingdom, Nigeria/Malta, Thailand, Algeria, and beyond.
                             Despite our different backgrounds and experiences, we share a common love and appreciation for this beautiful region that we all call home. Our team's expertise allows us to interact seamlessly with guests and workers from various nationalities who also reside in this little speck of the world.
                             We believe that this rich diversity enhances our ability to provide exceptional security services tailored to the unique needs of our clients</p>
@@ -83,10 +83,11 @@ export default {
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s linear;
-    color: #000; /* Choose a text color that stands out */
-    background-color: rgba(255, 255, 255, 0.9); /* Optional: add background to enhance readability */
-    padding: 5px 0; /* Optional: add padding */
-    font-family: "PT Serif", serif;;
+    color: #fff; /* Choose a text color that stands out */
+    background-color: rgba(255, 255, 255, 0); /* Optional: add background to enhance readability */
+    padding: 5px 10px; /* Optional: add padding */
+    font-family: "Merriweather", serif;
+    font-weight: bold;
 }
 
 .thumb:hover .hover-text {

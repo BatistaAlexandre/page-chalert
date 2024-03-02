@@ -88,20 +88,20 @@ export default {
             ],
             settings: {
                 autoplay: false,
-                arrows: false,
+                arrows: true,
                 dots: false,
-                slidesToShow: 7,
+                slidesToShow: 5,
                 responsive: [
                     {
                         breakpoint: 768,
                         settings: {
-                            slidesToShow: 5,
+                            slidesToShow: 3,
                         }
                     },
                     {
                         breakpoint: 480,
                         settings: {
-                            slidesToShow: 3,
+                            slidesToShow: 2,
                         }
                     }
                 ]
@@ -114,9 +114,6 @@ export default {
             this.selectedDescription = this.images[i].description; 
             this.selectedLogoImage = this.images[i].image; // Set the selected logo description
             this.descriptionVisible = true; // Show the description modal
-           // this.imgs = this.images
-           // this.index = i
-           // this.show()
         },
         show() {
             this.visible = true
@@ -144,6 +141,7 @@ export default {
     max-width: 100%;
     height: auto;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .logo-img:hover {
@@ -217,5 +215,14 @@ export default {
     display: block; /* Ensure it's a block element to center */
     margin-left: auto; /* Center the image */
     margin-right: auto;
+}
+
+.modal-backdrop.show {
+    opacity: 0.85 !important; /* Make the body darker when modal is open */
+}
+
+.custom-modal-content, .modal-dialog {
+    border: none !important; /* Remove border from the modal */
+    background-color: transparent !important; /* Ensure no background color is causing a border-like effect */
 }
 </style>
