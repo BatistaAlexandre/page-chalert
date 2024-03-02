@@ -33,8 +33,8 @@
                                 <div class="pricig-body">
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
-                                        <li><i class="fal fa-check"></i>&nbsp;&nbsp;Free Security Consultation</li>
-                                        <li><i class="fal fa-check"></i>&nbsp;&nbsp;Timely Updates via Email</li>
+                                        <li><i class="fal fa-check"></i><span>Free Security Consultation</span></li>
+                                        <li><i class="fal fa-check"></i><span>Timely Updates via Email</span></li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
                                         <a class="main-btn" href="#Contact">Request Details</a>
@@ -52,9 +52,9 @@
                                 <div class="pricig-body">
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
-                                        <li><i class="fal fa-check"></i>&nbsp;&nbsp;Free Security Consultation</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Timely Updates</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;ProtectMe Mobile App</li>
+                                        <li><i class="fal fa-check"></i><span>Free Security Consultation</span></li>
+                                        <li><i class="fal fa-check"></i><span>Timely Updates</span></li>
+                                        <li><i class="fal fa-check"></i><span>ProtectMe Mobile App</span></li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
                                         <a class="main-btn" href="#Contact">Request Details</a>
@@ -75,13 +75,13 @@
                                 <div class="pricig-body">
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
-                                        <li><i class="fal fa-check"></i>&nbsp;&nbsp;Free Security Consultation</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Timely Updates</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;ProtectMe Mobile App</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Emergency SOS Button</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;One Daily Vehicule Patrol</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Rapid Intervention</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;CHalert Watch Stickers</li>
+                                        <li><i class="fal fa-check"></i><span>Free Security Consultation</span></li>
+                                        <li><i class="fal fa-check"></i><span>Timely Updates</span></li>
+                                        <li><i class="fal fa-check"></i><span>ProtectMe Mobile App</span></li>
+                                        <li><i class="fal fa-check"></i><span>Emergency SOS Button</span></li>
+                                        <li><i class="fal fa-check"></i><span>Multiple Daily Vehicule Patrol</span></li>
+                                        <li><i class="fal fa-check"></i><span>Rapid Intervention</span></li>
+                                        <li><i class="fal fa-check"></i><span>CHalert Watch Stickers</span></li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
                                         <a class="main-btn" href="#Contact">Request Details</a>
@@ -103,15 +103,15 @@
                                 <div class="pricig-body">
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
-                                        <li><i class="fal fa-check"></i>&nbsp;&nbsp;Free Security Consultation</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Timely Updates</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;ProtectMe Mobile App</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Emergency SOS Button</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Multiple Daily Vehicule Patrol</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Rapid Intervention</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;CHalert Watch Stickers</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;One Daily Foot Patrol</li>
-                                        <li><i class="fal fa-check"></i> &nbsp;&nbsp;Security Point of Contact</li>
+                                        <li><i class="fal fa-check"></i><span>Free Security Consultation</span></li>
+                                        <li><i class="fal fa-check"></i><span>Timely Updates</span></li>
+                                        <li><i class="fal fa-check"></i><span>ProtectMe Mobile App</span></li>
+                                        <li><i class="fal fa-check"></i><span>Emergency SOS Button</span></li>
+                                        <li><i class="fal fa-check"></i><span>Multiple Daily Vehicule Patrol</span></li>
+                                        <li><i class="fal fa-check"></i><span>Rapid Intervention</span></li>
+                                        <li><i class="fal fa-check"></i><span>CHalert Watch Stickers</span></li>
+                                        <li><i class="fal fa-check"></i><span>One Daily Foot Patrol</span></li>
+                                        <li><i class="fal fa-check"></i><span>Security Point of Contact</span></li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
                                         <a class="main-btn" href="#Contact">Request Details</a>
@@ -216,6 +216,26 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
+.pricig-body ul {
+  padding: 0;
+  list-style: none;
+}
+
+.pricig-body li {
+  display: flex;
+  align-items: center; /* Vertically center the items */
+ /* justify-content: center; /* Horizontally center the items */
+ /* flex-wrap: wrap; /* Allow items to wrap as needed */
+}
+
+.pricig-body li i {
+  margin-right: 10px; /* Add some space between the icon and the text */
+}
+
+.pricig-body li span {
+  max-width: 90%; /* Prevent the text from extending too far */
+}
 
 </style>

@@ -95,12 +95,12 @@ export default {
 }
 
 .card {
-  max-width:500px;
+  max-width:480px;
   background: #fff; /* Card background */
   border-radius: 8px; /* Card corner rounding */
   border:1px solid #ed1f27;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Card shadow */
-  margin:10px;
+  box-shadow: 0 5px 5px 2px rgba(0, 0, 0, 0.1); /* Card shadow */
+  margin:15px;
   padding: 15px; /* Add padding around each card for spacing */
   box-sizing: border-box; /* Include padding in the element's total width and height */
 }
