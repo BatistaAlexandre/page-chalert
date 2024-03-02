@@ -104,7 +104,7 @@
       title=""
       description="Different layouts and styles for team sections."
       :blogs="blogs"
-      style="padding-top: 110px;"
+      style="padding-top: 80px;"
    
     />
     <!--====== Show case ENDS ======-->

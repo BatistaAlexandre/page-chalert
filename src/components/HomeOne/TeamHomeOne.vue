@@ -29,10 +29,13 @@
                 </div>
                 <div class="col-lg-12">
                     <div class="pt-60 text-center">
-                        <h4 class="pb-10">Our Team at Excel Security Solutions</h4>
-                        <p>We take immense pride in our diverse and professional international team here at Excel Security Solutions. Our team members hail from various corners of the world, including Switzerland, Portugal, Macedonia, Turkey, Mali, Poland, Italy, the United Kingdom, Nigeria/Malta, Thailand, Algeria, and beyond.
-                            Despite our different backgrounds and experiences, we share a common love and appreciation for this beautiful region that we all call home. Our team's expertise allows us to interact seamlessly with guests and workers from various nationalities who also reside in this little speck of the world.
-                            We believe that this rich diversity enhances our ability to provide exceptional security services tailored to the unique needs of our clients</p>
+                        <h3 class="pb-10">Our Team at Excel Security Solutions</h3>
+                        <p>We take immense pride in our diverse and professional international team here at <span>Excel Security Solutions</span>.
+                        Our team members hail from various corners of the world, including Switzerland, Portugal, Macedonia, Turkey, Mali, Poland, Italy, the United Kingdom, Nigeria/Malta, Thailand, Algeria, and beyond.
+                            Despite our different backgrounds and experiences, we share a common love and appreciation for this beautiful region that we all call home.</p>
+                        <p>Our team's expertise allows us to interact seamlessly with guests and workers from various nationalities who also reside in this little speck of the world.
+                            We believe that this rich diversity enhances our ability to provide <span>exceptional security services</span> tailored to the unique needs of our clients.</p>
+                            <div class="divider"></div>
                     </div>
            
                  <!--   <div class="team-btn text-center mt-50" v-if="visibleCount < members.length" @click="loadMore">
@@ -93,5 +96,28 @@ export default {
 .thumb:hover .hover-text {
     visibility: visible;
     opacity: 1;
+}
+.text-center {
+    margin: 0 auto;
+
+}
+.text-center p {
+    font-size: 18px;
+    line-height: 1.8;
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.text-center p span {
+    color: #ed1f27;
+    font-weight: 600;
+}
+
+.divider {
+    height: 2px;
+    background-color: #ed1f27; /* Match the highlight color or choose your own */
+    margin: 40px auto; /* Adjust based on layout */
+    width: 40%; /* Start width at 0 to grow from center */
 }
 </style>
