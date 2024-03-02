@@ -1,30 +1,3 @@
-<!--
-<template>
-  <div class="section">
-    <vue-slick-carousel class="photo-slider"  v-bind="settings" ref="carousel">
-      <div v-for="(photo, index) in photos" :key="index">
-        <img :src="photo.url" alt="Photo" class="slider-image">
-      </div>
-    </vue-slick-carousel>
-    
-    <vue-slick-carousel class="description-slider"
-        :autoplay="true"
-        :autoplaySpeed="5000"
-        :dots="true"
-        :arrows="false"
-    >
-      <div  v-for="(description, index) in descriptions" :key="index" class="description">
-        <div  class="description-content">
-          <p>{{ description }}</p>
-        </div>
-      </div>
-    </vue-slick-carousel>
-  </div>
-</template>
--->
-
-<!--???????????????????????????????????????????????????????????????????????-->
-
 
 <template>
   <div class="section">
@@ -34,7 +7,7 @@
           <img :src="item.photo.url" alt="Photo" class="card-image">
         </div>
         <div class="shape">
-          <p class="project">Kick Boxing Academy Gstaad</p>
+          <p class="project">{{item.project}}</p>
         </div>
         <div class="divider"></div>
         <div class="description">
@@ -57,12 +30,12 @@ export default {
   data() {
     return {
       items: [
-        { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships' },
-        { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships' },
-        { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships' },
-        { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships' },
-        { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships' },
-        { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships' },
+        { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
+        { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
+        { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
+        { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
+        { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
+        { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
        
         // Add more items as needed
       ],
@@ -75,15 +48,32 @@ export default {
         slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true
-            }
-          },
+        {
+      breakpoint: 1024, // For tablets and below
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 768, // For smaller tablets and large phones
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 480, // For smaller phones
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false // Consider hiding arrows on very small screens for more space
+      }
+    }
           // Other breakpoints...
         ]
       }
@@ -117,7 +107,7 @@ export default {
 
 .photo {
   position: relative; /* Ensure the photo container can hold the shape */
-  height: 250px; /* Fixed height for the photo */
+  /* height: 250px;  Fixed height for the photo */
   overflow: hidden; /* Ensure the photo is contained within the bounds */
 }
 
@@ -129,6 +119,7 @@ export default {
   width: 60%; /* Width of the shape as a percentage of the card's width */
   background-color: #ed1f27; /* Shape color, adjust as needed */
   border-top-right-radius: 30px; /* Rounded corner on the top right */
+  border-bottom-left-radius: 8px; /* Rounded corner on the top right */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -159,121 +150,42 @@ export default {
   margin: 0 auto; /* Center the line horizontally within the card */
   margin-top: 30px;
 }
-</style>
 
-
-
-
-
-
-
-
-
-<!--???????????????????????????????????????????????????????????????????????-->
-
-<!--
-<script>
-import VueSlickCarousel from 'vue-slick-carousel';
-import 'vue-slick-carousel/dist/vue-slick-carousel.css';
-import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css';
-
-export default {
-  components: {
-    VueSlickCarousel
-  },
-  data() {
-    return {
-      photos: [
-        { url: require('@/assets/images/impact-1.jpg') },
-        { url: require('@/assets/images/impact-2.jpg') },
-        { url: require('@/assets/images/impact-3.jpg') },
-        { url: require('@/assets/images/impact-4.jpg') },
-        { url: require('@/assets/images/impact-5.jpg') },
-        // Add more photos as needed
-      ],
-      descriptions: [
-        'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', 
-        'Kickboxing provides both group and private lessons. Join to change your life for the better and learn a valuable life skill. ',
-        'Cüneyt is a firm believer in giving back to the community he now calls home. Gstaad Kickboxing provides free kickboxing lessons to children aged 6 yrs. to 13 yrs. from all backgrounds in the community of Saanenland.',
-        // Add more descriptions as needed
-      ],
-
-      settings: 
-      {
-  dots: true,
-  infinite: true,
-  autoplay: true,
-  autoplaySpeed: 3000,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  initialSlide: 0,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        initialSlide: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-}
-      
-    };
+@media (max-width: 768px) {
+  .card-slider {
+    width: 100%; /* Use more of the screen width on smaller devices */
   }
+
+  .card {
+    max-width: 100%; /* Allow cards to take full width on smaller screens */
+    margin: 10px 0; /* Adjust margin for vertical spacing on smaller screens */
+  }
+
+  .shape {
+    width: 100%; /* Optionally, make the shape span the full width on smaller screens */
+    border-top-right-radius: 0px; /* Rounded corner on the top right */
+  }
+
+  .divider {
+  margin-top: 20px;
 }
-</script>
-
-<style>
-/* You can style your section here */
-.section {
-  display: flex;
-  flex-direction: column;
-}
-
-.photo-slider, 
-.description-slider {
-  width: 80%; /* Adjust width as needed */
-  padding: 20px 0px;
-  margin: 0 auto; /* This will center the images horizontally */
-}
-
-
-.description-slider {
-  width: 50%; /* Adjust width as needed */
 }
 
-.description-content p{
-  color: #eef1f6;
+@media (max-width: 480px) {
+  .description {
+    padding: 15px; /* Reduce padding on very small screens to save space */
+  }
+
+  .project {
+    font-size: 12px; /* Adjust font size for project text on very small screens */
+  }
+
+  .divider {
+  margin-top: 10px;
 }
 
-.photo-slider img {
-  display: block;
-  margin: 0 auto; /* This will center the images horizontally */
-}
-
-.slider-image {
-  display: block;
-  margin: 0 auto; /* This will center the images horizontally */
-  height: 250px; /* Set a fixed height for the images */
-  width: auto; /* Maintain aspect ratio */
+  /* Add more responsive adjustments as needed */
 }
 </style>
 
--->
+
