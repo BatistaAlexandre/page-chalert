@@ -6,7 +6,7 @@
                 <div class="col-lg-6">
                     <div class="appie-hero-content">
                         <span>{{welcome_message}}</span>
-                        <h1 class="appie-title">{{slogan}}</h1>
+                        <p class="appie-title">{{slogan}}</p>
                         <p>{{description}}</p>
                         <ul>
                             <li>
@@ -69,5 +69,11 @@ export default {
 /* Ensure the container doesn't grow with the image, which might cause layout shifts */
 .appie-hero-thumb .thumb {
   overflow: hidden; /* This clips the parts of the image that zoom outside the container's bounds */
+}
+
+.appie-title {
+    font-size: 70px;
+    font-weight: 700;
+    color: #0e1133;;
 }
 </style>
