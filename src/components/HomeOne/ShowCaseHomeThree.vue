@@ -41,6 +41,14 @@
                     </template>
                 </VueSlickCarousel>
             </div>
+            <div class="container">
+        <b-row class="justify-content-center">
+            <b-col cols="12" class="text-center">
+                <a class="main-btn" href="#Contact">BECOME OUR BUSINESS PARTNER</a>
+                <p>Book a meeting to talk about participation in CHalert Neighborhood Watch Project</p>
+            </b-col>
+        </b-row>
+    </div>
         </div>
 
          <!-- Description Modal -->
@@ -150,7 +158,7 @@ export default {
 /* Add your custom styles for the logo gallery here */
 .appie-showcase-item {
     text-align: center;
-}
+}allies
 
 .logo-img {
     max-width: 100%;
@@ -241,12 +249,13 @@ export default {
     background-color: transparent !important; /* Ensure no background color is causing a border-like effect */
 }
 
+.text-center > p {
+    margin-top: 10px; /* Add top margin of 5px */
+}
 
-
-
-
-.slick-slide{
-    padding:0 16px
+/* Target the <a> element with class "main-btn" to make its text bold */
+.main-btn {
+    font-weight: bold; /* Make text bold */
 }
 
 </style>
