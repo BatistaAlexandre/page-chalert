@@ -71,9 +71,9 @@
               <!-- <a class="login-btn" href="#"
                 ><i class="fal fa-user"></i> Login</a
               > -->
-              <div >
-                <a class="main-btn ml-0"  href="#Contact">BOOK FREE CONSULTATION</a>
-                <p style="font-size: 11px;">Service sponsored by AXA</p>
+              <div class="small">
+                <a class="main-btn ml-0" href="#Contact">BOOK FREE CONSULTATION</a>
+                <p>Service sponsored by AXA</p>
               </div>
               <div class="toggle-btn ml-30 canvas_open d-lg-none d-block">
                 <i class="fa fa-bars" @click="showSidebar"></i>
@@ -137,4 +137,20 @@ export default {
 </script>
 
 <style>
+.small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.small p{
+  font-size: 11px; 
+  margin: 0 auto;
+}
+
+.main-btn {
+  font-weight: bold;
+}
+
 </style>

@@ -88,10 +88,15 @@
       :members="members"
     />
     <!--====== APPIE TEAM PART ENDS ======-->
-
+<div id="Partners" class="stars-container">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+</div>
   <strategic-allies 
-  id="Partners" 
-  style="padding-top: 110px;"
+  
   />
 
    <!--======== COMMUNITY SOCIAL IMPACT ========-->
@@ -678,4 +683,19 @@ export default {
 </script>
 
 <style>
+
+.stars-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0; /* Adjust padding as needed */
+    
+}
+
+/* Style for the star icons */
+.stars-container .fa-star{
+    margin: 0 5px; /* Adjust spacing between stars */
+    color: #ed1f27; /* Optional: change color of stars */
+    font-size: 24px; /* Adjust size of stars */
+}
+
 </style>

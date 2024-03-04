@@ -117,7 +117,8 @@ export default {
 .divider {
     height: 2px;
     background-color: #ed1f27; /* Match the highlight color or choose your own */
-    margin: 40px auto; /* Adjust based on layout */
+    margin: 0 auto; /* Adjust based on layout */
+    margin-top: 20px;
     width: 40%; /* Start width at 0 to grow from center */
 }
 </style>

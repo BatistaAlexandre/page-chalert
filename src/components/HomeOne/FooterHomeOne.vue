@@ -28,13 +28,14 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 mt-35">
-          <h4 class="title">Discover CHalert</h4>
+        <div class="col-lg-4 col-md-6 mt-35 center">
+          <p>CHalert is driven by <span class="highlight">Excel Security Solutions</span></p>
+
           <p>
-            We empower community collaboration through proactive alerts for swift, collective responses from homeowners, businesses, and regional authorities. <br/> Join us in fostering a secure Saanenland region,
+            Join us in fostering a secure Saanenland region,
             together.
           </p>
-          <p>CHalert is driven by <b>Excel Security Solutions</b></p>
+          
 
         </div>
         <!-- <div class="col-lg-6 col-md-6">
@@ -123,4 +124,15 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+.copyright-text {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.highlight {
+  color: #ed1f27;
+  font-weight: 600;
+}
+
+</style>
