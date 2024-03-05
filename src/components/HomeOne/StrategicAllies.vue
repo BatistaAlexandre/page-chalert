@@ -55,8 +55,6 @@
             </div>
             
         </b-modal>
-
-
     </section>
     
     <!--====== APPIE SHOWCASE PART ENDS ======-->

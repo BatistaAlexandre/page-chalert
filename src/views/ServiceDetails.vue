@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import ServiceDetailsCom from "../components//ServiceDetailsCom/index"
+import ServiceDetailsCom from "../components/ServiceDetailsCom/index"
 export default {
     components:{
         ServiceDetailsCom

@@ -22,6 +22,7 @@ import AboutTwo from '../views/AboutTwo.vue'
 import Shops from '../views/Shops.vue'
 import ShopDetails from '../views/ShopDetailsPage.vue'
 import StickerPlacement from '../views/StickerPlacement.vue'
+import ContactForm from '../views/ContactForm.vue'
 
 
 Vue.use(VueRouter)
@@ -136,6 +137,11 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: Contact
+  },
+  {
+    path: '/contact-form',
+    name: 'Contact',
+    component: ContactForm
   },
   {
     path: '/error',

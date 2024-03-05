@@ -44,7 +44,7 @@
             <div class="container">
         <b-row class="justify-content-center">
             <b-col cols="12" class="text-center">
-                <a class="main-btn" href="#Contact">BECOME OUR BUSINESS PARTNER</a>
+                <a class="main-btn" href="#Contact"@click.prevent="openPartnerModal">BECOME OUR BUSINESS PARTNER</a>
                 <p>Book a meeting to talk about participation in CHalert Neighborhood Watch Project</p>
             </b-col>
         </b-row>
@@ -63,15 +63,57 @@
             @hidden="removeBodyClass"
         >
         <div class="modal-body">
-                <div class="logo-container">
-                    <img :src="selectedLogoImage" alt="Logo" class="logo-img-modal">
-                </div>
-                <div class="description-container">
-                    <p>{{ selectedDescription }}</p>
-                </div>
+             <div class="logo-container">
+                <img :src="selectedLogoImage" alt="Logo" class="logo-img-modal">
             </div>
+            <div class="description-container">
+                <p>{{ selectedDescription }}</p>
+            </div>
+         </div>
             
         </b-modal>
+
+
+         <!-- Partner Modal-->
+         <b-modal
+            v-model="partnerModalVisible"
+            id="partner-modal"
+            content-class="custom-modal-content"
+            centered
+            hide-footer
+            hide-header
+            @shown="addBodyClass"
+            @hidden="removeBodyClass"
+        >
+
+
+
+
+    <div class="modal-header">
+        <h4>Become Chalert's Partner</h4>
+        <p>Join Chalert's network: register as a valued Business Partner.</p>
+    </div>
+    <form @submit.prevent="sendEmail">
+        <div class="input-box mt-30">
+            <input type="text" v-model="name" name="name" placeholder="Contact Name" class="form-control mt-2">
+            <input type="text" v-model="phone" name="phone" placeholder="Phone Number" class="form-control mt-2">
+            <input type="email" v-model="email" name="email" placeholder="Company Email" class="form-control mt-2">
+            <input type="company" v-model="company" name="company" placeholder="Company Name" class="form-control mt-2">
+            <input type="adress" v-model="adress" name="address" placeholder="Company Address" class="form-control mt-2"> 
+            <div class="checkbox-group">
+                <input type="checkbox" name="terms" v-model="acceptTerms">
+                <label>I accept terms & conditions</label>
+            </div>
+        </div>
+        <div class="button-container">
+            <a type="submit" class="main-btn">Send</a>
+        </div>
+        
+    </form>
+
+
+        </b-modal>
+
     </section>
     
     <!--====== APPIE SHOWCASE PART ENDS ======-->
@@ -94,17 +136,11 @@ export default {
             descriptionVisible: false, // For description modal
             selectedDescription: '', // Selected logo description
             selectedLogoImage: '',
+            partnerModalVisible: false,//For partner modal
             images: [
                 {image: require('@/assets/images/partner-1.png'), description: "This is a very good company"},
                 {image: require('@/assets/images/partner-2.png'), description: "This is a very good company"},
             ],
-            // showImages:[
-            //     require('@/assets/images/showcase-1.png'),
-            //      require('@/assets/images/showcase-2.png'),
-            //      require('@/assets/images/showcase-3.png'),
-            //      require('@/assets/images/showcase-4.png'),
-            //      require('@/assets/images/showcase-5.png'),
-            // ],
             settings: {
                 autoplay: false,
                 arrows:true,
@@ -147,7 +183,9 @@ export default {
     removeBodyClass() {
         document.body.classList.remove('modal-open-dark');
     },
-
+    openPartnerModal() {
+        this.partnerModalVisible = true; // This will open the modal
+    },
     }
 
 }
@@ -250,12 +288,49 @@ export default {
 }
 
 .text-center > p {
-    margin-top: 10px; /* Add top margin of 5px */
+    margin-top: 10px; 
 }
 
-/* Target the <a> element with class "main-btn" to make its text bold */
+
 .main-btn {
-    font-weight: bold; /* Make text bold */
+    font-weight: bold; 
+    padding: 0px 30px;
 }
+
+.button-container {
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px; 
+}
+
+.checkbox-group {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px;
+}
+
+.checkbox-group label {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal-header p{
+ text-align: center;
+ padding: 10px;
+
+}
+
+.input-box {
+    padding: 10px 30px;
+}
+
 
 </style>
