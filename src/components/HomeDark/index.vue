@@ -175,7 +175,10 @@ import memberOne from "@/assets/images/team1.png";
 import memberTwo from "@/assets/images/team2.png";
 import memberThree from "@/assets/images/team3.png";
 import memberFour from "@/assets/images/team4.png";
-import memberFive from "@/assets/images/team4.png";
+import memberFive from "@/assets/images/team5.png";
+import memberSix from "@/assets/images/team6.png";
+import memberSeven from "@/assets/images/team7.png";
+import memberEight from "@/assets/images/team8.png";
 import testmonialAvater from "@/assets/images/testimonial-user.png";
 import testmonialAvater1 from "@/assets/images/testimonial-user-1.png";
 import testmonialAvater2 from "@/assets/images/testimonial-user-2.png";
@@ -518,9 +521,9 @@ export default {
           ],
         },
         {
-          name: "Victor",
+          name: "Mario",
           position: "Security Agent",
-          img: memberFour,
+          img: memberFive,
           text: "Specializing in crowd control, our agent ensures every event unfolds smoothly, guaranteeing safety with proactive measures and strategic planning.",
           socials: [
             /*{
@@ -541,9 +544,9 @@ export default {
           ],
         },
         {
-          name: "Victor",
+          name: "Miguel",
           position: "Security Agent",
-          img: memberFour,
+          img: memberSix,
           text: 'Something very positive about this person',
           socials: [
             /*{
@@ -564,9 +567,9 @@ export default {
           ],
         },
         {
-          name: "Victor",
+          name: "Moussa",
           position: "Security Agent",
-          img: memberFour,
+          img: memberSeven,
           text: 'Something very positive about this person',
           socials: [
             /*{
@@ -587,9 +590,9 @@ export default {
           ],
         },
         {
-          name: "Victor",
+          name: "Michael",
           position: "Security Agent",
-          img: memberFour,
+          img: memberEight,
           text: 'Something very positive about this person',
           socials: [
             /*{

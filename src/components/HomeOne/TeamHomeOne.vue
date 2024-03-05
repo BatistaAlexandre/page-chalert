@@ -106,7 +106,7 @@ export default {
     line-height: 1.8;
     padding-top: 40px;
     margin: 0 auto;
-    text-align: justify;
+    text-align: center;
 }
 
 .text-center p span {
