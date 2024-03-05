@@ -31,11 +31,11 @@ export default {
     return {
       items: [
         { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
+        { photo: { url: require('@/assets/images/impact-2.jpg') }, description: 'Kickboxing provides both group and private lessons. Join to change your life for the better and learn a valuable life skill', project:'Kick Boxing Academy Gstaad' },
+        { photo: { url: require('@/assets/images/impact-3.jpg') }, description: 'Cüneyt is a firm believer in giving back to the community he now calls home. Gstaad Kickboxing provides free kickboxing lessons to children aged 6 yrs. to 13 yrs. from all backgrounds in the community of Saanenland', project:'Kick Boxing Academy Gstaad' },
         { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
-        { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
-        { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
-        { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
-        { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
+        { photo: { url: require('@/assets/images/impact-2.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
+        { photo: { url: require('@/assets/images/impact-3.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
        
         // Add more items as needed
       ],
@@ -103,6 +103,7 @@ export default {
   margin:15px;
   padding: 15px; /* Add padding around each card for spacing */
   box-sizing: border-box; /* Include padding in the element's total width and height */
+  min-height: 580px;
 }
 
 .photo {
