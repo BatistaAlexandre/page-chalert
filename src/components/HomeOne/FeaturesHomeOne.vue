@@ -25,8 +25,8 @@
                                     <div class="col-lg-6">
                                         <div class="appie-features-content wow animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
                                             <!-- <span>Features Section 2</span> -->
-                                            <h3 class="title">Community-Centric Commitment<br/>   </h3>
-                                            <p>We prioritize the safety and well-being of the entire community, fostering a collective spirit that goes beyond individual interests.</p> 
+                                            <h3 class="title">Community Commitment<br/>   </h3>
+                                            <p>We prioritise the safety and well-being of the entire community in addition to individual properties, fostering a spirit of togetherness and deterring criminal activities.</p> 
                                         </div>
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@
                                         <div class="appie-features-content animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
                                             <!-- <span>Custom Reacyions</span> -->
                                             <h3 class="title">Proactive Crime Prevention</h3>
-                                            <p>We believe in a proactive approach to crime prevention, emphasizing collective action by residents and utilizing innovative strategies to safeguard neighborhoods.</p>
+                                            <p>We practice a proactive approach to crime prevention. Our localised, professional service means swift solutions to any of your security needs.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -58,7 +58,7 @@
                                         <div class="appie-features-content animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
                                             <!-- <span>Custom Reacyions</span> -->
                                             <h3 class="title">Education and Empowerment</h3>
-                                            <p>We empower citizens through education, encouraging them to actively participate in creating safer neighborhoods and enhancing their overall quality of life.</p>
+                                            <p>We empower our clients with education. Our security personnel have unrivalled local and operational knowledge to meet your needs.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -74,7 +74,7 @@
                                         <div class="appie-features-content animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
                                             <!-- <span>Custom Reacyions</span> -->
                                             <h3 class="title">Innovation and Adaptability</h3>
-                                            <p>Excel Security Solutions embraces innovation and adapts to evolving security needs, constantly seeking new ways to enhance the effectiveness of the Chalert Neighbourhood Watch program.</p>
+                                            <p>At CHALERT, we embrace innovation throughout our operations, from using the latest technologies in surveillance, to offering round-the-clock care via the ProtectMe mobile app.</p>
                                         </div>
                                     </div>
                                 </div>

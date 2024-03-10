@@ -8,9 +8,26 @@
                     <div class="appie-section-title text-center">
                         <h3 class="appie-title">{{title}}</h3>
                         <p>{{description}}</p>
+                        <div class="divider"></div>
                     </div>
                 </div>
             </div>
+            <div class="col-lg-12">
+                    <div class="pt-60 text-center pb-60">
+                        <h3 class="pb-10">Our Team at Excel Security Solutions</h3>
+                        <p>We take immense pride in our diverse and professional international team here at <span>Excel Security Solutions</span>.
+                        Our team members hail from various corners of the world, including Switzerland, Portugal, Macedonia, Turkey, Mali, Poland, Italy, the United Kingdom, Nigeria/Malta, Thailand, Algeria, and beyond.
+                            Despite our different backgrounds and experiences, we share a common love and appreciation for this beautiful region that we all call home.</p>
+                        <p>Our team's expertise allows us to interact seamlessly with guests and workers from various nationalities who also reside in this little speck of the world.
+                            We believe that this rich diversity enhances our ability to provide <span>exceptional security services</span> tailored to the unique needs of our clients.</p>
+                            
+                    </div>
+           
+                 <!--   <div class="team-btn text-center mt-50" v-if="visibleCount < members.length" @click="loadMore">
+                        <a class="main-btn"> VIEW ALL MEMBERS <i class="fal fa-arrow-right"></i></a>
+                    </div>
+                -->
+                </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6" v-for="(member,index) in members" :key="index">
                     <div class="appie-team-item mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
@@ -27,22 +44,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12">
-                    <div class="pt-60 text-center">
-                        <h3 class="pb-10">Our Team at Excel Security Solutions</h3>
-                        <p>We take immense pride in our diverse and professional international team here at <span>Excel Security Solutions</span>.
-                        Our team members hail from various corners of the world, including Switzerland, Portugal, Macedonia, Turkey, Mali, Poland, Italy, the United Kingdom, Nigeria/Malta, Thailand, Algeria, and beyond.
-                            Despite our different backgrounds and experiences, we share a common love and appreciation for this beautiful region that we all call home.</p>
-                        <p>Our team's expertise allows us to interact seamlessly with guests and workers from various nationalities who also reside in this little speck of the world.
-                            We believe that this rich diversity enhances our ability to provide <span>exceptional security services</span> tailored to the unique needs of our clients.</p>
-                            <div class="divider"></div>
-                    </div>
            
-                 <!--   <div class="team-btn text-center mt-50" v-if="visibleCount < members.length" @click="loadMore">
-                        <a class="main-btn"> VIEW ALL MEMBERS <i class="fal fa-arrow-right"></i></a>
-                    </div>
-                -->
-                </div>
             </div>
         </div>
     </section>

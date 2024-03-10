@@ -24,9 +24,15 @@
       :class="[dark ? 'appie-hero-area-dark' : '']"
       welcome_message="BE PART OF THE SOLUTION"
       slogan="Stay connected, stay safe."
-      description="CHalert is a powerful community-driven initiative aimed at fostering collaboration and safety within Saanenland region.
-      By uniting residents, businesses, and local authorities, CHalert empowers residents to actively contribute to the security of our neighborhoods.
-      Join us in building a safer and stronger community together." 
+      description="We are a pioneering security service at the heart of the Saanenland region, placing clients and their community at the heart of everything we do. 
+
+We work in collaboration with local businesses, police and security networks to ensure that neighbourhoods are safe and residents are empowered with peace of mind.
+
+Join us in creating a safer, stronger community together.We are a pioneering security service at the heart of the Saanenland region, placing clients and their community at the heart of everything we do. 
+
+We work in collaboration with local businesses, police and security networks to ensure that neighbourhoods are safe and residents are empowered with peace of mind.
+
+Join us in creating a safer, stronger community together." 
       first_button_content="The Importance of Security Sign Placement"
     />
     <!-- second_button_content="BT 2Lorem ipsum dolor sit" -->
@@ -53,7 +59,7 @@
     style="padding-top: 110px;"
     :class="[dark ? 'appie-pricing-area-dark' : '']"
     title="Choose your Plan"
-    description="Select the program that aligns with your security requirements and join the CHalert family. Exclusively tailored for residents and chalet owners in Saanenland, CHalert encourages collaborative efforts towards ensuring the safety of our entire region."
+    description="By joining the CHALERT family, you can receive a tailed security program that meets your individual needs. We have a range of memberships available. Explore your options below."
     />
     <!--====== APPIE PRICING PART ENDS ======-->
 
@@ -84,7 +90,7 @@
 
       :class="[dark ? 'appie-team-area-dark' : '']"
       title="Meet Our CHalert Team"
-      description="Unveiling the Faces Behind CHalert's Vigilance"
+      description="Meet the local security professionals passionate about your protection."
       :members="members"
     />
     <!--====== APPIE TEAM PART ENDS ======-->
@@ -149,7 +155,9 @@
     style="padding-top: 110px;"
     id="Contact"
       title="Secure your safety"
-      description="Book a visit now and experience our unparalleled protection services firsthand. We will contact you in less than 24 hours."
+      description="Book a consultation with us today and experience peace of mind with our professional protection services every day after.
+
+We aim to respond to you in less than 24 hours."
     />
     <!--====== APPIE PROJECT PART ENDS ======-->
 
@@ -368,9 +376,9 @@ export default {
       ],
       features: [
         {
-          title: "Unified Safety Effort:",
+          title: "Global Experience",
           bg: "", // create class for style
-          description: "Strengthen community safety by joining forces with fellow chalet owners.",
+          description: "Our security agents have extensive experience in delivering security servicesacross the globe.",
         },
         {
           title: "Exclusive Information Access:",
@@ -378,14 +386,14 @@ export default {
           description: "Gain timely updates and valuable insights for informed decision-making.",
         },
         {
-          title: "Proactive Involvement:",
+          title: "Local Expertise",
           bg: "item-3", // create class for style
-          description: "Actively contribute to neighborhood safety with impactful measures.",
+          description: "All of our security personnel are Saanenland natives: their understanding of the area ensures your safety. ",
         },
         {
           title: "Community Connection:",
           bg: "item-4", // create class for style
-          description: "Connect with like-minded chalet owners for a secure living environment.",
+          description: "Connect with like-minded chalet owners for a strengthened community and secure living environment.",
         },
       ],
       sliderContents: [

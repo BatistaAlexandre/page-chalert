@@ -24,7 +24,7 @@
                 <div class="col-lg-12">
                     <div class="appie-section-title text-center">
                         <h3 class="appie-title">Our Business Partners</h3>
-                        <p>Meet our thriving business partners actively shaping the security landscape in collaboration with the Chalert program.</p>
+                        <p>We are proud to collaborate with like-minded organisations that share our vision for safer, stronger communities. <br/>Together, we can shape a better security landscape for the Saanenland region. </p>
                     </div>
                 </div>
             </div>

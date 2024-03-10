@@ -15,7 +15,7 @@
                 ></vue-easy-lightbox>
                 <div class="col-lg-12">
                     <div class="appie-section-title text-center">
-                        <h3 class="appie-title">Strategic Allies</h3>
+                        <h3 class="appie-title">Our Strategic Allies</h3>
                         <p>Strengthening community safety through collaborative partnerships.</p>
                     </div>
                 </div>

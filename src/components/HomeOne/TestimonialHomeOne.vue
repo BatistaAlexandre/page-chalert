@@ -70,6 +70,7 @@ export default {
         autoplay: true,
         arrows: false,
         dots: true,
+        autoplaySpeed: 10000,
       },
     };
   },

@@ -29,12 +29,9 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mt-35 center">
-          <p>CHalert is driven by <span class="highlight">Excel Security Solutions</span></p>
+          <p>We are a community-focused security initiative offering bespoke security solutions to residents in the Saanenland region.</p>
+          <p>Our services are delivered in collaboration with <span class="highlight">Excel Security Solutions</span>, a recognised leader in private and corporate security.</p>
 
-          <p>
-            Join us in fostering a secure Saanenland region,
-            together.
-          </p>
           
 
         </div>
