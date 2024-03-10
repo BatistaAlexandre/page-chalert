@@ -378,10 +378,10 @@ export default {
         {
           title: "Global Experience",
           bg: "", // create class for style
-          description: "Our security agents have extensive experience in delivering security servicesacross the globe.",
+          description: "Our security agents have extensive experience in delivering security services across the globe.",
         },
         {
-          title: "Exclusive Information Access:",
+          title: "Exclusive Information Access",
           bg: "item-2", // create class for style
           description: "Gain timely updates and valuable insights for informed decision-making.",
         },
@@ -391,7 +391,7 @@ export default {
           description: "All of our security personnel are Saanenland natives: their understanding of the area ensures your safety. ",
         },
         {
-          title: "Community Connection:",
+          title: "Community Connection",
           bg: "item-4", // create class for style
           description: "Connect with like-minded chalet owners for a strengthened community and secure living environment.",
         },
