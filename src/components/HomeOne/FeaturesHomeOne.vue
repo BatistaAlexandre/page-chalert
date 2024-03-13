@@ -5,13 +5,13 @@
             <div class="row align-items-center">
                 <div class="col-lg-3">
                     <div class="appie-features-tabs-btn">
-                        <div class="nav flex-column nav-pills"  role="tablist" aria-orientation="vertical">
-                            <a @click.prevent="selectFeature('setting')" class="nav-link" :class="[selectedTab==='setting'?'active':'']" data-toggle="pill"  role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fas fa-users"></i> Community Commitment</a>
-                            <a @click.prevent="selectFeature('report')" class="nav-link" :class="[selectedTab==='report'?'active':'']"  data-toggle="pill" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fas fa-shield-alt"></i> Proactive Crime Prevention</a>
-                            <a @click.prevent="selectFeature('notice')" class="nav-link" :class="[selectedTab==='notice'?'active':'']"  data-toggle="pill"  role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fas fa-book"></i>Education & Empowerment</a>
-                            <a @click.prevent="selectFeature('lock')" class="nav-link" :class="[selectedTab==='lock'?'active':'']" data-toggle="pill"  role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fas fa-cogs"></i>Innovation & Adaptability</a>
+                        <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+                            <a @click.prevent="selectFeature('setting')" class="nav-link" :class="[selectedTab==='setting'?'active':'']" data-toggle="pill" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fas fa-users"></i> <span class="nav-link-text">Community Commitment</span></a>
+                            <a @click.prevent="selectFeature('report')" class="nav-link" :class="[selectedTab==='report'?'active':'']" data-toggle="pill" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fas fa-shield-alt"></i> <span class="nav-link-text">Proactive Crime Prevention</span></a>
+                            <a @click.prevent="selectFeature('notice')" class="nav-link" :class="[selectedTab==='notice'?'active':'']" data-toggle="pill" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fas fa-book"></i> <span class="nav-link-text">Education & Empowerment</span></a>
+                            <a @click.prevent="selectFeature('lock')" class="nav-link" :class="[selectedTab==='lock'?'active':'']" data-toggle="pill" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fas fa-cogs"></i> <span class="nav-link-text">Innovation & Adaptability</span></a>
                         </div>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-9">
                     <div class="tab-content" >
@@ -122,5 +122,18 @@ export default {
 
 <style>
 
+    .nav-link {
+        display: flex; /* Make the link use flexbox layout */
+        align-items: center; /* Align items vertically in the center */
+    }
+
+    .nav-link i {
+        margin-right: 8px; /* Add some space between the icon and the text */
+    }
+
+    .nav-link-text {
+        flex: 1; /* Allow the text to take up the remaining space */
+        text-align: left; /* Align the text to the left */
+    }
 
 </style>

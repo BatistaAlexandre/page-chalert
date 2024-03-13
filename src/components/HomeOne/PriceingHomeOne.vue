@@ -68,7 +68,7 @@
                             <div class="pricing-one__single center">
                                 <div class="pricig-heading">
                                     <h6>Gold</h6>
-                                    <div class="price-range"><sup>CHF</sup> <span>9.50</span><p>/day</p></div>
+                                    <div class="price-range"><sup>CHF</sup> <span>9.5</span><p>/day</p></div>
                                        <!--<div class="daily"><p>290 CHF/month</p></div>--> 
                                     <p>Join our Gold program to receive advanced services designed for holstic chalet protection.</p>
                                 </div>
@@ -96,7 +96,7 @@
                             <div class="pricing-one__single">
                                 <div class="pricig-heading">
                                     <h6>Platinum</h6>
-                                    <div class="price-range"><sup>CHF</sup><span>19.50</span><p>/day</p></div>
+                                    <div class="price-range"><sup>CHF</sup><span>19.5</span><p>/day</p></div>
                                     <!--<div class="daily"><p>555 CHF/month</p></div>-->
                                     <p>Join our Platinum program and receive a comprehensive security package offering the highest level of protection for you and your loved ones.</p>
                                 </div>

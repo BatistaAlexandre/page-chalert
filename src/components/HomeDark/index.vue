@@ -105,8 +105,7 @@ Join us in creating a safer, stronger community together."
   
   />
 
-   <!--======== COMMUNITY SOCIAL IMPACT ========-->
-   <community-impact-section/>
+
 
    
     <!--====== Show Case START ======-->
@@ -119,6 +118,9 @@ Join us in creating a safer, stronger community together."
    
     />
     <!--====== Show case ENDS ======-->
+
+       <!--======== COMMUNITY SOCIAL IMPACT ========-->
+   <community-impact-section/>
 
     <!--====== APPIE TESTIMONIAL PART START ======-->
     <testimonial-home-one :sliderContents="sliderContents" />
