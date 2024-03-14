@@ -1,13 +1,13 @@
 <template>
-    <contact-form/>
+   <form-axa/>
 </template>
 
 
 <script>
-import ContactForm from '../components/ContactForm/Form.vue'
+import FormAxa from '../components/ContactForm/FormAxa.vue'
 export default {
     components:{
-        ContactForm
+        FormAxa
     }
 }
 

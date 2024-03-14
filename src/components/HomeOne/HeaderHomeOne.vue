@@ -35,49 +35,62 @@
                   RTL
                 </span>
               </template>
-              <!--<template v-if="enableDark">
-                <span @click="toggoleMode" v-if="dark" class="dark__btn__sun">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
-                    ></path>
-                  </svg>
-                </span>
-                <span @click="toggoleMode" v-else class="dark__btn__mon">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-                    ></path>
-                  </svg>
-                </span>
-              </template> -->
-
-              <!-- <a class="login-btn" href="#"
-                ><i class="fal fa-user"></i> Login</a
-              > -->
               <div class="small">
-                <a class="main-btn ml-0" href="#Contact">BOOK FREE CONSULTATION</a>
-                <p>Service sponsored by AXA</p>
-              </div>
-              <div class="toggle-btn ml-30 canvas_open d-lg-none d-block">
-                <i class="fa fa-bars" @click="showSidebar"></i>
-              </div>
+  <a class="main-btn ml-0" @click.prevent="toggleModal" href="#">BOOK FREE CONSULTATION</a>
+  <p>Service sponsored by AXA </p><p>and Excel Security Solutions</p>
+</div>
+<div class="toggle-btn ml-30 canvas_open d-lg-none d-block">
+  <i class="fa fa-bars" @click="showSidebar"></i>
+</div>
+
+
+ <!-- Visit Modal-->
+ <b-modal
+            v-model="visitModalVisible"
+            id="partner-modal"
+            content-class="custom-modal-content"
+            centered
+            hide-footer
+            hide-header
+            @shown="addBodyClass"
+            @hidden="removeBodyClass"
+        >
+
+        <div class="modal-header">
+          <h4>BOOK FREE CONSULTATION</h4>
+          <p>I would like to take advantage of the free non obligation offer for a security consultant to visit my chalet/apartment.</p>
+          <span>Service sponsored by AXA and Excel Security Solutions</span>
+          <span>We will contact you within 24 hours</span>
+        </div>
+    <form @submit.prevent="submitForm">
+        <div class="checkbox-group">
+          <p>I am interested in: </p>
+          <label v-for="(option, index) in options" :key="index">
+            <input type="checkbox" v-model="form.services" :value="option" class="checkbox-box"/>
+            {{ option }}
+          </label>
+        </div>
+  
+        <div class="input-box">
+          <input type="text" v-model="form.title" placeholder="Title" class="form-control mt-2"/>
+          <input type="text" v-model="form.name" placeholder="Name" class="form-control mt-2"/>
+          <input type="text" v-model="form.surname" placeholder="Surname" class="form-control mt-2"/>
+          <input type="tel" v-model="form.phone" placeholder="Phone" class="form-control mt-2"/>
+          <input type="email" v-model="form.email" placeholder="Email" class="form-control mt-2"/>
+          <input type="text" v-model="form.address" placeholder="Chalet Address" class="form-control mt-2"/>
+          <textarea v-model="form.message" placeholder="Message" class="form-control mt-2"></textarea>
+        </div>
+
+        <div class="checkbox-terms">
+          <input type="checkbox" name="terms" v-model="acceptTerms">
+          <label>I read and accept <a href="">terms & conditions</a></label>
+        </div>
+        <div class="button-container">
+          <a type="submit" class="main-btn">BOOK NOW</a>
+        </div>
+          </form>
+        </b-modal>
+
             </div>
           </div>
         </div>
@@ -90,7 +103,35 @@
 
 <script>
 import NavItems from "../NavItems.vue";
+import { BModal } from 'bootstrap-vue';
 export default {
+  data() {
+    return {
+      isModalVisible: false,
+      visitModalVisible: false,//For partner modal
+      form: {
+          services: [],
+          title: '',
+          name: '',
+          surname: '',
+          phone: '',
+          email: '',
+          address: '',
+          message: ''
+        },
+        options: [
+          "Advice how to make myself, my family & my chalet safer",
+          "Security alarm system",
+          "Fire prevention alarm system",
+          "Access control",
+          "Panic Alarm",
+          "Fire extinguishers",
+          "Security lightening",
+          "Safe or vault for my Chalet",
+          "Other service"
+        ]
+    };
+  },
   props: {
     menuItems: {
       type: Array,
@@ -107,7 +148,7 @@ export default {
       type: Boolean,
     },
   },
-  components: { NavItems },
+  components: { NavItems, BModal },
   mounted() {
     document.addEventListener("scroll", this.stickMenu);
   },
@@ -132,6 +173,9 @@ export default {
         result.classList.remove("sticky");
       }
     },
+    toggleModal() {
+      this.visitModalVisible = !this.visitModalVisible;
+    },
   },
 };
 </script>
@@ -151,6 +195,70 @@ export default {
 
 .main-btn {
   font-weight: bold;
+  padding: 20px 0;
 }
 
+.checkbox-group {
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.checkbox-group label {
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.checkbox-group p {
+  margin-bottom: 15px;
+}
+
+.checkbox-box {
+  margin-right: 10px;
+}
+
+.checkbox-terms {
+  display: flex; /* Enables flexbox layout */
+  align-items: center; /* Vertically centers the checkbox and label */
+  margin-bottom: 15px;
+}
+
+.checkbox-terms input[type="checkbox"] {
+  margin-right: 15px; /* Adds 15px margin to the right of the checkbox */
+}
+
+.checkbox-terms a {
+ color: #ed1f27;
+ font-weight: bold;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal-header p{
+ text-align: center;
+ padding: 10px;
+ font-size: 14px;
+}
+
+.modal-header span {
+  font-size: 12px;
+  color: #ed1f27;
+  font-weight: 800;
+}
+
+.input-box {
+    padding: 10px 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
 </style>
