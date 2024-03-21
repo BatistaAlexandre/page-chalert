@@ -62,11 +62,12 @@
           <span>Service sponsored by AXA and Excel Security Solutions</span>
           <span>We will contact you within 24 hours</span>
         </div>
-    <form @submit.prevent="submitForm">
+    <form ref="form" @submit.prevent="submitForm">
         <div class="checkbox-group">
+          <span v-if="submissionMessage" class="submission-message">{{ submissionMessage }}</span>
           <p>I am interested in: </p>
           <label v-for="(option, index) in options" :key="index">
-            <input type="checkbox" v-model="form.services" :value="option" class="checkbox-box"/>
+            <input type="checkbox" v-model="form.services" :name="`service_${index}`" :value="option" class="checkbox-box"/>
             {{ option }}
           </label>
         </div>
@@ -86,7 +87,7 @@
           <label>I read and accept <a href="">terms & conditions</a></label>
         </div>
         <div class="button-container">
-          <a type="submit" class="main-btn">BOOK NOW</a>
+          <button type="submit" class="main-btn"> {{ isSubmitting ? 'Sending...' : 'BOOK NOW' }}</button>
         </div>
           </form>
         </b-modal>
@@ -104,11 +105,14 @@
 <script>
 import NavItems from "../NavItems.vue";
 import { BModal } from 'bootstrap-vue';
+import emailjs from 'emailjs-com'
 export default {
   data() {
     return {
       isModalVisible: false,
-      visitModalVisible: false,//For partner modal
+      visitModalVisible: false,
+      isSubmitting: false,
+      submissionMessage: '',
       form: {
           services: [],
           title: '',
@@ -119,6 +123,7 @@ export default {
           address: '',
           message: ''
         },
+        acceptTerms: false,
         options: [
           "Advice how to make myself, my family & my chalet safer",
           "Security alarm system",
@@ -176,7 +181,72 @@ export default {
     toggleModal() {
       this.visitModalVisible = !this.visitModalVisible;
     },
+
+    resetForm() {
+        this.form = {
+          services: [],
+          title: '',
+          name: '',
+          surname: '',
+          phone: '',
+          email: '',
+          address: '',
+          message: ''
+        };
+        this.acceptTerms = false; // Reset acceptTerms
+        setTimeout(() => {
+         this.submissionMessage = ''; // Clear submission message
+         }, 3000); // Adjust the delay as needed
+    },
+
+
+
+
+    submitForm() {
+      
+      const SERVICE_ID = 'service_zg2bepp';
+      const TEMPLATE_ID = 'template_g2a1yaq';
+      const PUBLIC_KEY = 'MVekMSZT8jTmKVA4n';
+      const emailParams = {
+        from_name: `${this.form.name} ${this.form.surname}`,
+        from_email: this.form.email,
+        message: this.form.message,
+        title: this.form.title,
+        phone: this.form.phone,
+        address: this.form.address,
+        services: this.form.services.join(', '),
+      };
+
+
+      if (!this.acceptTerms) {
+        alert("Please accept the terms and conditions.");
+        return;
+      }
+
+      // Initialize EmailJS with your user ID (this step can be done in your main app file if preferred)
+     emailjs.init(PUBLIC_KEY);
+
+     this.isSubmitting = true
+
+   
+
+      // Send the email using EmailJS
+      emailjs
+      .send(SERVICE_ID, TEMPLATE_ID, emailParams, PUBLIC_KEY)
+        .then((response) => {
+          console.log('SUCCESS!', response.status, response.text, 'Form Data:', emailParams);
+          this.submissionMessage = "Form submitted successfully.";
+          this.isSubmitting = false; 
+          this.resetForm();
+        }, (err) => {
+          console.error('FAILED...', err);
+          this.submissionMessage = "Failed to submit the form. Please try again.";
+          this.isSubmitting = false;
+        });
+    }
   },
+
+  
 };
 </script>
 
@@ -215,18 +285,24 @@ export default {
   margin-bottom: 15px;
 }
 
+.checkbox-group span {
+  text-align: center;
+  color: #ed1f27;
+  font-size: 14px;
+}
+
 .checkbox-box {
   margin-right: 10px;
 }
 
 .checkbox-terms {
-  display: flex; /* Enables flexbox layout */
-  align-items: center; /* Vertically centers the checkbox and label */
+  display: flex; 
+  align-items: center;
   margin-bottom: 15px;
 }
 
 .checkbox-terms input[type="checkbox"] {
-  margin-right: 15px; /* Adds 15px margin to the right of the checkbox */
+  margin-right: 15px; 
 }
 
 .checkbox-terms a {
@@ -259,6 +335,33 @@ export default {
 
 .button-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
+
+.submission-message {
+  margin-top: 15px;
+  text-align: center;
+  color: #ed1f27;
+  font-size: 15px;
+  font-weight: bold;
+  margin:0 auto;
+  padding: 20px 40px;
+  border: 1px solid #ed1f27;
+  border-radius: 10px;
+  animation: slideInFromTop 0.5s ease-out forwards;
+}
+
+@keyframes slideInFromTop {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 </style>
