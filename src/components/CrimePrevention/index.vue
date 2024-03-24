@@ -30,7 +30,7 @@
 
     <!--====== APPIE SERVICE DETAILS PART ENDS ======-->
 
-    <section class="appie-service-details-area pt-100 pb-100">
+    <section class="appie-service-details-area pt-25 pb-0">
       <div class="container">
         <div class="row">
           <!-- <div class="col-lg-4">
@@ -46,23 +46,29 @@
               <div class="thumb">
                 <img src="assets/images/service-details-thumb.jpg" alt="" />
               </div>
-              <div class="content">  
-  <h3 class="title">Choosing the Best Home Security System for Your Chalet</h3>
-  <p>
-    If you're looking for a new home security system or want to switch your current one, these steps can help you find the best. To help you find the best home security system for your chalet, we have prepared this guide that covers the main features and factors that you should consider. We will also walk you through the steps to choose the most suitable system for your needs and preferences.  A home security system is more than just a set of cameras and alarms. It is a comprehensive solution that provides you with peace of mind and confidence. Here are some of the key features and factors that you should look for in a home security system.
-  </p>
-  <br>
-  <h4>Seven steps to consider:</h4>
-  <ol>
-    <li>Assess your security needs. Identify the weak points of your home and the types of sensors and detectors you may need to protect them.</li>
-    <li>Consider your budget. Find out how much each system costs upfront and monthly and choose one that fits your budget.</li>
-    <li>Look for additional features. Decide which features are important to you, such as video monitoring, smart home integration, and mobile app control, and look for systems that offer them.</li>
-    <li>Check for compatibility. If you have existing smart home devices, make sure they can work with the security system you choose.</li>
-    <li>Choose a reputable provider. Look for a provider that has a good reputation, a long history, and positive customer feedback.</li>
-    <li>Install and test the system. Follow the installation instructions and test the system to make sure it's functioning properly. Set up notifications and alerts to keep you updated on any security issues.</li>
-    <li>Research available options. Compare different types of home security systems or speak to Excel Security Solutions for a free no obligation consultation.</li>
-  </ol>
-</div>
+              <div class="content">
+                <h3 class="title">Choosing the Best Home Security System for Your Chalet</h3>
+                <div>
+                  <p>
+                    <span class="normal-text">If you're looking for a new home security system or want to switch your current one, these steps can help you find the best.
+                      To help you find the best home security system for your chalet, we have prepared this guide that covers the main features and factors that you should consider.
+                      We will also walk you through the steps to choose the most suitable system for your needs and preferences. A home security system is more than just a set of cameras and alarms.
+                    </span>
+                  It is a comprehensive solution that provides you with peace of mind and confidence. Here are some of the key features and factors that you should look for in a home security system.
+                  </p>
+                </div>
+                
+                <h4>Seven steps to consider:</h4></br>
+                <ul class="check-list">
+                  <li>Assess your security needs. Identify the weak points of your home and the types of sensors and detectors you may need to protect them.</li>
+                  <li>Consider your budget. Find out how much each system costs upfront and monthly, and choose one that fits your budget.</li>
+                  <li>Look for additional features. Decide which features are important to you, such as video monitoring, smart home integration, and mobile app control, and look for systems that offer them.</li>
+                  <li>Check for compatibility. If you have existing smart home devices, make sure they can work with the security system you choose.</li>
+                  <li>Choose a reputable provider. Look for a provider that has a good reputation, a long history, and positive customer feedback.</li>
+                  <li>Install and test the system. Follow the installation instructions and test the system to make sure it's functioning properly. Set up notifications and alerts to keep you updated on any security issues.</li>
+                  <li>Research available options. Compare different types of home security systems or speak to Excel Security Solutions for a free no obligation consultation.</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -181,4 +187,36 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.content {
+  padding: 0px 30px;
+  font-size: large;
+  line-height: 1.8;
+}
+
+content li {
+  font-size: large;
+}
+
+  .content div > p {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    font-size: large;
+    line-height: 1.8;
+}
+
+.normal-text {
+  font-weight: 600;
+}
+
+.check-list li::before {
+  content: '\2713'; 
+  color: #ed1f27; 
+  margin-right: 8px;
+}
+
+.check-list li {
+  padding-bottom: 10px;
+}
+
+</style>
