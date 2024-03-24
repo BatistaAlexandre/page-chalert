@@ -7,15 +7,11 @@
                     <div class="appie-hero-content">
                         <span>{{welcome_message}}</span>
                         <p class="appie-title">{{slogan}}</p>
-                        <p>We are a pioneering security service at the heart of the Saanenland region, placing clients and their community at the heart of everything we do.<br/> 
+                        <p>We are a pioneering security service at the heart of the Saanenland region, placing clients and their community at the heart of everything we do.</br>
 
-We work in collaboration with local businesses, police and security networks to ensure that neighbourhoods are safe and residents are empowered with peace of mind.
+                        </br>We work in collaboration with local businesses, police and security networks to ensure that neighbourhoods are safe and residents are empowered with peace of mind.<br/>
 
-Join us in creating a safer, stronger community together.<br/>We are a pioneering security service at the heart of the Saanenland region, placing clients and their community at the heart of everything we do. 
-
-We work in collaboration with local businesses, police and security networks to ensure that neighbourhoods are safe and residents are empowered with peace of mind.<br/>
-
-Join us in creating a safer, stronger community together.</p>
+                        </br>Join us in creating a safer, stronger community together.</p>
                         <!--<p>{{description}}</p>-->
                         <ul>
                             <li>

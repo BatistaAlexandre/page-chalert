@@ -77,7 +77,7 @@ Join us in creating a safer, stronger community together."
     style="padding-top: 130px;"
       :class="[dark ? 'appie-service-area-dark' : '']"
       :grid_items="itemsGrid"
-      section_heading="Our Services"
+      section_heading="Our Services & Trainings"
       more_heading=""
       description="Safeguarding Your Every Need"
     />
@@ -353,6 +353,7 @@ export default {
           title: "Close protection",
           content: "Personalized security for high-profile individuals",
           customClass: "",
+          description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
         },
         {
           count: 2,
@@ -360,6 +361,7 @@ export default {
           title: "Security driver",
           content: "Safe transport with trained protection specialists",
           customClass: "item-2",
+          description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
         },
         {
           count: 3,
@@ -367,6 +369,7 @@ export default {
           title: "Event Security",
           content: "Vigilant safeguarding for gatherings and venues",
           customClass: "item-3",
+          description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
         },
         {
           count: 4,
@@ -374,6 +377,39 @@ export default {
           title: "Retail Security",
           content: "Reliable protection for stores and merchandise",
           customClass: "item-4",
+          description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
+        },
+        {
+          count: 1,
+          icon: icon_four,
+          title: "Retail Security",
+          content: "Reliable protection for stores and merchandise",
+          customClass: "item-4",
+          description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
+        },
+        {
+          count: 2,
+          icon: icon_three,
+          title: "Event Security",
+          content: "Vigilant safeguarding for gatherings and venues",
+          customClass: "item-3",
+          description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
+        },
+        {
+          count: 3,
+          icon: icon_four,
+          title: "Retail Security",
+          content: "Reliable protection for stores and merchandise",
+          customClass: "item-4",
+          description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
+        },
+        {
+          count: 4,
+          icon: icon_four,
+          title: "Retail Security",
+          content: "Reliable protection for stores and merchandise",
+          customClass: "item-4",
+          description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
         },
       ],
       features: [

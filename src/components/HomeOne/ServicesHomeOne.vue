@@ -1,54 +1,71 @@
 <template>
-  <!--====== APPIE SERVICES PART START ======-->
-    
-    <section class="appie-service-area paralax pt-90 pb-100" id="service">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="appie-section-title text-center">
-                        <h3 class="appie-title">{{section_heading}}<br> {{more_heading}}</h3>
-                        <p>{{description}} </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6" v-for="(item,index) in grid_items" :key="index">
-                    <div :class="[item.customClass && item.customClass !== ''?item.customClass:'']" class="appie-single-service text-center mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
-                        <div class="icon">
-                            <img :src="item.icon" alt="">
-                            <span>{{item.count}}</span>
-                        </div>
-                        <h4 class="appie-title">{{item.title}}</h4>
-                        <p>{{item.content}}</p>
-                    </div>
-                </div>
-                <div class="row justify-content-center pt-40 highlighted">
-                    Each member of the CHalert program is entitled to a 10% discount on Excel Security Solutions services
-                </div>
-            </div>
+  <section class="appie-service-area pt-90 pb-100" id="service">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="appie-section-title text-center">
+            <h3 class="appie-title">{{ section_heading }}<br>{{ more_heading }}</h3>
+            <p>{{ description }}</p>
+          </div>
         </div>
-    </section>
-    
-    <!--====== APPIE SERVICES PART ENDS ======-->
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6" v-for="(item, index) in grid_items" :key="index">
+          <div class="appie-single-service text-center mt-30" @click.prevent="showMultiple(index)">
+            <div class="icon">
+              <i :class="`fas ${item.icon}`"></i>
+              <span>{{ item.count }}</span>
+            </div>
+            <h4 class="appie-title">{{ item.title }}</h4>
+            <p>{{ item.content }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center pt-40 highlighted">
+        Each member of the CHalert program is entitled to a 10% discount on Excel Security Solutions services and trainings
+      </div>
+    </div>
+
+       <!-- Modal Component -->
+       <b-modal v-model="modalVisible" hide-header hide-footer centered>
+      <template #default="{ hide }">
+        <div class="modal-body-content text-center">
+          <h4>{{ selectedService.title }}</h4>
+          <p>{{ selectedService.description }}</p>
+          <b-button variant="primary" class="main-btn" @click="redirectToUrl">LEARN MORE</b-button>
+        </div>
+      </template>
+    </b-modal>
+  </section>
 </template>
 
-<script>
 
+<script>
+import { BModal } from 'bootstrap-vue'
 export default {
+    components: { BModal },
     props:{
-        section_heading:{
-            type: String,
-        },
-        more_heading:{
-            type:String
-        },
-        description:{
-            type:String
-        },
-        grid_items:{
-            type:Array,
+        section_heading: String,
+        more_heading: String,
+        description: String,
+        grid_items: Array,
+    },
+    data() {
+        return {
+            modalVisible: false, // Controls the visibility of the modal
+            selectedService: {}, // Stores the details of the selected service
+            redirectUrl: 'https://excelsecuritysolutions.ch', // The URL to redirect to
         }
     },
+    methods: {
+    showMultiple(index) {
+      this.selectedService = this.grid_items[index]; // Set the selected service based on the clicked box
+      this.modalVisible = true; // Show the modal
+    },
+    redirectToUrl() {
+      window.location.href = this.redirectUrl; // Redirects the user to the specified URL
+    },
+  },
 
 }
 </script>
@@ -57,4 +74,86 @@ export default {
 .highlighted { 
     font-size: 18px;
 }
+
+.appie-single-service {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.appie-single-service:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  font-size: 24px; /* Adjust icon size */
+  margin-bottom: 10px;
+}
+
+.icon i {
+  margin-right: 8px;
+}
+
+.appie-title {
+  font-size: 18px; /* Smaller title */
+  margin-bottom: 10px;
+}
+
+.appie-single-service p {
+  font-size: 14px; /* Smaller paragraph */
+}
+
+.highlighted {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+.appie-single-service {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.appie-single-service:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  font-size: 24px; /* Adjust icon size */
+  margin-bottom: 15px;
+}
+
+.icon i {
+  margin-right: 8px;
+}
+
+.appie-title {
+  font-size: 16px; /* Smaller title */
+  margin-bottom: 10px;
+}
+
+.appie-single-service p {
+  font-size: 14px; /* Smaller paragraph */
+}
+
+.highlighted {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+.modal-body-content {
+  text-align: center; /* Center align the modal content */
+  padding: 20px
+}
+
+.modal-body-content h4,
+.modal-body-content p {
+  margin-bottom: 30px;
+  padding: 10px /* Add some space between the elements */
+}
+
 </style>

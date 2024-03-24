@@ -81,8 +81,8 @@ export default {
                 {image: require('@/assets/images/allies-1.png'), description: "This is a very good company"},
                 {image: require('@/assets/images/allies-2.png'), description: "This is a very good company"},
                 {image: require('@/assets/images/allies-3.png'), description: "Around two million customers trust in AXA’s expertise in personal, property, liability and life insurance as well as healthcare and occupational benefits insurance. With innovative products and services in areas such as mobility, healthcare, pensions and business together with simple, digital processes, AXA is a supportive partner for its customers. Using its “Know You Can” brand promise, it also encourages them to believe in themselves, even in challenging situations. "},
-                {image: require('@/assets/images/allies-4.png'),description: "This is a very good company"},
-                {image: require('@/assets/images/allies-5.png'),description: "This is a very good company"},
+                {image: require('@/assets/images/allies-4.png'), description: "This is a very good company"},
+                {image: require('@/assets/images/allies-5.png'), description: "This is a very good company"},
             ],
             settings: {
                 autoplay: false,
