@@ -79,7 +79,7 @@ Join us in creating a safer, stronger community together."
       :grid_items="itemsGrid"
       section_heading="Our Services & Trainings"
       more_heading=""
-      description="Safeguarding Your Every Need"
+      description="Ensuring Total Protection: Advanced Security Services and Trainings for All Your Needs"
     />
     <!--====== APPIE SERVICES PART ENDS ======-->
 
@@ -194,8 +194,6 @@ import testmonialAvater1 from "@/assets/images/testimonial-user-1.png";
 import testmonialAvater2 from "@/assets/images/testimonial-user-2.png";
 import testmonialAvater3 from "@/assets/images/testimonial-user-3.png";
 import traffic_thumb from "@/assets/images/traffic-thumb.png";
-import icon_one from "@/assets/images/icon/1.png";
-import icon_two from "@/assets/images/icon/2.png";
 import icon_three from "@/assets/images/icon/3.png";
 import icon_four from "@/assets/images/icon/4.png";
 import HeaderHomeOne from "../HomeOne/HeaderHomeOne.vue";
@@ -348,67 +346,67 @@ export default {
       ],
       itemsGrid: [
         {
-          count: 1,
-          icon: icon_one,
-          title: "Close protection",
+          icon: "fa-shield-alt",
+          title: "Close Protection",
           content: "Personalized security for high-profile individuals",
           customClass: "",
-          description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
+          subtitle:"Close Protection: Tailored Security for the Elite",
+          description: "The concept of close protection goes beyond mere bodyguard services. It involves a holistic approach to ensuring the safety of high-profile individuals, be it celebrities, corporate leaders, or political figures. Close protection officers (CPOs) are not just brawny figures; they are skilled professionals equipped with the ability to assess threats, plan safe routes, and, if necessary, engage in defensive tactics to protect their clients. The rigorous training CPOs undergo ensures they are prepared for any situation, blending seamlessly into their surroundings while maintaining a vigilant eye."
         },
         {
-          count: 2,
-          icon: icon_two,
-          title: "Security driver",
+          icon: "fa-car",
+          title: "Security Driver",
           content: "Safe transport with trained protection specialists",
           customClass: "item-2",
+          subtitle:"Security Driver: Beyond Just Transportation",
+          description: "The role of a security driver is pivotal in the close protection domain. These aren't your average chauffeurs; they are protection specialists trained in evasive and defensive driving techniques, capable of identifying threats and taking swift action to ensure the safety of the passengers. The selection process for security drivers is stringent, focusing not only on their driving skills but also on their ability to remain calm under pressure and make quick decisions."
+        },
+        {
+          icon: "fa-users",
+          title: "Event Security",
+          content: "Vigilant safeguarding for gatherings and venues",
+          customClass: "item-3",
+          subtitle:"Event Security: Keeping Public Gatherings Safe",
+          description: "Public gatherings, be it corporate events, concerts, or sports events, pose unique security challenges. The key to effective event security lies in meticulous planning, coordination, and the ability to respond swiftly to any emergencies. Event security teams work tirelessly behind the scenes, ensuring that the event goes smoothly without any security breaches, providing peace of mind to both the organizers and the attendees."
+        },
+        {
+          icon: "fa-shopping-bag",
+          title: "Retail Security",
+          content: "Reliable protection for stores and merchandise",
+          customClass: "item-4",
+          subtitle:"Retail Security: Protecting Assets, Ensuring Peace",
+          description: "The retail sector is continually grappling with the threat of theft and vandalism. Retail security services focus on creating a safe and secure shopping environment for customers while protecting the store's assets. This involves not just surveillance and patrolling but also training the retail staff to be vigilant and respond appropriately to any security threats."
+        },
+        {
+          icon: icon_four,
+          title: "Retail Security",
+          content: "Reliable protection for stores and merchandise",
+          customClass: "item-4",
+          subtitle:"",
           description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
         },
         {
-          count: 3,
           icon: icon_three,
           title: "Event Security",
           content: "Vigilant safeguarding for gatherings and venues",
           customClass: "item-3",
+          subtitle:"",
           description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
         },
         {
-          count: 4,
           icon: icon_four,
           title: "Retail Security",
           content: "Reliable protection for stores and merchandise",
           customClass: "item-4",
+          subtitle:"",
           description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
         },
         {
-          count: 1,
           icon: icon_four,
           title: "Retail Security",
           content: "Reliable protection for stores and merchandise",
           customClass: "item-4",
-          description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
-        },
-        {
-          count: 2,
-          icon: icon_three,
-          title: "Event Security",
-          content: "Vigilant safeguarding for gatherings and venues",
-          customClass: "item-3",
-          description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
-        },
-        {
-          count: 3,
-          icon: icon_four,
-          title: "Retail Security",
-          content: "Reliable protection for stores and merchandise",
-          customClass: "item-4",
-          description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
-        },
-        {
-          count: 4,
-          icon: icon_four,
-          title: "Retail Security",
-          content: "Reliable protection for stores and merchandise",
-          customClass: "item-4",
+          subtitle:"",
           description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
         },
       ],

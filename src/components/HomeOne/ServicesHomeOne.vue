@@ -14,7 +14,6 @@
           <div class="appie-single-service text-center mt-30" @click.prevent="showMultiple(index)">
             <div class="icon">
               <i :class="`fas ${item.icon}`"></i>
-              <span>{{ item.count }}</span>
             </div>
             <h4 class="appie-title">{{ item.title }}</h4>
             <p>{{ item.content }}</p>
@@ -30,6 +29,9 @@
        <b-modal v-model="modalVisible" hide-header hide-footer centered>
       <template #default="{ hide }">
         <div class="modal-body-content text-center">
+            <div class="icon-modal">
+              <i :class="`fas ${selectedService.icon}`"></i>
+            </div>
           <h4>{{ selectedService.title }}</h4>
           <p>{{ selectedService.description }}</p>
           <b-button variant="primary" class="main-btn" @click="redirectToUrl">LEARN MORE</b-button>
@@ -71,9 +73,6 @@ export default {
 </script>
 
 <style scoped>
-.highlighted { 
-    font-size: 18px;
-}
 
 .appie-single-service {
   padding: 20px;
@@ -84,54 +83,28 @@ export default {
 
 .appie-single-service:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .icon {
-  font-size: 24px; /* Adjust icon size */
-  margin-bottom: 10px;
+    font-size: 30px; 
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon i {
-  margin-right: 8px;
+    color: #fff
+}
+
+.icon-modal i {
+    color: #ed1f27;
+    font-size: 25px;
 }
 
 .appie-title {
   font-size: 18px; /* Smaller title */
-  margin-bottom: 10px;
-}
-
-.appie-single-service p {
-  font-size: 14px; /* Smaller paragraph */
-}
-
-.highlighted {
-  font-size: 18px;
-  color: #333;
-  font-weight: bold;
-}
-
-.appie-single-service {
-  padding: 20px;
-  border: 1px solid #eee;
-  border-radius: 10px;
-  transition: all 0.3s ease-in-out;
-}
-
-.appie-single-service:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.icon {
-  font-size: 24px; /* Adjust icon size */
-  margin-bottom: 15px;
-}
-
-.icon i {
-  margin-right: 8px;
-}
-
-.appie-title {
-  font-size: 16px; /* Smaller title */
   margin-bottom: 10px;
 }
 
@@ -150,9 +123,12 @@ export default {
   padding: 20px
 }
 
-.modal-body-content h4,
 .modal-body-content p {
   margin-bottom: 30px;
+  padding: 10px /* Add some space between the elements */
+}
+.modal-body-content h4 {
+  margin-bottom: 10px;
   padding: 10px /* Add some space between the elements */
 }
 
