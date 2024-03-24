@@ -60,13 +60,20 @@
                 
                 <h4>Seven steps to consider:</h4></br>
                 <ul class="check-list">
-                  <li>Assess your security needs. Identify the weak points of your home and the types of sensors and detectors you may need to protect them.</li>
-                  <li>Consider your budget. Find out how much each system costs upfront and monthly, and choose one that fits your budget.</li>
-                  <li>Look for additional features. Decide which features are important to you, such as video monitoring, smart home integration, and mobile app control, and look for systems that offer them.</li>
-                  <li>Check for compatibility. If you have existing smart home devices, make sure they can work with the security system you choose.</li>
-                  <li>Choose a reputable provider. Look for a provider that has a good reputation, a long history, and positive customer feedback.</li>
-                  <li>Install and test the system. Follow the installation instructions and test the system to make sure it's functioning properly. Set up notifications and alerts to keep you updated on any security issues.</li>
-                  <li>Research available options. Compare different types of home security systems or speak to Excel Security Solutions for a free no obligation consultation.</li>
+                  <li>Assess your security needs.</li>
+                  <p>Identify the weak points of your home and the types of sensors and detectors you may need to protect them.</p>
+                  <li>Consider your budget.</li>
+                   <p>Find out how much each system costs upfront and monthly, and choose one that fits your budget.</p>
+                  <li>Look for additional features.</li>
+                   <p>Decide which features are important to you, such as video monitoring, smart home integration, and mobile app control, and look for systems that offer them.</p>
+                  <li>Check for compatibility.</li>
+                   <p>If you have existing smart home devices, make sure they can work with the security system you choose.</p>
+                  <li>Choose a reputable provider.</li>
+                   <p>Look for a provider that has a good reputation, a long history, and positive customer feedback.</p>
+                  <li>Install and test the system.</li>
+                   <p>Follow the installation instructions and test the system to make sure it's functioning properly. Set up notifications and alerts to keep you updated on any security issues.</p>
+                  <li>Research available options.</li>
+                  <p>Compare different types of home security systems or speak to Excel Security Solutions for a free no obligation consultation.</p>
                 </ul>
               </div>
             </div>
@@ -194,9 +201,6 @@ export default {
   line-height: 1.8;
 }
 
-content li {
-  font-size: large;
-}
 
   .content div > p {
     margin-top: 20px;
@@ -215,8 +219,14 @@ content li {
   margin-right: 8px;
 }
 
-.check-list li {
+.check-list li,
+.check-list p {
   padding-bottom: 10px;
+  font-size: large;
+}
+
+.check-list li {
+  font-weight: bold;
 }
 
 </style>

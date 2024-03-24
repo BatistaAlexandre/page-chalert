@@ -80,7 +80,7 @@ export default {
             images: [
                 {image: require('@/assets/images/allies-1.png'), description: "This is a very good company"},
                 {image: require('@/assets/images/allies-2.png'), description: "This is a very good company"},
-                {image: require('@/assets/images/allies-3.png'), description: "Around two million customers trust in AXA’s expertise in personal, property, liability and life insurance as well as healthcare and occupational benefits insurance. With innovative products and services in areas such as mobility, healthcare, pensions and business together with simple, digital processes, AXA is a supportive partner for its customers. Using its “Know You Can” brand promise, it also encourages them to believe in themselves, even in challenging situations. "},
+                {image: require('@/assets/images/allies-3.png'), description: "At AXA Insurance Gstaad , the safety, security and satisfaction of each one of our customers is our unwavering priority. That is why we are partnering with CHalert to provide free security consultations across the Saanenland region. Together, we believe we can drive progress forward with innovative and holistic solutions to safeguarding the residents of our community. If life is full of risks, at AXA, we believe the future shouldn’t be one of them. Book your free consultation now."},
                 {image: require('@/assets/images/allies-4.png'), description: "This is a very good company"},
                 {image: require('@/assets/images/allies-5.png'), description: "This is a very good company"},
             ],

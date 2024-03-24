@@ -138,6 +138,7 @@ export default {
             selectedLogoImage: '',
             partnerModalVisible: false,//For partner modal
             images: [
+                {image: require('@/assets/images/partner-3.png'), description: "The Hotel Olden Gstaad is a historic and iconic landmark on the promenade, where you can enjoy a cozy and elegant stay. The hotel is committed to preserving the charm security and privacy of the region, And is the first hotel to join the CHalert Neighbourhood watch, a network of local businesses and chalet residents who look out for each other."},
                 {image: require('@/assets/images/partner-1.png'), description: "This is a very good company"},
                 {image: require('@/assets/images/partner-2.png'), description: "This is a very good company"},
             ],
