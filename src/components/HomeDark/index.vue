@@ -74,7 +74,7 @@ Join us in creating a safer, stronger community together."
     <!--====== APPIE SERVICES PART START ======-->
     <services-home-one
     id="Services"
-    style="padding-top: 110px;"
+    style="padding-top: 130px;"
       :class="[dark ? 'appie-service-area-dark' : '']"
       :grid_items="itemsGrid"
       section_heading="Our Services"

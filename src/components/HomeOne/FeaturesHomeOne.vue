@@ -129,11 +129,13 @@ export default {
 
     .nav-link i {
         margin-right: 8px; /* Add some space between the icon and the text */
+        flex-shrink: 0;
     }
 
     .nav-link-text {
-        flex: 1; /* Allow the text to take up the remaining space */
-        text-align: left; /* Align the text to the left */
+        font-size: 14px;
+        flex: 1; /* Allow the text to expand and fill the available space */
+        text-align: left; /* Align text to the left */
     }
 
 </style>
