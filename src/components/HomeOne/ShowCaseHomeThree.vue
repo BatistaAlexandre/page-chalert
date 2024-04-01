@@ -23,8 +23,8 @@
                 ></vue-easy-lightbox>
                 <div class="col-lg-12">
                     <div class="appie-section-title text-center">
-                        <h3 class="appie-title">Our Business Partners</h3>
-                        <p>We are proud to collaborate with like-minded organisations that share our vision for safer, stronger communities. <br/>Together, we can shape a better security landscape for the Saanenland region. </p>
+                        <h3 class="appie-title">Business Partnership</h3>
+                        <p>Meet our business partners actively shaping the security landscape in collaboration with the Chalert program. <br/>CHalert connects hospitality outlets, local companies, and the local authorities in the region. Our goal is to create a safe environment by detecting, deterring, and delaying criminal acts. We work together to prevent and discourage crime through effective communication and collaboration. Find out more how you can become a business partner.</p>
                     </div>
                 </div>
             </div>
@@ -44,8 +44,8 @@
             <div class="container">
         <b-row class="justify-content-center">
             <b-col cols="12" class="text-center">
-                <a class="main-btn" href="#Contact" @click.prevent="openPartnerModal">BECOME OUR BUSINESS PARTNER</a>
-                <p>Book a meeting to talk about participation in CHalert Neighborhood Watch Project</p>
+                <a class="main-btn" href="#Contact" @click.prevent="openPartnerModal">BECOME OUR PARTNER</a>
+                <p>Click to become an alliance or business partner</p>
             </b-col>
         </b-row>
     </div>
@@ -64,6 +64,7 @@
         >
         <div class="modal-body">
              <div class="logo-container">
+                <div class="pt-10"></div>
                 <img :src="selectedLogoImage" alt="Logo" class="logo-img-modal">
             </div>
             <div class="description-container">
@@ -165,14 +166,15 @@ export default {
                 "Business Ally"
             ],
             images: [
-                {image: require('@/assets/images/partner-3.png'), description: "The Hotel Olden Gstaad is a historic and iconic landmark on the promenade, where you can enjoy a cozy and elegant stay. The hotel is committed to preserving the charm security and privacy of the region, And is the first hotel to join the CHalert Neighbourhood watch, a network of local businesses and chalet residents who look out for each other."},
-                {image: require('@/assets/images/partner-1.png'), description: "This is a very good company"},
-                {image: require('@/assets/images/partner-2.png'), description: "This is a very good company"},
+                {image: require('@/assets/images/partner-3.png'), description: "The Hotel Olden Gstaad is a historic and iconic landmark on the promenade, where you can enjoy a cozy and elegant stay. The hotel is committed to preserving the charm security and privacy of the region, And is the first hotel to join the CHalert Neighbourhood Watch, a network of local businesses and chalet residents who look out for each other."},
+                {image: require('@/assets/images/partner-1.png'), description: " "},
+                {image: require('@/assets/images/partner-2.png'), description: " "},
             ],
             settings: {
                 autoplay: false,
                 arrows:true,
                 dots:false,
+                centerMode: true, 
                 slidesToShow:5,
                 responsive: [
                     {

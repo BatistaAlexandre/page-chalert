@@ -15,8 +15,9 @@
                 ></vue-easy-lightbox>
                 <div class="col-lg-12">
                     <div class="appie-section-title text-center">
-                        <h3 class="appie-title">Our Strategic Allies</h3>
-                        <p>Strengthening community safety through collaborative partnerships.</p>
+                        <h3 class="appie-title">Alliance Partnership</h3>
+                        <p>Strengthening community safety through business alliances<br/>
+                            We collaborate with our alliance partners to offer CHalert’ s services to their customers, who need to safeguard their assets and property. CHalert delivers a physical presence on the ground by providing mobile and static patrols, training, advice, and awareness on the latest security threats and best practices.</p>
                     </div>
                 </div>
             </div>
@@ -47,10 +48,20 @@
         >
         <div class="modal-body">
                 <div class="logo-container">
+                    <div class="pt-10"></div>
                     <img :src="selectedLogoImage" alt="Logo" class="logo-img-modal">
                 </div>
                 <div class="description-container">
                     <p>{{ selectedDescription }}</p>
+                    <p class="bold pt-3">{{ additionalDescription }}</p>
+                    <div class="contact-data">
+                        <p class="pt-4">{{ contact }}</p>
+                        <p class="pt-2">{{ address }}</p>
+                        <p class="pt-2">{{ address2 }}</p>
+                        <p class="pt-3">Phone: <span class="bold">{{ phone }}</span></p>
+                        <p class="pt-2">Email: <span class="bold">{{ email }}</span></p>
+                    </div>
+                    
                 </div>
             </div>
             
@@ -76,18 +87,33 @@ export default {
             index: 0,
             descriptionVisible: false, // For description modal
             selectedDescription: '', // Selected logo description
+            additionalDescription: '',
+            contact: '',
+            address: '',
+            address2: '',
+            phone: '',
+            email: '',
             selectedLogoImage: '',
             images: [
-                {image: require('@/assets/images/allies-1.png'), description: "This is a very good company"},
-                {image: require('@/assets/images/allies-2.png'), description: "This is a very good company"},
-                {image: require('@/assets/images/allies-3.png'), description: "At AXA Insurance Gstaad , the safety, security and satisfaction of each one of our customers is our unwavering priority. That is why we are partnering with CHalert to provide free security consultations across the Saanenland region. Together, we believe we can drive progress forward with innovative and holistic solutions to safeguarding the residents of our community. If life is full of risks, at AXA, we believe the future shouldn’t be one of them. Book your free consultation now."},
-                {image: require('@/assets/images/allies-4.png'), description: "This is a very good company"},
-                {image: require('@/assets/images/allies-5.png'), description: "This is a very good company"},
+                {image: require('@/assets/images/allies-1.png'), description: " "},
+                {image: require('@/assets/images/allies-2.png'), description: " "},
+                {image: require('@/assets/images/allies-3.png'), 
+                    description: "At AXA Insurance Gstaad , the safety, security and satisfaction of each one of our customers is our unwavering priority. That is why we are partnering with CHalert to provide free security consultations across the Saanenland region. Together, we believe we can drive progress forward with innovative and holistic solutions to safeguarding the residents of our community. If life is full of risks, at AXA, we believe the future shouldn’t be one of them.",
+                    additional: "Please feel free to visit us at our Gstaad branch.",
+                    contact: "Branch office: Vincent Schwab",
+                    address: "Belairstrasse 3",
+                    address2: "3780 Gstaad",
+                    phone: "+41337489740",
+                    email: "gstaad@axa.ch"
+                },
+                {image: require('@/assets/images/allies-4.png'), description: " "},
+                {image: require('@/assets/images/allies-5.png'), description: " "},
             ],
             settings: {
                 autoplay: false,
                 arrows: true,
                 dots: false,
+                centerMode: true,
                 slidesToShow: 5,
                 responsive: [
                     {
@@ -110,6 +136,12 @@ export default {
         showMultiple(i) {
             
             this.selectedDescription = this.images[i].description; 
+            this.additionalDescription = this.images[i].additional;
+            this.contact = this.images[i].contact;
+            this.address = this.images[i].address;
+            this.address2 = this.images[i].address2;
+            this.phone = this.images[i].phone;
+            this.email = this.images[i].email;
             this.selectedLogoImage = this.images[i].image; // Set the selected logo description
             this.descriptionVisible = true; // Show the description modal
         },
@@ -222,5 +254,14 @@ export default {
 .custom-modal-content, .modal-dialog {
     border: none !important; /* Remove border from the modal */
     background-color: transparent !important; /* Ensure no background color is causing a border-like effect */
+}
+
+.contact-data {
+    text-align: left;
+}
+
+.bold {
+    font-weight: 900;
+    color: #ed1f27;
 }
 </style>
