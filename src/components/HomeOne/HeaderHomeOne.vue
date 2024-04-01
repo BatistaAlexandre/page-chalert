@@ -36,9 +36,11 @@
                 </span>
               </template>
               <div class="small">
-  <a class="main-btn ml-0" @click.prevent="toggleModal" href="#">BOOK FREE CONSULTATION</a>
-  <p>Service sponsored by AXA </p><p>and Excel Security Solutions</p>
-</div>
+                <a class="main-btn ml-0" @click.prevent="toggleModal">BOOK FREE CONSULTATION</a>
+                <p>Sponsored by <img src="@/assets/images/allies-3.png" alt="AXA" class="logo1"> <span>&</span>
+                  <img src="@/assets/images/excel-logo.png" alt="Excel Security Solutions" class="logo2"> 
+                </p>
+              </div>
 <div class="toggle-btn ml-30 canvas_open d-lg-none d-block">
   <i class="fa fa-bars" @click="showSidebar"></i>
 </div>
@@ -106,6 +108,7 @@
 import NavItems from "../NavItems.vue";
 import { BModal } from 'bootstrap-vue';
 import emailjs from 'emailjs-com'
+import logo1 from "@/assets/images/allies-3.png";
 export default {
   data() {
     return {
@@ -134,7 +137,7 @@ export default {
           "Security lightening",
           "Safe or vault for my Chalet",
           "Other service"
-        ]
+        ],
     };
   },
   props: {
@@ -259,7 +262,6 @@ export default {
 
 .small p{
   font-size: 11px; 
-  margin: 0 auto;
 }
 
 .main-btn {
@@ -350,6 +352,22 @@ export default {
   border: 1px solid #ed1f27;
   border-radius: 10px;
   animation: slideInFromTop 0.5s ease-out forwards;
+}
+
+.logo1 {
+  height: 30px;
+  width: 30px;
+}
+
+.logo2 {
+  height: 40px;
+  width: 40px;
+}
+
+@media (max-width: 768px) {
+  .small {
+    display: none;
+  }
 }
 
 @keyframes slideInFromTop {

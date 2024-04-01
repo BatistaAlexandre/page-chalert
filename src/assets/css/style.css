@@ -908,7 +908,8 @@ p {
 }
 
 .appie-header-area {
-  padding-top: 30px;
+  background: #fff;
+  padding: 20px 0px;
   position: absolute;
   left: 0;
   top: 0;

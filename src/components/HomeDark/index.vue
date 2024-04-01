@@ -89,8 +89,8 @@ Join us in creating a safer, stronger community together."
     style="padding-top: 110px;"
 
       :class="[dark ? 'appie-team-area-dark' : '']"
-      title="Meet Our CHalert Team"
-      description="Meet the local security professionals passionate about your protection."
+      title="Meet the CHalert Team"
+      description="Local experts with international experience."
       :members="members"
     />
     <!--====== APPIE TEAM PART ENDS ======-->
@@ -157,9 +157,8 @@ Join us in creating a safer, stronger community together."
     style="padding-top: 110px;"
     id="Contact"
       title="Secure your safety"
-      description="Book a consultation with us today and experience peace of mind with our professional protection services every day after.
-
-We aim to respond to you in less than 24 hours."
+      description="Experience peace of mind with our professional protection services and book your free consultation with us today, delivered in partnership with AXA Insurance.
+                  We aim to respond to you in less than 24 hours."
     />
     <!--====== APPIE PROJECT PART ENDS ======-->
 

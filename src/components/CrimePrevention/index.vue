@@ -13,13 +13,13 @@
 
     <!--====== OFFCANVAS MENU PART START ======-->
 
-    <sidebar-home-one :sidebar="sidebar" @toggleSidebar="toggleSidebar" :menuItems="navs" />
+   <sidebar-home-one :sidebar="sidebar" @toggleSidebar="toggleSidebar" :menuItems="navs" />
 
     <!--====== OFFCANVAS MENU PART ENDS ======-->
 
     <!--====== PART START ======-->
-
-    <header-news @toggleSidebar="toggleSidebar" :menuItems="navs" />
+    <header-home-one @toggleSidebar="toggleSidebar" :menuItems="navs"/>
+  
     <!--====== PART ENDS ======-->
 
     <!--====== APPIE PAGE TITLE PART START ======-->
@@ -30,7 +30,7 @@
 
     <!--====== APPIE SERVICE DETAILS PART ENDS ======-->
 
-    <section class="appie-service-details-area pt-25 pb-0">
+    <section class="appie-service-details-area pt-25 pb-70">
       <div class="container">
         <div class="row">
           <!-- <div class="col-lg-4">
@@ -82,20 +82,7 @@
       </div>
     </section>
 
-    <!--====== APPIE SERVICE DETAILS PART ENDS ======-->
 
-    <!--====== APPIE PROJECT PART START ======-->
-
-    <project-home-one 
-    id="contact"
-    style="padding-top: 110px;"
-    title="Secure your safety" description="Book a consultation with us today and experience peace of mind with our professional protection services every day after.
-
-We aim to respond to you in less than 24 hours." />
-
-    <!--====== APPIE PROJECT PART ENDS ======-->
-
-    <!--====== APPIE FOOTER PART START ======-->
 
     <footer-home-one />
 
@@ -115,6 +102,7 @@ import FaqService from "../HomeOne/FaqService.vue";
 import FooterHomeOne from "../HomeOne/FooterHomeOne.vue";
 import ProjectHomeOne from "../HomeOne/ProjectHomeOne.vue";
 import SidebarHomeOne from "../HomeOne/SidebarHomeOne.vue";
+import HeaderHomeOne from "../HomeOne/HeaderHomeOne.vue";
 import HeaderNews from "../News/HeaderNews.vue";
 import BannerServiceDetails from "./BannerServiceDetails.vue";
 import BodyNavSidebar from "./BodyNavSidebar.vue";
@@ -122,6 +110,7 @@ export default {
   components: {
     SidebarHomeOne,
     HeaderNews,
+    HeaderHomeOne,
     BannerServiceDetails,
     BodyNavSidebar,
     ProjectHomeOne,

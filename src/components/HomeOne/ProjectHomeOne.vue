@@ -15,7 +15,7 @@
                                                 class="form-control m-2">
                                             <input type="text" v-model="phone" name="phone" placeholder="Phone"
                                                 class="form-control m-2">
-                                            <input type="email" v-model="email" name="email" placeholder="Your email"
+                                            <input type="email" v-model="email" name="email" placeholder="Email"
                                                 class="form-control m-2">
                                         </div>
                                         <div class="input-box mt-0">
