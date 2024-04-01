@@ -42,7 +42,7 @@
                 </VueSlickCarousel>
             </div>
             <div class="container">
-        <b-row class="justify-content-center">
+        <b-row class="justify-content-center mt-30">
             <b-col cols="12" class="text-center">
                 <a class="main-btn" href="#Contact" @click.prevent="openPartnerModal">BECOME OUR PARTNER</a>
                 <p>Click to become an alliance or business partner</p>
@@ -171,9 +171,9 @@ export default {
                 {image: require('@/assets/images/partner-2.png'), description: " "},
             ],
             settings: {
-                autoplay: false,
+                autoplay: true,
                 arrows:true,
-                dots:false,
+                dots:true,
                 centerMode: true, 
                 slidesToShow:5,
                 responsive: [
@@ -181,12 +181,14 @@ export default {
                         breakpoint: 768,
                         settings: {
                             slidesToShow: 3,
+                            centerMode: false, 
                         }
                     },
                     {
                         breakpoint: 480,
                         settings: {
                             slidesToShow: 2,
+                            centerMode: false, 
                         }
                     }
                 ]

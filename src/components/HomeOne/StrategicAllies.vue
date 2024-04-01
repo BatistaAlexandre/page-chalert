@@ -110,9 +110,9 @@ export default {
                 {image: require('@/assets/images/allies-5.png'), description: " "},
             ],
             settings: {
-                autoplay: false,
+                autoplay: true,
                 arrows: true,
-                dots: false,
+                dots: true,
                 centerMode: true,
                 slidesToShow: 5,
                 responsive: [
