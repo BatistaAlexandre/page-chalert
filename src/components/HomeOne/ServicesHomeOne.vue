@@ -20,7 +20,7 @@
           </div>
         </div>
       </div>
-      <div class="row justify-content-center pt-40 highlighted">
+      <div class="row justify-content-center highlighted">
         Each member of the CHalert program is entitled to a 10% discount on Excel Security Solutions services and trainings
       </div>
     </div>
@@ -116,6 +116,8 @@ export default {
   font-size: 18px;
   color: #333;
   font-weight: bold;
+  padding: 20px 20px;
+  text-align: center;
 }
 
 .modal-body-content {

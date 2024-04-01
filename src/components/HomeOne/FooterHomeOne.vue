@@ -60,7 +60,7 @@
           </div>
         </div> -->
         <div class="col-lg-4 col-md-6">
-          <div class="footer-widget-info">
+          <div class="footer-widget-info text-center text-lg-right">
             <h4 class="title">Get In Touch</h4>
             <ul>
               <li>
@@ -131,5 +131,16 @@ export default {};
   color: #ed1f27;
   font-weight: 600;
 }
+
+.center {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+    .footer-widget-info ul,
+    .title {
+      text-align: right;
+    }
+  }
 
 </style>
