@@ -228,8 +228,7 @@ export default {
 
      this.isSubmitting = true
 
-   
-
+  
       // Send the email using EmailJS
       emailjs
       .send(SERVICE_ID, TEMPLATE_ID, emailParams, PUBLIC_KEY)

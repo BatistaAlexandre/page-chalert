@@ -44,7 +44,7 @@
             <div class="container">
         <b-row class="justify-content-center">
             <b-col cols="12" class="text-center">
-                <a class="main-btn" href="#Contact"@click.prevent="openPartnerModal">BECOME OUR BUSINESS PARTNER</a>
+                <a class="main-btn" href="#Contact" @click.prevent="openPartnerModal">BECOME OUR BUSINESS PARTNER</a>
                 <p>Book a meeting to talk about participation in CHalert Neighborhood Watch Project</p>
             </b-col>
         </b-row>
@@ -75,44 +75,53 @@
 
 
          <!-- Partner Modal-->
+        
          <b-modal
-            v-model="partnerModalVisible"
-            id="partner-modal"
-            content-class="custom-modal-content"
-            centered
-            hide-footer
-            hide-header
-            @shown="addBodyClass"
-            @hidden="removeBodyClass"
-        >
-
-
-
-
+    v-model="partnerModalVisible"
+    id="partner-modal"
+    content-class="custom-modal-content"
+    centered
+    hide-footer
+    hide-header
+    @shown="addBodyClass"
+    @hidden="removeBodyClass"
+>
     <div class="modal-header">
         <h4>Become Chalert's Partner</h4>
-        <p>Join Chalert's network: register as a valued Business Partner.</p>
+        <p>Join Chalert's network: register as a valued Business Partner or Ally.</p>
     </div>
-    <form @submit.prevent="sendEmail">
-        <div class="input-box mt-30">
-            <input type="text" v-model="name" name="name" placeholder="Contact Name" class="form-control mt-2">
-            <input type="text" v-model="phone" name="phone" placeholder="Phone Number" class="form-control mt-2">
-            <input type="email" v-model="email" name="email" placeholder="Company Email" class="form-control mt-2">
-            <input type="company" v-model="company" name="company" placeholder="Company Name" class="form-control mt-2">
-            <input type="adress" v-model="adress" name="address" placeholder="Company Address" class="form-control mt-2"> 
-            <div class="checkbox-group">
-                <input type="checkbox" name="terms" v-model="acceptTerms">
-                <label>I accept terms & conditions</label>
+    <form @submit.prevent="submitForm" id="partner-form">
+        <div class="checkbox-group mt-30">
+            <span v-if="submissionMessage" class="submission-message">{{ submissionMessage }}</span>
+            <div class="checkbox-item mt-2">
+                <label v-for="(option, index) in options" :key="index">
+            <input type="checkbox" v-model="form.role" :name="`role_${index}`" :value="option" class="checkbox-box"/>
+            {{ option }}
+          </label>
+            </div>
+</div>
+
+        <div class="input-box mt-10">
+            <input type="text" v-model="form.company" name="company" placeholder="Company Name" class="form-control mt-2">
+            <input type="text" v-model="form.name" name="name" placeholder="Contact Name" class="form-control mt-2">
+            <input type="text" v-model="form.phone" name="phone" placeholder="Business Number" class="form-control mt-2">
+            <input type="text" v-model="form.mobile" name="mobile" placeholder="Mobile Number" class="form-control mt-2">
+            <input type="email" v-model="form.email" name="email" placeholder="Company Email" class="form-control mt-2">
+            <input type="email" v-model="form.email2" name="email2" placeholder="Second Email" class="form-control mt-2">
+            <input type="text" v-model="form.address" name="address" placeholder="Company Address" class="form-control mt-2"> 
+            <textarea v-model="form.message" name="message" placeholder="Your Message" class="form-control mt-2" rows="4"></textarea>
+            <div class="checkbox-group checkbox-item">
+                <input type="checkbox" v-model="acceptTerms" name="terms">
+                <label for="terms">I accept terms & conditions</label>
             </div>
         </div>
         <div class="button-container">
-            <a type="submit" class="main-btn">Send</a>
+            <button type="submit" class="main-btn"> {{ isSubmitting ? 'Sending...' : 'SEND' }}</button>
         </div>
-        
     </form>
+</b-modal>
+    
 
-
-        </b-modal>
 
     </section>
     
@@ -123,9 +132,9 @@
 import VueEasyLightbox from 'vue-easy-lightbox'
 import VueSlickCarousel from 'vue-slick-carousel'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
-  // optional style for arrows & dots
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 import { BModal } from 'bootstrap-vue'
+import emailjs from 'emailjs-com'
 export default {
     components:{ VueSlickCarousel,VueEasyLightbox, BModal},
     data(){
@@ -137,6 +146,24 @@ export default {
             selectedDescription: '', // Selected logo description
             selectedLogoImage: '',
             partnerModalVisible: false,//For partner modal
+            isSubmitting: false,
+            submissionMessage: '',
+            form: {
+                role: [],
+                company: '',
+                name: '',
+                mobile: '',
+                phone: '',
+                email: '',
+                email2: '',
+                address: '',
+                message: ''
+                },
+            acceptTerms: false,
+            options: [
+                "Business Partner",
+                "Business Ally"
+            ],
             images: [
                 {image: require('@/assets/images/partner-3.png'), description: "The Hotel Olden Gstaad is a historic and iconic landmark on the promenade, where you can enjoy a cozy and elegant stay. The hotel is committed to preserving the charm security and privacy of the region, And is the first hotel to join the CHalert Neighbourhood watch, a network of local businesses and chalet residents who look out for each other."},
                 {image: require('@/assets/images/partner-1.png'), description: "This is a very good company"},
@@ -180,13 +207,79 @@ export default {
         },
         addBodyClass() {
         document.body.classList.add('modal-open-dark');
+         },
+         removeBodyClass() {
+            document.body.classList.remove('modal-open-dark');
+         },
+         openPartnerModal() {
+             this.partnerModalVisible = true; // This will open the modal
+         },
+
+         resetForm() {
+            this.form = {
+                role: [],
+                company: '',
+                name: '',
+                mobile: '',
+                phone: '',
+                email: '',
+                email2: '',
+                address: '',
+                message: ''
+            },
+        this.acceptTerms = false; // Reset acceptTerms
+        setTimeout(() => {
+         this.submissionMessage = ''; // Clear submission message
+         }, 3000); // Adjust the delay as needed
     },
-    removeBodyClass() {
-        document.body.classList.remove('modal-open-dark');
+
+
+         submitForm() {
+            const SERVICE_ID = 'service_2y3rs3r';
+            const TEMPLATE_ID = 'template_8ccsdol';
+            const PUBLIC_KEY = 'MVekMSZT8jTmKVA4n';
+            const emailParams = {
+            from_name: this.form.company,
+            from_email: this.form.email,
+            message: this.form.message,
+            contact: this.form.name,
+            email: this.form.email,
+            email2: this.form.email2,
+            company: this.form.company,
+            phone: this.form.phone,
+            mobile: this.form.mobile,
+            address: this.form.address,
+            role: this.form.role.join(', '),
+      };
+      console.log("Params:", emailParams)
+
+
+      if (!this.acceptTerms) {
+        alert("Please accept the terms and conditions.");
+        return;
+      }
+
+      emailjs.init(PUBLIC_KEY);
+
+    this.isSubmitting = true
+
+    // Send the email using EmailJS
+    emailjs
+      .send(SERVICE_ID, TEMPLATE_ID, emailParams, PUBLIC_KEY)
+        .then((response) => {
+          console.log('SUCCESS!', response.status, response.text, 'Form Data:', emailParams);
+          this.submissionMessage = "Form submitted successfully.";
+          this.isSubmitting = false; 
+          this.resetForm();
+        }, (err) => {
+          console.error('FAILED...', err);
+          this.submissionMessage = "Failed to submit the form. Please try again.";
+          this.isSubmitting = false;
+        });
+
     },
-    openPartnerModal() {
-        this.partnerModalVisible = true; // This will open the modal
-    },
+
+    
     }
 
 }
@@ -194,7 +287,6 @@ export default {
 
 <style scoped>
 
-/* Add your custom styles for the logo gallery here */
 .appie-showcase-item {
     text-align: center;
 }allies
@@ -305,10 +397,15 @@ export default {
 }
 
 .checkbox-group {
-  margin-bottom: 15px;
-  display: flex;
-  justify-content: center; 
-  margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.checkbox-item {
+    margin-right: 15px; 
 }
 
 .checkbox-group label {

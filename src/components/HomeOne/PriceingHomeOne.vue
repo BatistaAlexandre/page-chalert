@@ -30,6 +30,7 @@
                                     <div class="price-range"><sup></sup> <span>FREE</span><p></p></div>
                                     <p>Join the Chalert Community for free and be part of a network that keeps you informed and connected.</p>
                                 </div>
+                                <div class="divider"></div>
                                 <div class="pricig-body">
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
@@ -49,6 +50,7 @@
                                     <div class="price-range"><sup>CHF</sup> <span>19</span><p>/month</p></div>
                                     <p>Upgrade to our Silver Program for top-notch chalet security at a budget-friendly rate, ensuring peace of mind for you.</p>
                                 </div>
+                                <div class="divider"></div>
                                 <div class="pricig-body">
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
@@ -72,6 +74,7 @@
                                        <!--<div class="daily"><p>290 CHF/month</p></div>--> 
                                     <p>Join our Gold program to receive advanced services designed for holstic chalet protection.</p>
                                 </div>
+                                <div class="divider"></div>
                                 <div class="pricig-body">
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
@@ -100,6 +103,7 @@
                                     <!--<div class="daily"><p>555 CHF/month</p></div>-->
                                     <p>Join our Platinum program and receive a comprehensive security package offering the highest level of protection for you and your loved ones.</p>
                                 </div>
+                                <div class="divider"></div>
                                 <div class="pricig-body">
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
@@ -130,6 +134,7 @@
                                     <div class="price-range"><sup>CHF</sup> <span>XXX</span><p>/Yearly</p></div>
                                     <p>Get your 14 day free trial</p>
                                 </div>
+                                <div class="divider"></div>
                                 <div class="pricig-body">
                                     <ul>
                                         <li><i class="fal fa-check"></i> 60-day chat history</li>
@@ -226,8 +231,6 @@ export default {
 .pricig-body li {
   display: flex;
   align-items: center; /* Vertically center the items */
- /* justify-content: center; /* Horizontally center the items */
- /* flex-wrap: wrap; /* Allow items to wrap as needed */
 }
 
 .pricig-body li i {
@@ -238,4 +241,22 @@ export default {
   max-width: 90%; /* Prevent the text from extending too far */
 }
 
+.pricig-heading {
+  height: 290px; /* Adjust the height as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.pricig-heading h6 {
+  margin-bottom: 15px; /* Add some space below the title */
+}
+
+.price-range {
+  margin-bottom: 15px; /* Add some space below the price */
+}
+
+.divider{
+    border-bottom: 1px solid #ed1f27;
+}
 </style>
