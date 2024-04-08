@@ -95,8 +95,6 @@ export default {
             email: '',
             selectedLogoImage: '',
             images: [
-                {image: require('@/assets/images/allies-1.png'), description: " "},
-                {image: require('@/assets/images/allies-2.png'), description: " "},
                 {image: require('@/assets/images/allies-3.png'), 
                     description: "At AXA Insurance Gstaad , the safety, security and satisfaction of each one of our customers is our unwavering priority. That is why we are partnering with CHalert to provide free security consultations across the Saanenland region. Together, we believe we can drive progress forward with innovative and holistic solutions to safeguarding the residents of our community. If life is full of risks, at AXA, we believe the future shouldn’t be one of them.",
                     additional: "Please feel free to visit us at our Gstaad branch.",
@@ -106,6 +104,8 @@ export default {
                     phone: "+41337489740",
                     email: "gstaad@axa.ch"
                 },
+                {image: require('@/assets/images/allies-1.png'), description: " "},
+                {image: require('@/assets/images/allies-2.png'), description: " "},
                 {image: require('@/assets/images/allies-4.png'), description: " "},
                 {image: require('@/assets/images/allies-5.png'), description: " "},
             ],

@@ -33,7 +33,7 @@ Join us in creating a safer, stronger community together.We are a pioneering sec
 We work in collaboration with local businesses, police and security networks to ensure that neighbourhoods are safe and residents are empowered with peace of mind.
 
 Join us in creating a safer, stronger community together." 
-      first_button_content="The Importance of Security Sign Placement"
+      first_button_content="SECURITY SIGN PLACEMENT"
     />
     <!-- second_button_content="BT 2Lorem ipsum dolor sit" -->
 
@@ -350,7 +350,7 @@ export default {
           content: "Personalized security for high-profile individuals",
           customClass: "",
           subtitle:"Close Protection: Tailored Security for the Elite",
-          description: "The concept of close protection goes beyond mere bodyguard services. It involves a holistic approach to ensuring the safety of high-profile individuals, be it celebrities, corporate leaders, or political figures. Close protection officers (CPOs) are not just brawny figures; they are skilled professionals equipped with the ability to assess threats, plan safe routes, and, if necessary, engage in defensive tactics to protect their clients. The rigorous training CPOs undergo ensures they are prepared for any situation, blending seamlessly into their surroundings while maintaining a vigilant eye."
+          description: "Our close protection services extend far beyond mere physical security.The concept of close protection goes beyond mere bodyguard services. It involves a holistic approach to ensuring the safety of high-profile individuals, be it celebrities, corporate leaders, or political figures. Close protection officers (CPOs) are not just brawny figures; they are skilled professionals equipped with the ability to assess threats, plan safe routes, and, if necessary, engage in defensive tactics to protect their clients. The rigorous training CPOs undergo ensures they are prepared for any situation, blending seamlessly into their surroundings while maintaining a vigilant eye. Agents are trained to be unobtrusive, blending seamlessly into the client's environment to ensure discretion. Our agents uphold stringent standards globally, ensuring consistent quality of service. Moreover, they offer comprehensive support, including logistics and medical assistance. Specialized in ski resort security, these agents provide expert protection for VIPs and their families, combining their security skills with proficient skiing abilities in the alpine terrains"
         },
         {
           icon: "fa-car",
@@ -358,7 +358,7 @@ export default {
           content: "Safe transport with trained protection specialists",
           customClass: "item-2",
           subtitle:"Security Driver: Beyond Just Transportation",
-          description: "The role of a security driver is pivotal in the close protection domain. These aren't your average chauffeurs; they are protection specialists trained in evasive and defensive driving techniques, capable of identifying threats and taking swift action to ensure the safety of the passengers. The selection process for security drivers is stringent, focusing not only on their driving skills but also on their ability to remain calm under pressure and make quick decisions."
+          description: "The role of a security driver is pivotal in the close protection domain. These aren't your average chauffeurs; they are protection specialists trained in evasive and defensive driving techniques, capable of identifying threats and taking swift action to ensure the safety of the passengers. The selection process for security drivers is stringent, focusing not only on their driving skills but also on their ability to remain calm under pressure and make quick decisions"
         },
         {
           icon: "fa-users",
@@ -370,43 +370,43 @@ export default {
         },
         {
           icon: "fa-shopping-bag",
-          title: "Retail Security",
-          content: "Reliable protection for stores and merchandise",
+          title: "Technical Systems",
+          content: "Custom security integration for chalet safety and aesthetic cohesion",
           customClass: "item-4",
           subtitle:"Retail Security: Protecting Assets, Ensuring Peace",
-          description: "The retail sector is continually grappling with the threat of theft and vandalism. Retail security services focus on creating a safe and secure shopping environment for customers while protecting the store's assets. This involves not just surveillance and patrolling but also training the retail staff to be vigilant and respond appropriately to any security threats."
+          description: "Excel Security Solutions offers a comprehensive approach to your chalet security, ensuring that all technical systems are seamlessly integrated into the design of your space. Our services include collaboration with your design team or architect  to implement security measures that are both effective and aesthetically pleasing. The focus is on user-friendly operation without sacrificing safety, covering essential components like access control, surveillance, and intrusion detection, as well as secure storage solutions. This holistic strategy aims to protect both the property and the well-being of its occupants."
         },
         {
-          icon: icon_four,
+          icon: "fa-shopping-bag",
           title: "Retail Security",
           content: "Reliable protection for stores and merchandise",
           customClass: "item-4",
           subtitle:"",
-          description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
+          description: "Shops in the region are continually grappling with the threat of theft and vandalism. Our security services focus on creating a safe and secure shopping environment for customers while protecting the store's assets. This involves not just surveillance and patrolling but also training the retail staff to be vigilant and respond appropriately to any security threats."
         },
         {
           icon: icon_three,
-          title: "Event Security",
-          content: "Vigilant safeguarding for gatherings and venues",
+          title: "Background Check",
+          content: "Thorough background checks for informed employment decisions",
           customClass: "item-3",
           subtitle:"",
-          description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
+          description: "Pre-employment background checks are a crucial step in the hiring process, offering a layer of protection and insight into an applicant's history. These checks can include verifying personal information, criminal records, education, and past employment history. They help employers make informed decisions and ensure the safety and integrity of their workplace. It's important to conduct these checks in compliance with legal standards to respect the privacy and rights of the candidate."
         },
         {
           icon: icon_four,
-          title: "Retail Security",
-          content: "Reliable protection for stores and merchandise",
+          title: "Travel Security/Logistics",
+          content: "Tailored travel security for global client reassurance",
           customClass: "item-4",
           subtitle:"",
-          description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
+          description: "With numerous years of experience in working with an international, sophisticated clientele, Excel Security Solutions has the connections and knowledge of assisting you with travel logistics, security any where in the world,  such as property rental, hotel and restaurant booking, private yachting, private aviation, vehicle rental, sports activity coordination, etc. Our travel logistics coordinators are responsible for the day-to-day management of the client’s activities while travelling; focusing on the comfort of the client and your loved ones."
         },
         {
           icon: icon_four,
-          title: "Retail Security",
-          content: "Reliable protection for stores and merchandise",
+          title: "First Aid & AED Training",
+          content: "Specialized emergency training for staff readiness",
           customClass: "item-4",
           subtitle:"",
-          description: "Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet Lorem ipsum dolor sin amet"
+          description: "Ensuring your chalet staff or hotel staff are trained in First Aid and Basic Life Support is crucial for handling medical emergencies effectively. Tailored training programs that incorporate specific needs into standard courses can significantly enhance the preparedness of individuals to face such situations. We analyse your individual  training needs and add specific requirements into the standard courses; which we then run with our partners. We can organise training courses for your family and your employees at your chalet, your business location or our training  facilities. As licensed resellers of Automated External Defibrillators, providing access to essential life-saving equipment complements the training, making a comprehensive approach to emergency preparedness."
         },
       ],
       features: [

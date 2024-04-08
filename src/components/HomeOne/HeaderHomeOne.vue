@@ -37,7 +37,7 @@
               </template>
               <div class="small">
                 <a class="main-btn ml-0" @click.prevent="toggleModal">BOOK FREE CONSULTATION</a>
-                <p>Sponsored by <img src="@/assets/images/allies-3.png" alt="AXA" class="logo1"> <span>&</span>
+                <p class="d-flex flex-nowrap align-items-center">Sponsored by <img src="@/assets/images/allies-3.png" alt="AXA" class="logo1 mr-2"> <span class="mr-2">&</span>
                   <img src="@/assets/images/excel-logo.png" alt="Excel Security Solutions" class="logo2"> 
                 </p>
               </div>
@@ -108,7 +108,6 @@
 import NavItems from "../NavItems.vue";
 import { BModal } from 'bootstrap-vue';
 import emailjs from 'emailjs-com'
-import logo1 from "@/assets/images/allies-3.png";
 export default {
   data() {
     return {

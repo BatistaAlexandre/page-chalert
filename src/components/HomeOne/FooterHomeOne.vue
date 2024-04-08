@@ -65,7 +65,7 @@
             <ul>
               <li>
                 <a href="mailto:office@chalert.com">
-                  <i class="fal fa-envelope"></i> office@chalert.com
+                  <i class="fal fa-envelope"></i> office@chalert.ch
                 </a>
               </li>
 

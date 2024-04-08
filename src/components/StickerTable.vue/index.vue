@@ -31,7 +31,7 @@
           ['190 x 250', 'Medium', '15.00 CHF', 'Fence'],
           ['105 x 140', 'Intermediate', '12.00 CHF', 'Chalet exterior'],
           ['75 x 105', 'Small', '09.50 CHF', 'Chalet main and all doors'],
-          ['75 x 105', 'Small', '05.00 CHF', 'Windows on ground level']
+          ['75 x 105', 'Small', 'FREE', 'Windows on ground level']
         ]
       };
     }

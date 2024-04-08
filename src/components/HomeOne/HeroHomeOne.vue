@@ -14,13 +14,14 @@
                         </br>Join us in creating a safer, stronger community together.</p>
                         <!--<p>{{description}}</p>-->
                         <ul>
+                            <li class="consultation-button-wrapper">
+                                <ConsultationButton @toggleModal="toggleModal"/>
+                            </li>
                             <li>
                                 <router-link to="/sign-placement">
                                     <i :class="first_button_icon"></i>{{first_button_content}}
                                 </router-link>
                             </li>
-                          
-                          <!--  <li><a class="item-2" href="#"><i :class="second_button_icon"></i> {{second_button_content}}</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -50,11 +51,18 @@
 </template>
 
 <script>
+import ConsultationButton from '../ConsultationButton.vue'
 export default {
-    props:['welcome_message','slogan','description','thumb_one','thumb_two','first_button_content','first_button_icon']
-
+    props:['welcome_message','slogan','description','thumb_one','thumb_two','first_button_content','first_button_icon'],
+    components: { ConsultationButton },
+    methods: {
+        toggleModal() {
+        // Handle the modal toggle logic here
+        this.visitModalVisible = !this.visitModalVisible;
+    }
 }
-// 'second_button_content','second_button_icon'
+}
+
 </script>
 
 <style scoped>
@@ -80,5 +88,15 @@ export default {
     font-size: 70px;
     font-weight: 700;
     color: #0e1133;;
+}
+
+.consultation-button-wrapper {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .consultation-button-wrapper {
+    display: block; 
+  }
 }
 </style>
