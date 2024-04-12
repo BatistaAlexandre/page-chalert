@@ -69,6 +69,14 @@
             </div>
             <div class="description-container">
                 <p>{{ selectedDescription }}</p>
+                <p class="bold pt-3">{{ additionalDescription }}</p>
+                    <div class="contact-data">
+                        <p class="pt-4">{{ contact }}</p>
+                        <p class="pt-2">{{ address }}</p>
+                        <p class="pt-2">{{ address2 }}</p>
+                        <p class="pt-3">Phone: <span class="bold">{{ phone }}</span></p>
+                        <p class="pt-2">Email: <span class="bold">{{ email }}</span></p>
+                    </div>    
             </div>
          </div>
             
@@ -145,6 +153,12 @@ export default {
             index: 0 ,
             descriptionVisible: false, // For description modal
             selectedDescription: '', // Selected logo description
+            additionalDescription: '',
+            contact: '',
+            address: '',
+            address2: '',
+            phone: '',
+            email: '',
             selectedLogoImage: '',
             partnerModalVisible: false,//For partner modal
             isSubmitting: false,
@@ -166,7 +180,16 @@ export default {
                 "Business Ally"
             ],
             images: [
-                {image: require('@/assets/images/partner-3.png'), description: "The Hotel Olden Gstaad is a historic and iconic landmark on the promenade, where you can enjoy a cozy and elegant stay. The hotel is committed to preserving the charm security and privacy of the region, And is the first hotel to join the CHalert Neighbourhood Watch, a network of local businesses and chalet residents who look out for each other."},
+                {image: require('@/assets/images/partner-3.png'), 
+                    description: "The Hotel Olden Gstaad is a historic and iconic landmark on the promenade, where you can enjoy a cozy and elegant stay. The hotel is committed to preserving the charm security and privacy of the region, And is the first hotel to join the CHalert Neighbourhood Watch, a network of local businesses and chalet residents who look out for each other.",
+                    additional: "Where the world dines",
+                    contact: "Hotel Olden",
+                    address: "Promenade",
+                    address2: "3780 Gstaad",
+                    phone: "+41337484950",
+                    email: "info@hotelolden.com"
+                
+                },
                 {image: require('@/assets/images/partner-1.png'), description: " "},
                 {image: require('@/assets/images/partner-2.png'), description: " "},
             ],
@@ -200,6 +223,13 @@ export default {
         showMultiple(i) {
             
             this.selectedDescription = this.images[i].description; 
+            this.selectedLogoImage = this.images[i].image; // Set the selected logo description
+            this.descriptionVisible = true; // Show the description modal
+            this.contact = this.images[i].contact;
+            this.address = this.images[i].address;
+            this.address2 = this.images[i].address2;
+            this.phone = this.images[i].phone;
+            this.email = this.images[i].email;
             this.selectedLogoImage = this.images[i].image; // Set the selected logo description
             this.descriptionVisible = true; // Show the description modal
         },

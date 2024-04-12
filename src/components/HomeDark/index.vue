@@ -394,7 +394,7 @@ export default {
         },
         {
           icon: icon_four,
-          title: "Travel Security/Logistics",
+          title: "Travel Security",
           content: "Tailored travel security for global client reassurance",
           customClass: "item-4",
           subtitle:"",
@@ -403,7 +403,7 @@ export default {
         {
           icon: icon_four,
           title: "First Aid & AED Training",
-          content: "Specialized emergency training for staff readiness",
+          content: "Specialized emergency training",
           customClass: "item-4",
           subtitle:"",
           description: "Ensuring your chalet staff or hotel staff are trained in First Aid and Basic Life Support is crucial for handling medical emergencies effectively. Tailored training programs that incorporate specific needs into standard courses can significantly enhance the preparedness of individuals to face such situations. We analyse your individual  training needs and add specific requirements into the standard courses; which we then run with our partners. We can organise training courses for your family and your employees at your chalet, your business location or our training  facilities. As licensed resellers of Automated External Defibrillators, providing access to essential life-saving equipment complements the training, making a comprehensive approach to emergency preparedness."

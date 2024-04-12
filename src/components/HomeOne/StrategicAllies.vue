@@ -60,8 +60,7 @@
                         <p class="pt-2">{{ address2 }}</p>
                         <p class="pt-3">Phone: <span class="bold">{{ phone }}</span></p>
                         <p class="pt-2">Email: <span class="bold">{{ email }}</span></p>
-                    </div>
-                    
+                    </div>                  
                 </div>
             </div>
             
