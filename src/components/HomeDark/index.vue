@@ -62,7 +62,7 @@ Join us in creating a safer, stronger community together."
     description="By joining the CHALERT family, you can receive a tailed security program that meets your individual needs. We have a range of memberships available. Explore your options below."
     />
     <!--====== APPIE PRICING PART ENDS ======-->
-
+    <map-section />
     <!--====== VALUES PART ENDS ======-->
     <features-home-one 
     id="Our Values"
@@ -209,6 +209,7 @@ import FaqHomeOne from "../HomeOne/FaqHomeOne.vue";
 import ProjectHomeOne from "../HomeOne/ProjectHomeOne.vue";
 import FooterHomeOne from "../HomeOne/FooterHomeOne.vue";
 import CommunityImpactSection from "../CommunityImpact/CommunityImpactSection.vue";
+import MapSection from "../MapSection.vue";
 export default {
   components: {
     ShowCaseHomeThree,
@@ -227,6 +228,7 @@ export default {
     ProjectHomeOne,
     FooterHomeOne,
     CommunityImpactSection,
+    MapSection
   },
   data() {
     return {
