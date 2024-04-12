@@ -1,9 +1,7 @@
 <template>
     <section class="community">
             <h2>Our Impact On Community</h2>
-        <div class="slider-wrapper">
-            <community-impact-slider/>
-        </div>
+        
         <div class="stars-container">
             <i class="fas fa-caret-up"></i>
             <i class="fas fa-caret-up"></i>
@@ -19,7 +17,9 @@
             </h2>
             <div class="divider"></div>
         </div>
-      
+        <div class="slider-wrapper">
+            <community-impact-slider/>
+        </div>
     </section>
 </template>
 

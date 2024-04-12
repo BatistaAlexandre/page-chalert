@@ -79,7 +79,7 @@ Join us in creating a safer, stronger community together."
       :grid_items="itemsGrid"
       section_heading="Our Services & Trainings"
       more_heading=""
-      description="Ensuring Total Protection: Advanced Security Services and Trainings for All Your Needs"
+      description="Ensuring total protection: advanced security services and trainings for all your needs"
     />
     <!--====== APPIE SERVICES PART ENDS ======-->
 
