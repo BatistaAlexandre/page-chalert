@@ -1,5 +1,4 @@
 <template>
-  <!--====== APPIE PRICING PART START ======-->
     
     <section class="appie-pricing-area pt-90 pb-90">
         <div class="container">
@@ -55,14 +54,13 @@
                                 </div>
                             </div>
                         </div>
-                    <!--</div>
-                    <div class="row justify-content-center" style="margin-top: 1%;"> -->
+                   
                         <div class="col-lg-3 col-md-6 wow animated fadeInRight">
                             <div class="pricing-one__single center">
                                 <div class="pricig-heading">
                                     <h6>Gold</h6>
                                     <div class="price-range"><sup>CHF</sup> <span>9.5</span><p>/day</p></div>
-                                       <!--<div class="daily"><p>290 CHF/month</p></div>--> 
+                                     
                                     <p>Join our Gold program to receive advanced services designed for holstic chalet protection.</p>
                                 </div>
                                 <div class="divider"></div>
@@ -91,7 +89,7 @@
                                 <div class="pricig-heading">
                                     <h6>Platinum</h6>
                                     <div class="price-range"><sup>CHF</sup><span>19.5</span><p>/day</p></div>
-                                    <!--<div class="daily"><p>555 CHF/month</p></div>-->
+                                
                                     <p>Join our Platinum program and receive a comprehensive security package offering the highest level of protection for you and your loved ones.</p>
                                 </div>
                                 <div class="divider"></div>
@@ -121,8 +119,9 @@
         </div>
     </section>
     
-    <!--====== APPIE PRICING PART ENDS ======-->
+ 
 </template>
+
 
 <script>
 export default {
@@ -149,7 +148,6 @@ export default {
 </script>
 
 <style scoped>
-
 .pricig-body ul {
   padding: 0;
   list-style: none;
@@ -169,7 +167,7 @@ export default {
 }
 
 .pricig-heading {
-  height: 290px; /* Adjust the height as needed */
+  height: 311px; /* Adjust the height as needed */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -183,7 +181,32 @@ export default {
   margin-bottom: 15px; /* Add some space below the price */
 }
 
-.divider{
+.divider {
     border-bottom: 1px solid #ed1f27;
 }
+
+/* Responsive styles for screens between 991px and 1200px */
+@media (min-width: 991px) and (max-width: 1200px) {
+    .pricing-one__single {
+        padding: 20px; /* Increase padding for better spacing */
+    }
+
+    .pricig-heading h6 {
+        font-size: 1.2rem; /* Increase the font size for the title */
+    }
+
+    .price-range span {
+        font-size: 2rem; /* Larger font size for price */
+    }
+
+    .pricig-body li span {
+        font-size: 0.95rem; /* Adjust the font size for the list */
+    }
+
+    .pricing-btn a {
+        padding: 10px 20px; /* Increase button padding for better touch targets */
+        font-size: 1.1rem; /* Larger font size for the button text */
+    }
+}
 </style>
+

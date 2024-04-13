@@ -12,6 +12,11 @@
         <div class="divider"></div>
         <div class="description">
           <p>{{ item.description }}</p>
+          <p>{{ item.bank }}</p>
+          <p>{{ item.account }}</p>
+          <p>{{ item.swift }}</p>
+          <p>{{ item.beneficiary }}</p>
+          
         </div>
       </div>
     </vue-slick-carousel>
@@ -31,11 +36,19 @@ export default {
     return {
       items: [
         { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
-        { photo: { url: require('@/assets/images/impact-2.jpg') }, description: 'Kickboxing provides both group and private lessons. Join to change your life for the better and learn a valuable life skill', project:'Kick Boxing Academy Gstaad' },
+        { photo: { url: require('@/assets/images/impact-5.jpg') }, description: 'Kickboxing provides both group and private lessons. Join to change your life for the better and learn a valuable life skill', project:'Kick Boxing Academy Gstaad' },
         { photo: { url: require('@/assets/images/impact-3.jpg') }, description: 'Cüneyt is a firm believer in giving back to the community he now calls home. Gstaad Kickboxing provides free kickboxing lessons to children aged 6 yrs. to 13 yrs. from all backgrounds in the community of Saanenland', project:'Kick Boxing Academy Gstaad' },
-        { photo: { url: require('@/assets/images/impact-1.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
-        { photo: { url: require('@/assets/images/impact-2.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
-        { photo: { url: require('@/assets/images/impact-3.jpg') }, description: 'Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships', project:'Kick Boxing Academy Gstaad' },
+        { photo: { url: require('@/assets/images/impact-6.jpg') }, description: 'I Am My Bodyguard is a program that empowers children who have experienced sexual abuse or violence. It started as a workshop for children in collaboration with Innocence in Danger, an international non-profit organization in Gstaad.', project:'Global Impact: I am my Bodyguard' },
+        { photo: { url: require('@/assets/images/impact-7.jpg') }, description: "With the success of the initial I Am My Bodyguard workshop for children. Excel Security Solutions decided to develop a course specifically for some of the victims’ mothers, who were too often also victims of abuse. This program was named Fight Like a Girl!", project:'Global Impact: Fight Like a Girl!' },
+        { photo: { url: require('@/assets/images/impact-8.jpg') }, description: 'The program has a social mission: to provide free workshops to the most vulnerable women andchildren in developing countries, funded by donations and paid training for those who can afford it.', project: 'Global Impact: I am my Bodyguard' },
+        { photo: { url: require('@/assets/images/impact-9.jpg') }, 
+          description: 'You can join this mission and make a difference by supporting I Am My Bodyguard today.', 
+          subdescription:'Bank details Switzerland',
+          bank:'Bank: Raiffeisenbank Obersimmental-Saanenland',
+          account: 'Account: CH 15 8080 8001 6533 9267 3',
+          swift: 'SWIFT/BIC: RAIFCH22856',
+          beneficiary: 'Beneficiary: I Am My Bodyguard Switzerland',
+          project: 'Global Impact: I am my Bodyguard' },
        
         // Add more items as needed
       ],

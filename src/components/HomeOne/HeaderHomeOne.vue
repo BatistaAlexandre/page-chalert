@@ -1,5 +1,4 @@
 <template>
-  <!--====== PART START ======-->
   <header class="appie-header-area appie-sticky">
     <div class="container">
       <div class="header-nav-box">
@@ -19,6 +18,7 @@
           </div>
           <div class="col-lg-2 col-md-7 col-sm-6 col-6 order-2 order-sm-3">
             <div class="appie-btn-box" style="text-align: right">
+              <!--
               <template v-if="this.$store.state.enableRtl">
                 <span
                   v-if="this.$store.state.rtl"
@@ -35,15 +35,16 @@
                   RTL
                 </span>
               </template>
+              -->
               <div class="small">
                 <a class="main-btn ml-0" @click.prevent="toggleModal">BOOK FREE CONSULTATION</a>
                 <p class="d-flex flex-nowrap align-items-center">Sponsored by <img src="@/assets/images/allies-3.png" alt="AXA" class="logo1 mr-2"> <span class="mr-2">&</span>
                   <img src="@/assets/images/excel-logo.png" alt="Excel Security Solutions" class="logo2"> 
                 </p>
               </div>
-<div class="toggle-btn ml-30 canvas_open d-lg-none d-block">
-  <i class="fa fa-bars" @click="showSidebar"></i>
-</div>
+            <div class="toggle-btn ml-30 canvas_open d-lg-none d-block">
+              <i class="fa fa-bars" @click="showSidebar"></i>
+            </div>
 
 
  <!-- Visit Modal-->
@@ -100,8 +101,6 @@
       </div>
     </div>
   </header>
-
-  <!--====== PART ENDS ======-->
 </template>
 
 <script>
@@ -159,6 +158,8 @@ export default {
   mounted() {
     document.addEventListener("scroll", this.stickMenu);
   },
+
+
   methods: {
     changeLang() {
       this.$store.dispatch("rtlHandler");
@@ -201,11 +202,7 @@ export default {
          }, 3000); // Adjust the delay as needed
     },
 
-
-
-
     submitForm() {
-      
       const SERVICE_ID = 'service_zg2bepp';
       const TEMPLATE_ID = 'template_g2a1yaq';
       const PUBLIC_KEY = 'MVekMSZT8jTmKVA4n';
@@ -251,7 +248,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .small {
   display: flex;
   flex-direction: column;
@@ -262,6 +259,39 @@ export default {
 .small p{
   font-size: 11px; 
 }
+
+.small a {
+  padding: 0px 20px;
+}
+
+.small p {
+  display: flex;
+  align-items: center; /* Vertically aligns the content within the paragraph */
+  flex-wrap: nowrap; /* Prevents the content from wrapping */
+  white-space: nowrap; /* Ensures text does not wrap */
+  overflow: hidden; /* Prevents overflow of content */
+}
+
+.small img {
+  max-width: 100%; /* Ensures images do not exceed their container */
+  height: auto; /* Maintains aspect ratio */
+  margin-right: 8px; /* Space between logos and other elements */
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .small {
+    align-items: flex-start; /* Centers items vertically in the row */
+    justify-content: space-between; /* Spreads items to fill available space */
+  }
+
+  .small p {
+    margin-left: 20px; /* Adds space between button and paragraph on larger screens */
+    flex-grow: 1; /* Allows the paragraph to fill the available space */
+  }
+
+}
+
+
 
 .main-btn {
   font-weight: bold;
