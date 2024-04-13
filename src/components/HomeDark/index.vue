@@ -371,9 +371,9 @@ export default {
           description: "Public gatherings, be it corporate events, concerts, or sports events, pose unique security challenges. The key to effective event security lies in meticulous planning, coordination, and the ability to respond swiftly to any emergencies. Event security teams work tirelessly behind the scenes, ensuring that the event goes smoothly without any security breaches, providing peace of mind to both the organizers and the attendees."
         },
         {
-          icon: "fa-shopping-bag",
+          icon: "fa-cogs",
           title: "Technical Systems",
-          content: "Custom security integration for chalet safety and aesthetic cohesion",
+          content: "Custom security integration for chalet safety",
           customClass: "item-4",
           subtitle:"Retail Security: Protecting Assets, Ensuring Peace",
           description: "Excel Security Solutions offers a comprehensive approach to your chalet security, ensuring that all technical systems are seamlessly integrated into the design of your space. Our services include collaboration with your design team or architect  to implement security measures that are both effective and aesthetically pleasing. The focus is on user-friendly operation without sacrificing safety, covering essential components like access control, surveillance, and intrusion detection, as well as secure storage solutions. This holistic strategy aims to protect both the property and the well-being of its occupants."
@@ -387,7 +387,7 @@ export default {
           description: "Shops in the region are continually grappling with the threat of theft and vandalism. Our security services focus on creating a safe and secure shopping environment for customers while protecting the store's assets. This involves not just surveillance and patrolling but also training the retail staff to be vigilant and respond appropriately to any security threats."
         },
         {
-          icon: icon_three,
+          icon: "fa-user-secret",
           title: "Background Check",
           content: "Thorough background checks for informed employment decisions",
           customClass: "item-3",
@@ -395,7 +395,7 @@ export default {
           description: "Pre-employment background checks are a crucial step in the hiring process, offering a layer of protection and insight into an applicant's history. These checks can include verifying personal information, criminal records, education, and past employment history. They help employers make informed decisions and ensure the safety and integrity of their workplace. It's important to conduct these checks in compliance with legal standards to respect the privacy and rights of the candidate."
         },
         {
-          icon: icon_four,
+          icon: "fa-suitcase-rolling",
           title: "Travel Security",
           content: "Tailored travel security for global client reassurance",
           customClass: "item-4",
@@ -403,7 +403,7 @@ export default {
           description: "With numerous years of experience in working with an international, sophisticated clientele, Excel Security Solutions has the connections and knowledge of assisting you with travel logistics, security any where in the world,  such as property rental, hotel and restaurant booking, private yachting, private aviation, vehicle rental, sports activity coordination, etc. Our travel logistics coordinators are responsible for the day-to-day management of the client’s activities while travelling; focusing on the comfort of the client and your loved ones."
         },
         {
-          icon: icon_four,
+          icon: "fa-first-aid",
           title: "First Aid & AED Training",
           content: "Specialized emergency training",
           customClass: "item-4",
