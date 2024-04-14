@@ -152,10 +152,10 @@ export default {
         },
         addBodyClass() {
         document.body.classList.add('modal-open-dark');
-    },
-    removeBodyClass() {
-        document.body.classList.remove('modal-open-dark');
-    },
+        },
+        removeBodyClass() {
+            document.body.classList.remove('modal-open-dark');
+        },
     }
 }
 </script>

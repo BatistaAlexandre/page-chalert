@@ -23,6 +23,7 @@ import Shops from '../views/Shops.vue'
 import ShopDetails from '../views/ShopDetailsPage.vue'
 import StickerPlacement from '../views/StickerPlacement.vue'
 import ContactForm from '../views/ContactForm.vue'
+import BioTeam from '../components/BioTeam/BioTeam.vue'
 
 
 Vue.use(VueRouter)
@@ -87,6 +88,11 @@ const routes = [
     path: '/how-it-works',
     name: 'Howitworks',
     component: Howitworks
+  },
+  {
+    path: '/bio-team',
+    name: 'BioTeam',
+    component: BioTeam
   },
   {
     path: '/crime-prevention',

@@ -39,9 +39,7 @@ Join us in creating a safer, stronger community together."
 
     <!-- first_button_icon="fab fa-apple" -->
     <!-- second_button_icon="fab fa-google-play" -->
-    <!--====== APPIE HERO PART ENDS ======-->
-
-    <!--======  Why choose us  START ======-->
+  
     <traffic-home-one
     id="How It Works"
       :class="[dark ? 'appie-traffic-area-dark' : '']"
@@ -51,9 +49,9 @@ Join us in creating a safer, stronger community together."
       description="Join us in fostering community safety through collective action. Here are four compelling reasons to choose Chalert:" 
       :features="features"
     />
-    <!--======  Why choose us  ENDs ======-->
+  
 
-     <!--====== APPIE PRICING PART START ======-->
+ 
     <priceing-home-one
     id="Plans"
     style="padding-top: 110px;"
@@ -61,17 +59,14 @@ Join us in creating a safer, stronger community together."
     title="Choose your Plan"
     description="By joining the CHALERT family, you can receive a tailed security program that meets your individual needs. We have a range of memberships available. Explore your options below."
     />
-    <!--====== APPIE PRICING PART ENDS ======-->
+   
     <map-section />
-    <!--====== VALUES PART ENDS ======-->
+  
     <features-home-one 
     id="Our Values"
     style="padding-top: 110px;"
     :class="[ 'appie-features-area-dark' ]" />
-    <!--====== VALUES PART ENDS ======-->
-
-
-    <!--====== APPIE SERVICES PART START ======-->
+   
     <services-home-one
     id="Services"
     style="padding-top: 130px;"
@@ -81,9 +76,7 @@ Join us in creating a safer, stronger community together."
       more_heading=""
       description="Ensuring total protection: advanced security services and trainings for all your needs"
     />
-    <!--====== APPIE SERVICES PART ENDS ======-->
-
-    <!--======  Why TEAM PART  START ======-->
+  
    <team-home-one
     id="Team"
     style="padding-top: 110px;"
@@ -477,18 +470,7 @@ export default {
           name: "James",
           position: "Director",
           img: memberOne,
-          text: 'Something very positive about this person',
           socials: [
-            /*{
-              name: "facebok",
-              url: "https://www.facebook.com",
-              icon: "fab fa-facebook-f", //user font awesome class
-            },
-            {
-              name: "twitter",
-              url: "https://www.instagram.com",
-              icon: "fab fa-instagram", //user font awesome class
-            },*/
             {
               name: "pinterest",
               url: "https://www.linkedin.com/",
@@ -500,22 +482,11 @@ export default {
           name: "Kathrin",
           position: "Director",
           img: memberTwo,
-          text: 'Something very positive about this person',
           socials: [
-            /*{
-              name: "facebok",
-              url: "https://www.facebook.com",
-              icon: "fab fa-facebook-f", //user font awesome class
-            },
-            {
-              name: "twitter",
-              url: "https://www.instagram.com",
-              icon: "fab fa-instagram", //user font awesome class
-            },*/
             {
               name: "pinterest",
               url: "https://www.linkedin.com/",
-              icon: "fab fa-linkedin", //user font awesome class
+              icon: "fab fa-linkedin", 
             },
           ],
         },
@@ -523,22 +494,11 @@ export default {
           name: "Cuneyt",
           position: "Security Agent",
           img: memberThree,
-          text: "Dedicated to ensuring a safe environment, our agent excels in risk assessment and conflict resolution, embodying vigilance and reliability.",
           socials: [
-            /*{
-              name: "facebok",
-              url: "https://www.facebook.com",
-              icon: "fab fa-facebook-f", //user font awesome class
-            },
-            {
-              name: "twitter",
-              url: "https://www.instagram.com",
-              icon: "fab fa-instagram", //user font awesome class
-            },*/
             {
               name: "pinterest",
               url: "https://www.linkedin.com/",
-              icon: "fab fa-linkedin", //user font awesome class
+              icon: "fab fa-linkedin", 
             },
           ],
         },
@@ -546,18 +506,7 @@ export default {
           name: "Alex",
           position: "Security Agent",
           img: memberFour,
-          text: "With expertise in surveillance and emergency protocols, this security professional maintains peace and safety with unwavering dedication.",
           socials: [
-            /*{
-              name: "facebok",
-              url: "https://www.facebook.com",
-              icon: "fab fa-facebook-f", //user font awesome class
-            },
-            {
-              name: "twitter",
-              url: "https://www.instagram.com",
-              icon: "fab fa-instagram", //user font awesome class
-            },*/
             {
               name: "pinterest",
               url: "https://www.linkedin.com/",
@@ -569,18 +518,7 @@ export default {
           name: "Mario",
           position: "Security Agent",
           img: memberFive,
-          text: "Specializing in crowd control, our agent ensures every event unfolds smoothly, guaranteeing safety with proactive measures and strategic planning.",
           socials: [
-            /*{
-              name: "facebok",
-              url: "https://www.facebook.com",
-              icon: "fab fa-facebook-f", //user font awesome class
-            },
-            {
-              name: "twitter",
-              url: "https://www.instagram.com",
-              icon: "fab fa-instagram", //user font awesome class
-            },*/
             {
               name: "pinterest",
               url: "https://www.linkedin.com/",
@@ -592,18 +530,7 @@ export default {
           name: "Miguel",
           position: "Security Agent",
           img: memberSix,
-          text: 'Something very positive about this person',
           socials: [
-            /*{
-              name: "facebok",
-              url: "https://www.facebook.com",
-              icon: "fab fa-facebook-f", //user font awesome class
-            },
-            {
-              name: "twitter",
-              url: "https://www.instagram.com",
-              icon: "fab fa-instagram", //user font awesome class
-            },*/
             {
               name: "pinterest",
               url: "https://www.linkedin.com/",
@@ -615,18 +542,7 @@ export default {
           name: "Moussa",
           position: "Security Agent",
           img: memberSeven,
-          text: 'Something very positive about this person',
           socials: [
-            /*{
-              name: "facebok",
-              url: "https://www.facebook.com",
-              icon: "fab fa-facebook-f", //user font awesome class
-            },
-            {
-              name: "twitter",
-              url: "https://www.instagram.com",
-              icon: "fab fa-instagram", //user font awesome class
-            },*/
             {
               name: "pinterest",
               url: "https://www.linkedin.com/",
@@ -638,18 +554,31 @@ export default {
           name: "Michael",
           position: "Security Agent",
           img: memberEight,
-          text: 'Something very positive about this person',
           socials: [
-            /*{
-              name: "facebok",
-              url: "https://www.facebook.com",
-              icon: "fab fa-facebook-f", //user font awesome class
-            },
             {
-              name: "twitter",
-              url: "https://www.instagram.com",
-              icon: "fab fa-instagram", //user font awesome class
-            },*/
+              name: "pinterest",
+              url: "https://www.linkedin.com/",
+              icon: "fab fa-linkedin", //user font awesome class
+            },
+          ],
+        },
+        {
+          name: "Lahlal",
+          position: "Security Agent",
+          img: memberEight,
+          socials: [
+            {
+              name: "pinterest",
+              url: "https://www.linkedin.com/",
+              icon: "fab fa-linkedin", //user font awesome class
+            },
+          ],
+        },
+        {
+          name: "Christopher",
+          position: "Security Agent",
+          img: memberEight,
+          socials: [
             {
               name: "pinterest",
               url: "https://www.linkedin.com/",
