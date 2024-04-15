@@ -6,6 +6,7 @@ import memberFive from "@/assets/images/team5.png";
 import memberSix from "@/assets/images/team6.png";
 import memberSeven from "@/assets/images/team7.png";
 import memberEight from "@/assets/images/team8.png";
+import memberNine from "@/assets/images/team9.png";
 
 export const members = [
   {
@@ -115,7 +116,7 @@ export const members = [
   {
     name: "Lahlal",
     position: "Security Agent",
-    img: memberEight,
+    img: memberNine,
     bio: "Lahlal's career transition is a testament to the dynamic nature of professional growth and adaptability. His foundational experience in finance provided him with analytical skills and a detail-oriented approach, which he has effectively transferred to the health sector and private security industry. Since joining the company in 2022, Lahlal has demonstrated a unique blend of expertise, merging his knowledge of health care with security to offer comprehensive services to private families. His ability to provide facility assistance further showcases his versatility and commitment to meeting the diverse needs of clients. Lahlal's journey reflects the evolving landscape of career paths, where cross-disciplinary skills and continuous learning are highly valued.",
     socials: [
       {

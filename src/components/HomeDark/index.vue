@@ -181,6 +181,7 @@ import memberFive from "@/assets/images/team5.png";
 import memberSix from "@/assets/images/team6.png";
 import memberSeven from "@/assets/images/team7.png";
 import memberEight from "@/assets/images/team8.png";
+import memberNine from "@/assets/images/team9.png";
 import testmonialAvater from "@/assets/images/testimonial-user.png";
 import testmonialAvater1 from "@/assets/images/testimonial-user-1.png";
 import testmonialAvater2 from "@/assets/images/testimonial-user-2.png";
@@ -565,7 +566,7 @@ export default {
         {
           name: "Lahlal",
           position: "Security Agent",
-          img: memberEight,
+          img: memberNine,
           socials: [
             {
               name: "pinterest",
