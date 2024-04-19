@@ -1,4 +1,68 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<template>
+  <div class="section">
+    <vue-slick-carousel class="card-slider" v-bind="settings" ref="carousel">
+      <div v-for="(item, index) in items" :key="index" class="card">
+        <div class="photo">
+          <img :src="item.photo.url" alt="Photo" class="card-image">
+        </div>
+        <div class="shape">
+          <p class="project">{{item.project}}</p>
+        </div>
+        <div class="divider"></div>
+        <div class="description">
+          <p>{{ item.description }}</p>
+          <p>{{ item.bank }}</p>
+          <p>{{ item.account }}</p>
+          <p>{{ item.swift }}</p>
+          <p>{{ item.beneficiary }}</p>
+        </div>
+      </div>
+    </vue-slick-carousel>
+  </div>
+</template>
+
+
+
+
+
+
+
+
+<!--
 <template>
   <div class="section">
     <vue-slick-carousel class="card-slider" v-bind="settings" ref="carousel">
@@ -22,6 +86,8 @@
     </vue-slick-carousel>
   </div>
 </template>
+
+-->
 
 <script>
 import VueSlickCarousel from 'vue-slick-carousel';
@@ -62,38 +128,174 @@ export default {
         slidesToScroll: 1,
         responsive: [
         {
-      breakpoint: 1024, // For tablets and below
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 768, // For smaller tablets and large phones
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 480, // For smaller phones
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: true,
-        arrows: false // Consider hiding arrows on very small screens for more space
-      }
-    }
-          // Other breakpoints...
-        ]
+          breakpoint: 1785,
+          settings: { slidesToShow: 2, slidesToScroll: 1 }
+        },{
+          breakpoint: 1024,
+          settings: { slidesToShow: 2, slidesToScroll: 1 }
+        }, {
+          breakpoint: 768,
+          settings: { slidesToShow: 1, slidesToScroll: 1, arrows: false }
+        }]
       }
     };
   }
 }
 </script>
+
+
+<!--
+<style scoped>
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.card-slider {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card {
+  max-width: 480px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #ed1f27;
+  margin: 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  min-height: 580px;
+}
+
+.photo {
+  position: relative;
+  overflow: hidden;
+}
+
+.shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  width: 60%;
+  background-color: #ed1f27;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.description {
+  padding: 30px;
+  text-align: center;
+}
+
+.project {
+  color: #fff;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ed1f27;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/* Adjustments for different screen sizes */
+@media (max-width: 768px) {
+  .card-slider {
+    width: 90%;
+  }
+
+  .card {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  .shape {
+    width: 100%;
+    border-top-right-radius: 0;
+  }
+   
+  .divider {
+    margin-top: 20px;
+  }
+
+  .project {
+    font-size: 12px;
+  }
+}
+
+/* New media query for screens between 769px and 991px */
+@media (min-width: 769px) and (max-width: 991px) {
+  .card-slider {
+    width: 95%; /* Slightly wider slider for better use of space */
+  }
+
+  .card {
+    margin: 20px; /* Increased margin for better spacing */
+  }
+
+  .description {
+    padding: 20px; /* Reduced padding for more text */
+  }
+
+  .project {
+    font-size: 12px; /* Slightly larger font size for better readability */
+  }
+}
+
+/* New media query for screens between 992px and 1200px */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .card-slider {
+    width: 100%; /* Use full width to display more content */
+  }
+
+  .card {
+    margin: 25px 15px; /* Optimal spacing around cards */
+  }
+
+  .description {
+    padding: 25px; /* Increased padding for aesthetic spacing */
+  }
+
+  .project {
+    font-size: 13px; /* Ideal font size for medium screens */
+  }
+
+  .divider {
+    width: 50%; /* Wider divider for better visual separation */
+    margin-top: 25px; /* More space above the divider */
+  }
+}
+
+@media (max-width: 480px) {
+  .description {
+    padding: 15px;
+  }
+
+  .project {
+    font-size: 11px;
+  }
+
+  .divider {
+    margin-top: 10px;
+  }
+}
+</style>
+-->
+
 
 <style scoped>
 .section {
@@ -105,6 +307,7 @@ export default {
 .card-slider {
   width: 90%; /* Adjust width as needed */
   margin: 0 auto; /* Center the slider */
+  padding: 10px;
 }
 
 .card {
@@ -201,5 +404,4 @@ export default {
   /* Add more responsive adjustments as needed */
 }
 </style>
-
 

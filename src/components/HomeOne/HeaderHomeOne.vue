@@ -18,24 +18,6 @@
           </div>
           <div class="col-lg-2 col-md-7 col-sm-6 col-6 order-2 order-sm-3">
             <div class="appie-btn-box" style="text-align: right">
-              <!--
-              <template v-if="this.$store.state.enableRtl">
-                <span
-                  v-if="this.$store.state.rtl"
-                  class="align-content-center mr-10"
-                  @click="changeLang()"
-                >
-                  LTR
-                </span>
-                <span
-                  v-else
-                  class="align-content-center mr-10"
-                  @click="changeLang()"
-                >
-                  RTL
-                </span>
-              </template>
-              -->
               <div class="small">
                 <a class="main-btn ml-0" @click.prevent="toggleModal">BOOK FREE CONSULTATION</a>
                 <p class="d-flex flex-nowrap align-items-center">Sponsored by <img src="@/assets/images/allies-3.png" alt="AXA" class="logo1 mr-2"> <span class="mr-2">&</span>
@@ -278,24 +260,24 @@ export default {
   margin-right: 8px; /* Space between logos and other elements */
 }
 
+/*
 @media (min-width: 991px) and (max-width: 1200px) {
   .small {
-    align-items: flex-start; /* Centers items vertically in the row */
-    justify-content: space-between; /* Spreads items to fill available space */
+    align-items: flex-start; 
+    justify-content: space-between; 
   }
 
   .small p {
-    margin-left: 20px; /* Adds space between button and paragraph on larger screens */
-    flex-grow: 1; /* Allows the paragraph to fill the available space */
+    margin-left: 20px; 
+    flex-grow: 1; 
   }
 
 }
-
-
+*/
 
 .main-btn {
   font-weight: bold;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .checkbox-group {
@@ -393,11 +375,7 @@ export default {
   width: 40px;
 }
 
-@media (max-width: 768px) {
-  .small {
-    display: none;
-  }
-}
+
 
 @keyframes slideInFromTop {
   from {
@@ -409,5 +387,55 @@ export default {
     opacity: 1;
   }
 }
+
+@media (min-width: 992px) and (max-width: 1251px) {
+  .header-nav-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .appie-logo-box {
+    flex: 1;
+  }
+
+  .appie-header-main-menu {
+    display: block; 
+  }
+
+  .appie-btn-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    flex: 2;
+  }
+
+  .main-btn {
+    font-size: 14px; 
+  }
+
+  .toggle-btn {
+    display: none; /* Hide elements with class `small` and `toggle-btn` */
+  }
+
+  .main-btn,
+.appie-logo-box img {
+  transform: scale(0.8); /* Reduce size to 80% */
+}
+
+.appie-logo-box img {
+  display: block;
+  max-width: 70%; /* Smaller logo */
+}
+
+.small a {
+  padding: 0px 20px;
+}
+}
+
+
 
 </style>

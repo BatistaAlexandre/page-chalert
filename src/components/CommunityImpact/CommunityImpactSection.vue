@@ -27,6 +27,7 @@
 import CommunityImpactSlider from "../CommunityImpact/CommunityImpactSlider.vue";
 
 
+
 export default {
     components:{
         CommunityImpactSlider
