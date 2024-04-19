@@ -436,6 +436,11 @@ export default {
 }
 }
 
+@media (max-width: 768px) {
+  .small {
+    display: none
+  }
 
+}
 
 </style>
