@@ -14,9 +14,7 @@
                         </br>Join us in creating a safer, stronger community together.</p>
                         <!--<p>{{description}}</p>-->
                         <ul>
-                            <li class="consultation-button-wrapper">
-                                <ConsultationButton @toggleModal="toggleModal"/>
-                            </li>
+                          
                             <li>
                                 <router-link to="/sign-placement">
                                     <i :class="first_button_icon"></i>{{first_button_content}}
@@ -37,24 +35,14 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="hero-shape-1">
-            <img src="@/assets/images/shape/shape-2.png" alt="">
-        </div>
-        <div class="hero-shape-2">
-            <img src="@/assets/images/shape/shape-3.png" alt="">
-        </div>
-        <div class="hero-shape-3">
-            <img src="@/assets/images/shape/shape-4.png" alt="">
-        </div> -->
     </section>
     <!--====== APPIE HERO PART end ======-->
 </template>
 
 <script>
-import ConsultationButton from '../ConsultationButton.vue'
+
 export default {
     props:['welcome_message','slogan','description','thumb_one','thumb_two','first_button_content','first_button_icon'],
-    components: { ConsultationButton },
     methods: {
         toggleModal() {
         // Handle the modal toggle logic here
