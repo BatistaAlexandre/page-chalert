@@ -72,7 +72,7 @@
           <label>I read and accept <a href="">terms & conditions</a></label>
         </div>
         <div class="button-container">
-          <button type="submit" class="main-btn"> {{ isSubmitting ? 'Sending...' : 'BOOK NOW' }}</button>
+          <button type="submit" class="main-btn modal-btn"> {{ isSubmitting ? 'Sending...' : 'BOOK NOW' }}</button>
         </div>
           </form>
         </b-modal>
@@ -260,24 +260,14 @@ export default {
   margin-right: 8px; /* Space between logos and other elements */
 }
 
-/*
-@media (min-width: 991px) and (max-width: 1200px) {
-  .small {
-    align-items: flex-start; 
-    justify-content: space-between; 
-  }
-
-  .small p {
-    margin-left: 20px; 
-    flex-grow: 1; 
-  }
-
-}
-*/
 
 .main-btn {
   font-weight: bold;
   padding: 10px 0;
+}
+
+.modal-btn {
+  padding: 0px 10px;
 }
 
 .checkbox-group {

@@ -68,6 +68,9 @@
                   </li>
                 </ul>
               </div>
+              <div>
+                Book Free Consultation
+              </div>
               <div class="offcanvas-social">
                 <ul class="text-center">
                   <li>

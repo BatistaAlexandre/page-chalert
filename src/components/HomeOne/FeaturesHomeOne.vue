@@ -83,21 +83,6 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="features-shape-1">
-            <img src="@/assets/images/shape/shape-2.png" alt="">
-        </div>
-        <div class="features-shape-2">
-            <img src="@/assets/images/shape/shape-15.png" alt="">
-        </div>
-        <div class="features-shape-3">
-            <img src="@/assets/images/shape/shape-8.png" alt="">
-        </div>
-        <div class="features-shape-4">
-            <img src="@/assets/images/shape/shape-8.png" alt="">
-        </div>
-        <div class="features-shape-5">
-            <img src="@/assets/images/shape/shape-8.png" alt="">
-        </div> -->
         
     </section>
     
