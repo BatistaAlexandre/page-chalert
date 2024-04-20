@@ -18,8 +18,8 @@
     <!--====== OFFCANVAS MENU PART ENDS ======-->
 
     <!--====== PART START ======-->
-
-    <header-news @toggleSidebar="toggleSidebar" :menuItems="navs" />
+    <header-home-one @toggleSidebar="toggleSidebar" :menuItems="navs" />
+    <!--<header-news @toggleSidebar="toggleSidebar" :menuItems="navs" />-->
     <!--====== PART ENDS ======-->
 
     <!--====== APPIE PAGE TITLE PART START ======-->
@@ -134,6 +134,7 @@ import FooterHomeOne from "../HomeOne/FooterHomeOne.vue";
 import ProjectHomeOne from "../HomeOne/ProjectHomeOne.vue";
 import SidebarHomeOne from "../HomeOne/SidebarHomeOne.vue";
 import HeaderNews from "../News/HeaderNews.vue";
+import HeaderHomeOne from "../HomeOne/HeaderHomeOne.vue";
 import BannerServiceDetails from "./BannerServiceDetails.vue";
 import BodyNavSidebar from "./BodyNavSidebar.vue";
 export default {
@@ -144,6 +145,7 @@ export default {
     BodyNavSidebar,
     ProjectHomeOne,
     FooterHomeOne,
+    HeaderHomeOne
     // FaqService,  
   },
   data() {
@@ -151,9 +153,9 @@ export default {
       sidebar: false,
       showloading: true,
       navs: [
-      {
+        {
           name: "Home",
-          path: "#",
+          path: "/#",
         },
         {
           name: "How it works",
@@ -175,6 +177,10 @@ export default {
           name: "Team",
           path: "/#Team",
         },
+       {
+          name: "Partners",
+          path: "/#Partners",
+        },
         {
           name: "FAQ",
           path: "/#FAQ",
@@ -183,10 +189,6 @@ export default {
           name: "Crime Prevention",
           path: "/crime-prevention",
         },
-        // {
-        //   name: "Contact",
-        //   path: "/#Contact",
-        // },
       ],
     };
   },

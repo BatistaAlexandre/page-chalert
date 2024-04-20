@@ -19,7 +19,8 @@
 
     <!--====== PART START ======-->
 
-    <header-news @toggleSidebar="toggleSidebar" :menuItems="navs" />
+   
+    <header-home-one @toggleSidebar="toggleSidebar" :menuItems="navs" />
     <!--====== PART ENDS ======-->
 
     <!--====== APPIE PAGE TITLE PART START ======-->
@@ -99,6 +100,7 @@ import FaqService from "../HomeOne/FaqService.vue";
 import FooterHomeOne from "../HomeOne/FooterHomeOne.vue";
 import ProjectHomeOne from "../HomeOne/ProjectHomeOne.vue";
 import SidebarHomeOne from "../HomeOne/SidebarHomeOne.vue";
+import HeaderHomeOne from "../HomeOne/HeaderHomeOne.vue";
 import HeaderNews from "../News/HeaderNews.vue";
 import BannerServiceDetails from "./BannerServiceDetails.vue";
 import BodyNavSidebar from "./BodyNavSidebar.vue";
@@ -111,6 +113,7 @@ export default {
     BodyNavSidebar,
     ProjectHomeOne,
     FooterHomeOne,
+    HeaderHomeOne,
     StickerTable
     // FaqService,  
   },
@@ -119,9 +122,9 @@ export default {
       sidebar: false,
       showloading: true,
       navs: [
-      {
+        {
           name: "Home",
-          path: "/#header",
+          path: "/#",
         },
         {
           name: "How it works",
@@ -140,8 +143,12 @@ export default {
           path: "/#Services",
         },
         {
-          name: "Partners",
+          name: "Team",
           path: "/#Team",
+        },
+       {
+          name: "Partners",
+          path: "/#Partners",
         },
         {
           name: "FAQ",
@@ -149,12 +156,8 @@ export default {
         },
         {
           name: "Crime Prevention",
-          path: "#",
+          path: "/crime-prevention",
         },
-        // {
-        //   name: "Contact",
-        //   path: "#contact",
-        // },
       ],
     };
   },

@@ -69,7 +69,7 @@
                 </ul>
               </div>
               <div>
-                Book Free Consultation
+               <!--<p>Book Free Consultation</p> -->
               </div>
               <div class="offcanvas-social">
                 <ul class="text-center">

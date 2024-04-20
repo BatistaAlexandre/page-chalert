@@ -36,6 +36,43 @@
             </div>
         </div>
  <!-- Description Modal -->
+ <b-modal
+    v-model="descriptionVisible"
+    id="description-modal"
+    content-class="custom-modal-content"
+    centered
+    hide-footer
+    @shown="addBodyClass"
+    @hidden="removeBodyClass"
+>
+    <template #modal-header="{ close }">
+        <h5 class="modal-title">Details</h5>
+        <button type="button" class="close" @click="close()">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </template>
+
+    <div class="modal-body">
+        <div class="logo-container">
+            <img :src="selectedLogoImage" alt="Logo" class="logo-img-modal">
+        </div>
+        <div class="description-container">
+            <p>{{ selectedDescription }}</p>
+            <p class="bold pt-3">{{ additionalDescription }}</p>
+            <div class="contact-data">
+                <p class="pt-4">{{ contact }}</p>
+                <p class="pt-2">{{ address }}</p>
+                <p class="pt-2">{{ address2 }}</p>
+                <p class="pt-3">Phone: <span class="bold">{{ phone }}</span></p>
+                <p class="pt-2">Email: <span class="bold">{{ email }}</span></p>
+            </div>                  
+        </div>
+    </div>
+</b-modal>
+
+
+
+<!--
         <b-modal
             v-model="descriptionVisible"
             id="description-modal"
@@ -65,6 +102,8 @@
             </div>
             
         </b-modal>
+
+        -->
     </section>
     
     <!--====== APPIE SHOWCASE PART ENDS ======-->
