@@ -472,6 +472,7 @@ export default {
           name: "James",
           position: "Director",
           img: memberOne,
+          bio: "Something to show",
           socials: [
             {
               name: "pinterest",
@@ -484,6 +485,7 @@ export default {
           name: "Kathrin",
           position: "Director",
           img: memberTwo,
+          bio: "Something to show",
           socials: [
             {
               name: "pinterest",
@@ -496,6 +498,7 @@ export default {
           name: "Cuneyt",
           position: "Security Agent",
           img: memberThree,
+          bio: "Something to show",
           socials: [
             {
               name: "pinterest",
@@ -508,6 +511,7 @@ export default {
           name: "Alex",
           position: "Security Agent",
           img: memberFour,
+          bio: "Something to show",
           socials: [
             {
               name: "pinterest",

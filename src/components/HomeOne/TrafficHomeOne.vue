@@ -20,11 +20,6 @@
                                 <p>{{feature.description}}</p>
                             </div>
                         </div>
-                        <div class="col-lg-12">
-                            <div class="traffic-btn mt-50">
-                                <router-link class="main-btn" to="/how-it-works" @click="scrollToTop">Learn More <i class="fal fa-arrow-right"></i></router-link>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

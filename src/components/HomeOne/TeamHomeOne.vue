@@ -22,8 +22,40 @@
                     </div>
                 </div>
 
-        <div class="row team-row"> <!-- Modified class -->
-          <div class="col-lg-3 col-md-6 col-sm-6" v-for="(member, index) in members" :key="index"> <!-- Changed here -->
+
+                <template>
+                  <section class="appie-team-area pt-90 pb-100">
+                    <div class="container">
+                      <div class="row team-row">
+                        <div class="col-lg-3 col-md-6 col-sm-6" v-for="(member, index) in members" :key="index"> 
+                          <div class="appie-team-item mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
+                            <div class="thumb" @mouseover="hover = true" @mouseleave="hover = false">
+                              <img v-if="member.img" :src="member.img" :alt="member.name">
+                             <!-- <div class="hover-text">{{ member.text }}</div>-->
+                              <ul>
+                                <li v-for="(social, index) in member.socials" :key="index">
+                                  <a :href="social.url"><i :class="social.icon"></i></a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="content text-center">
+                              <h5 class="title" v-show="!hover">{{ member.name }}</h5>
+                              <span v-show="!hover">{{ member.position }}</span>
+                              <p v-if="hover" class="hover-bio">{{ member.bio }}</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </template>
+
+
+
+                <!--
+
+        <div class="row team-row">
+          <div class="col-lg-3 col-md-6 col-sm-6" v-for="(member, index) in members" :key="index"> 
             <div class="appie-team-item mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
               <div class="thumb">
                 <img v-if="member.img" :src="member.img" :alt="member.name">
@@ -38,10 +70,8 @@
               </div>
             </div>
           </div>
-          <div class="team-btn text-center pt-50" >
-                        <a class="main-btn" href="/bio-team"> VIEW ALL MEMBERS <i class="fal fa-arrow-right"></i></a>
-                    </div>
         </div>
+        -->
       </div>
     </section>
   </template>
@@ -108,6 +138,11 @@
 -->
 <script>
 export default {
+  data() {
+    return {
+      hover: false
+    };
+  },
     props:{
         title:{
             type:String,
@@ -145,7 +180,7 @@ export default {
   overflow: hidden;
 }
 
-.hover-text {
+.hover-text, .content .hover-bio {
   position: absolute;
   bottom: 80px;
   left: 0;
@@ -153,41 +188,29 @@ export default {
   text-align: center;
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s linear 0.5s, opacity 0.5s linear;
   color: #fff;
   background-color: rgba(255, 255, 255, 0);
   padding: 5px 10px;
   font-family: "Merriweather", serif;
   font-weight: bold;
+  z-index: 100
 }
 
-.thumb:hover .hover-text {
+.thumb:hover .hover-text, .thumb:hover + .content .hover-bio {
   visibility: visible;
   opacity: 1;
+  transition-delay: 0s; /* Ensures the transition effect applies immediately */
 }
 
-.text-center {
-  margin: 0 auto;
+.content .title, .content span {
+  transition: visibility 0s linear 0.5s, opacity 0.5s linear;
 }
 
-.text-center p {
-  font-size: 18px;
-  line-height: 1.8;
-  padding-top: 40px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.text-center p span {
-  color: #ed1f27;
-  font-weight: 600;
-}
-
-.divider {
-  height: 2px;
-  background-color: #ed1f27;
-  margin: 20px auto;
-  width: 40%;
+.thumb:hover + .content .title, .thumb:hover + .content span {
+  visibility: hidden;
+  opacity: 0;
+  transition-delay: 0s; /* Ensures these elements become hidden immediately on hover */
 }
 </style>
 

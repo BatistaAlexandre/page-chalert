@@ -20,7 +20,7 @@
             <div class="appie-btn-box" style="text-align: right">
               <div class="small">
                 <a class="main-btn ml-0" @click.prevent="toggleModal">BOOK FREE CONSULTATION</a>
-                <p class="d-flex flex-nowrap align-items-center">Sponsored by <img src="@/assets/images/allies-3.png" alt="AXA" class="logo1 mr-2"> <span class="mr-2">&</span>
+                <p class="d-flex flex-nowrap align-items-center">Sponsored by <img src="@/assets/images/allies-3.png" alt="AXA" class="logo1 mr-2"><span class="mr-2">&</span>
                   <img src="@/assets/images/excel-logo.png" alt="Excel Security Solutions" class="logo2"> 
                 </p>
               </div>
@@ -257,7 +257,6 @@ export default {
 .small img {
   max-width: 100%; /* Ensures images do not exceed their container */
   height: auto; /* Maintains aspect ratio */
-  margin-right: 8px; /* Space between logos and other elements */
 }
 
 

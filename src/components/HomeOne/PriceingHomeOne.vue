@@ -33,6 +33,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!--
                         <div class="col-lg-3 col-md-6 wow animated fadeInUp">
                             <div class="pricing-one__single">
                                 <div class="pricig-heading">
@@ -46,7 +47,6 @@
                                         <li><h4>Key Features:</h4></li>
                                         <li><i class="fal fa-check"></i><span>Free Security Consultation</span></li>
                                         <li><i class="fal fa-check"></i><span>Timely Updates</span></li>
-                                        <li><i class="fal fa-check"></i><span>ProtectMe Mobile App</span></li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
                                         <a class="main-btn" href="#Contact">Request Details</a>
@@ -54,7 +54,7 @@
                                 </div>
                             </div>
                         </div>
-                   
+                   -->
                         <div class="col-lg-3 col-md-6 wow animated fadeInRight">
                             <div class="pricing-one__single center">
                                 <div class="pricig-heading">
@@ -69,7 +69,6 @@
                                         <li><h4>Key Features:</h4></li>
                                         <li><i class="fal fa-check"></i><span>Free Security Consultation</span></li>
                                         <li><i class="fal fa-check"></i><span>Timely Updates</span></li>
-                                        <li><i class="fal fa-check"></i><span>ProtectMe Mobile App</span></li>
                                         <li><i class="fal fa-check"></i><span>Emergency SOS Button</span></li>
                                         <li><i class="fal fa-check"></i><span>Multiple Daily Vehicule Patrol</span></li>
                                         <li><i class="fal fa-check"></i><span>Rapid Intervention</span></li>
@@ -98,7 +97,6 @@
                                         <li><h4>Key Features:</h4></li>
                                         <li><i class="fal fa-check"></i><span>Free Security Consultation</span></li>
                                         <li><i class="fal fa-check"></i><span>Timely Updates</span></li>
-                                        <li><i class="fal fa-check"></i><span>ProtectMe Mobile App</span></li>
                                         <li><i class="fal fa-check"></i><span>Emergency SOS Button</span></li>
                                         <li><i class="fal fa-check"></i><span>Multiple Daily Vehicule Patrol</span></li>
                                         <li><i class="fal fa-check"></i><span>Rapid Intervention</span></li>
@@ -204,7 +202,7 @@ export default {
     }
 
     .pricing-btn a {
-        padding: 10px 20px; /* Increase button padding for better touch targets */
+        padding: 5px 20px; /* Increase button padding for better touch targets */
         font-size: 1.1rem; /* Larger font size for the button text */
     }
 }
