@@ -17,8 +17,7 @@
                         Our team members hail from various corners of the world, including Switzerland, Portugal, Macedonia, Turkey, Mali, Poland, Italy, the United Kingdom, Nigeria/Malta, Thailand, Algeria, and beyond.
                             Despite our different backgrounds and experiences, we share a common love and appreciation for this beautiful region that we all call home.</p>
                         <p>Our team's expertise allows us to interact seamlessly with guests and workers from various nationalities who also reside in this little speck of the world.
-                            We believe that this rich diversity enhances our ability to provide <span>exceptional security services</span> tailored to the unique needs of our clients.</p>
-                            
+                            We believe that this rich diversity enhances our ability to provide <span>exceptional security services</span> tailored to the unique needs of our clients.</p>        
                     </div>
                 </div>
 
@@ -211,6 +210,14 @@ export default {
   visibility: hidden;
   opacity: 0;
   transition-delay: 0s; /* Ensures these elements become hidden immediately on hover */
+}
+
+.divider {
+  height: 1px;
+  background-color: #ed1f27;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 </style>
 
