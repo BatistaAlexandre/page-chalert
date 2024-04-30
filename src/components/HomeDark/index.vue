@@ -45,7 +45,7 @@ Join us in creating a safer, stronger community together."
       :class="[dark ? 'appie-traffic-area-dark' : '']"
       style="padding-top: 110px;"
       small_title="Our Goal"
-      big_title="Why choose us"
+      big_title="Why join?"
       description="Join us in fostering community safety through collective action. Here are four compelling reasons to choose Chalert:" 
       :features="features"
     />
@@ -238,7 +238,7 @@ export default {
           //path: "#",
         //},
         {
-          name: "How it works",
+          name: "Our Goal",
           path: "#How It Works",
         },
         {
@@ -408,24 +408,24 @@ export default {
       ],
       features: [
         {
-          title: "Global Experience",
+          title: "More Awareness",
           bg: "", // create class for style
-          description: "Our security agents have extensive experience in delivering security services across the globe.",
+          description: "By increasing awareness of criminal behaviour, it encourages people to be more vigilant of their surrounding.",
         },
         {
-          title: "Exclusive Information Access",
+          title: "Accurate and Timely Information",
           bg: "item-2", // create class for style
-          description: "Gain timely updates and valuable insights for informed decision-making.",
+          description: "Get timely and accurate information of criminal activities in the region.",
         },
         {
           title: "Local Expertise",
           bg: "item-3", // create class for style
-          description: "All of our security personnel are Saanenland natives: their understanding of the area ensures your safety. ",
+          description: "Our Security agents are all residents of Saanenland. Their understanding of the area ensures your safety.",
         },
         {
           title: "Community Connection",
           bg: "item-4", // create class for style
-          description: "Connect with like-minded chalet owners for a strengthened community and secure living environment.",
+          description: "Create a sense of unity among Chalet owners for a strength in community. We intend to create a sense of security for the residents and businesses in the region.",
         },
       ],
       sliderContents: [
