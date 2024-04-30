@@ -9,18 +9,10 @@
                         <p class="appie-title">{{slogan}}</p>
                         <p>We are a pioneering security service at the heart of the Saanenland region, placing clients and their community at the heart of everything we do.</br>
 
-                        </br>We work in collaboration with local businesses, police and security networks to ensure that neighbourhoods are safe and residents are empowered with peace of mind.<br/>
+                        </br>We work in collaboration with – Chalet owners, local businesses as well as the local authorities to ensure the neighbourhood is safe, informed and empowered with peace of mind.<br/>
 
                         </br>Join us in creating a safer, stronger community together.</p>
                         <!--<p>{{description}}</p>-->
-                        <ul>
-                          
-                            <li>
-                                <router-link to="/sign-placement">
-                                    <i :class="first_button_icon"></i>{{first_button_content}}
-                                </router-link>
-                            </li>
-                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -28,10 +20,19 @@
                         <div class="thumb wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
                             <img src="@/assets/images/hero-thumb-1.png" alt="">
                         </div>
+                        <div class="appie-hero-content">
+                        <ul>
+                          <li>
+                              <router-link to="/sign-placement">
+                                  <i :class="first_button_icon"></i>{{first_button_content}}
+                              </router-link>
+                          </li>
+                      </ul>
+                    </div>
                         <!--<div class="thumb-2 wow animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
                             <img src="@/assets/images/hero-thumb-2.png" alt="">-->
-                        </div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -86,5 +87,11 @@ export default {
   .consultation-button-wrapper {
     display: block; 
   }
+}
+
+@media (min-width: 769px) and (max-width: 1220) {
+    .appie-title {
+        font-size: 35px !important;
+    }
 }
 </style>

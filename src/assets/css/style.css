@@ -1605,7 +1605,7 @@ p {
   .appie-hero-area.appie-hero-3-area.appie-hero-5-area
     .appie-hero-content
     .appie-title {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 60px;
   }
 }
@@ -1783,14 +1783,15 @@ p {
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .appie-hero-content .appie-title {
-    font-size: 38px;
+    font-size: 34px;
     line-height: 48px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .appie-hero-content .appie-title {
-    font-size: 38px;
+    font-size: 34px;
     line-height: 48px;
+
   }
 }
 @media (max-width: 767px) {

@@ -186,7 +186,7 @@ export default {
           path: "/#Plans",
         },
         {
-          name: "How it works",
+          name: "Our Goal",
           path: "/#How it works",
         },
         {

@@ -213,7 +213,7 @@ export default {
           path: "#",
         },
         {
-          name: "How it works",
+          name: "Our Goal",
           path: "#",
         },
         {

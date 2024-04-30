@@ -6,7 +6,7 @@
                 <div class="col-lg-12">
                     <div class="appie-page-title-item">
                         <!-- <span>Lorem ipsum dolor sit amet consectetur </span> -->
-                        <h3 class="title">How it works</h3>
+                        <h3 class="title">Our Goal</h3>
                         <div class="thumb">
                             <img src="assets/images/fun-fact-thumb.png" alt="">
                         </div>

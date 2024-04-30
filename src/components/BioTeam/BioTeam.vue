@@ -50,7 +50,7 @@ export default {
             path: "/#header",
           },
           {
-            name: "How it works",
+            name: "Our Goal",
             path: "/#How It Works",
           },
           {
