@@ -61,7 +61,7 @@
                                     <h6>Gold</h6>
                                     <div class="price-range"><sup>CHF</sup> <span>9.5</span><p>/day</p></div>
                                      
-                                    <p>Join our Gold program to receive advanced services designed for holstic chalet protection.</p>
+                                    <p>Join our Gold program to receive advanced services designed for holistic chalet protection.</p>
                                 </div>
                                 <div class="divider"></div>
                                 <div class="pricig-body">
@@ -69,7 +69,7 @@
                                         <li><h4>Key Features:</h4></li>
                                         <li><i class="fal fa-check"></i><span>Free Security Consultation</span></li>
                                         <li><i class="fal fa-check"></i><span>Timely Updates</span></li>
-                                        <li><i class="fal fa-check"></i><span>Multiple Daily Vehicule Patrol</span></li>
+                                        <li><i class="fal fa-check"></i><span>Multiple Vehicle Patrol</span></li>
                                         <li><i class="fal fa-check"></i><span>Rapid Intervention</span></li>
                                         <li><i class="fal fa-check"></i><span>CHalert Watch Stickers</span></li>
                                     </ul>
@@ -97,7 +97,7 @@
                                         <li><i class="fal fa-check"></i><span>Free Security Consultation</span></li>
                                         <li><i class="fal fa-check"></i><span>Timely Updates</span></li>
                                         <li><i class="fal fa-check"></i><span>Emergency SOS Button</span></li>
-                                        <li><i class="fal fa-check"></i><span>Multiple Daily Vehicule Patrol</span></li>
+                                        <li><i class="fal fa-check"></i><span>Multiple Vehicle Patrol</span></li>
                                         <li><i class="fal fa-check"></i><span>Rapid Intervention</span></li>
                                         <li><i class="fal fa-check"></i><span>CHalert Watch Stickers</span></li>
                                         <li><i class="fal fa-check"></i><span>One Daily Foot Patrol</span></li>

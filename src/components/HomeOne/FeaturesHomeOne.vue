@@ -74,7 +74,7 @@
                                         <div class="appie-features-content animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
                                             <!-- <span>Custom Reacyions</span> -->
                                             <h3 class="title">Innovation and Adaptability</h3>
-                                            <p>At CHALERT, we embrace innovation throughout our operations, from using the latest technologies in surveillance, to offering round-the-clock care via the ProtectMe mobile app.</p>
+                                            <p>We embrace innovation throughout our operations, by using the latest guard patrol technology for accountability agent tracking and security.</p>
                                         </div>
                                     </div>
                                 </div>

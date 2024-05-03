@@ -23,7 +23,7 @@
 
 
                 <template>
-                  <section class="appie-team-area pt-90 pb-100">
+                  <section class="appie-team-area ">
                     <div class="container">
                       <div class="row team-row">
                         <div class="col-lg-3 col-md-6 col-sm-6" v-for="(member, index) in members" :key="index"> 
