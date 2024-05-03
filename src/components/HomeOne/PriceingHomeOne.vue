@@ -16,7 +16,7 @@
                         <div class="col-lg-3 col-md-6 wow animated fadeInLeft">
                             <div class="pricing-one__single">
                                 <div class="pricig-heading">
-                                    <h6>Free Membership</h6>
+                                    <h6>Free</h6>
                                     <div class="price-range"><sup></sup> <span>FREE</span><p></p></div>
                                     <p>Join the Chalert Community for free and be part of a network that keeps you informed and connected.</p>
                                 </div>
@@ -69,7 +69,6 @@
                                         <li><h4>Key Features:</h4></li>
                                         <li><i class="fal fa-check"></i><span>Free Security Consultation</span></li>
                                         <li><i class="fal fa-check"></i><span>Timely Updates</span></li>
-                                        <li><i class="fal fa-check"></i><span>Emergency SOS Button</span></li>
                                         <li><i class="fal fa-check"></i><span>Multiple Daily Vehicule Patrol</span></li>
                                         <li><i class="fal fa-check"></i><span>Rapid Intervention</span></li>
                                         <li><i class="fal fa-check"></i><span>CHalert Watch Stickers</span></li>

@@ -28,7 +28,7 @@
             <i class="fas fa-caret-up"></i>
             <i class="fas fa-caret-up"></i>
         </div>
-      <b-col cols="12" sm="6" md="3" v-for="(project, index) in global" :key="index">
+      <b-col cols="12" sm="6" md="4" v-for="(project, index) in global" :key="index">
         <div class="photo-item">
           <img :src="project.photo.url" :alt="project.project" class="img-fluid">
           <div class="label">{{ project.project }}</div>
@@ -72,7 +72,6 @@ export default {
 
       global:[
         { photo: { url: require('@/assets/images/impact-6.jpg') }, description: 'I Am My Bodyguard is a program that empowers children who have experienced sexual abuse or violence. It started as a workshop for children in collaboration with Innocence in Danger, an international non-profit organization in Gstaad.', project:'I am my Bodyguard' },
-        { photo: { url: require('@/assets/images/impact-7.jpg') }, description: "With the success of the initial I Am My Bodyguard workshop for children. Excel Security Solutions decided to develop a course specifically for some of the victims’ mothers, who were too often also victims of abuse. This program was named Fight Like a Girl!", project:'I am my Bodyguard' },
         { photo: { url: require('@/assets/images/impact-8.jpg') }, description: 'The program has a social mission: to provide free workshops to the most vulnerable women andchildren in developing countries, funded by donations and paid training for those who can afford it.', project: 'I am my Bodyguard' },
         { photo: { url: require('@/assets/images/impact-9.jpg') }, project: 'I am my Bodyguard'}
       ],
