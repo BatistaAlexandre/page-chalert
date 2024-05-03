@@ -97,7 +97,7 @@
 >
     <div class="modal-header">
         <h4>Become Chalert's Partner</h4>
-        <p>Join Chalert's network: register as a valued Business Partner or Ally.</p>
+        <p>I am interested in becoming a CHalert Partner</p>
     </div>
     <form @submit.prevent="submitForm" id="partner-form">
         <div class="checkbox-group mt-30">
@@ -177,7 +177,7 @@ export default {
             acceptTerms: false,
             options: [
                 "Business Partner",
-                "Business Ally"
+                "Alliance Partner"
             ],
             images: [
                 {image: require('@/assets/images/partner-3.png'), 
