@@ -40,7 +40,7 @@
           <h3 class="pb-10">I Am My Bodyguard</h3>
           <p>I Am My Bodyguard is a program that empowers children who have experienced sexual abuse or violence. It started as a workshop for children in collaboration with Innocence in Danger, an international non-profit organization in Gstaad.
             With the success of the initial I Am My Bodyguard workshop for children. Excel Security Solutions decided to develop a course specifically for some of the victims’ mothers, who were too often also victims of abuse. This program was named Fight Like a Girl!
-            he program has a social mission: to provide free workshops to the most vulnerable women andchildren in developing countries, funded by donations and paid training for those who can afford it.
+            The program has a social mission: to provide free workshops to the most vulnerable women and children in developing countries, funded by donations and paid training for those who can afford it.
           </p>  
           <div class="divider"></div>
         <div class="description">
