@@ -34,7 +34,7 @@
             </div>
           <h4>{{ selectedService.title }}</h4>
           <p>{{ selectedService.description }}</p>
-          <b-button variant="primary" class="main-btn" @click="redirectToUrl">LEARN MORE</b-button>
+          <b-button variant="primary" class="main-btn" @click="redirectToUrl">CONTACT US</b-button>
         </div>
       </template>
     </b-modal>
