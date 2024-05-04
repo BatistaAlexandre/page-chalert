@@ -9,6 +9,7 @@
                                 <div class="appie-project-content">
                                     <h3 class="title">{{ title }}</h3>
                                     <p>{{ description }}</p>
+                                    
                                     <form @submit.prevent="sendEmail">
                                         <div class="input-box mt-30">
                                             <input type="text" v-model="name" name="name" placeholder="Name"
@@ -51,6 +52,14 @@ export default {
         },
         description: {
             type: String,
+        },
+        selectedPlan: {
+            type: String,
+            required: true
+        },
+        planName: {
+            type: String,
+            default: ''
         }
     },
     data() {
@@ -59,9 +68,16 @@ export default {
             email: '',
             phone: '',
             message: '',
-            messageSent: false
+            messageSent: false,
+            selectedPlans: []
         }
     },
+    created() {
+    this.$root.$on('plan-selected', planName => {
+      this.selectedPlans = [planName];
+      console.log('Plan: ', this.selectedPlans)
+    });
+  },
     methods: {
         sendEmail(e) {
             // Verifica se os campos estão preenchidos
@@ -76,7 +92,8 @@ export default {
                     name: this.name,
                     email: this.email,
                     phone: this.phone,
-                    message: this.message
+                    message: this.message,
+                    selectedPlans: this.selectedPlans.join(', ')
                 }).then(() => {
                     window.alert('Message sent');
                     this.messageSent = true;
@@ -84,6 +101,7 @@ export default {
                     this.email = '';
                     this.phone = '';
                     this.message = '';
+                    this.selectedPlans = [];
                 }).catch(error => {
                     console.log('Error:', error);
                 });
@@ -96,5 +114,36 @@ export default {
 </script>
 
 <style scoped>
-/* Add your custom styles here */
+.input-box input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #999;
+    border-radius: 2px;
+    vertical-align: middle;
+    margin-left: 12px;
+    margin-right: 8px
+
+}
+
+.input-box input[type="checkbox"]:checked {
+    background-color: #ed1f27;
+}
+
+.input-box label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff
+}
+
+.input-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
 </style>

@@ -28,7 +28,7 @@
                                         <li><i class="fal fa-check"></i><span>Timely Updates via Email</span></li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
-                                        <a class="main-btn" href="#Contact">Request Details</a>
+                                        <a class="main-btn" href="#Plans" @click="showModal('Free Plan')">Request Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@
                                         <li><i class="fal fa-check"></i><span>CHalert Watch Stickers</span></li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
-                                        <a class="main-btn" href="#Contact">Request Details</a>
+                                        <a class="main-btn" href="#Plans" @click="showModal('Gold Plan')">Request Details</a>
                                     </div>
                                 </div>
                                 <div class="pricing-rebon">
@@ -104,7 +104,7 @@
                                         <li><i class="fal fa-check"></i><span>Security Point of Contact</span></li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
-                                        <a class="main-btn" href="#Contact">Request Details</a>
+                                        <a class="main-btn" href="#Plans" @click="showModal('Platinum Plan')">Request Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -114,31 +114,148 @@
              
             </div>
         </div>
+
+        <!-- Modal -->
+        <b-modal ref="myModalRef" hide-footer hide-header centered>
+            <form @submit.prevent="submitForm" class="form-body">
+            <h6 class="mt-10"> I am interested in <span>{{ selectedPlan }}</span></h6>
+            <div class="form-group mt-2 pl-10 pr-10">
+                <input type="text" class="form-control" id="name" v-model="form.name" required placeholder="Name">
+            </div>
+            <div class="form-group mt-2 pl-10 pr-10">
+                <input type="text" class="form-control" id="surname" v-model="form.surname" required placeholder="Surname">
+            </div>
+            <div class="form-group mt-2 pl-10 pr-10">
+                <input type="tel" class="form-control" id="phone" v-model="form.phone" required placeholder="Phone">
+            </div>
+            <div class="form-group mt-2 pl-10 pr-10">
+                <input type="email" class="form-control" id="email" v-model="form.email" required placeholder="Email">
+            </div>
+            <div class="checkbox-terms mt-2">
+                <input type="checkbox" name="terms" v-model="acceptTerms">
+                <label>I read and accept <a href="">terms & conditions</a></label>
+            </div>
+            <div class="button-area">
+            <button type="submit" class="btn btn-primary mt-20" style="background-color: #ed1f27; border-color: #ed1f27; width: 100px;">Send</button>
+            </div>
+            </form>
+        </b-modal>
     </section>
+    
+
     
  
 </template>
 
 
 <script>
+import { BModal } from 'bootstrap-vue';
+import emailjs from 'emailjs-com'
 export default {
+    components: {
+        BModal
+    },
     props:{
         title:{
             type: String,
         },
         description:{
             type: String,
+        },
+        selectedPlan: {
+            type: String
         }
     },
     data(){
         return{
-            switchPlan:true
+            switchPlan:true,
+            isSubmitting: false,
+            acceptTerms: false,
+            form:{
+                name: '',
+                surname: '',
+                phone: '',
+                email: '',
+            },
+            selectedPlan:[]
+            
         }
     },
     methods:{
          change_plan(){
             this.switchPlan = !this.switchPlan
         },
+
+        showModal(planName) {
+            this.selectedPlan = planName;
+            this.$refs.myModalRef.show();
+        },
+
+        resetForm() {
+        this.form = {
+        selectedPlan: [],
+          name: '',
+          surname: '',
+          phone: '',
+          email: '',
+        };
+        this.acceptTerms = false; 
+        setTimeout(() => {
+         this.submissionMessage = ''; // Clear submission message
+         }, 3000); // Adjust the delay as needed
+    },
+
+        submitForm() {
+            // Here you can handle the form submission
+            console.log('Form submitted!');
+            console.log('Name:', this.form.name);
+            console.log('Surname:', this.form.surname);
+            console.log('Phone:', this.form.phone);
+            console.log('Email:', this.form.email);
+            console.log('Plan:', this.selectedPlan);
+            // You can emit an event or perform any other action here
+            // For example, emit an event to inform parent component about the form submission
+            // this.$emit('form-submitted', { name: this.name, surname: this.surname, phone: this.phone, email: this.email });
+            // You can also close the modal after form submission
+            const SERVICE_ID = 'service_zg2bepp';
+      const TEMPLATE_ID = 'template_g2a1yaq';
+      const PUBLIC_KEY = 'MVekMSZT8jTmKVA4n';
+      const emailParams = {
+        from_name: `${this.form.name} ${this.form.surname}`,
+        from_email: this.form.email,
+        phone: this.form.phone,
+        services: this.selectedPlan,
+      };
+
+
+      if (!this.acceptTerms) {
+        alert("Please accept the terms and conditions.");
+        return;
+      }
+
+      // Initialize EmailJS with your user ID (this step can be done in your main app file if preferred)
+     emailjs.init(PUBLIC_KEY);
+
+     this.isSubmitting = true
+
+  
+      // Send the email using EmailJS
+      emailjs
+      .send(SERVICE_ID, TEMPLATE_ID, emailParams, PUBLIC_KEY)
+        .then((response) => {
+          console.log('SUCCESS!', response.status, response.text, 'Form Data:', emailParams);
+          this.submissionMessage = "Form submitted successfully.";
+          this.isSubmitting = false; 
+          this.resetForm();
+        }, (err) => {
+          console.error('FAILED...', err);
+          this.submissionMessage = "Failed to submit the form. Please try again.";
+          this.isSubmitting = false;
+        });
+
+            this.$refs.myModalRef.hide();
+        }
+
     }
 
 }
@@ -152,58 +269,114 @@ export default {
 
 .pricig-body li {
   display: flex;
-  align-items: center; /* Vertically center the items */
+  align-items: center; 
 }
 
 .pricig-body li i {
-  margin-right: 10px; /* Add some space between the icon and the text */
+  margin-right: 10px; 
 }
 
 .pricig-body li span {
-  max-width: 90%; /* Prevent the text from extending too far */
+  max-width: 90%; 
 }
 
 .pricig-heading {
-  height: 311px; /* Adjust the height as needed */
+  height: 311px; 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
 .pricig-heading h6 {
-  margin-bottom: 15px; /* Add some space below the title */
+  margin-bottom: 15px; 
 }
 
 .price-range {
-  margin-bottom: 15px; /* Add some space below the price */
+  margin-bottom: 15px; 
 }
 
 .divider {
     border-bottom: 1px solid #ed1f27;
 }
 
-/* Responsive styles for screens between 991px and 1200px */
+/* modal style */
+
+
+.b-modal-header-close {
+  color: #ed1f27;
+  font-size: 24px;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-dialog {
+  margin-top: 50px; /* Adjust the distance from the top */
+}
+
+.modal-body {
+  padding-bottom: 30px; /* Add space at the bottom */
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.form-body h6 {
+    text-align: center;
+}
+
+.form-body h6 span {
+    color:#ed1f27
+}
+
+.button-area {
+    display: flex;
+    justify-content: center;
+}
+.checkbox-terms {
+  display: flex; 
+  align-items: center;
+  margin: 10px 15px;
+}
+
+.checkbox-terms input[type="checkbox"] {
+  margin-right: 15px; 
+}
+
+.checkbox-terms a {
+ color: #ed1f27;
+ font-weight: bold;
+}
+
+
 @media (min-width: 991px) and (max-width: 1200px) {
     .pricing-one__single {
-        padding: 20px; /* Increase padding for better spacing */
+        padding: 20px; 
     }
 
     .pricig-heading h6 {
-        font-size: 1.2rem; /* Increase the font size for the title */
+        font-size: 1.2rem; 
     }
 
     .price-range span {
-        font-size: 2rem; /* Larger font size for price */
+        font-size: 2rem; 
     }
 
     .pricig-body li span {
-        font-size: 0.95rem; /* Adjust the font size for the list */
+        font-size: 0.95rem; 
     }
 
     .pricing-btn a {
-        padding: 5px 20px; /* Increase button padding for better touch targets */
-        font-size: 1.1rem; /* Larger font size for the button text */
+        padding: 5px 20px; 
+        font-size: 1.1rem; 
     }
 }
+
+
+
 </style>
 
