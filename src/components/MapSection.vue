@@ -2,7 +2,13 @@
     <div class="container">
       <div class="text">
         <h2>Where We Operate</h2>
-        <p>We are proud to serve the communities of the Saanenland region, including Gstaad, Schonreid, Saanen and Saanenmoser.</p>
+        <p class="mb-2">We are proud to serve the communities of the Saanenland region, including:</p> 
+        <ul>
+          <li>Gstaad</li>
+          <li>Saanen</li>
+          <li>Schonried</li>
+          <li>Saanenmoser</li>
+        </ul>
       </div>
       <div class="map">
         <img src="@/assets/images/map.jpeg" alt="Map">
@@ -17,6 +23,12 @@
   </script>
   
   <style scoped>
+
+ul {
+    list-style-type: disc; /* Use disc for filled circles */
+    padding-left: 18px;
+}
+
 .container {
   display: flex;
   align-items: center;
