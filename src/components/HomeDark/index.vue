@@ -136,13 +136,14 @@ Join us in creating a safer, stronger community together."
     <!--====== APPIE FAQ PART ENDS ======-->
 
     <!--====== APPIE BLOG PART START ======-->
-   <!-- <blog-home-one
+   <blog-home-one
     id="Tips" 
       :class="[dark ? 'appie-blog-area-dark' : '']"
       title="Latest blog posts"
       description="Different layouts and styles for team sections."
       :blogs="blogs"
-    /> -->
+    />
+    
     <!--====== APPIE BLOG PART ENDS ======-->
 
     <!--====== APPIE PROJECT PART START ======-->
@@ -170,9 +171,9 @@ Join us in creating a safer, stronger community together."
 <script>
 import ShowCaseHomeThree from "../HomeOne/ShowCaseHomeThree.vue";
 import StrategicAllies from "../HomeOne/StrategicAllies.vue";
-// import blogOne from "@/assets/images/blog-1.jpg";
-// import blogTwo from "@/assets/images/blog-2.jpg";
-// import blogThree from "@/assets/images/blog-3.jpg";
+import blogOne from "@/assets/images/blog-1.jpg";
+import blogTwo from "@/assets/images/blog-2.jpg";
+import blogThree from "@/assets/images/blog-3.jpg";
 import memberOne from "@/assets/images/team1.png";
 import memberTwo from "@/assets/images/team2.png";
 import memberThree from "@/assets/images/team3.png";
@@ -200,7 +201,7 @@ import TestimonialHomeOne from "../HomeOne/TestimonialHomeOne.vue";
 import TeamHomeOne from "../HomeOne/TeamHomeOne.vue";
 import PriceingHomeOne from "../HomeOne/PriceingHomeOne.vue";
 import FaqHomeOne from "../HomeOne/FaqHomeOne.vue";
-//import BlogHomeOne from "../HomeOne/BlogHomeOne.vue";
+import BlogHomeOne from "../HomeOne/BlogHomeOne.vue";
 import ProjectHomeOne from "../HomeOne/ProjectHomeOne.vue";
 import FooterHomeOne from "../HomeOne/FooterHomeOne.vue";
 import CommunityImpactSection from "../CommunityImpact/CommunityImpactSection.vue";
@@ -219,7 +220,7 @@ export default {
     TeamHomeOne,
     PriceingHomeOne,
     FaqHomeOne,
-   // BlogHomeOne,
+    BlogHomeOne,
     ProjectHomeOne,
     FooterHomeOne,
     CommunityImpactSection,
@@ -472,150 +473,101 @@ export default {
           name: "James",
           position: "Director",
           img: memberOne,
-          bio: "Something to show",
-          socials: [
-            {
-              name: "pinterest",
-              url: "https://www.linkedin.com/",
-              icon: "fab fa-linkedin", //user font awesome class
-            },
-          ],
+          bio: "With 27 years of experience in private security, James has honed his skills across continents, serving private families and gaining specialized experience as the personal bodyguard to the Swiss ambassador to Somalia and Kenya. His dedication to education and empowerment underscores his passion for the field.",
+          
         },
         {
           name: "Kathrin",
           position: "Director",
           img: memberTwo,
-          bio: "Something to show",
-          socials: [
-            {
-              name: "pinterest",
-              url: "https://www.linkedin.com/",
-              icon: "fab fa-linkedin", 
-            },
-          ],
+          bio: "Kathrin's diverse background in hospitality makes her invaluable in administrative management. Her experience with private families and multilingual abilities ensures personalized and comprehensive service, positioning her as a dynamic leader in her field.",
+          
         },
         {
           name: "Cuneyt",
           position: "Security Agent",
           img: memberThree,
-          bio: "Something to show",
-          socials: [
-            {
-              name: "pinterest",
-              url: "https://www.linkedin.com/",
-              icon: "fab fa-linkedin", 
-            },
-          ],
+          bio: "Cüneyt's journey from Turkey to founding Gstaad Kickboxing demonstrates his dedication to martial arts. His background in security and training in conflict management contribute to his success in creating a space for learning and growth.",
+          
         },
         {
           name: "Alex",
           position: "Security Agent",
           img: memberFour,
-          bio: "Something to show",
-          socials: [
-            {
-              name: "pinterest",
-              url: "https://www.linkedin.com/",
-              icon: "fab fa-linkedin", //user font awesome class
-            },
-          ],
+          bio: "Alex's background combines humanitarian work with security expertise, making him a valuable team member. His experience with UNHCR and IOM in crisis management and diplomacy informs his role in security, ensuring safety and satisfaction.",
+          
         },
         {
           name: "Mario",
           position: "Security Agent",
           img: memberFive,
-          socials: [
-            {
-              name: "pinterest",
-              url: "https://www.linkedin.com/",
-              icon: "fab fa-linkedin", //user font awesome class
-            },
-          ],
+          bio: "Mario's experience in the Portuguese Army and deployments to Afghanistan make him well-suited for high-pressure security roles. His commitment to teamwork, adeptness in diverse situations, and proactive problem-solving ensure safety and order in every assignment.",
+          
         },
         {
           name: "Miguel",
           position: "Security Agent",
           img: memberSix,
-          socials: [
-            {
-              name: "pinterest",
-              url: "https://www.linkedin.com/",
-              icon: "fab fa-linkedin", //user font awesome class
-            },
-          ],
+          bio: "Miguel's extensive Special Forces background and tenure with Excel Security Solutions highlight his expertise in close protection and security. His skills in counter-surveillance, investigation, and security driving, combined with legal credentials, make him an asset.",
+          
         },
         {
           name: "Moussa",
           position: "Security Agent",
           img: memberSeven,
-          socials: [
-            {
-              name: "pinterest",
-              url: "https://www.linkedin.com/",
-              icon: "fab fa-linkedin", //user font awesome class
-            },
-          ],
+          bio: "With 15 years of experience, Moussa specializes in close protection services tailored for individuals and families. His proficiency as a professional driver and certifications in First Aid ensure comprehensive safety for his clientele.",
+          
         },
         {
           name: "Michael",
           position: "Security Agent",
           img: memberEight,
-          socials: [
-            {
-              name: "pinterest",
-              url: "https://www.linkedin.com/",
-              icon: "fab fa-linkedin", //user font awesome class
-            },
-          ],
+          bio: "Mike’s diverse background and dedication to excellence make him an asset. His transition from physical education to private security demonstrates adaptability and a keen understanding of safety principles, enhancing overall security and efficiency.",
+          
         },
         {
           name: "Lahlal",
           position: "Security Agent",
           img: memberTen,
-          socials: [
-            {
-              name: "pinterest",
-              url: "https://www.linkedin.com/",
-              icon: "fab fa-linkedin", //user font awesome class
-            },
-          ],
+          bio: "Lahlal's career transition showcases adaptability and a detail-oriented approach. His expertise in finance and health care, combined with a commitment to security, offers comprehensive services to private families, reflecting the evolving landscape of career paths, where cross-disciplinary skills and continuous learning are highly valued.",
         },
         {
           name: "Christopher",
           position: "Security Agent",
           img: memberNine,
-          socials: [
-            {
-              name: "pinterest",
-              url: "https://www.linkedin.com/",
-              icon: "fab fa-linkedin", //user font awesome class
-            },
-          ],
+           bio: "Christopher's journey from Switzerland to joining the company reflects his dedicated progression in the security field. His proactive approach to enhancing security knowledge, coupled with personal interests in fitness and outdoor activities, makes him a well-rounded individual who values personal growth and client satisfaction.",
+         // socials: [
+         //   {
+         //     name: "pinterest",
+         //     url: "https://www.linkedin.com/",
+         //     icon: "fab fa-linkedin", //user font awesome class
+         //   },
+         // ],
         },
       ],
-      // blogOne: blogOne,
-      // blogTwo: blogTwo,
-      // blogThree: blogThree,
-      // blogs: [
-      //   {
-      //     img: blogOne,
-      //     date: "March 10, 2022",
-      //     category: "Saas & App",
-      //     title: "Introducing New Apps Design for our iOS App",
-      //   },
-      //   {
-      //     img: blogTwo,
-      //     date: "March 10, 2022",
-      //     category: "Saas & App",
-      //     title: "How to bring Dolce to your company",
-      //   },
-      //   {
-      //     img: blogThree,
-      //     date: "March 10, 2022",
-      //     category: "Saas & App",
-      //     title: "17 Effective Ways to Monetize Mobile Apps",
-      //   },
-      // ],
+      blogOne: blogOne,
+      blogTwo: blogTwo,
+      blogThree: blogThree,
+      blogs: [
+         {
+           img: blogOne,
+           date: "March 10, 2022",
+           category: "Saas & App",
+           title: "Introducing New Apps Design for our iOS App",
+         },
+         {
+           img: blogTwo,
+           date: "March 10, 2022",
+           category: "Saas & App",
+           title: "How to bring Dolce to your company",
+         },
+         {
+           img: blogThree,
+           date: "March 10, 2022",
+           category: "Saas & App",
+           title: "17 Effective Ways to Monetize Mobile Apps",
+         },
+       ],
     };
   },
   created() {

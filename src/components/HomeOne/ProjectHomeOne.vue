@@ -1,6 +1,6 @@
 <template>
     <section class="appie-project-area pb-100">
-        <div class="container">
+        <div class="container" id="Contact">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="appie-project-box wow animated slideInUp" data-wow-duration="1000ms" data-wow-delay="0ms">

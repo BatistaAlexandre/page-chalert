@@ -70,7 +70,8 @@
                                     </div>
                                     <div class="accrodion-content" :style="[showQuestion === 5?{'display':'block'}:{'display':'none'}]">
                                         <div class="inner">
-                                            <p>Joining is simple and free. If you own a chalet in the region, visit our website, fill out the online form, and receive a confirmation email with access to the exclusive platform for chalet owners.</p>
+                                            <p>Joining is simple. If you own a chalet in the region, visit our website, fill out the 
+                                                <a href="#Contact">online form</a>, and receive a confirmation email with access to the exclusive group for chalet owners.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div><!-- /.accrodion-inner -->
@@ -100,7 +101,7 @@
                                     </div>
                                     <div class="accrodion-content" :style="[showQuestion === 7?{'display':'block'}:{'display':'none'}]">
                                         <div class="inner">
-                                            <p>The packages include Free Membership of Chalert Community, Silver Program, Gold Program, and Platinum Program. Each offers varying levels of security features, with additional benefits such as the ProtectMe mobile app, emergency SOS button, daily patrols, and more.</p>
+                                            <p>The packages include Free Membership of Chalert Community, Gold Program, and Platinum Program. Each offers varying levels of security features, with additional benefits such as daily patrols, and more.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div><!-- /.accrodion-inner -->

@@ -1,7 +1,7 @@
 <template>
   <!--====== APPIE TRAFFIC PART START ======-->
     
-    <section class="appie-traffic-area pt-140 pb-180">
+    <section class="appie-traffic-area pt-100 pb-10">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 appie-section-title">

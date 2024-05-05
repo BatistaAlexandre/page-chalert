@@ -44,7 +44,7 @@
             <div class="container">
         <b-row class="justify-content-center mt-30">
             <b-col cols="12" class="text-center">
-                <a class="main-btn" href="#Contact" @click.prevent="openPartnerModal">BECOME OUR PARTNER</a>
+                <a class="main-btn" href="" @click.prevent="openPartnerModal">BECOME OUR PARTNER</a>
                 <p>Click to become an alliance or business partner</p>
             </b-col>
         </b-row>
