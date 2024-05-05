@@ -49,7 +49,7 @@
               <input class="form-control" type="phone" v-model="form.phone" placeholder="Phone" required>
             </div>
             <div class="form-group mt-2 pl-10 pr-10">
-              <textarea class="form-control" v-model="form.message" placeholder="Message" required></textarea>
+              <textarea class="form-control" v-model="form.message" placeholder="Message"></textarea>
             </div>
             <div class="checkbox-terms mt-2">
                 <input type="checkbox" name="terms" v-model="acceptTerms">

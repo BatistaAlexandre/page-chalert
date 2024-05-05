@@ -4,7 +4,7 @@
     <section class="appie-traffic-area pt-140 pb-180">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7">
+                <div class="col-lg-7 appie-section-title">
                     <div class="appie-traffic-title">
                         <span>{{small_title}}</span>
                         <h3 class="title">{{big_title}}</h3>

@@ -10,10 +10,11 @@
             <i class="fas fa-caret-up"></i>
         </div>
         <div class="claim">
-            <h2>CHALERT’S IMPACT EXTENDS BEYOND 
-              <span class="highlight">CRIME PREVENTION</span> 
-              TO ENHANCE THE OVERALL <span class="highlight">WELL-BEING</span> AND QUALITY OF LIFE FOR RESIDENTS, CREATING A MORE 
-              VIBRANT AND <span class="highlight">THRIVING COMMUNITY</span>
+            <h2>Chalert’s impact extends beyond  
+              <span class="highlight">crime prevention</span> 
+              to enhance the overall <span class="highlight">well-being</span> 
+              and quality of life for residents, creating a more vibrant and 
+              <span class="highlight">thriving community</span>
             </h2>
             <div class="divider"></div>
         </div>

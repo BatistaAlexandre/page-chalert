@@ -11,7 +11,7 @@
           </div>
         </div>
         <div class="col-lg-12">
-                    <div class="pt-60 text-center pb-50">
+                    <div class="pt-60 text-center pb-50 appie-section-title">
                         <h3 class="pb-10">Our Team at Excel Security Solutions</h3>
                         <p>We take immense pride in our diverse and professional international team here at <span>Excel Security Solutions</span>.
                         Our team members hail from various corners of the world, including Switzerland, Portugal, Macedonia, Turkey, Mali, Poland, Italy, the United Kingdom, Nigeria/Malta, Thailand, Algeria, and beyond.

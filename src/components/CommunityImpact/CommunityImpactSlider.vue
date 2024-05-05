@@ -10,7 +10,7 @@
     </b-row>
   
     <div class="col-lg-12">
-      <div class="pt-30 text-center pb-60 pl-40 pr-40">
+      <div class="pt-30 text-center pb-60 pl-40 pr-40 appie-section-title">
           <h3 class="pb-10">Kick Boxing Academy Gstaad</h3>
           <p>Gstaad Kickboxing was founded in 2021 by Cüneyt Günes in collaboration and the support of Excel Security Solutions. Cüneyt, a six-time winner of the Istanbul championship and Turkish championship in various kickboxing championships. 
               Cüneyt is a firm believer in giving back to the community he now calls home. Gstaad Kickboxing provides free kickboxing lessons to children aged 6 yrs. to 13 yrs. from all backgrounds in the community of Saanenland. Gstaad Kickboxing offers group and private lessons. Join to change your life for the better and learn a valuable life skills. 
@@ -36,7 +36,7 @@
       </b-col>
     </b-row>
     <div class="col-lg-12">
-      <div class="pt-30 text-center pb-30 pl-40 pr-40">
+      <div class="pt-30 text-center pb-30 pl-40 pr-40 appie-section-title">
           <h3 class="pb-10">I Am My Bodyguard</h3>
           <p>I Am My Bodyguard is a program that empowers children who have experienced sexual abuse or violence. It started as a workshop for children in collaboration with Innocence in Danger, an international non-profit organization in Gstaad.
             With the success of the initial I Am My Bodyguard workshop for children. Excel Security Solutions decided to develop a course specifically for some of the victims’ mothers, who were too often also victims of abuse. This program was named Fight Like a Girl!

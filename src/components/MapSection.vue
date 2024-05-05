@@ -1,9 +1,9 @@
 <template>
     <div class="container">
-      <div class="text">
+      <div class="text appie-section-title">
         <h2>Where We Operate</h2>
         <p class="mb-2">We are proud to serve the communities of the Saanenland region, including:</p> 
-        <ul>
+        <ul class="appie-section-title">
           <li>Gstaad</li>
           <li>Saanen</li>
           <li>Schonried</li>
