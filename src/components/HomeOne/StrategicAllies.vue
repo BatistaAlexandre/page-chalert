@@ -42,6 +42,7 @@
     content-class="custom-modal-content"
     centered
     hide-footer
+    hide-header
     @shown="addBodyClass"
     @hidden="removeBodyClass"
 >

@@ -138,9 +138,10 @@ Join us in creating a safer, stronger community together."
     <!--====== APPIE BLOG PART START ======-->
    <blog-home-one
     id="Tips" 
+    style="padding-top: 120px;"
       :class="[dark ? 'appie-blog-area-dark' : '']"
-      title="Latest blog posts"
-      description="Different layouts and styles for team sections."
+      title="Crime Prevention"
+      description="Safeguarding tomorrow: proactive crime prevention strategies"
       :blogs="blogs"
     />
     
@@ -171,9 +172,9 @@ Join us in creating a safer, stronger community together."
 <script>
 import ShowCaseHomeThree from "../HomeOne/ShowCaseHomeThree.vue";
 import StrategicAllies from "../HomeOne/StrategicAllies.vue";
-import blogOne from "@/assets/images/blog-1.jpg";
-import blogTwo from "@/assets/images/blog-2.jpg";
-import blogThree from "@/assets/images/blog-3.jpg";
+import blogOne from "@/assets/images/blog-1.png";
+import blogTwo from "@/assets/images/blog-2.png";
+import blogThree from "@/assets/images/blog-3.png";
 import memberOne from "@/assets/images/team1.png";
 import memberTwo from "@/assets/images/team2.png";
 import memberThree from "@/assets/images/team3.png";
@@ -268,7 +269,7 @@ export default {
         },
         {
           name: "Crime Prevention",
-          path: "/crime-prevention",
+          path: "#Tips",
         },
 
 
@@ -549,23 +550,26 @@ export default {
       blogTwo: blogTwo,
       blogThree: blogThree,
       blogs: [
-         {
-           img: blogOne,
-           date: "March 10, 2022",
-           category: "Saas & App",
-           title: "Introducing New Apps Design for our iOS App",
+        {
+           img: blogTwo,
+           date: "March 22, 2024",
+           category: "Security",
+           title: "What to Look for in a Home Security System",
+           url:"/crime-prevention"
          },
          {
-           img: blogTwo,
-           date: "March 10, 2022",
-           category: "Saas & App",
-           title: "How to bring Dolce to your company",
+           img: blogOne,
+           date: "March 10, 2024",
+           category: "Prevention",
+           title: "7 Effective Ways to Protect Your Chalet",
+           url:""
          },
          {
            img: blogThree,
-           date: "March 10, 2022",
-           category: "Saas & App",
-           title: "17 Effective Ways to Monetize Mobile Apps",
+           date: "February 10, 2024",
+           category: "Prevention",
+           title: "Your Family Diserves the Best Protection",
+           url: ""
          },
        ],
     };
