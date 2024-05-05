@@ -206,55 +206,50 @@ export default {
     },
 
         submitForm() {
-            // Here you can handle the form submission
             console.log('Form submitted!');
             console.log('Name:', this.form.name);
             console.log('Surname:', this.form.surname);
             console.log('Phone:', this.form.phone);
             console.log('Email:', this.form.email);
             console.log('Plan:', this.selectedPlan);
-            // You can emit an event or perform any other action here
-            // For example, emit an event to inform parent component about the form submission
-            // this.$emit('form-submitted', { name: this.name, surname: this.surname, phone: this.phone, email: this.email });
-            // You can also close the modal after form submission
             const SERVICE_ID = 'service_zg2bepp';
-      const TEMPLATE_ID = 'template_g2a1yaq';
-      const PUBLIC_KEY = 'MVekMSZT8jTmKVA4n';
-      const emailParams = {
-        from_name: `${this.form.name} ${this.form.surname}`,
-        from_email: this.form.email,
-        phone: this.form.phone,
-        services: this.selectedPlan,
-      };
+            const TEMPLATE_ID = 'template_g2a1yaq';
+            const PUBLIC_KEY = 'MVekMSZT8jTmKVA4n';
+            const emailParams = {
+                from_name: `${this.form.name} ${this.form.surname}`,
+                from_email: this.form.email,
+                phone: this.form.phone,
+                services: this.selectedPlan,
+            };
 
 
-      if (!this.acceptTerms) {
-        alert("Please accept the terms and conditions.");
-        return;
-      }
+        if (!this.acceptTerms) {
+            alert("Please accept the terms and conditions.");
+            return;
+        }
 
-      // Initialize EmailJS with your user ID (this step can be done in your main app file if preferred)
-     emailjs.init(PUBLIC_KEY);
+        // Initialize EmailJS with your user ID (this step can be done in your main app file if preferred)
+        emailjs.init(PUBLIC_KEY);
 
-     this.isSubmitting = true
+        this.isSubmitting = true
 
   
       // Send the email using EmailJS
-      emailjs
-      .send(SERVICE_ID, TEMPLATE_ID, emailParams, PUBLIC_KEY)
-        .then((response) => {
-          console.log('SUCCESS!', response.status, response.text, 'Form Data:', emailParams);
-          this.submissionMessage = "Form submitted successfully.";
-          this.isSubmitting = false; 
-          this.resetForm();
-        }, (err) => {
-          console.error('FAILED...', err);
-          this.submissionMessage = "Failed to submit the form. Please try again.";
-          this.isSubmitting = false;
-        });
+        emailjs
+        .send(SERVICE_ID, TEMPLATE_ID, emailParams, PUBLIC_KEY)
+            .then((response) => {
+            console.log('SUCCESS!', response.status, response.text, 'Form Data:', emailParams);
+            this.submissionMessage = "Form submitted successfully.";
+            this.isSubmitting = false; 
+            this.resetForm();
+            }, (err) => {
+            console.error('FAILED...', err);
+            this.submissionMessage = "Failed to submit the form. Please try again.";
+            this.isSubmitting = false;
+            });
 
-            this.$refs.myModalRef.hide();
-        }
+                this.$refs.myModalRef.hide();
+            }
 
     }
 

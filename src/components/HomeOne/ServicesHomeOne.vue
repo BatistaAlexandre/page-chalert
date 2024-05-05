@@ -29,12 +29,36 @@
        <b-modal v-model="modalVisible" hide-header hide-footer centered>
       <template #default="{ hide }">
         <div class="modal-body-content text-center">
-            <div class="icon-modal">
-              <i :class="`fas ${selectedService.icon}`"></i>
-            </div>
+          <div class="icon-modal">
+            <i :class="`fas ${selectedService.icon}`"></i>
+          </div>
           <h4>{{ selectedService.title }}</h4>
-          <p>{{ selectedService.description }}</p>
-          <b-button variant="primary" class="main-btn" @click="redirectToUrl">CONTACT US</b-button>
+          <p v-if="!showForm">{{ selectedService.description }}</p>
+          <form v-else @submit.prevent="submitForm" class="form-body">
+           <div>
+            <div class="form-group mt-2 pl-10 pr-10">
+            <input class="form-control" type="text" v-model="form.name" placeholder="Name" required>
+            </div>
+            <div class="form-group mt-2 pl-10 pr-10">
+            <input class="form-control" type="text" v-model="form.surname" placeholder="Surname" required>
+            </div>
+            <div class="form-group mt-2 pl-10 pr-10">
+              <input class="form-control" type="email" v-model="form.email" placeholder="Email" required>
+            </div>
+            <div class="form-group mt-2 pl-10 pr-10">
+              <input class="form-control" type="phone" v-model="form.phone" placeholder="Phone" required>
+            </div>
+            <div class="form-group mt-2 pl-10 pr-10">
+              <textarea class="form-control" v-model="form.message" placeholder="Message" required></textarea>
+            </div>
+            <div class="checkbox-terms mt-2">
+                <input type="checkbox" name="terms" v-model="acceptTerms">
+                <label>I read and accept <a href="">terms & conditions</a></label>
+            </div>
+           </div>
+            <b-button variant="primary" class="main-btn mb-2" type="submit">Send</b-button>
+          </form>
+          <b-button :variant="showForm ? 'secondary' : 'primary'" class="main-btn" @click="toggleForm">{{ showForm ? 'Cancel' : 'Contact us' }}</b-button>
         </div>
       </template>
     </b-modal>
@@ -44,6 +68,7 @@
 
 <script>
 import { BModal } from 'bootstrap-vue'
+import emailjs from 'emailjs-com'
 export default {
     components: { BModal },
     props:{
@@ -54,22 +79,82 @@ export default {
     },
     data() {
         return {
-            modalVisible: false, // Controls the visibility of the modal
-            selectedService: {}, // Stores the details of the selected service
-            redirectUrl: 'https://excelsecuritysolutions.ch', // The URL to redirect to
+            modalVisible: false, 
+            selectedService: {}, 
+            showForm: false,
+            acceptTerms: false,
+            form:{
+                name: '',
+                surname: '',
+                phone: '',
+                email: '',
+                message: '',
+            },
+            service: []
         }
     },
     methods: {
     showMultiple(index) {
-      this.selectedService = this.grid_items[index]; // Set the selected service based on the clicked box
-      this.modalVisible = true; // Show the modal
+      this.selectedService = this.grid_items[index]; 
+      this.modalVisible = true; 
+      this.showForm = false;
+      this.service = this.selectedService.title
     },
-    redirectToUrl() {
-      window.location.href = this.redirectUrl; // Redirects the user to the specified URL
-    },
-  },
 
-}
+    toggleForm() {
+      this.showForm = !this.showForm;
+    },
+
+    resetForm() {
+        this.form = {
+          name: '',
+          surname: '',
+          phone: '',
+          email: '',
+          message: '',
+        };
+        this.service = '';
+        this.acceptTerms = false; 
+        setTimeout(() => {
+         this.submissionMessage = ''; // Clear submission message
+         }, 3000); // Adjust the delay as needed
+    },
+
+    submitForm() {
+            const SERVICE_ID = 'service_zg2bepp';
+            const TEMPLATE_ID = 'template_g2a1yaq';
+            const PUBLIC_KEY = 'MVekMSZT8jTmKVA4n';
+      if (!this.acceptTerms) {
+                alert("Please accept the terms and conditions.");
+                return;
+            }
+            emailjs.init(PUBLIC_KEY);
+            const emailParams = {
+                from_name: `${this.form.name} ${this.form.surname}`,
+                from_email: this.form.email,
+                phone: this.form.phone,
+                message: this.form.message,
+                services: this.service
+            };
+            this.isSubmitting = true;
+            emailjs.send(SERVICE_ID, TEMPLATE_ID, emailParams, PUBLIC_KEY)
+                .then((response) => {
+                    console.log('SUCCESS!', response.status, response.text, 'Form Data:', emailParams);
+                    this.submissionMessage = "Form submitted successfully.";
+                    this.isSubmitting = false;
+                    this.resetForm();
+                    this.modalVisible = false;
+                }, (err) => {
+                    console.error('FAILED...', err);
+                    this.submissionMessage = "Failed to submit the form. Please try again.";
+                    this.isSubmitting = false;
+                });
+
+            this.toggleForm(); 
+        },
+      
+    },
+  }
 </script>
 
 <style scoped>
@@ -134,4 +219,30 @@ export default {
   padding: 10px /* Add some space between the elements */
 }
 
+.checkbox-terms {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  margin: 10px 15px;
+}
+
+.checkbox-terms input[type="checkbox"] {
+  margin-right: 15px; 
+}
+
+.checkbox-terms a {
+ color: #ed1f27;
+ font-weight: bold;
+}
+
+.btn-secondary {
+  background-color: #6c757d; 
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #fff; 
+  border-color: #545b62;
+  color:#6c757d;
+}
 </style>
