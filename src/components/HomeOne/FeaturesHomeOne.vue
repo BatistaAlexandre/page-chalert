@@ -26,7 +26,7 @@
                                         <div class="appie-features-content wow animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
                                             <!-- <span>Features Section 2</span> -->
                                             <h3 class="title">Community Commitment<br/>   </h3>
-                                            <p>We prioritise the safety and well-being of the entire community in addition to individual properties, fostering a spirit of togetherness and deterring criminal activities.</p> 
+                                            <p>We prioritise the safety and well-being of the entire community in addition to your chalet, fostering a spirit of togetherness and deterring criminal activities.</p> 
                                         </div>
                                     </div>
                                 </div>
@@ -58,7 +58,7 @@
                                         <div class="appie-features-content animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
                                             <!-- <span>Custom Reacyions</span> -->
                                             <h3 class="title">Education and Empowerment</h3>
-                                            <p>We empower our clients with education. Our security personnel have unrivalled local and operational knowledge to meet your needs.</p>
+                                            <p>We empower our clients with security strategies. Our security personnel have unrivalled local and operational knowledge to meet your needs.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -74,7 +74,7 @@
                                         <div class="appie-features-content animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="600ms">
                                             <!-- <span>Custom Reacyions</span> -->
                                             <h3 class="title">Innovation and Adaptability</h3>
-                                            <p>We embrace innovation throughout our operations, by using the latest guard patrol technology for accountability agent tracking and security.</p>
+                                            <p>We embrace innovation throughout our operations, by using the latest guard patrol technology for accountability, agent tracking and security.</p>
                                         </div>
                                     </div>
                                 </div>
