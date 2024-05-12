@@ -131,7 +131,7 @@
     <project-home-one 
     id="contact"
     style="padding-top: 110px;"
-    title="Secure your safety" description="Book your visit now and experience our unparalleled protection services firsthand. We will contact you in less than 24 hours." />
+    title="Secure your safety" description="Experience peace of mind with our professional protection services and book your free consultation with us today, delivered in partnership with AXA Insurance. We aim to respond to you in less than 24 hours." />
 
     <!--====== APPIE PROJECT PART ENDS ======-->
 
