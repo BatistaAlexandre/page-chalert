@@ -64,8 +64,8 @@
             <h4 class="title">Get In Touch</h4>
             <ul>
               <li>
-                <a href="mailto:office@chalert.com">
-                  <i class="fal fa-envelope"></i> office@chalert.ch
+                <a href="mailto:contact@chalert.com">
+                  <i class="fal fa-envelope"></i> contact@chalert.ch
                 </a>
               </li>
 
@@ -106,7 +106,7 @@
               </ul> -->
             </div>
             <div class="copyright-text">
-              <p>Copyright © 2024 Chalert. All rights reserved.</p>
+              <p>Copyright © 2024 CHalert. All rights reserved.</p>
             </div>
           </div>
         </div>

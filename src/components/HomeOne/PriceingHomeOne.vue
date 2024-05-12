@@ -17,8 +17,8 @@
                             <div class="pricing-one__single">
                                 <div class="pricig-heading">
                                     <h6>Free</h6>
-                                    <div class="price-range"><sup></sup> <span>FREE</span><p></p></div>
-                                    <p>Join the Chalert Community for free and be part of a network that keeps you informed and connected.</p>
+                                    <div class="price-range"><sup>CHF</sup> <span>0.0</span><p>/day</p></div>
+                                    <p>Join the CHalert Community for free and be part of a network that keeps you informed and connected.</p>
                                 </div>
                                 <div class="divider"></div>
                                 <div class="pricig-body">

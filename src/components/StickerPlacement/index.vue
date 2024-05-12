@@ -41,7 +41,7 @@
           <FaqService :class="[dark ? 'appie-faq-area-dark' : '']" title="Excel Security Solutions Code of Conduct"
             description="Excel Security Solutions is committed to upholding the highest standards of integrity, professionalism,
                   and community engagement. Our Code of Conduct outlines the values and principles that guide our actions
-                  and interactions within the Chalert Neighbourhood Watch program." />
+                  and interactions within the CHalert Neighbourhood Watch program." />
           <div class="col-lg-12">
             <div class="service-details-content">
               <div class="thumb">

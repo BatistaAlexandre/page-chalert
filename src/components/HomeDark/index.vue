@@ -46,7 +46,7 @@ Join us in creating a safer, stronger community together."
       style="padding-top: 110px;"
       small_title=""
       big_title="Why join?"
-      description="Join us in fostering community safety through collective action. Here are four compelling reasons to choose Chalert:" 
+      description="Join us in fostering community safety through collective action. Here are four compelling reasons to choose CHalert:" 
       :features="features"
     />
   
@@ -435,7 +435,7 @@ export default {
           title: "Benjamin",
           date: "December 14, 2023",
           description:
-            "Chalert has revolutionized how we approach safety in our neighborhood. Their proactive alerts have provided invaluable peace of mind, allowing us to stay informed and prepared. With Chalert, we feel more connected and secure than ever before.",
+            "CHalert has revolutionized how we approach safety in our neighborhood. Their proactive alerts have provided invaluable peace of mind, allowing us to stay informed and prepared. With CHalert, we feel more connected and secure than ever before.",
           ratings: 5,
           avatar: testmonialAvater,
         },
@@ -451,7 +451,7 @@ export default {
           title: "Eva",
           date: "June 21, 2023",
           description:
-            "Chalert's commitment to community safety is unmatched. Their proactive approach to identifying and addressing potential threats has been invaluable. Thanks to Chalert, my family can rest easier knowing that our neighborhood is actively protected.",
+            "CHalert's commitment to community safety is unmatched. Their proactive approach to identifying and addressing potential threats has been invaluable. Thanks to Chalert, my family can rest easier knowing that our neighborhood is actively protected.",
           ratings: 4,
           avatar: testmonialAvater2,
         },

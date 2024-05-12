@@ -90,8 +90,8 @@
               <div class="footer-widget-info">
                 <ul>
                   <li>
-                <a href="mailto:office@chalert.com">
-                  <i class="fal fa-envelope"></i> office@chalert.com
+                <a href="mailto:contact@chalert.com">
+                  <i class="fal fa-envelope"></i> contact@chalert.com
                 </a>
               </li>
               <li>

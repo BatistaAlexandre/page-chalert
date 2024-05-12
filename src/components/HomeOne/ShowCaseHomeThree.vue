@@ -24,7 +24,7 @@
                 <div class="col-lg-12">
                     <div class="appie-section-title text-center">
                         <h3 class="appie-title">Business Partnership</h3>
-                        <p>Meet our business partners actively shaping the security landscape in collaboration with the Chalert program. <br/>CHalert connects hospitality outlets, local companies, and the local authorities in the region. Our goal is to create a safe environment by detecting, deterring, and delaying criminal acts. We work together to prevent and discourage crime through effective communication and collaboration. Find out more how you can become a business partner.</p>
+                        <p>Meet our business partners actively shaping the security landscape in collaboration with the CHalert program. <br/>CHalert connects hospitality outlets, local companies, and the local authorities in the region. Our goal is to create a safe environment by detecting, deterring, and delaying criminal acts. We work together to prevent and discourage crime through effective communication and collaboration. Find out more how you can become a business partner.</p>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@
     @hidden="removeBodyClass"
 >
     <div class="modal-header">
-        <h4>Become Chalert's Partner</h4>
+        <h4>Become CHalert's Partner</h4>
         <p>I am interested in becoming a CHalert Partner</p>
     </div>
     <form @submit.prevent="submitForm" id="partner-form">

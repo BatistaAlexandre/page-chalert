@@ -18,11 +18,11 @@
                             <div class="accrodion" @click.prevent="OpenQuestion(1)" :class="[showQuestion === 1?'active':'']">
                                 <div class="accrodion-inner">
                                     <div class="accrodion-title">
-                                        <h4>What is the Chalert Neighbourhood Watch program?</h4>
+                                        <h4>What is the CHalert Neighbourhood Watch program?</h4>
                                     </div>
                                     <div class="accrodion-content" :style="[showQuestion === 1?{'display':'block'}:{'display':'none'}]">
                                         <div class="inner">
-                                            <p>Chalert Neighbourhood Watch is a proactive crime prevention initiative by Excel Security Solutions. It's designed for individual chalet owners and the entire community, encouraging collective action to safeguard neighborhoods.</p>
+                                            <p>CHalert Neighbourhood Watch is a proactive crime prevention initiative by Excel Security Solutions. It's designed for individual chalet owners and the entire community, encouraging collective action to safeguard neighborhoods.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div><!-- /.accrodion-inner -->
@@ -30,11 +30,11 @@
                             <div class="accrodion  " :class="[showQuestion === 2?'active':'']" @click.prevent="OpenQuestion(2)">
                                 <div class="accrodion-inner">
                                     <div class="accrodion-title">
-                                        <h4>How does Chalert differ from other programs?</h4>
+                                        <h4>How does CHalert differ from other programs?</h4>
                                     </div>
                                     <div class="accrodion-content" :style="[showQuestion === 2?{'display':'block'}:{'display':'none'}]">
                                         <div class="inner">
-                                            <p>Chalert stands out for its proactive approach, utilizing observation, awareness, and intelligence gathering. It fosters a community-driven movement, empowering residents to play an active role in making their neighborhoods safer.</p>
+                                            <p>CHalert stands out for its proactive approach, utilizing observation, awareness, and intelligence gathering. It fosters a community-driven movement, empowering residents to play an active role in making their neighborhoods safer.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div><!-- /.accrodion-inner -->
@@ -42,11 +42,11 @@
                             <div class="accrodion " :class="[showQuestion === 3?'active':'']" @click.prevent="OpenQuestion(3)">
                                 <div class="accrodion-inner">
                                     <div class="accrodion-title">
-                                        <h4> What strategies does Chalert employ for crime prevention?</h4>
+                                        <h4> What strategies does CHalert employ for crime prevention?</h4>
                                     </div>
                                     <div class="accrodion-content" :style="[showQuestion === 3?{'display':'block'}:{'display':'none'}]">
                                         <div class="inner">
-                                            <p>Chalert employs various strategies, including fostering social interaction, conducting active patrols, and intervening rapidly when needed. The program goes beyond conventional methods, aiming for a collective effort among residents, businesses, and private clients.</p>
+                                            <p>CHalert employs various strategies, including fostering social interaction, conducting active patrols, and intervening rapidly when needed. The program goes beyond conventional methods, aiming for a collective effort among residents, businesses, and private clients.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div><!-- /.accrodion-inner -->
@@ -54,11 +54,11 @@
                             <div class="accrodion" :class="[showQuestion ===4?'active':'']" @click.prevent="OpenQuestion(4)">
                                 <div class="accrodion-inner">
                                     <div class="accrodion-title">
-                                        <h4>How does Chalert Watch contribute to community safety?</h4>
+                                        <h4>How does CHalert Watch contribute to community safety?</h4>
                                     </div>
                                     <div class="accrodion-content" :style="[showQuestion === 4?{'display':'block'}:{'display':'none'}]">
                                         <div class="inner">
-                                            <p>Chalert Watch serves as a vital channel for receiving and sharing relevant information, ensuring the safety of chalet owners at home and away. Building a network of vigilant and informed residents contributes to a safer, more connected community.</p>
+                                            <p>CHalert Watch serves as a vital channel for receiving and sharing relevant information, ensuring the safety of chalet owners at home and away. Building a network of vigilant and informed residents contributes to a safer, more connected community.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div><!-- /.accrodion-inner -->
@@ -66,7 +66,7 @@
                             <div class="accrodion " :class="[showQuestion === 5?'active':'']" @click.prevent="OpenQuestion(5)">
                                 <div class="accrodion-inner">
                                     <div class="accrodion-title">
-                                        <h4> How can I join the Chalert Neighbourhood Watch program?</h4>
+                                        <h4> How can I join the CHalert Neighbourhood Watch program?</h4>
                                     </div>
                                     <div class="accrodion-content" :style="[showQuestion === 5?{'display':'block'}:{'display':'none'}]">
                                         <div class="inner">
@@ -79,11 +79,11 @@
                             <div class="accrodion" :class="[showQuestion ===6?'active':'']" @click.prevent="OpenQuestion(6)">
                                 <div class="accrodion-inner">
                                     <div class="accrodion-title">
-                                        <h4>What are the benefits of joining Chalert?</h4>
+                                        <h4>What are the benefits of joining CHalert?</h4>
                                     </div>
                                     <div class="accrodion-content" :style="[showQuestion === 6?{'display':'block'}:{'display':'none'}]">
                                         <div class="inner">
-                                            <p>Chalert Watch serves as a vital channel for receiving and sharing relevant information, ensuring the safety of chalet owners at home and away. Building a network of vigilant and informed residents contributes to a safer, more connected community.</p>
+                                            <p>CHalert Watch serves as a vital channel for receiving and sharing relevant information, ensuring the safety of chalet owners at home and away. Building a network of vigilant and informed residents contributes to a safer, more connected community.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div><!-- /.accrodion-inner -->
@@ -97,11 +97,11 @@
                             <div class="accrodion " :class="[showQuestion === 7?'active':'']" @click.prevent="OpenQuestion(7)">
                                 <div class="accrodion-inner">
                                     <div class="accrodion-title">
-                                        <h4> What are the different Chalert Neighbourhood Watch program packages?</h4>
+                                        <h4> What are the different CHalert Neighbourhood Watch program packages?</h4>
                                     </div>
                                     <div class="accrodion-content" :style="[showQuestion === 7?{'display':'block'}:{'display':'none'}]">
                                         <div class="inner">
-                                            <p>The packages include Free Membership of Chalert Community, Gold Program, and Platinum Program. Each offers varying levels of security features, with additional benefits such as daily patrols, and more.</p>
+                                            <p>The packages include Free Membership of CHalert Community, Gold Program, and Platinum Program. Each offers varying levels of security features, with additional benefits such as daily patrols, and more.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div><!-- /.accrodion-inner -->
@@ -121,7 +121,7 @@
                             <div class="accrodion " :class="[showQuestion === 9?'active':'']" @click.prevent="OpenQuestion(9)">
                                 <div class="accrodion-inner">
                                     <div class="accrodion-title">
-                                        <h4>What is the Business Partnership with Chalert Program?</h4>
+                                        <h4>What is the Business Partnership with CHalert Program?</h4>
                                     </div>
                                     <div class="accrodion-content" :style="[showQuestion === 9?{'display':'block'}:{'display':'none'}]">
                                         <div class="inner">

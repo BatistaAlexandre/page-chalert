@@ -10,7 +10,7 @@
           </div>
         </div>
         <div class="row">
-          <div v-for="(blog, index) in blogs" :key="index" class="col-lg-4 col-md-6">
+          <div v-for="(blog, index) in blogs" :key="index" class="col-lg-4 col-md-6 col-sm-12">
             <a :href="blog.url" class="appie-blog-item-link">
             <div class="appie-blog-item mt-30 wow animated fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
               <div class="blog-thumb">
@@ -31,36 +31,6 @@
     </section>
   </template>
   
-<!--
-
-<template>
-    <section class="appie-blog-area pt-90 pb-95">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="appie-section-title text-center">
-                        <h3 class="appie-title">{{title}}</h3>
-                        <p>{{description}}</p>
-                    </div>  
-                </div>
-            </div>
-            <div class="row">
-                <div v-for="(blog,index) in blogs" :key="index" class="col-lg-4 col-md-6">
-                    <div class="appie-blog-item mt-30 wow animated fadeInUp" data-wow-duration="3000ms" data-wow-delay="200ms">
-                        <div class="thumb">
-                            <img :src="blog.img" :alt="blog.title">
-                        </div>
-                        <div>{{ blog.date }}</div>
-                        <div>{{ blog.category }}</div>
-                        <div>{{ blog.title }}</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-</template>
--->
 
 
 <script>
@@ -126,5 +96,46 @@ export default {
   color: #333; /* Darker text for title */
   margin-top: 5px;
   font-weight: 600;
+}
+
+/* Responsive styles */
+@media (max-width: 991px) {
+  .appie-blog-item {
+    margin-top: 20px;
+  }
+
+  .blog-content {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .blog-thumb img {
+    border-radius: 6px; /* Slightly smaller radius for mobile */
+  }
+
+  .blog-content {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .appie-blog-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .blog-meta {
+    font-size: 13px; /* Smaller font size for meta on mobile */
+  }
+
+  .blog-title {
+    font-size: 16px; /* Smaller font size for title on mobile */
+  }
 }
 </style>
