@@ -25,7 +25,7 @@
                                     <ul>
                                         <li><h4>Key Features:</h4></li>
                                         <li><i class="fal fa-check"></i><span>Free Security Consultation</span></li>
-                                        <li><i class="fal fa-check"></i><span>Timely Updates via Email</span></li>
+                                        <li><i class="fal fa-check"></i><span>Be a part of the CHalert community WhatsApp Group</span></li>
                                     </ul>
                                     <div class="pricing-btn mt-35">
                                         <a class="main-btn" href="#Plans" @click="showModal('Free Plan')">Request Details</a>

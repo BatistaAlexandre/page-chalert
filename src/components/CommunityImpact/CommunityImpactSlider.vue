@@ -18,9 +18,8 @@
       </div>
     </div>
 
-    <b-row>
+    <b-row class="pt-20">
       <h2>Global Impact</h2>
-        
         <div class="stars-container">
             <i class="fas fa-caret-up"></i>
             <i class="fas fa-caret-up"></i>
@@ -28,7 +27,10 @@
             <i class="fas fa-caret-up"></i>
             <i class="fas fa-caret-up"></i>
         </div>
-      <b-col cols="12" sm="6" md="4" v-for="(project, index) in global" :key="index">
+      <div class="pt-0 text-center pb-60 pl-40 pr-40 appie-section-title">
+        <p>Giving back to the communities not as fortunate as ours is an integral part of our philosophy. Which has enabled us to reach beyond the Swiss border, providing free training for women and children who cannot afford to pay for such vital training.</p>
+      </div>
+        <b-col cols="12" sm="6" md="4" v-for="(project, index) in global" :key="index">
         <div class="photo-item">
           <img :src="project.photo.url" :alt="project.project" class="img-fluid">
           <div class="label">{{ project.project }}</div>

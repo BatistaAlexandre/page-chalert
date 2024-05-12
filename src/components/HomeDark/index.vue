@@ -57,7 +57,7 @@ Join us in creating a safer, stronger community together."
     style="padding-top: 110px;"
     :class="[dark ? 'appie-pricing-area-dark' : '']"
     title="Choose your Plan"
-    description="By joining the CHALERT family, you can receive a tailed security program that meets your individual needs. We have a range of memberships available. Explore your options below."
+    description="By joining the CHalert family, you can receive a tailored security program that meets your individual needs. We have a range of memberships available. Explore your options below."
     />
    
     <map-section />
@@ -427,7 +427,7 @@ export default {
         {
           title: "Community Connection",
           bg: "item-4", // create class for style
-          description: "Create a sense of unity among Chalet owners for a strength in community. We intend to create a sense of security for the residents and businesses in the region.",
+          description: "Create a sense of unity among chalet owners for a strength in community. We intend to create a sense of security for the residents and businesses in the region.",
         },
       ],
       sliderContents: [
