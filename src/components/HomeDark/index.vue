@@ -349,7 +349,7 @@ export default {
           content: "Personalized security for high-profile individuals",
           customClass: "",
           subtitle:"Close Protection: Tailored Security for the Elite",
-          description: "Our close protection services extend far beyond mere physical security. The concept of close protection goes beyond mere bodyguard services. It involves a holistic approach to ensuring the safety of high-profile individuals, be it celebrities, corporate leaders, or political figures. Our agents uphold stringent standards globally, ensuring consistent quality of service. Moreover, they offer comprehensive support, including logistics and medical assistance. Specialized in ski resort security, these agents provide expert protection for VIPs and their families, combining their security skills with proficient skiing abilities in the alpine terrains."
+          description: "The concept of close protection goes beyond mere bodyguard services. It involves a holistic approach to ensuring the safety of high-profile individuals, be it celebrities, corporate leaders, or political figures. Our agents uphold stringent standards globally, ensuring consistent quality of service. Moreover, they offer comprehensive support, including logistics and medical assistance. Specialized in ski resort security, these agents provide expert protection for VIPs and their families, combining their security skills with proficient skiing abilities in the alpine terrains."
         },
         {
           icon: "fa-car",
@@ -357,7 +357,7 @@ export default {
           content: "Safe transport with trained protection specialists",
           customClass: "item-2",
           subtitle:"Security Driver: Beyond Just Transportation",
-          description: "The role of a security driver is pivotal in the close protection domain. These aren't your average chauffeurs; they are protection specialists trained in evasive and defensive driving techniques, capable of identifying threats and taking swift action to ensure the safety of the passengers. The selection process for security drivers is stringent, focusing not only on their driving skills but also on their ability to remain calm under pressure and make quick decisions"
+          description: "The role of a security driver is pivotal in the close protection domain. Trained in security awareness and tactical driving techniques, capable of identifying threats and taking swift action to ensure the safety and comfort of their passengers."
         },
         {
           icon: "fa-users",
@@ -365,7 +365,7 @@ export default {
           content: "Vigilant safeguarding for gatherings and venues",
           customClass: "item-3",
           subtitle:"Event Security: Keeping Public Gatherings Safe",
-          description: "Public gatherings, be it corporate events, concerts, or sports events, pose unique security challenges. The key to effective event security lies in meticulous planning, coordination, and the ability to respond swiftly to any emergencies. Event security teams work tirelessly behind the scenes, ensuring that the event goes smoothly without any security breaches, providing peace of mind to both the organizers and the attendees."
+          description: "Security for your special day such as a private wedding, a chalet party, or corporate events, pose unique challenges. Our security teams work tirelessly behind the scenes, ensuring that the event goes smoothly without any security breaches, providing peace of mind to both the organizers and the attendees."
         },
         {
           icon: "fa-cogs",
@@ -373,7 +373,7 @@ export default {
           content: "Custom security integration for chalet safety",
           customClass: "item-4",
           subtitle:"Retail Security: Protecting Assets, Ensuring Peace",
-          description: "Excel Security Solutions offers a comprehensive approach to your chalet security, ensuring that all technical systems are seamlessly integrated into the design of your space. Our services include collaboration with your design team or architect  to implement security measures that are both effective and aesthetically pleasing. The focus is on user-friendly operation without sacrificing safety, covering essential components like access control, surveillance, and intrusion detection, as well as secure storage solutions. This holistic strategy aims to protect both the property and the well-being of its occupants."
+          description: "Design your chalet. We work with you, your architect and your interior designer to integrate systems that are both effective and aesthetically pleasing. The focus is on user-friendly operation without sacrificing safety, covering essential components such as alarm systems, Access control, CCTV cameras and safes."
         },
         {
           icon: "fa-shopping-bag",
@@ -389,7 +389,7 @@ export default {
           content: "Thorough background checks for informed employment decisions",
           customClass: "item-3",
           subtitle:"",
-          description: "Pre-employment background checks are a crucial step in the hiring process, offering a layer of protection and insight into an applicant's history. These checks can include verifying personal information, criminal records, education, and past employment history. They help employers make informed decisions and ensure the safety and integrity of their workplace. It's important to conduct these checks in compliance with legal standards to respect the privacy and rights of the candidate."
+          description: "Pre-employment background checks are a crucial step in the hiring process, offering a layer of protection and insight into an applicant's history. These checks can include verifying personal information, criminal records, education, and past employment history. They help employers make informed decisions and ensure the safety and integrity of their workplace."
         },
         {
           icon: "fa-suitcase-rolling",
@@ -397,7 +397,7 @@ export default {
           content: "Tailored travel security for global client reassurance",
           customClass: "item-4",
           subtitle:"",
-          description: "With numerous years of experience in working with an international, sophisticated clientele, Excel Security Solutions has the connections and knowledge of assisting you with travel logistics, security any where in the world,  such as property rental, hotel and restaurant booking, private yachting, private aviation, vehicle rental, sports activity coordination, etc. Our travel logistics coordinators are responsible for the day-to-day management of the client’s activities while travelling; focusing on the comfort of the client and your loved ones."
+          description: "With numerous years of experience in working with an international, sophisticated clientele, we assist you with travel logistics, security any where in the world. Our travel logistics coordinators are responsible for the day-to-day management of the client’s activities while travelling; focusing on security and comfort of the client and your loved ones."
         },
         {
           icon: "fa-first-aid",
