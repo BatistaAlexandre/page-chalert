@@ -48,7 +48,7 @@
                 <img src="assets/images/service-details-thumb.jpg" alt="" />
               </div>
               <div class="content">  
-    <h3 class="title">The importance of security sign placement</h3>
+    
     <p>
     Security signs are an effective way to enhance your security system. They can alert potential intruders that you are part
     of the CHalert system, which can deter them from targeting your chalet.

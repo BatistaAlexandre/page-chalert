@@ -14,11 +14,12 @@
               <div v-for="(sliderContent, index) in sliderContents">
                 <div :key="index" class="appie-testimonial-item text-center">
                   <div class="author-info">
-                    <img
+                   <!-- <img
                       v-if="sliderContent.avatar"
                       :src="sliderContent.avatar"
                       alt=""
                     />
+                    -->
                     <h5 class="title">{{ sliderContent.title }}</h5>
                     <span>{{ sliderContent.date }}</span>
                   </div>

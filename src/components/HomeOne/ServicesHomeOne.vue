@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="row justify-content-center highlighted">
-        Each member of the CHalert program is entitled to a 10% discount on Excel Security Solutions services and trainings
+        Each member of the CHalert program is entitled to a discount on Excel Security Solutions services and trainings
       </div>
     </div>
 

@@ -72,9 +72,9 @@ Join us in creating a safer, stronger community together."
     style="padding-top: 130px;"
       :class="[dark ? 'appie-service-area-dark' : '']"
       :grid_items="itemsGrid"
-      section_heading="Our Services & Trainings"
+      section_heading="Our Services & Training"
       more_heading=""
-      description="Ensuring total protection: advanced security services and trainings for all your needs"
+      description="Ensuring total protection: advanced security services and training for all your needs"
     />
   
    <team-home-one
@@ -432,15 +432,7 @@ export default {
       ],
       sliderContents: [
         {
-          title: "Benjamin",
-          date: "December 14, 2023",
-          description:
-            "CHalert has revolutionized how we approach safety in our neighborhood. Their proactive alerts have provided invaluable peace of mind, allowing us to stay informed and prepared. With CHalert, we feel more connected and secure than ever before.",
-          ratings: 5,
-          avatar: testmonialAvater,
-        },
-        {
-          title: "Lukas",
+          title: "Anonymous Resident of Gstaad",
           date: "April 4, 2023",
           description:
             "We turned to Excel Security Solutions for our event security needs, and they exceeded our expectations. Their team not only provided a strong presence but also handled every situation with professionalism and expertise. We couldn't have asked for better security partners.",
@@ -448,15 +440,15 @@ export default {
           avatar: testmonialAvater1,
         },
         {
-          title: "Eva",
-          date: "June 21, 2023",
+          title: "Anonymous Resident of Gstaad",
+          date: "February 21, 2024",
           description:
-            "CHalert's commitment to community safety is unmatched. Their proactive approach to identifying and addressing potential threats has been invaluable. Thanks to Chalert, my family can rest easier knowing that our neighborhood is actively protected.",
-          ratings: 4,
-          avatar: testmonialAvater2,
+            "I Engaged Excel Security solutions for a relative one who was in poor health and required security. Due to the dedication and professionalism showed to my father, we are forever grateful",
+          ratings: 5,
+          avatar: testmonialAvater1,
         },
         {
-          title: "Tobias and Anna",
+          title: "Anonymous Resident of Gstaad.",
           date: "January 6, 2024",
           description:
             "Excel Security Solutions has been our trusted partner for years, and they consistently deliver exceptional service. Their team's professionalism and attention to detail ensure that our property remains secure at all times. We're grateful for their dedication to keeping us safe.",
