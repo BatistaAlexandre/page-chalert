@@ -77,7 +77,7 @@
               <li>
                 <a href="https://www.google.com/maps/place/Excel+Security+Solutions+AG/@46.4850781,7.2626024,15z/data=!4m6!3m5!1s0x478ef1af1633e61b:0x1c2a56d16165b7b5!8m2!3d46.4850781!4d7.2626024!16s%2Fg%2F11g6qk75pm?entry=ttu"
                   target="_blank">
-                  <i class="fal fa-map-marker-alt"></i> Excel Security Solutions AG <br/> Rübeldorfstrasse 23 <br/> 3792 Saanen
+                  <i class="fal fa-map-marker-alt"></i> Excel Security Solutions AG <br/> Rübeldorfstrasse 23 <br/> 3792 Saanen <br/>
                   Switzerland
                 </a>
               </li>

@@ -27,11 +27,15 @@
             <i class="fas fa-caret-up"></i>
             <i class="fas fa-caret-up"></i>
         </div>
-      <div class="pt-0 text-center pb-60 pl-40 pr-40 appie-section-title">
-        <p>Giving back to the communities not as fortunate as ours is an integral part of our philosophy. Which has enabled us to reach beyond the Swiss border, providing free training for women and children who cannot afford to pay for such vital training.</p>
-      </div>
+     
+      <div class="claim">
+            <h2>Giving back <span class="highlight">to the communities</span> not as fortunate as ours is an integral part of our philosophy.
+              Which has enabled us to <span class="highlight">reach beyond the Swiss border</span>, providing <span class="highlight">free training for women 
+              and children</span> who cannot afford to pay for such vital training  
+            </h2>
+        </div>
         <b-col cols="12" sm="6" md="4" v-for="(project, index) in global" :key="index">
-        <div class="photo-item">
+        <div class="photo-item pt-30">
           <img :src="project.photo.url" :alt="project.project" class="img-fluid">
           <div class="label">{{ project.project }}</div>
         </div>
@@ -83,6 +87,26 @@ export default {
 </script>
 
 <style scoped>
+.claim{
+  width: 70%;
+ margin: 0 auto;
+}
+
+claim h2 {
+  width: 60%;
+}
+
+.highlight {
+  color: #ed1f27;
+}
+
+.divider {
+    height: 2px;
+    background-color: #ed1f27; /* Match the highlight color or choose your own */
+    margin: 20px auto; /* Adjust based on layout */
+    width: 0; /* Start width at 0 to grow from center */
+    animation: grow 4s infinite; /* Only run once to grow the divider */
+}
 
 .photo-item {
   position: relative;
