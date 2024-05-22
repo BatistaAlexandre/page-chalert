@@ -43,12 +43,14 @@
     width: 100%;
     border-collapse: collapse;
     margin-top: 30px;
+    table-layout: fixed;
   }
   
   th, td {
-    border-bottom: solid 1px #ddd;
+    border-bottom: solid 1px #ddd !important; 
     padding: 8px;
     text-align: left;
+    width: 25%; /* Ensures each column gets equal width */
   }
   
   th {

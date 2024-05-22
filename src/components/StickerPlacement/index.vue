@@ -48,8 +48,8 @@
                 <img src="assets/images/service-details-thumb.jpg" alt="" />
               </div>
               <div class="content">  
-    
-    <p>
+    <div class="text-left" >
+      <p>
     Security signs are an effective way to enhance your security system. They can alert potential intruders that you are part
     of the CHalert system, which can deter them from targeting your chalet.
     You should place <b>security signs around your chalet</b> that maybe easy to access, as these are the most vulnerable points. 
@@ -59,7 +59,8 @@
     <br>
     <h4>Please indicate which type and size of signs you require:</h4>
     <StickerTable/>
-    <h6 style="padding-top: 40px;">Contact us to request security signs for your chalet</h6>
+    <p style="padding-top: 40px;" class="text-left">Contact us to request security signs for your chalet</p>
+    </div>  
 </div>
             </div>
           </div>
@@ -75,7 +76,6 @@
 
     <project-home-one 
     id="contact"
-    style="padding-top: 110px;"
     title="Secure your safety" description="Experience peace of mind with our professional protection services and book your free consultation with us today, delivered in partnership with AXA Insurance. We aim to respond to you in less than 24 hours." />
 
     <!--====== APPIE PROJECT PART ENDS ======-->
