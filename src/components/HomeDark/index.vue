@@ -547,12 +547,14 @@ export default {
            date: "March 22, 2024",
            category: "Security",
            title: "What to Look for in a Home Security System",
+           excerpt:"If you're looking for a new home security system or want to switch your current one, these steps can help you find the best.",
            url:"/crime-prevention"
          },
          {
            img: blogOne,
            date: "March 10, 2024",
            category: "Prevention",
+           excerpt:"Your chalet is a sanctuary, offering a serene escape from the hustle and bustle of daily life. To ensure it remains a safe and tranquil haven, protecting it from potential threats is essential. ",
            title: "7 Effective Ways to Protect Your Chalet",
            url:""
          },
@@ -560,6 +562,7 @@ export default {
            img: blogThree,
            date: "February 10, 2024",
            category: "Prevention",
+           excerpt:"Ensure your family's safety with top-notch security solutions. From advanced alarm systems to smart home monitoring, provide peace of mind and protect what matters most.",
            title: "Your Family Diserves the Best Protection",
            url: ""
          },
