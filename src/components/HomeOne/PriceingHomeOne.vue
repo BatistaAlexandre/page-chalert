@@ -126,6 +126,8 @@
           </div>
         </form>
       </b-modal>
+
+      
       <b-modal ref="infoModal" hide-footer hide-header centered>
       <div class="info-modal-body">
         <div class="scrollable-text">
