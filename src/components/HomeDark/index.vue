@@ -548,7 +548,29 @@ export default {
            category: "Security",
            title: "What to Look for in a Home Security System",
            excerpt:"If you're looking for a new home security system or want to switch your current one, these steps can help you find the best.",
-           url:"/crime-prevention"
+           url:"/crime-prevention",
+           subtitle:"Choosing the Best Home Security System for Your Chalet",
+           header:"If you're looking for a new home security system or want to switch your current one, these steps can help you find the best. To help you find the best home security system for your chalet, we have prepared this guide that covers the main features and factors that you should consider. We will also walk you through the steps to choose the most suitable system for your needs and preferences. A home security system is more than just a set of cameras and alarms.",
+           section: "It is a comprehensive solution that provides you with peace of mind and confidence. Here are some of the key features and factors that you should look for in a home security system.",
+           content: `
+                      <h4>Seven steps to consider:</h4></br>
+                      <ul class="check-list">
+                        <li>Assess your security needs.</li>
+                        <p>Identify the weak points of your home and the types of sensors and detectors you may need to protect them.</p>
+                        <li>Consider your budget.</li>
+                        <p>Find out how much each system costs upfront and monthly, and choose one that fits your budget.</p>
+                        <li>Look for additional features.</li>
+                        <p>Decide which features are important to you, such as video monitoring, smart home integration, and mobile app control, and look for systems that offer them.</p>
+                        <li>Check for compatibility.</li>
+                        <p>If you have existing smart home devices, make sure they can work with the security system you choose.</p>
+                        <li>Choose a reputable provider.</li>
+                        <p>Look for a provider that has a good reputation, a long history, and positive customer feedback.</p>
+                        <li>Install and test the system.</li>
+                        <p>Follow the installation instructions and test the system to make sure it's functioning properly. Set up notifications and alerts to keep you updated on any security issues.</p>
+                        <li>Research available options.</li>
+                        <p>Compare different types of home security systems or speak to Excel Security Solutions for a free no obligation consultation.</p>
+                      </ul>
+                    `
          },
          {
            img: blogOne,
@@ -564,7 +586,8 @@ export default {
            category: "Prevention",
            excerpt:"Ensure your family's safety with top-notch security solutions. From advanced alarm systems to smart home monitoring, provide peace of mind and protect what matters most.",
            title: "Your Family Diserves the Best Protection",
-           url: ""
+           url: "",
+           subtitle:""
          },
        ],
     };
