@@ -192,7 +192,7 @@ export default {
 }
 
 .modal-subtitle {
-  font-size: 20px;
+  font-size: 18px;
   color: #555;
   margin-bottom: 10px; /* Add spacing */
 }
@@ -208,6 +208,17 @@ export default {
   font-size: 16px;
   color: #555;
   margin-bottom: 20px; /* Add spacing */
+}
+
+.modal-text p,
+.check-list p {
+  padding-bottom: 10px;
+  font-size: large;
+  color: #555;
+}
+
+.modal-text h5 {
+  color: #333
 }
 
 .check-list li::before {
@@ -232,6 +243,7 @@ export default {
   justify-content: center;
   margin-top: 20px;
 }
+
 
 @media (max-width: 991px) {
   .appie-blog-item {
