@@ -143,10 +143,10 @@ export default {
                     phone: "+41337489740",
                     email: "gstaad@axa.ch"
                 },
-                {image: require('@/assets/images/allies-1.png'), description: " "},
-                {image: require('@/assets/images/allies-2.png'), description: " "},
-                {image: require('@/assets/images/allies-4.png'), description: " "},
-                {image: require('@/assets/images/allies-5.png'), description: " "},
+             //   {image: require('@/assets/images/allies-1.png'), description: " "},
+             //   {image: require('@/assets/images/allies-2.png'), description: " "},
+              //  {image: require('@/assets/images/allies-4.png'), description: " "},
+              //  {image: require('@/assets/images/allies-5.png'), description: " "},
             ],
             settings: {
                 autoplay: true,

@@ -409,8 +409,8 @@ export default {
                     email: "info@hotelolden.com"
                 
                 },
-                {image: require('@/assets/images/partner-1.png'), description: " "},
-                {image: require('@/assets/images/partner-2.png'), description: " "},
+              //  {image: require('@/assets/images/partner-1.png'), description: " "},
+               // {image: require('@/assets/images/partner-2.png'), description: " "},
             ],
             settings: {
                 autoplay: true,
