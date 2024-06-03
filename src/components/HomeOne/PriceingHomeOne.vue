@@ -27,7 +27,7 @@
                     <ul>
                       <li><h4>Key Features:</h4></li>
                       <li><span>Free Security Consultation</span></li>
-                      <li><span>Be a part of the CHalert community WhatsApp Group</span></li>
+                      <li><span>Be a part of the Excel Security Solutions community WhatsApp Group</span></li>
                     </ul>
                     <div class="pricing-btn mt-35">
                       <a class="main-btn" href="#Plans" @click="showModal('Free Plan')">Request Details</a>
@@ -40,7 +40,7 @@
                   <div class="pricig-heading">
                     <h6>Gold</h6>
                     <div class="price-range">
-                      <sup>CHF</sup> <span>9.5</span>
+                      <sup>CHF</sup> <span>9.9</span>
                       <p>/day</p>
                     </div>
                     <p>Join our Gold program to receive advanced services designed for holistic chalet protection.</p>
@@ -50,7 +50,7 @@
                     <ul>
                       <li><h4>Key Features:</h4></li>
                       <li><span>Free Security Consultation</span></li>
-                      <li><span>Be a part of the CHalert community WhatsApp Group</span></li>
+                      <li><span>Be a part of the Excel Security Solutions community WhatsApp Group</span></li>
                       <li><span>Timely Updates</span></li>
                       <li><span>One Vehicle Patrol</span></li>
                       <li><span>Rapid Intervention</span></li>
@@ -70,7 +70,7 @@
                   <div class="pricig-heading">
                     <h6>Platinum</h6>
                     <div class="price-range">
-                      <sup>CHF</sup><span>19.5</span>
+                      <sup>CHF</sup><span>19.9</span>
                       <p>/day</p>
                     </div>
                     <p>Join our Platinum program and receive a comprehensive security package offering the highest level of protection for you and your loved ones.</p>
@@ -80,13 +80,38 @@
                     <ul>
                       <li><h4>Key Features:</h4></li>
                       <li><span>Free Security Consultation</span></li>
-                      <li><span>Be a part of the CHalert community WhatsApp Group</span></li>
+                      <li><span>Be a part of the Excel Security Solutions community WhatsApp Group</span></li>
                       <li><span>Timely Updates</span></li>
                       <li><span>One Vehicle Patrol</span></li>
                       <li><span>Rapid Intervention</span></li>
                       <li><span>CHalert Watch Stickers</span></li>
                       <li><span>One Daily Foot Patrol</span></li>
                       <li><span>Security Point of Contact</span></li>
+                    </ul>
+                    <div class="pricing-btn mt-35">
+                      <a class="main-btn" href="#Plans" @click="showModal('Platinum Plan')">Request Details</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 wow animated fadeInRight">
+                <div class="pricing-one__single">
+                  <div class="pricig-heading">
+                    <h6>Excel Care</h6>
+                    <div class="price-range">
+                      <sup>CHF</sup><span>9.9</span>
+                      <p>/day</p>
+                    </div>
+                    <p>A program developed for elderly and individuals with mobility issues enabling them to main their independence</p>
+                  </div>
+                  <div class="divider"></div>
+                  <div class="pricig-body">
+                    <ul>
+                      <li><h4>Key Features:</h4></li>
+                      <li><span>Free Security Consultation</span></li>
+                      <li><span>Be a part of the Excel Security Solutions community WhatsApp Group</span></li>
+                      <li><span>Rapid medical intervention</span></li>
+                      <li><span>Smart life Care</span></li>
                     </ul>
                     <div class="pricing-btn mt-35">
                       <a class="main-btn" href="#Plans" @click="showModal('Platinum Plan')">Request Details</a>
