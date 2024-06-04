@@ -2,7 +2,7 @@
   <!--====== APPIE FOOTER PART START ======-->
 
   <section class="appie-footer-area">
-    <div class="container">
+    <div class="container" id="Contact">
       <div class="row">
         <div class="col-lg-4 col-md-6">
           <div class="footer-about-widget">
@@ -21,9 +21,9 @@
                 <li>
                   <a href="https://www.instagram.com/excelsecuritysolutions/"><i class="fab fa-instagram"></i></a>
                 </li>
-                <!--<li>
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </li>-->
+                <li>
+                  <a href="https://wa.me/yourwhatsapplink"><i class="fab fa-whatsapp"></i></a>
+                </li>
               </ul>
             </div>
           </div>

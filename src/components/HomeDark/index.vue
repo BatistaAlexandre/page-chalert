@@ -149,8 +149,6 @@ Join us in creating a safer, stronger community together."
 
     <!--====== APPIE PROJECT PART START ======-->
     <project-home-one
-    style="padding-top: 110px;"
-    id="Contact"
       title="Secure your safety"
       description="Experience peace of mind with our professional protection services and book your free consultation with us today, delivered in partnership with AXA Insurance.
                   We aim to respond to you in less than 24 hours."
@@ -158,7 +156,10 @@ Join us in creating a safer, stronger community together."
     <!--====== APPIE PROJECT PART ENDS ======-->
 
     <!--====== APPIE FOOTER PART START ======-->
-    <footer-home-one :class="[dark ? 'appie-footer-area-dark' : '']" />
+    <footer-home-one 
+    style="padding-top: 110px;"
+    id="Contact"
+    :class="[dark ? 'appie-footer-area-dark' : '']" />
     <!--====== APPIE FOOTER PART ENDS ======-->
 
     <!--====== APPIE BACK TO TOP PART ENDS ======-->
@@ -271,12 +272,11 @@ export default {
           name: "Crime Prevention",
           path: "#Tips",
         },
+        {
+        name: "Contact",
+        path: "#Contact",
+        },
 
-
-        //{
-          //name: "Contact",
-          //path: "#Contact",
-        //},
         // {
         //   name: "News",
         //   path: "/news",
