@@ -121,8 +121,8 @@
             <textarea v-model="form.message" name="message" placeholder="Your Message" class="form-control mt-2" rows="4"></textarea>
             <div class="checkbox-group checkbox-item">
                 <input type="checkbox" v-model="acceptTerms" name="terms">
-                <label for="terms">I accept <a style="color: #ed1f27;">terms & conditions</a>
-                    <i class="fa fa-info-circle pl-5" @click="toggleInfoModal"></i>
+                <label for="terms">I accept <a class="terms-link" @click="toggleInfoModal">terms & conditions</a>
+                    <!-- <i class="fa fa-info-circle pl-5" @click="toggleInfoModal"></i> -->
                 </label>
             </div>
         </div>
@@ -686,6 +686,16 @@ export default {
 
 }
 
+.checkbox-terms a, 
+.terms-link {
+color: #ed1f27; /* Red color */
+cursor: pointer; /* Pointer cursor */
+}
+.terms-link{
+    cursor: pointer; /* Pointer cursor */
+}
+
+
 .input-box {
     padding: 10px 30px;
 }
@@ -694,6 +704,15 @@ export default {
   max-height: 700px; /* Adjust the height as needed */
   overflow-y: auto;
   padding: 20px;
+}
+
+.info-modal-body::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in WebKit browsers */
+}
+
+.info-modal-body {
+    -ms-overflow-style: none;  /* Hide scrollbar in IE and Edge */
+    scrollbar-width: none;  /* Hide scrollbar in Firefox */
 }
 
 .scrollable-text {
