@@ -19,6 +19,7 @@
                   <div class="price-range">
                     <sup>CHF</sup> <span>0.0</span>
                     <p>/day</p>
+                    <p class="small-taxes">Excludes Vat</p>
                   </div>
                   <p>Join the CHalert Community for free and be part of a network that keeps you informed and connected.</p>
                 </div>
@@ -42,6 +43,7 @@
                   <div class="price-range">
                     <sup>CHF</sup> <span>9.9</span>
                     <p>/day</p>
+                    <p class="small-taxes">Excludes Vat</p>
                   </div>
                   <p>Join our Gold program to receive advanced services designed for holistic chalet protection.</p>
                 </div>
@@ -72,6 +74,7 @@
                   <div class="price-range">
                     <sup>CHF</sup><span>19.9</span>
                     <p>/day</p>
+                    <p class="small-taxes">Excludes Vat</p>
                   </div>
                   <p>Join our Platinum program and receive a comprehensive security package offering the highest level of protection for you and your loved ones.</p>
                 </div>
@@ -101,6 +104,7 @@
                   <div class="price-range">
                     <sup>CHF</sup><span>9.9</span>
                     <p>/day</p>
+                    <p class="small-taxes">Excludes Vat</p>
                   </div>
                   <p>A program developed for elderly and individuals with mobility issues enabling them to main their independence</p>
                 </div>
@@ -110,7 +114,7 @@
                     <li><h4>Key Features:</h4></li>
                     <li><span>Free Security Consultation</span></li>
                     <li><span>Be a part of the Excel Security Solutions community WhatsApp Group</span></li>
-                    <li><span>Rapid medical intervention</span></li>
+                    <li><span>Rapid intervention</span></li>
                     <li><span>Smart life Care</span></li>
                   </ul>
                   <div class="pricing-btn mt-35">
@@ -516,7 +520,7 @@ transform: translateY(-50%);
 }
 
 .pricig-heading {
-height: 311px;
+height: 325px;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -599,6 +603,11 @@ display: none; /* for Chrome, Safari, and Opera */
 .info-modal-body {
 -ms-overflow-style: none; /* for Internet Explorer and Edge */
 scrollbar-width: none; /* for Firefox */
+}
+
+.small-taxes {
+  font-size: 11px;
+  color: #ed1f27;
 }
 
 .scrollable-text {
