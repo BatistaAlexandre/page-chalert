@@ -25,19 +25,16 @@
       <div class="row team-row">
         <div class="col-lg-3 col-md-6 col-sm-6" v-for="(member, index) in members" :key="index">
           <div class="appie-team-item mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
-            <div class="thumb" @mouseover="hover = index" @mouseleave="hover = null">
+            <div class="thumb">
               <img v-if="member.img" :src="member.img" :alt="member.name">
-              <h5 class="name-overlay" v-show="hover === index">{{ member.name }}</h5>
-              <ul class="social-links" v-show="hover === index">
-                <li v-for="(social, sIndex) in member.socials" :key="sIndex">
-                  <a :href="social.url"><i :class="social.icon"></i></a>
-                </li>
-              </ul>
             </div>
             <div class="content text-center">
-              <h5 class="title" v-show="hover !== index">{{ member.name }}</h5>
-              <span v-show="hover !== index">{{ member.position }}</span>
-              <p class="hover-bio" v-if="hover === index">{{ member.bio }}</p>
+              <h5 class="title">{{ member.name }}</h5>
+              <span>{{ member.position }}</span>
+              <button class="contact-button" @click="toggleBio(index)">
+                {{ bioIndex === index ? 'HIDE BIO' : 'SHOW BIO' }}
+              </button>
+              <p class="bio" v-if="bioIndex === index">{{ member.bio }}</p>
             </div>
           </div>
         </div>
@@ -46,13 +43,12 @@
   </section>
 </template>
 
-  
-
 <script>
 export default {
   data() {
     return {
-      hover: false
+      hover: false,
+      bioIndex: null
     };
   },
     props:{
@@ -69,11 +65,13 @@ export default {
             }
         }
     },
-    
-
+    methods: {
+      toggleBio(index) {
+        this.bioIndex = this.bioIndex === index ? null : index;
+      }
+    }
 }
 </script>
-
 
 <style scoped>
 .team-row {
@@ -86,65 +84,31 @@ export default {
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  transition: transform 0.5s ease;
 }
 
-.social-links {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  list-style: none;
-  opacity: 0; /* Start invisible */
-  visibility: hidden; /* Start hidden */
-  transition: opacity 0.5s ease 0.3s, visibility 0s linear 0.3s; /* Delayed appearance */
-}
-
-.name-overlay {
-  position: absolute;
-  top: 93%;  /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%);
-  color: #333;
-  background-color: rgba(255, 255, 255, 1);
+.thumb img {
   width: 100%;
-  text-align: center;
-  padding: 10px 0;
-  opacity: 0; /* Start invisible */
-  visibility: hidden; /* Start hidden */
-  transition: opacity 0.8s ease 0.8s, visibility 1s linear 0.8s; /* Delayed appearance */
+  transition: transform 0.5s ease;
 }
 
-.thumb:hover .name-overlay,
-.thumb:hover .social-links {
-  opacity: 1; /* Make visible */
-  visibility: visible; /* Make visible */
-  transition-delay: 1s; /* Remove delay when hiding */
+.thumb:hover img {
+  transform: scale(1.1);
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   transition: opacity 0.3s ease;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-.hover-bio {
-  display: none;
+.bio {
   text-align: left;
   font-size: 14px;
   color: #333;
-}
-
-.thumb:hover + .content .hover-bio {
-  display: block;
-}
-
-.content .title, .content span {
-  visibility: visible;
-}
-
-.thumb:hover + .content .title,
-.thumb:hover + .content span {
-  visibility: hidden;
+  margin-top: 10px;
 }
 
 .divider {
@@ -154,4 +118,29 @@ export default {
   margin: 0 auto;
   margin-top: 30px;
 }
+
+.contact-button {
+  background-color: #ed1f27;
+  color: #fff;
+  border: none;
+  padding: 1px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #fff;
+  border: #ed1f27 solid 1px;
+  color:#ed1f27
+}
 </style>
+
+
+
+
+
+
+
+
