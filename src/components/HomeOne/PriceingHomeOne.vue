@@ -115,7 +115,9 @@
                     <li><span>Free Security Consultation</span></li>
                     <li><span>Be a part of the Excel Security Solutions community WhatsApp Group</span></li>
                     <li><span>Rapid intervention</span></li>
-                    <li><span>Smart life Care</span></li>
+                    <li>
+                      <span @click="showInfoModal" class="highlight">Smart Life Care <i class="fa fa-info-circle info-icon"></i></span>
+                    </li>
                   </ul>
                   <div class="pricing-btn mt-35">
                     <a class="main-btn" href="#Plans" @click="showModal('Excel Care Plan')">Request Details</a>
@@ -373,6 +375,51 @@
 </div>
     </div>
   </b-modal>
+
+  <b-modal ref="smartLifeCareModal" hide-footer hide-header centered>
+      <div class="info-modal-body">
+        <h5>Smart Life Care</h5>
+
+        <div >
+          <h1>Excel Care Service Overview</h1>
+          <p>Excel Care is dedicated to supporting the elderly and individuals with mobility issues enabling them to maintain their independence and remain in their chalet to enhance their quality of life. Our primary service is to provide immediate response to medical or security emergencies. We have on-call security agents and caregivers who can provide immediate help before the arrival of the emergency services in the event of a medical emergency and while coordinating with the emergency services if necessary. Excel Care not only benefits the individuals directly but also provides their families with peace of mind knowing their loved ones are well-supported.</p>
+
+          <h2>Other Services Offered</h2>
+          <h3>Welfare Check</h3>
+          <p>Also known as wellness checks ensure that an elderly person is safe and well. If the person lives alone or has minimal visitors they may fall ill or suffer an injury and no one will know. Welfare checks can help make sure the person is safe or offer the necessary medical assistance. Assessment of living conditions and addressing any immediate concerns.</p>
+
+          <h3>Night/Day Nurse/Medical Assistance</h3>
+          <p>Professional nursing care available around the clock. Assistance with medication management routine health checks and medical care.</p>
+
+          <h3>Travel Companion</h3>
+          <p>Accompaniment for medical appointments social events or travel. Ensuring safety and comfort during transportation.</p>
+
+          <h2>Benefits of Excel Care</h2>
+          <ul>
+            <li><strong>Peace of Mind:</strong> Families can rest assured that their loved ones are receiving professional support and care.</li>
+            <li><strong>Independence:</strong> Enables individuals to live independently and with dignity.</li>
+            <li><strong>Safety and Security:</strong> Professional help is just a call away providing an extra layer of security.</li>
+            <li><strong>Quality of Life:</strong> Enhances the overall well-being of the individuals by addressing their specific needs.</li>
+          </ul>
+          <p>By choosing Excel Care Service families can ensure their loved ones have the support they need to lead fulfilling and independent lives.</p>
+
+          <h2>Contact Us</h2>
+          <p>Our Partner</p>
+          <p class="highlight">SmartLifeCare</p>
+          <p>Live longer at home – thanks to SmartLife Care We have partnered with Smart Life Care for providing the necessary equipment and 
+            the 24-hour medical alarm call-out center. Originally founded by Swisscom in 2010, SmartLife Care has established itself as the 
+            largest emergency call service in Switzerland. Partnerships with organizations such as ProSenectute and Spitex Switzerland, 
+            as well as regular awards, underline our leading position.</p>
+
+            <div class="button-container">
+            <button class="main-btn read-more mt-5" @click="closeModal">CLOSE</button>
+          </div>
+        </div>
+
+        
+      </div>
+    </b-modal>
+
   </section>
 </template>
 
@@ -480,129 +527,137 @@ export default {
     },
 
     toggleInfoModal() {
-    if (this.$refs.infoModal.isVisible) {
-      this.$refs.infoModal.hide();
-    } else {
-      this.$refs.infoModal.show();
+      if (this.$refs.infoModal.isVisible) {
+        this.$refs.infoModal.hide();
+      } else {
+        this.$refs.infoModal.show();
+      }
+    },
+
+    showInfoModal() {
+      this.$refs.smartLifeCareModal.show();
+    },
+
+    closeModal() {
+      this.$refs.smartLifeCareModal.hide();
     }
-  }
   },
 };
 </script>
 
 <style scoped>
 .pricig-body ul {
-padding: 0;
-list-style: none;
+  padding: 0;
+  list-style: none;
 }
 
 .pricig-body li {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .pricig-body li span {
-position: relative;
-padding-left: 20px; /* Add space for the icon */
+  position: relative;
+  padding-left: 20px; /* Add space for the icon */
 }
 
 .pricig-body li span::before {
-content: '';
-display: inline-block;
-width: 8px;
-height: 8px;
-border-radius: 50%;
-background-color: black;
-position: absolute;
-left: 0;
-top: 50%;
-transform: translateY(-50%);
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .pricig-heading {
-height: 325px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .pricig-heading h6 {
-margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .price-range {
-margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .divider {
-border-bottom: 1px solid #ed1f27;
+  border-bottom: 1px solid #ed1f27;
 }
 
 /* modal style */
 .b-modal-header-close {
-color: #ed1f27;
-font-size: 24px;
+  color: #ed1f27;
+  font-size: 24px;
 }
 
 .modal-content {
-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .modal-dialog {
-margin-top: 50px; /* Adjust the distance from the top */
+  margin-top: 50px; /* Adjust the distance from the top */
 }
 
 .modal-body {
-padding-bottom: 30px; /* Add space at the bottom */
+  padding-bottom: 30px; /* Add space at the bottom */
 }
 
 .form-body {
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .form-body h6 {
-text-align: center;
+  text-align: center;
 }
 
 .form-body h6 span {
-color: #ed1f27;
+  color: #ed1f27;
 }
 
 .button-area {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .checkbox-terms {
-display: flex;
-align-items: center;
-margin: 10px 15px;
+  display: flex;
+  align-items: center;
+  margin: 10px 15px;
 }
 
 .checkbox-terms input[type='checkbox'] {
-margin-right: 15px;
+  margin-right: 15px;
 }
 
 .checkbox-terms a {
-color: #ed1f27;
-font-weight: bold;
+  color: #ed1f27;
+  font-weight: bold;
 }
 
 .info-modal-body {
-max-height: 300px; /* Adjust the height as needed */
-overflow-y: auto;
-padding: 20px;
+  max-height: 600px; /* Adjust the height as needed */
+  overflow-y: auto;
+  padding: 20px;
 }
 
 /* Hide scrollbar but allow scrolling */
 .info-modal-body::-webkit-scrollbar {
-display: none; /* for Chrome, Safari, and Opera */
+  display: none; /* for Chrome, Safari, and Opera */
 }
 .info-modal-body {
--ms-overflow-style: none; /* for Internet Explorer and Edge */
-scrollbar-width: none; /* for Firefox */
+  -ms-overflow-style: none; /* for Internet Explorer and Edge */
+  scrollbar-width: none; /* for Firefox */
 }
 
 .small-taxes {
@@ -611,66 +666,114 @@ scrollbar-width: none; /* for Firefox */
 }
 
 .scrollable-text {
-white-space: pre-wrap; /* Keeps line breaks */
+  white-space: pre-wrap; /* Keeps line breaks */
 }
 
 h1, h2, h3 {
-          margin-top: 20px;
-          color: #333;
-      }
-      p {
-          margin: 10px 0;
-      }
-      .privacy
-       {
-          max-width: 800px;
-          margin: auto;
-      }
-      .p-section-title {
-          font-size: 24px;
-          margin-bottom: 10px;
-          font-weight: bold;
-      }
-      .p-subsection-title {
-          font-size: 20px;
-          margin-bottom: 10px;
-          font-weight: bold.
-      }
-      .p-subsubsection-title {
-          font-size: 18px;
-          margin-bottom: 10px;
-          font-weight: bold;
-      }
-      ul {
-          margin-left: 20px;
-          list-style-type: disc;
-      }
-
-      .checkbox-terms a.terms-link {
-color: #ed1f27; /* Red color */
-cursor: pointer; /* Pointer cursor */
+  margin-top: 20px;
+  color: #333;
 }
+p {
+  margin: 10px 0;
+}
+.privacy {
+  max-width: 800px;
+  margin: auto;
+}
+.p-section-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.p-subsection-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold.
+}
+.p-subsubsection-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.checkbox-terms a.terms-link {
+  color: #ed1f27; /* Red color */
+  cursor: pointer; /* Pointer cursor */
+}
+
+.highlight {
+      color: #ed1f27;
+      font-weight: bold;
+    }
+
+
+    h1, h2, h3 {
+      color: #333;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+    p {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+    ul {
+      margin: 10px 0 10px 20px;
+      padding: 0;
+      list-style-type: disc;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
 
 @media (min-width: 991px) and (max-width: 1200px) {
-.pricing-one__single {
-  padding: 20px;
+  .pricing-one__single {
+    padding: 20px;
+  }
+
+  .pricig-heading h6 {
+    font-size: 1.2rem;
+  }
+
+  .price-range span {
+    font-size: 2rem;
+  }
+
+  .pricig-body li span {
+    font-size: 0.95rem;
+  }
+
+  .pricing-btn a {
+    padding: 5px 20px;
+    font-size: 1.1rem;
+  }
 }
 
-.pricig-heading h6 {
-  font-size: 1.2rem;
+.highlight {
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.price-range span {
-  font-size: 2rem;
-}
-
-.pricig-body li span {
-  font-size: 0.95rem;
-}
-
-.pricing-btn a {
-  padding: 5px 20px;
-  font-size: 1.1rem;
-}
+.info-icon {
+  margin-left: 5px;
+  color: red;
+  cursor: pointer;
 }
 </style>
